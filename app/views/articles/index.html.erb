@@ -1,10 +1,15 @@
 <% @articles.each do |article| %>
   <article>
-    <h2><%= article.title %></h2>
-    <h3><%= article.created_at %></h3>
-    
+    <header>
+      <h1><%= article.title %></h1>
+    </header>
+
     <div class="article-body">
-      <%= article.body %>
+      <%= markdown article.body %>
     </div>
+
+    <footer>
+      <h3><%= article.created_at.to_date %></h3>
+    </footer>
   </article>
 <% end %>

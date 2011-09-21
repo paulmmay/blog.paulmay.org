@@ -64,10 +64,10 @@ $color-hover: blue;
 $base-font: 100%;
 $huge: 2.1857em;
 
-@mixin base-font {
+@mixin header-font {
     font-family: 'Georgia', 'Times New Roman', serif;
 }
-@mixin header-font {
+@mixin base-font {
     font-family: 'Lucida Grande';
 }
 @mixin accent-font {
@@ -129,7 +129,7 @@ header {
     padding: 0.2em 0 0.7em;
 
     h1 {
-        @include base-font;
+        @include header-font;
         font-size: $huge;
 
         a {
@@ -156,4 +156,17 @@ header {
 
 #content {
 	margin: 1em 0;
+}
+
+article {
+	margin: 1.5em 0 3.5em;
+
+	header, footer {
+		@include base-font;
+	}
+
+	h1 {
+		font-size: 2em;
+		line-height: 1.6em;
+	}
 }
