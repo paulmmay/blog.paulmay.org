@@ -79,7 +79,7 @@ $huge: 2.1857em;
     width: 40.625em; /* 650px / 16 */
 }
 @mixin horizontal-separator {
-    border-bottom: 1px solid $color-base;
+/*    border-bottom: 1px solid $color-base;*/
 }
 
 html {
@@ -113,10 +113,15 @@ nav {
     @include horizontal-separator;
 	@include header-font;
     font-size: 0.875em;
-    
+	margin: 1em 0;
+
     ul li {
         display: inline;
     }
+
+	a {
+		text-decoration: none;
+	}
 }
 
 header {

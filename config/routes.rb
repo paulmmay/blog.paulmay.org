@@ -1,12 +1,14 @@
 Sk::Application.routes.draw do
 
-  resources :articles
+  resources :samples
+
+  resources :articles, :category
 
   resources :categories do
     resources :articles
   end
 
-  root :to => 'category#index'
+  root :to => 'articles#index'
   
   # match 'itp' => 'courses#index', :as => :itp
 

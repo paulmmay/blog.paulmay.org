@@ -1,0 +1,10 @@
+<% @articles.each do |article| %>
+  <article>
+    <h2><%= article.title %></h2>
+    <h3><%= article.created_at %></h3>
+    
+    <div class="article-body">
+      <%= article.body %>
+    </div>
+  </article>
+<% end %>

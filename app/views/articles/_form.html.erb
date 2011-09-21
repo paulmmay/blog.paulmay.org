@@ -1,0 +1,13 @@
+<%= form_for(@article) do |f| %>
+  <div>
+  <%= f.text_field :title, :placeholder => "Title" %>
+  </div>
+  
+  <div>
+  <%= f.text_area :body, :placeholder => "Body" %>
+  </div>
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
