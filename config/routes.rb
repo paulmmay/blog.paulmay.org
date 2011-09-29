@@ -1,5 +1,9 @@
 Sk::Application.routes.draw do
 
+  devise_for :admins
+
+  devise_for :users
+
   resources :samples
 
   resources :articles, :category

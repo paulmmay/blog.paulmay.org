@@ -1,7 +1,7 @@
 <% @articles.each do |article| %>
   <article>
     <header>
-      <h1><%= article.title %></h1>
+      <h1><%= link_to article.title, article_path(article) %></h1>
     </header>
 
     <div class="article-body">
@@ -9,7 +9,7 @@
     </div>
 
     <footer>
-      <h3><%= article.created_at.to_date %></h3>
+      <h3><%= article.created_at.to_formatted_s(:basicdate) %></h3>
     </footer>
   </article>
 <% end %>

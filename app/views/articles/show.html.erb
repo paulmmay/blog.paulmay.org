@@ -1,0 +1,13 @@
+<article>
+  <header>
+    <h1><%= @article.title %></h1>
+  </header>
+
+  <div class="article-body">
+    <%= markdown @article.body %>
+  </div>
+
+  <footer>
+    <h3><%= @article.created_at.to_formatted_s(:basicdate) %></h3>
+  </footer>
+</article>

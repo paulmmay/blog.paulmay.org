@@ -1,3 +1,27 @@
-// Place all the styles related to the Article controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+article {
+	margin: 1.5em 0 3.5em;
+
+	header, footer {
+		@include base-font;
+	}
+
+	h1 {
+		font-size: 1.6em;
+		line-height: 1.6em;
+	}
+	
+	.article-body {
+		line-height: 1.8em;
+		
+		p {
+			margin: .7em 0 1.5em;
+		}
+	}
+	
+	footer {
+		color: $color-light;
+		font-size: $small-font;
+		font-style: italic;
+	}
+}
