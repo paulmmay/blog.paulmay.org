@@ -1,3 +1,7 @@
 <% @categories.each do |category| %>
-  <p><%= category.title %></p>
+  <div class="category">
+  <h2><%= category.title %></h2>
+  <div><%= markdown category.description %></div>
+  <p class="latest-article">Latest Article: <%= link_to category.articles.last.title, article_path(category.articles.last) %></p>
+  </div>
 <% end %>
