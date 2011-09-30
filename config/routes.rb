@@ -4,8 +4,6 @@ Sk::Application.routes.draw do
 
   devise_for :users
 
-  resources :samples
-
   resources :articles, :category
 
   resources :categories do
@@ -13,8 +11,6 @@ Sk::Application.routes.draw do
   end
 
   root :to => 'articles#index'
-  
-  # match 'itp' => 'courses#index', :as => :itp
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
