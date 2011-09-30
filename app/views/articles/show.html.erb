@@ -8,6 +8,12 @@
   </div>
 
   <footer>
-    <h3><%= @article.created_at.to_formatted_s(:basicdate) %></h3>
+    <ul>
+      <li><%= @article.created_at.to_formatted_s(:basicdate) %></li>
+      <% if current_user.try(:admin?) %>
+        <li><%= link_to "Edit", edit_article_path(@article) %></li>
+        <li><%= link_to "Delete!", @article, :method => :delete %></li>
+      <% end %>
+    </ul>
   </footer>
 </article>

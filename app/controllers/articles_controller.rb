@@ -60,4 +60,14 @@ class ArticlesController < ApplicationController
     end
   end
 
+  def destroy
+    @article = Article.find(params[:id])
+    @article.destroy
+
+    respond_to do |format|
+      format.html { redirect_to article_url }
+      format.json { head :ok }
+    end
+  end
+
 end
