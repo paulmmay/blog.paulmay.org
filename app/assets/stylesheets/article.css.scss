@@ -18,6 +18,11 @@ article {
 		}
 	}
 	
+	.gist {
+		font-size: 0.9em;
+		line-height: 1em;
+	}
+	
 	footer {
 		color: $color-light;
 	    @include header-font;
