@@ -6,102 +6,114 @@ $color-link: rgb(31,55,229);
 $color-light: rgb(120,120,120);
 $color-hover: blue;
 
+/*$column:5.104166667;*/
+$column: 90% / 12;
 $base-font: 100%;
 $small-font: .9em;
 $huge: 2.1857em;
 
 @mixin header-font {
-    font-family: 'Georgia', 'Times New Roman', serif;
+	font-family: 'Abel', sans-serif;
 }
 @mixin base-font {
-    font-family: 'Lucida Grande';
+	font-family: 'Lucida Grande', sans-serif;
 }
 @mixin accent-font {
-    font-family: 'News Cycle', 'Verdana', 'Arial', sans-serif;
+	font-family: 'News Cycle', 'Verdana', 'Arial', sans-serif;
 }
 @mixin skinny-center {
-    margin: 0 auto;
-    text-align: left;
-    width: 40.625em; /* 650px / 16 */
+	margin: 0 auto;
+	text-align: left;
+	width: #{$column*12}; /* 650px / 16 */
+	max-width: 61.25em;
 }
 @mixin horizontal-separator {
-/*    border-bottom: 1px solid $color-base;*/
+	  border-bottom: 1px solid $color-base;
 }
 
 html {
-    background-color: $background;
+	background-color: $background;
 }
 
 body {
-    @include base-font;
-    font-size: $base-font;
-    line-height: 1.6em;
+	@include base-font;
+	font-size: $base-font;
+	line-height: 1.6em;
+	margin: 0;
+	position: relative;
 }
 
 a {
-  color: $color-link;
-  &:visited {
-    color: $color-link; }
-  &:hover {
-    color: $color-hover;
+	color: $color-link;
+	&:visited {
+		color: $color-link;
+	}
+	&:hover {
+		color: $color-hover;
 	}
 }
 
 em {
-    font-style: italic;
+	font-style: italic;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    @include header-font;
-}
-
-nav {
-    @include horizontal-separator;
 	@include header-font;
-    font-size: 0.875em;
-	margin: 1em 0;
-
-    ul li {
-        display: inline;
-    }
-
-	a {
-		text-decoration: none;
-	}
-}
-
-header {
-    @include horizontal-separator;
-    padding: 0.2em 0 0.7em;
-
-    h1 {
-        @include header-font;
-        font-size: $huge;
-
-        a {
-            color: $color-base;
-            text-decoration: none;
-            &:visited {
-                color: $color-base;
-            }
-            &:hover {
-                background-color: transparent;
-                color: blue;
-            }
-        }
-    }
 }
 
 #wrapper {
 	@include skinny-center;
-    margin: 20px auto;
+	margin: 10px auto;
 }
 
 #navigation {
+	@include header-font;
+	@include horizontal-separator;
+	display: block;
+	margin: 0;
+	overflow: hidden;
+	padding: 0.25em 0;
+	position: relative;
+	width: 100%;
+
+	header {
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	a {
+		border-top: 1px transparent;
+		color: $color-base;
+		text-decoration: none;
+
+		&:visited {
+			color: $color-base;
+		}
+
+		&:hover {
+			background-color: transparent;
+			color: blue;
+		}
+		&.current {
+			border-top: $color-link 1px solid;
+		}
+	}
+
+	ul {
+		float: right;
+		li {
+			float: left;
+			padding: 0 0.25em;
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
 }
 
 #content {
-	margin: 1em 0;
+  margin: 1em 0;
 }
 
 @import 'article';
