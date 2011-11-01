@@ -1,0 +1,75 @@
+article {
+	margin: 1.5em 0 3.5em;
+
+	header, footer {
+		@include base-font;
+
+		margin: 0 0 1em;
+	}
+
+	header {
+		@include clear-float;
+
+		h1 {
+			font-size: 1.6em;
+			line-height: 1.6em;
+
+			span.date {
+				float: right;
+				font-size: 60%;
+				vertical-align: baseline;
+			}
+		}
+	}
+
+	.article-body {
+		line-height: 1.8em;
+
+		img {
+			box-shadow: 0 0 3px rgba(0,0,0,0.4);
+			max-width: 100%;
+		}
+
+		p {
+			margin: .7em 0 1.5em;
+			
+			&.caption {
+				font-size: 0.9em;
+				font-style: italic;
+				color: $color-light;
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+	
+	.gist {
+		font-size: 0.9em;
+		line-height: 1em;
+	}
+	
+	footer {
+		color: $color-light;
+
+		a,
+		a:visited {
+			color: $color-light;
+			text-decoration: none;
+			&:hover {
+				color: $color-light;
+				text-decoration: underline;
+			}
+		}
+
+	    @include header-font;
+		font-size: $small-font;
+		font-style: italic;
+		
+		ul {
+			li {
+				display: inline;
+				padding-right: 0.5em;
+			}
+		}
+	}
+}
