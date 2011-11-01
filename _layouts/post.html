@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article>
+    <header>
+        <h1>{{ page.title }} <span class="date">{{ post.date }}</span></h1>
+    </header>
+    <div class="article-body">
+        {{ content }}
+    </div>
+    <footer>
+        {% for category in page.categories %}
+            <a href="/{{category}}">{{ category }}</a> 
+        {% endfor %}
+    </footer>
+</article>
