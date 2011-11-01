@@ -1,1 +1,0 @@
-Time::DATE_FORMATS[:basicdate] = "%m/%d/%Y"
