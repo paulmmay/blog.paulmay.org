@@ -6,6 +6,7 @@ $color-base: rgb(0,0,0);
 $color-link: rgb(31,55,229);
 $color-light: rgb(120,120,120);
 $color-hover: blue;
+$color-code: rgb(230,230,230);
 
 /*$column:5.104166667;*/
 $column: 90% / 12;
@@ -67,6 +68,13 @@ em {
 
 strong {
 	font-weight: bold;
+}
+
+code {
+	font-family: "Menlo", "Monaco", monospace;
+	background-color: $color-code;
+	font-size: 90%;
+	padding: 0.1em 0.2em;
 }
 
 #wrapper {

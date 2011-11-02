@@ -5,4 +5,5 @@ category: Understanding-Networks
 published: false
 ---
 
-**A project tracking the noise at ITP through the week and looking for patterns.**
+**Gathering data with an Arduino, a microphone, an ethernet cable and a server.**
+
