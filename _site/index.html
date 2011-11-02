@@ -22,6 +22,58 @@
                 
     <article>
         <header>
+            <h1><a href="/Musical-Sequence/2011/10/31/sequencer-teaser.html">Sequencer Teaser</a> <span class="date">31 Oct 2011</span></h1>
+        </header>
+        <div class="article-body">
+            <p>The midterm assignment for <a href="/Musica-Sequence">Musical Sequence</a> was to build a sequencer using an Arduino. Here are two images of what I built. It's an eight step sequencer currently with a reset button and a reverse mode. No computer is necessary to operate, and there is a 1/8" audio out jack in the back of the box. Video and a more detailed write up are coming.</p>
+
+<p><img src="http://sklise.s3.amazonaws.com/musical-sequence/midterm-sequencer-outside.jpg" alt="Outside Sequencer" /></p>
+
+<p><img src="http://sklise.s3.amazonaws.com/musical-sequence/midterm-sequencer-inside.jpg" alt="Inside Sequencer" /></p>
+
+        </div>
+        <footer>
+            
+                <a href="/Musical-Sequence">Musical-Sequence</a> 
+            
+        </footer>
+    </article>
+
+    <article>
+        <header>
+            <h1><a href="/Understanding-Networks/2011/10/02/my-first-daemon.html">My First Daemon</a> <span class="date">02 Oct 2011</span></h1>
+        </header>
+        <div class="article-body">
+            <p><strong>Playing a multiplayer game through Telnet with Sinatra &amp; a daemon.</strong></p>
+
+<p>For our first 'make something' assignment in <a href="/Understanding-Networks">Understanding Networks</a> we were tasked with creating a client for a Telnet server to play a game <a href="https://github.com/tigoe/MakingThingsTalk2/tree/master/chapter2/project2/MonskiPong">similar to pong</a>.</p>
+
+<p>The class is taught in PHP, a fact which has convinced me to do (and someday document how to do) everything in Ruby. Of course Telnet is a persistent connection and HTTP is stateless. Trying to maintain a Telnet connection strictly through a browser is then not possible without diving into the world of sockets and streaming.</p>
+
+<script src="https://gist.github.com/1257779.js?file=daemon.rb"></script>
+
+
+<p>To maintain the browser as the interface but not have <code>telnet</code> happening in the HTTP requests I wrote, with the help of resident Greg Borenstein, a daemon. A <a href="http://en.wikipedia.org/wiki/Daemon_(computing">daemon</a>) is a script that runs in the background, constantly. In my case the daemon listens to the database for a new Task. When it finds a new Task it sends the contents of the Task to the Telnet connection and then marks the Task as completed.</p>
+
+<p>The Task is a DataMapper object.</p>
+
+<script src="https://gist.github.com/1257779.js?file=Task.rb"></script>
+
+
+<p>The user clicks an arrow or connection button in the browser and a Task object is created with that command and designated as not being done. In the end this worked well, however the latency between browser to database to daemon to telnet server was only manageable running the app locally.</p>
+
+<p><a href="https://github.com/stevenklise/BallDropClient">Source on Github</a></p>
+
+        </div>
+        <footer>
+            
+                <a href="/Understanding-Networks">Understanding-Networks</a> 
+            
+        </footer>
+    </article>
+
+    <article>
+        <header>
             <h1><a href="/Musical-Sequence/2011/09/28/response-to-fine-art-of-repetition.html">Response to "Fine Art of Repetition"</a> <span class="date">28 Sep 2011</span></h1>
         </header>
         <div class="article-body">
