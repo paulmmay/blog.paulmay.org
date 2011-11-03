@@ -1,4 +1,9 @@
 article {
+	@include horizontal-separator;
+	
+	&:last-child{
+		border-bottom: none;
+	}
 	margin: 1.5em 0 3.5em;
 
 	header, footer {
