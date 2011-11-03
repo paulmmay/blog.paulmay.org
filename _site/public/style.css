@@ -141,7 +141,10 @@ code {
   width: 50%; }
 
 article {
+  border-bottom: 1px solid black;
   margin: 1.5em 0 3.5em; }
+  article:last-child {
+    border-bottom: none; }
   article header, article footer {
     font-family: 'Lucida Grande', sans-serif;
     margin: 0 0 1em; }
