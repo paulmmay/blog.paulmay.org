@@ -136,6 +136,9 @@ code {
 #content {
   margin: 1em 0; }
 
+#comments {
+  margin: 1em 0; }
+
 .half {
   float: left;
   width: 50%; }
