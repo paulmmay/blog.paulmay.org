@@ -3,6 +3,7 @@ layout: post
 title: A Response to "Foot Tapping"
 category: Musical-Sequence
 comments: true
+published: false
 ---
 
 **A response to chapter two of This Is Your Brain On Music by Daniel J. Levitin.**
