@@ -2,6 +2,7 @@
 layout: post
 title: Response to "Fine Art of Repetition"
 category: Musical-Sequence
+comments: true
 ---
 
 The premise of this chapter seems to be that absolute music, or music without words, needs to be compared to something else—such as literature, an organism or wallpaper—in order to be taken seriously. That music must be in reference, be a metaphor to some other medium, seems to me unreasonable. Is the same demanded of the other art forms? Looking at music in terms of other media can only highlight differences, such as the existence of repetition, but not really address music as a form itself.

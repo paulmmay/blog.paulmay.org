@@ -2,6 +2,7 @@
 layout: post
 title: What Is Music?
 category: Musical-Sequence
+comments: true
 ---
 
 **A response to the first chapter of _This Is Your Brain On Music_ by Daniel J. Levitin.**

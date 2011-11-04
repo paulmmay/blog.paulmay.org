@@ -2,6 +2,7 @@
 layout: post
 title: Setting Up Jekyll On Heroku
 published: false
+comments: true
 ---
 #### Or Using Setup Documentation As A First Post
 

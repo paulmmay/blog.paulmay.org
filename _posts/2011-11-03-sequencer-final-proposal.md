@@ -2,6 +2,7 @@
 layout: post
 title: Final Proposal for Musical Sequence
 category: Musical-Sequence
+comments: true
 ---
 
 **A quick visual tour of what I have planned for my final project in Musical Sequence**

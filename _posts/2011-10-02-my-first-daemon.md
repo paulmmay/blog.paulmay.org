@@ -2,6 +2,7 @@
 layout: post
 title: My First Daemon
 category: Understanding-Networks
+comments: true
 ---
 
 **Playing a multiplayer game through Telnet with Sinatra & a daemon.**
