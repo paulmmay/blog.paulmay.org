@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Recursive</title>
+ <link href="http://stevenklise.com/feed/" rel="self"/>
+ <link href="http://stevenklise.com/"/>
+ <updated>2011-11-04T14:52:56-04:00</updated>
+ <id>http://stevenklise.com/</id>
+ <author>
+   <name>Recursive</name>
+   <email>mail@stevenklise.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Final Proposal for Musical Sequence</title>
+   <link href="http://stevenklise.com/Musical-Sequence/2011/11/03/sequencer-final-proposal.html"/>
+   <updated>2011-11-03T00:00:00-04:00</updated>
+   <id>http://stevenklise.com/Musical-Sequence/2011/11/03/sequencer-final-proposal</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;A quick visual tour of what I have planned for my final project in Musical Sequence&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://sklise.s3.amazonaws.com/musical-sequence/IMG_0022.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://sklise.s3.amazonaws.com/musical-sequence/IMG_0023.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://sklise.s3.amazonaws.com/musical-sequence/IMG_0024.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://sklise.s3.amazonaws.com/musical-sequence/IMG_0025.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://sklise.s3.amazonaws.com/musical-sequence/IMG_0026.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://sklise.s3.amazonaws.com/musical-sequence/IMG_0027.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sequencer Teaser</title>
+   <link href="http://stevenklise.com/Musical-Sequence/2011/10/31/sequencer-teaser.html"/>
+   <updated>2011-10-31T00:00:00-04:00</updated>
+   <id>http://stevenklise.com/Musical-Sequence/2011/10/31/sequencer-teaser</id>
+   <content type="html">&lt;p&gt;The midterm assignment for &lt;a href=&quot;/Musica-Sequence&quot;&gt;Musical Sequence&lt;/a&gt; was to build a sequencer using an Arduino. Here are two images of what I built. It's an eight step sequencer currently with a reset button and a reverse mode. No computer is necessary to operate, and there is a 1/8&quot; audio out jack in the back of the box. Video and a more detailed write up are coming.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://sklise.s3.amazonaws.com/musical-sequence/midterm-sequencer-outside.jpg&quot; alt=&quot;Outside Sequencer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://sklise.s3.amazonaws.com/musical-sequence/midterm-sequencer-inside.jpg&quot; alt=&quot;Inside Sequencer&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My First Daemon</title>
+   <link href="http://stevenklise.com/Understanding-Networks/2011/10/02/my-first-daemon.html"/>
+   <updated>2011-10-02T00:00:00-04:00</updated>
+   <id>http://stevenklise.com/Understanding-Networks/2011/10/02/my-first-daemon</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Playing a multiplayer game through Telnet with Sinatra &amp;amp; a daemon.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For our first 'make something' assignment in &lt;a href=&quot;/Understanding-Networks&quot;&gt;Understanding Networks&lt;/a&gt; we were tasked with creating a client for a Telnet server to play a game &lt;a href=&quot;https://github.com/tigoe/MakingThingsTalk2/tree/master/chapter2/project2/MonskiPong&quot;&gt;similar to pong&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The class is taught in PHP, a fact which has convinced me to do (and someday document how to do) everything in Ruby. Of course Telnet is a persistent connection and HTTP is stateless. Trying to maintain a Telnet connection strictly through a browser is then not possible without diving into the world of sockets and streaming.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/1257779.js?file=daemon.rb&quot;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;To maintain the browser as the interface but not have &lt;code&gt;telnet&lt;/code&gt; happening in the HTTP requests I wrote, with the help of resident Greg Borenstein, a daemon. A &lt;a href=&quot;http://en.wikipedia.org/wiki/Daemon_(computing&quot;&gt;daemon&lt;/a&gt;) is a script that runs in the background, constantly. In my case the daemon listens to the database for a new Task. When it finds a new Task it sends the contents of the Task to the Telnet connection and then marks the Task as completed.&lt;/p&gt;
+
+&lt;p&gt;The Task is a DataMapper object.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/1257779.js?file=Task.rb&quot;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;The user clicks an arrow or connection button in the browser and a Task object is created with that command and designated as not being done. In the end this worked well, however the latency between browser to database to daemon to telnet server was only manageable running the app locally.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/stevenklise/BallDropClient&quot;&gt;Source on Github&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Response to "Fine Art of Repetition"</title>
+   <link href="http://stevenklise.com/Musical-Sequence/2011/09/28/response-to-fine-art-of-repetition.html"/>
+   <updated>2011-09-28T00:00:00-04:00</updated>
+   <id>http://stevenklise.com/Musical-Sequence/2011/09/28/response-to-fine-art-of-repetition</id>
+   <content type="html">&lt;p&gt;The premise of this chapter seems to be that absolute music, or music without words, needs to be compared to something else—such as literature, an organism or wallpaper—in order to be taken seriously. That music must be in reference, be a metaphor to some other medium, seems to me unreasonable. Is the same demanded of the other art forms? Looking at music in terms of other media can only highlight differences, such as the existence of repetition, but not really address music as a form itself.&lt;/p&gt;
+
+&lt;p&gt;Kivy does allow that absolute music is art, is a great creation even though much of the essay seems intent on trivializing absolute music through forcing a comparison. If the literature and organism theories fail due to the repetition of absolute music, what of music with vocals? Are there similar theories for vocal music? If not why not? If the existence of repetition in absolute music makes creates a difficulty this same difficulty should exist in lyrical music yet this is not addressed in the essay.&lt;/p&gt;
+
+&lt;p&gt;The above aside, Kivy makes a good argument for the wallpaper theory. Wallpaper and Persian rugs and music share repetition and the repetition is key to the work and not simply a space filler or lack of original thought. The notion that in a repeated pattern each repetition is slightly different than the one before or after due exactly to the temporal relations is, it seems, obvious. Yet though it is obvious there is probably some value to stating and describing the phenomenon.&lt;/p&gt;
+
+&lt;p&gt;Towards the end of the essay Kivy says that emotion and feeling are inherent to music, are aroused in the listener by the music. This is different than This Is Your Brain On Music where the emotional quality of music is cultural, a theory I agree with more.&lt;/p&gt;
+
+&lt;p&gt;In the end, absolute music is wallpaper, but it’s not boring the way that wallpaper is boring and also it contains emotion which wallpaper also lacks. Also absolute music has more than the two dimensions of wallpaper. Also it’s temporal which wallpaper is not. So, music and wallpaper both have repeated patterns.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A Response to "Foot Tapping"</title>
+   <link href="http://stevenklise.com/Musical-Sequence/2011/09/21/response-to-foot-tapping.html"/>
+   <updated>2011-09-21T00:00:00-04:00</updated>
+   <id>http://stevenklise.com/Musical-Sequence/2011/09/21/response-to-foot-tapping</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;A response to chapter two of This Is Your Brain On Music by Daniel J. Levitin.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This chapter was mostly about rhythm, though also loudness and key. It was about what makes music music aside from notes and timbre.&lt;/p&gt;
+
+&lt;p&gt;Much of the section on rhythm was spent identifying rhythm and explaining exactly what it is which was mostly review for me. Levitin did mention the backbeat which was characteristic to rock and roll. I would have liked to read about how different types of rhythms and meters correspond to different styles or genres of music. Sousa marches are almost always in 4/4 time as is dance music but the meter in each is different though I can’t quite characterize how.&lt;/p&gt;
+
+&lt;p&gt;In the first Levitin said that loudness is a psychological phenomenon and not a measurable quality inherent in sound. I didn’t totally buy this at first but decided that Levitin knew what he was saying. Then he elaborated on this notion saying that increases in amplitude do not linearly correlate to perceived loudness seemed an argument for loudness being a mental construction. But then there is a measurable way in which amplitude and loudness correspond. Loudness then seems to be a nitpicking way of saying that people experience sound differently. If people experience sound differently is there a way of knowing how loudness will be interpreted by most listeners and creating music and sound to cater to that audience?&lt;/p&gt;
+
+&lt;p&gt;Coming from mostly programming classes last semester where every word had a specific meaning and usage as well as interpretation it is a bit confusing to get in to words, definitions and subject material that is subjective. But what should I expect? Music is experiential and made for humans not for computers to understand.&lt;/p&gt;
+
+&lt;p&gt;It was reassuring to hear that most everyone approximates tempo and rhythm with a 4% margin of error, so I’m not entirely far off when clapping along. As well that the human ear and brain work together to quantize the notes of a piece of music. The little bit of Ableton Live that I’ve played around with I thought that the quantization feature was a bit of a cheat for less-than-great computer musicians but if the ear does this as well then maybe it’s alright for my computer to help out my brain.&lt;/p&gt;
+
+&lt;p&gt;correspond. Loudness then seems to be a nitpicking way of saying that people experience sound differently. If people experience sound differently is there a way of knowing how loudness will be interpreted by most listeners and creating music and sound to cater to that audience?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What Is Music?</title>
+   <link href="http://stevenklise.com/Musical-Sequence/2011/09/14/what-is-music.html"/>
+   <updated>2011-09-14T00:00:00-04:00</updated>
+   <id>http://stevenklise.com/Musical-Sequence/2011/09/14/what-is-music</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;A response to the first chapter of &lt;em&gt;This Is Your Brain On Music&lt;/em&gt; by Daniel J. Levitin.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At age 25, 10 years of which were spent learning piano and saxophone, and most of the rest listening to music I had heard many of the terms defined in the first few pages of &lt;em&gt;What Is Music?&lt;/em&gt; but knew them more as vague notions and emotions than technical definitions. The most surprising bit was that pitch and loudness are wholly mental constructs. I had always thought of pitch and loudness as pitch and loudness and that is just how it is.&lt;/p&gt;
+
+&lt;p&gt;I had casually wondered how different instruments generated different sounds when playing identical notes. It wasn’t a matter of the frequency so what could it be? I’m trying to wrap my head around overtones. It is still unclear if overtones are a finite set of frequencies or if they exude from the fundamental tone upwards forever. Is there any reason the overtones aren’t undertones?&lt;/p&gt;
+
+&lt;p&gt;Shapes of graphs instantly popped in to my head while reading that varying loudnesses of overtones influence the timbre of a sound. Could it be possible to make a morphable graph to create any sound desired? Of course this is a synthesizer, but I really want to create a program that allows the user to draw the shape of the overtones and click and drag at individual points as a experimentation for the shape that sounds from instruments create.&lt;/p&gt;
+
+&lt;p&gt;The section describing the tonal system and fractions and differences between keys and how if a piece is written in C but the note distribution is more like A… I got lost on this. Reading about it was not very enlightening without being able to the scales out with a real instrument. So I got out a MIDI keyboard and did try to noodle about, and it’s starting to make sense.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
