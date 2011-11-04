@@ -4,7 +4,7 @@ layout: default
 
 <article>
     <header>
-        <h1>{{ page.title }} <span class="date">{{ post.date }}</span></h1>
+        <h1>{{ page.title }} <span class="date">{{ page.date | date: "%A, %B %d, %Y" }}</span></h1>
     </header>
     <div class="article-body">
         {{ content }}
