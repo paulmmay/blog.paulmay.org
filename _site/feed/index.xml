@@ -4,13 +4,48 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2011-11-04T15:40:19-04:00</updated>
+ <updated>2011-11-04T19:53:46-04:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
    <email>mail@stevenklise.com</email>
  </author>
 
+ 
+ <entry>
+   <title>New Site, Now with Comments and RSS</title>
+   <link href="http://stevenklise.com/2011/11/04/comments-and-rss.html"/>
+   <updated>2011-11-04T00:00:00-04:00</updated>
+   <id>http://stevenklise.com/2011/11/04/comments-and-rss</id>
+   <content type="html">&lt;p&gt;After a summer and fall of slowly rewriting this site in Ruby on Rails I realized that a Rails app is overkill. That and that I actually prefer the command line and text editor to any web form.&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It's a static site generator written in Ruby. No database. No browser interface. I write my posts in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; and have a handful of template files. Running Jekyll (&lt;code&gt;$ jekyll&lt;/code&gt;) combines the templates with the posts and generates html files of the site. Very little server load, simple. Easy to update. No bloat or complicated (and largely unneeded) Wordpress upgrades.&lt;/p&gt;
+
+&lt;p&gt;However I've been disappointed with the lack of detailed documentation for setting up Jekyll. I'll write a bit here how I set up comments and an RSS feed and soon I'll write up creating and deploying a site with Jekyll.&lt;/p&gt;
+
+&lt;h2&gt;Comments with Disqus&lt;/h2&gt;
+
+&lt;p&gt;For commenting, without a database, I had to look for a service that could embed in the page and save the comments on an external database. Embeddable commenting is exactly what &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; does. Getting Disqus on my site was wonderfully easy and straight forward. I found a tutorial by Douglas Creager who explains the whole process on &lt;a href=&quot;http://dcreager.net/2009/08/07/disqus-comments/&quot;&gt;his own Jekyll site&lt;/a&gt;. So I've got Disqus comments, just like over on my &lt;a href=&quot;http://stevenklise.tumblr.com&quot;&gt;Tumblr&lt;/a&gt;, so please use it.&lt;/p&gt;
+
+&lt;h2&gt;Burning an RSS Feed&lt;/h2&gt;
+
+&lt;p&gt;Even though Google Reader has just crippled itself I still prefer to digest the internet through RSS feeds. With Jekyll's templating building a feed was also easy and took 5 minutes to set up. Five minutes if you remove the time spent chasing character encoding issues from copying posts from Wordpress. I found a &lt;a href=&quot;http://recursive-design.com/blog/2010/09/14/integrating-jekyll-with-feedburner/&quot;&gt;tutorial&lt;/a&gt; from Recursive Design to create a feed and then the one step process of getting that feed hosted on Feedburner.&lt;/p&gt;
+
+&lt;p&gt;Straightforward until the author started talking about nginx rewrites. There is some code offered to make a rewrite but no indication where that code goes. If you're familiar with nginx you probably knew exactly how to do this, but I don't. This site is hosted on Heroku so a rewrite would not be able to be applied directly to the server and would have to be app specific. Jekyll on Heroku requires the &lt;code&gt;rack-jekyll&lt;/code&gt; gem (&lt;a href=&quot;https://github.com/bry4n/rack-jekyll&quot;&gt;documentation on Github&lt;/a&gt;). Running on Rack gives quick access to rewrites in just four lines. Open up &lt;code&gt;config.ru&lt;/code&gt; (a full tutorial on Jekyll is coming soon, on this blog) and add the following lines:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/1340812.js?file=config.ru&quot;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;You'll also need to include &lt;code&gt;rack/rewrite&lt;/code&gt; in your &lt;code&gt;Gemfile&lt;/code&gt; or &lt;code&gt;.gems&lt;/code&gt;. I went with bundler and a &lt;code&gt;Gemfile&lt;/code&gt; which you can see below&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/1340812.js?file=Gemfile&quot;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;So far, blogging with Jekyll has been great.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Final Proposal for Musical Sequence</title>
