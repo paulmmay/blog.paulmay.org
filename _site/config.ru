@@ -1,7 +1,7 @@
 require "rack/jekyll"
 require "rack/rewrite"
-use Rack::Rewrite do
-  rewrite '/feed/index.xml', '/feed'
-end
 
+use Rack::Rewrite do
+  rewrite '/feed/', '/feed/index.xml'
+end
 run Rack::Jekyll.new
