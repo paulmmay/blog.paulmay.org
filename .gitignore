@@ -3,3 +3,6 @@ db/*.sqlite3
 log/*.log
 tmp/
 .sass-cache/
+_site/Gemfile
+_site/config.ru
+_site/Gemfile.lock
