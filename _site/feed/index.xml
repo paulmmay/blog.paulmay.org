@@ -4,7 +4,7 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2011-11-04T15:08:49-04:00</updated>
+ <updated>2011-11-04T15:12:10-04:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
@@ -103,23 +103,6 @@
 &lt;p&gt;It was reassuring to hear that most everyone approximates tempo and rhythm with a 4% margin of error, so I’m not entirely far off when clapping along. As well that the human ear and brain work together to quantize the notes of a piece of music. The little bit of Ableton Live that I’ve played around with I thought that the quantization feature was a bit of a cheat for less-than-great computer musicians but if the ear does this as well then maybe it’s alright for my computer to help out my brain.&lt;/p&gt;
 
 &lt;p&gt;correspond. Loudness then seems to be a nitpicking way of saying that people experience sound differently. If people experience sound differently is there a way of knowing how loudness will be interpreted by most listeners and creating music and sound to cater to that audience?&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>What Is Music?</title>
-   <link href="http://stevenklise.com/Musical-Sequence/2011/09/14/what-is-music.html"/>
-   <updated>2011-09-14T00:00:00-04:00</updated>
-   <id>http://stevenklise.com/Musical-Sequence/2011/09/14/what-is-music</id>
-   <content type="html">&lt;p&gt;&lt;strong&gt;A response to the first chapter of &lt;em&gt;This Is Your Brain On Music&lt;/em&gt; by Daniel J. Levitin.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;At age 25, 10 years of which were spent learning piano and saxophone, and most of the rest listening to music I had heard many of the terms defined in the first few pages of &lt;em&gt;What Is Music?&lt;/em&gt; but knew them more as vague notions and emotions than technical definitions. The most surprising bit was that pitch and loudness are wholly mental constructs. I had always thought of pitch and loudness as pitch and loudness and that is just how it is.&lt;/p&gt;
-
-&lt;p&gt;I had casually wondered how different instruments generated different sounds when playing identical notes. It wasn’t a matter of the frequency so what could it be? I’m trying to wrap my head around overtones. It is still unclear if overtones are a finite set of frequencies or if they exude from the fundamental tone upwards forever. Is there any reason the overtones aren’t undertones?&lt;/p&gt;
-
-&lt;p&gt;Shapes of graphs instantly popped in to my head while reading that varying loudnesses of overtones influence the timbre of a sound. Could it be possible to make a morphable graph to create any sound desired? Of course this is a synthesizer, but I really want to create a program that allows the user to draw the shape of the overtones and click and drag at individual points as a experimentation for the shape that sounds from instruments create.&lt;/p&gt;
-
-&lt;p&gt;The section describing the tonal system and fractions and differences between keys and how if a piece is written in C but the note distribution is more like A… I got lost on this. Reading about it was not very enlightening without being able to the scales out with a real instrument. So I got out a MIDI keyboard and did try to noodle about, and it’s starting to make sense.&lt;/p&gt;
 </content>
  </entry>
  
