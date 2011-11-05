@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+  <meta charset="utf-8" />
+  <meta name="if:Show notes" content="1" />
+  <meta name="text:Disqus Shortname" content="" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}"/>
+  <title>{Title}{block:PostTitle} - {PostTitle}{/block:PostTitle}</title>
+  <link rel="icon" href="{Favicon}"/>
+  
+  <!-- iPhone -->
+  <meta name="viewport" content="width=775,scale=1.0"/>
+  <link rel="apple-touch-icon" href="{PortraitURL-128}"/>
+  <link href="http://fonts.googleapis.com/css?family=News+Cycle|Abel" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://stevenklise.com/public/style.css" type="text/css"/>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6955602-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>
+<body class="tumblr">
+    <div id="wrapper">
+        <div id="navigation">
+          <header>
+            <a href="/">Steven Klise</a>
+          </header>
+
+          <ul>
+            <li><a class="current" href="http://stevenklise.tumblr.com">Tumblr</a></li>
+            <li><a href="http://twitter.com/stevenklise">@stevenklise</a></li>
+          </ul>
+        </div>
+
+      <div id="content" class="autopagerize_page_element">
+        {block:SearchPage}
+    <div id="searchresultcount">
+        {block:SearchResults}
+            <h2>{lang:Your search for SearchQuery returned SearchResultCount results 2}.</h2>
+        {/block:SearchResults}
+        
+        {block:NoSearchResults}
+            <h2>{lang:No search results for SearchQuery 2}.</h2>
+        {/block:NoSearchResults}
+    </div>
+    {/block:SearchPage}
+
+    {block:TagPage}
+    <div id="tagpageblurb">
+        <h1>{lang:Posts tagged Tag 2}</h1>
+    </div>
+    {/block:TagPage}
+
+    {block:Posts}
+        <article>     
+      {block:Text}
+      <header>
+        {block:Title}<h1><a href="{Permalink}">{Title}</a> {block:Date}<span class="date">{Year}/{DayOfMonthWithZero}/{MonthNumber}</span>{/block:Date}</h1>{/block:Title}
+      </header>
+        <div class="article-body">
+        {Body}
+        </div>
+      {/block:Text}
+      
+      {block:Quote}
+        <div class="article-body">
+        <span class="quote {Length}">&#0147;{Quote}&#0148;</span>
+        {block:Source}<p class="caption">{Source}</p>{/block:Source}
+        </div>
+      {/block:Quote}
+      
+      {block:Link}
+      <header>
+        {block:Title}<h1>☞<a href="{URL}" {Target}>{Name}</a> {block:Date}<span class="date">{Year}/{DayOfMonthWithZero}/{MonthNumber}</span>{/block:Date}</h1>{/block:Title}
+      </header>
+
+        <div class="article-body">
+        <div class="link-body">
+        {block:Description}{Description}{/block:Description}
+        </div>
+        </div>
+      {/block:Link}
+      
+      {block:Chat}
+      {block:Title}<h1><a href="{Permalink}">{Title}</a></h1>{/block:Title}
+        <div class="article-body">
+        <ul>
+          {block:Lines}
+          <li>
+            {block:Label}<span class="person">{Label}</span>{/block:Label}
+            <span class="line">{Line}</span></li>
+          {/block:Lines}
+        </ul>
+        </div>
+      {/block:Chat}
+
+      {block:Photo}
+        <div class="article-body">
+        <img class="photopost" src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>
+        
+        {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+        </div>
+      {/block:Photo}
+
+      {block:Video}
+        <div class="article-body">
+        {Video-500}
+        {block:Caption}<span class="caption">{Caption}</span>{/block:Caption}
+        </div>
+      {/block:Video}
+          
+      {block:Audio}
+        <div class="article-body">
+        {AudioPlayerGrey}
+        {block:Caption}<span class="caption">{Caption}</span>{/block:Caption}
+        </div>
+      {/block:Audio}
+        
+        
+            <footer>
+            <p style="float:right;"><a href="{Permalink}">Permalink</a></p>
+            <ul class="post-meta">
+
+            {block:HasTags}
+            <li class="category">
+                {block:Tags}<a href="{TagURL}" class="tag">{Tag}</a> {/block:Tags}
+            </li>
+            {/block:HasTags}
+
+            {block:NoteCount}{block:IfShowNotes}<li class="notes"><a href="{Permalink}">{NoteCountWithLabel}</a></li>{/block:IfShowNotes}{/block:NoteCount}
+
+            {block:IfDisqusShortname}
+            <li><a href="{Permalink}#disqus_thread" class="permalink">{lang:Comments}</a></li>
+            {block:IfDisqusShortname}
+
+            {block:ContentSource}
+                <li class="source-url">
+                    {lang:Source}: <a href="{SourceURL}">{block:SourceLogo}<img src="{BlackLogoURL}" width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />{/block:SourceLogo}{block:NoSourceLogo}{SourceTitle}{/block:NoSourceLogo}</a>
+                </li>
+            {/block:ContentSource}
+            </ul>
+            </footer>
+        </article> <!-- end single post -->
+        {/block:Posts}
+        
+        
+
+        {block:Permalink}
+        {block:IfDisqusShortname}
+        <div id="disqus_thread"></div>
+        <script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
+        <noscript><a href="http://{text:Disqus Shortname}.disqus.com/?url=ref">{lang:View the discussion thread}</a></noscript>
+        {/block:IfDisqusShortname}
+
+        {block:IfShowNotes}{PostNotes}{/block:IfShowNotes}
+        {/block:Permalink}
+
+        </div> <!-- end content div -->
+
+        <footer>
+            {block:Pagination}
+            <div id="prev-next" class="autopagerize_insert_before">
+            {block:NextPage}<a href="{NextPage}" id="prev" rel="next">&#8592; {lang:Older posts}</a>{/block:NextPage}
+            {lang:Page CurrentPage of TotalPages}
+            {block:PreviousPage}<a href="{PreviousPage}" id="next">{lang:Newer posts} &#8594;</a>{/block:PreviousPage}
+            </div>
+            {/block:Pagination}
+  
+            <div class="half">
+            <h4>Elsewhere</h4>
+              <ul>
+                  <li><a href="http://twitter.com/stevenklise">Twitter</a></li>
+                  <li><a href="http://delicious.com/sklise">Delicious</a></li>
+                  <li><a href="http://github.com/stevenklise">Github</a></li>
+                  <li><a href="http://stevenklise.tumblr.com">Tumblr</a></li>
+                  <li><a href="http://vimeo.com/stevenklise">Vimeo</a></li>
+              </ul>
+            </div>
+            <div class="half">
+
+            </div>
+        </footer>
+  </div>
+
+    {block:IfDisqusShortname}
+    <script type="text/javascript">
+    //<![CDATA[
+    (function() {
+        var links = document.getElementsByTagName('a');
+        var query = '?';
+        for(var i = 0; i < links.length; i++) {
+        if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+        }
+        }
+        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/get_num_replies.js' + query + '"></' + 'script>');
+    })();
+    //]]>
+    </script>
+    {/block:IfDisqusShortname}
+</body>
+</html>
