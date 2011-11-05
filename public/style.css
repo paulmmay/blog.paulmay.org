@@ -122,6 +122,7 @@ code {
     #navigation a:visited {
       color: black; }
     #navigation a:hover {
+      border-top: #1f37e5 1px solid;
       background-color: transparent;
       color: blue; }
     #navigation a.current {
@@ -143,6 +144,9 @@ code {
 .half {
   float: left;
   width: 50%; }
+
+.float-right {
+  float: right; }
 
 article {
   border-bottom: 1px solid black;
@@ -181,6 +185,8 @@ article {
     font-size: 0.9em;
     line-height: 1em; }
   article footer {
+    overflow-x: hidden;
+    overflow-y: auto;
     color: #787878;
     font-family: 'Abel', sans-serif;
     font-size: 0.9em;

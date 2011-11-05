@@ -130,6 +130,7 @@ code {
 		}
 
 		&:hover {
+			border-top: $color-link 1px solid;
 			background-color: transparent;
 			color: blue;
 		}
@@ -161,6 +162,10 @@ code {
 .half {
 	float: left;
 	width: 50%;
+}
+
+.float-right {
+	float: right;
 }
 
 @import 'article';

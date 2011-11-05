@@ -12,9 +12,9 @@ title: Musical Sequence
         </header>
         <div class="article-body">
             {{ post.content }}
-            <a href="{{ post.url }}">Permalink/Comments</a>
         </div>
         <footer>
+            <p class="float-right"><a href="{{ post.url }}">Permalink/Comments</a></p>
             {% for category in post.categories %}
                 <a href="/{{category}}">{{ category }}</a> 
             {% endfor %}

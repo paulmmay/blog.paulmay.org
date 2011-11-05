@@ -55,6 +55,7 @@ article {
 	}
 	
 	footer {
+		@include clear-float;
 		color: $color-light;
 
 		a,
