@@ -189,8 +189,7 @@ article {
     overflow-y: auto;
     color: #787878;
     font-family: 'Abel', sans-serif;
-    font-size: 0.9em;
-    font-style: italic; }
+    font-size: 0.9em; }
     article footer a,
     article footer a:visited {
       color: #787878;
@@ -200,5 +199,11 @@ article {
         color: #787878;
         text-decoration: underline; }
     article footer ul li {
+      font-style: italic;
       display: inline;
       padding-right: 0.5em; }
+    article footer ul.listed li {
+      display: block; }
+    article footer h1, article footer h2, article footer h3, article footer h3, article footer h4, article footer h5, article footer h6 {
+      font-style: normal;
+      color: black; }

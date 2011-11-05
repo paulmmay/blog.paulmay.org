@@ -70,13 +70,22 @@ article {
 
 	    @include header-font;
 		font-size: $small-font;
-		font-style: italic;
 		
 		ul {
 			li {
+				font-style: italic;
 				display: inline;
 				padding-right: 0.5em;
+				
 			}
+			&.listed li {
+				display: block;
+			}
+		}
+
+		h1,h2,h3,h3,h4,h5,h6 {
+			font-style: normal;
+			color: $color-base;
 		}
 	}
 }
