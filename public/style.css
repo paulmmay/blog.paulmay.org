@@ -99,7 +99,8 @@ code {
       #wrapper > footer a:hover, #wrapper > footer a:visited:hover {
         color: #1f37e5; }
     #wrapper > footer ul {
-      font-size: 90%; }
+      font-size: 90%;
+      margin: 0 0 1em; }
 
 #navigation {
   font-family: 'Abel', sans-serif;
