@@ -166,30 +166,31 @@
         {block:IfShowNotes}{PostNotes}{/block:IfShowNotes}
         {/block:Permalink}
 
+        {block:Pagination}
+        <div id="prev-next" class="autopagerize_insert_before">
+        {block:NextPage}<a href="{NextPage}" id="prev" rel="next">&#8592; {lang:Older posts}</a>{/block:NextPage}
+        {lang:Page CurrentPage of TotalPages}
+        {block:PreviousPage}<a href="{PreviousPage}" id="next">{lang:Newer posts} &#8594;</a>{/block:PreviousPage}
+        </div>
+        {/block:Pagination}
+
         </div> <!-- end content div -->
 
         <footer>
-            {block:Pagination}
-            <div id="prev-next" class="autopagerize_insert_before">
-            {block:NextPage}<a href="{NextPage}" id="prev" rel="next">&#8592; {lang:Older posts}</a>{/block:NextPage}
-            {lang:Page CurrentPage of TotalPages}
-            {block:PreviousPage}<a href="{PreviousPage}" id="next">{lang:Newer posts} &#8594;</a>{/block:PreviousPage}
-            </div>
-            {/block:Pagination}
   
-            <div class="half">
-            <h4>Elsewhere</h4>
-              <ul>
-                  <li><a href="http://twitter.com/stevenklise">Twitter</a></li>
-                  <li><a href="http://delicious.com/sklise">Delicious</a></li>
-                  <li><a href="http://github.com/stevenklise">Github</a></li>
-                  <li><a href="http://stevenklise.tumblr.com">Tumblr</a></li>
-                  <li><a href="http://vimeo.com/stevenklise">Vimeo</a></li>
-              </ul>
-            </div>
-            <div class="half">
+        <div class="half">
+        <h4>Elsewhere</h4>
+          <ul>
+              <li><a href="http://twitter.com/stevenklise">Twitter</a></li>
+              <li><a href="http://delicious.com/sklise">Delicious</a></li>
+              <li><a href="http://github.com/stevenklise">Github</a></li>
+              <li><a href="http://stevenklise.tumblr.com">Tumblr</a></li>
+              <li><a href="http://vimeo.com/stevenklise">Vimeo</a></li>
+          </ul>
+        </div>
+        <div class="half">
 
-            </div>
+        </div>
         </footer>
   </div>
 
