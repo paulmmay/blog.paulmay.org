@@ -1,0 +1,171 @@
+@import 'reset';
+
+
+$background: rgb(255,255,255);
+$color-base: rgb(0,0,0);
+$color-link: rgb(31,55,229);
+$color-light: rgb(120,120,120);
+$color-hover: blue;
+$color-code: rgb(230,230,230);
+
+/*$column:5.104166667;*/
+$column: 90% / 12;
+$base-font: 100%;
+$small-font: .9em;
+$huge: 2.1857em;
+
+@mixin header-font {
+	font-family: 'Abel', sans-serif;
+}
+@mixin base-font {
+	font-family: 'Lucida Grande', sans-serif;
+}
+@mixin accent-font {
+	font-family: 'News Cycle', 'Verdana', 'Arial', sans-serif;
+}
+@mixin horizontal-separator($edge:"bottom") {
+	  border-#{$edge}: 1px solid $color-base;
+}
+
+@mixin clear-float {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+html {
+	background-color: $background;
+}
+
+body {
+	@include base-font;
+	font-size: $base-font;
+	line-height: 1.6em;
+	margin: 0;
+	position: relative;
+}
+
+a {
+	color: $color-link;
+	&:visited {
+		color: $color-link;
+	}
+	&:hover {
+		color: $color-hover;
+	}
+}
+
+em {
+	font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	@include header-font;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+code {
+	font-family: "Menlo", "Monaco", monospace;
+	background-color: $color-code;
+	font-size: 90%;
+	padding: 0.1em 0.2em;
+}
+
+#wrapper {
+	text-align: left;
+	width: #{$column*10}; /* 650px / 16 */
+	max-width: 48.25em;
+	margin: 10px auto;
+
+	&>footer {
+		@include clear-float;
+		@include horizontal-separator("top");
+		margin: 1em 0;
+		padding: 1em 0;
+		a, a:visited {
+			color: $color-light;
+			text-decoration: none;
+
+			&:hover {
+				color: $color-link;
+			}
+		}
+
+		ul {
+			font-size: 90%;
+			margin: 0 0 1em;
+		}
+	}
+}
+
+#navigation {
+	@include header-font;
+	@include horizontal-separator;
+	display: block;
+	margin: 0;
+	overflow: hidden;
+	padding: 0.25em 0;
+	position: relative;
+	width: 100%;
+
+	header {
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	a {
+		border-top: 1px transparent;
+		color: $color-base;
+		text-decoration: none;
+
+		&:visited {
+			color: $color-base;
+		}
+
+		&:hover {
+			border-top: $color-link 1px solid;
+			background-color: transparent;
+			color: blue;
+		}
+		&.current {
+			border-top: $color-link 1px solid;
+		}
+	}
+
+	ul {
+		float: right;
+		li {
+			float: left;
+			padding: 0 0.25em;
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+}
+
+#content {
+  margin: 1em 0;
+}
+
+#comments {
+	margin: 1em 0;
+}
+
+.half {
+	float: left;
+	width: 50%;
+}
+
+.float-right {
+	float: right;
+}
+
+@import 'article';
