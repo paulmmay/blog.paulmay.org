@@ -4,7 +4,7 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2011-11-06T15:29:47-05:00</updated>
+ <updated>2011-11-06T21:04:49-05:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
@@ -68,7 +68,7 @@
    <link href="http://stevenklise.com/2011/10/31/sequencer-teaser"/>
    <updated>2011-10-31T00:00:00-04:00</updated>
    <id>http://stevenklise.com/2011/10/31/sequencer-teaser</id>
-   <content type="html">&lt;p&gt;The midterm assignment for &lt;a href=&quot;/Musica-Sequence&quot;&gt;Musical Sequence&lt;/a&gt; was to build a sequencer using an Arduino. Here are two images of what I built. It's an eight step sequencer currently with a reset button and a reverse mode. No computer is necessary to operate, and there is a 1/8&quot; audio out jack in the back of the box. Video and a more detailed write up are coming.&lt;/p&gt;
+   <content type="html">&lt;p&gt;The midterm assignment for &lt;a href=&quot;/Musical-Sequence&quot;&gt;Musical Sequence&lt;/a&gt; was to build a sequencer using an Arduino. Here are two images of what I built. It's an eight step sequencer currently with a reset button and a reverse mode. No computer is necessary to operate, and there is a 1/8&quot; audio out jack in the back of the box. Video and a more detailed write up are coming.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://sklise.s3.amazonaws.com/musical-sequence/midterm-sequencer-outside.jpg&quot; alt=&quot;Outside Sequencer&quot; /&gt;&lt;/p&gt;
 
