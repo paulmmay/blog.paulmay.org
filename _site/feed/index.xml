@@ -4,13 +4,31 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2011-11-06T21:04:49-05:00</updated>
+ <updated>2011-11-07T15:43:23-05:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
    <email>mail@stevenklise.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Tapper</title>
+   <link href="http://stevenklise.com/2011/11/07/tapper"/>
+   <updated>2011-11-07T00:00:00-05:00</updated>
+   <id>http://stevenklise.com/2011/11/07/tapper</id>
+   <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/31712426?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;772&quot; height=&quot;434&quot; frameborder=&quot;0&quot; webkitAllowFullScreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;Above is a video of the Tapper Sequencer. I made it for the midterm assignment in &lt;a href=&quot;/Musical-Sequence&quot;&gt;Musical Sequence&lt;/a&gt;, it built around an Arduino. I'm happy to say that the Tapper can operate without the aid of a computer and has an 1/8&quot; line-out jack to hook in to whatever sound system you so desire. So the Tapper can be patched in to other effects pedals and amps and stand alone as it's own music maker, though it is very primitive and made of cardboard.&lt;/p&gt;
+
+&lt;p&gt;There are eight steps to the sequence, with the pitch of each set by a potentiometer. The potentiometer is divided invisibly into 12 steps designed so that all the notes are in tune relative to each other. It would be better if each of the 12 steps was demarcated either through using rotary encoders instead of potentiometers or even lines on the case. There is a five-way switch that shifts the notes up and down a total of five octaves.&lt;/p&gt;
+
+&lt;p&gt;The illuminated red button resets the sequence when pressed. So if the 4th note just played and the red button is pressed the next note is the first note. The button above the red one reverses the sequence and while the sequence is running backwards this button is illuminated green. The other two buttons on this pad are currently not working.&lt;/p&gt;
+
+&lt;p&gt;For the final I'm hoping to take this basic design and add a lot more functionality and put the sequencer in a less-cardboard box.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>New Site, Now with Comments and RSS</title>
