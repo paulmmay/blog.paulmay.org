@@ -1,0 +1,36 @@
+@mixin clear-float {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@mixin rounded($radius:8px){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin padded($padding:0.5em) {
+    -webkit-box-sizing: border-box;
+    padding: $padding;
+}
+
+@mixin header-font {
+	font-family: 'Abel', sans-serif;
+}
+@mixin base-font {
+	font-family: 'Lucida Grande', sans-serif;
+}
+@mixin accent-font {
+	font-family: 'News Cycle', 'Verdana', 'Arial', sans-serif;
+}
+@mixin horizontal-separator($edge:"bottom") {
+	  border-#{$edge}: 1px solid $color-base;
+}
+
+@mixin clear-float {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
+// Mixins for Modular Scale tied to this system.

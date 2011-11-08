@@ -1,0 +1,33 @@
+$page-width : 772px;
+$gutter   : 20px;
+$column   : $page-width / 12;
+
+.standard-column {
+  display: inline;
+  float: left;
+  margin-left: $gutter;
+}
+
+@mixin column-generator($multiple, $class-slug:'col', $page-width:980px, $gutter:20px) {
+  $column: $page-width / $multiple;
+  @for $i from 0 through $multiple {
+    .column-offset-${$i} {
+      margin-left: #{$gutter + $column-width*$i};
+    }
+    .column-#{$i} {
+      @extend .standard-column
+      // Print the $property and return the value from the Modular Scale function
+      width: #{$column-width * $i - $gutter};
+    }
+  }
+}
+
+// To be called in stylesheet to set column sizes and offset.
+
+@mixin column-size($span:1){
+  @extend .column-#{$span};
+}
+
+@mixin column-offset($offset:0){
+  @extend .column-offset#{$offset};
+}

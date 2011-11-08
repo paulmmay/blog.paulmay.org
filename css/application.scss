@@ -1,0 +1,167 @@
+$base-font: 10px;
+
+$background: rgb(255,255,255);
+$color-base: rgb(0,0,0);
+$color-link: rgb(31,55,229);
+$color-light: rgb(120,120,120);
+$color-hover: blue;
+$color-code: rgb(230,230,230);
+
+@import 'mixins';
+@import 'reset';
+@import 'modular_scale';
+@import 'grid';
+@import 'formatting'; // Styles to be accessed via @extend
+@import 'forms';
+
+
+html {
+  background-color: $background;
+}
+
+
+body {
+  @include base-font;
+  font-size: $base-font;
+  line-height: 1.6em;
+  position: relative;
+}
+
+a {
+  color: $color-link;
+  &:visited {
+    color: $color-link;
+  }
+  &:hover {
+    color: $color-hover;
+  }
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include header-font;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+code {
+  font-family: "Menlo", "Monaco", monospace;
+  background-color: $color-code;
+  font-size: 90%;
+  padding: 0.1em 0.2em;
+}
+
+#wrapper {
+  text-align: left;
+  width: #{$column*12};
+  max-width: 48.25em;
+  margin: 10px auto;
+
+  &>footer {
+    @include clear-float;
+    @include horizontal-separator("top");
+    margin: 1em 0;
+    padding: 1em 0;
+    a, a:visited {
+      color: $color-light;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-link;
+      }
+    }
+
+    ul {
+      font-size: 90%;
+      margin: 0 0 1em;
+    }
+  }
+}
+
+#navigation {
+  @include header-font;
+  @include horizontal-separator;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  padding: 0.25em 0;
+  position: relative;
+  width: 100%;
+
+  header {
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    border-top: 1px transparent;
+    color: $color-base;
+    text-decoration: none;
+
+    &:visited {
+      color: $color-base;
+    }
+
+    &:hover {
+      border-top: $color-link 1px solid;
+      background-color: transparent;
+      color: blue;
+    }
+    &.current {
+      border-top: $color-link 1px solid;
+    }
+  }
+
+  ul {
+    float: right;
+    li {
+      float: left;
+      padding: 0 0.25em;
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+#content {
+  margin: 1em 0;
+}
+
+#comments {
+  margin: 1em 0;
+}
+
+.half {
+  float: left;
+  width: 50%;
+}
+
+.pagination {
+  @include clear-float;
+  width: 100%;
+}
+
+.page-count {
+  text-align: center;
+}
+.older-link {
+  float: left;
+}
+.newer-link {
+  float: right;
+}
+
+@include column-generator(12);
+
+@import 'article';
