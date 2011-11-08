@@ -4,18 +4,5 @@ title:
 ---
 
 {% for post in paginator.posts %}
-    <article>
-        <header>
-            <h1><a href="{{ post.url }}">{{ post.title }}</a> <span class="date">{{ post.date | date: "%Y / %m / %d" }}</span></h1>
-        </header>
-        <div class="article-body">
-            {{ post.content }}
-        </div>
-        <footer>
-            <p class="float-right"><a href="{{ post.url }}">Permalink/Comments</a></p>
-            {% for category in post.categories %}
-                <a href="/{{category}}">{{ category }}</a> 
-            {% endfor %}
-        </footer>
-    </article>
+    {% include post.html %}
 {% endfor %}
