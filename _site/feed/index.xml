@@ -4,7 +4,7 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2011-11-07T18:32:17-05:00</updated>
+ <updated>2011-11-07T19:26:11-05:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
@@ -118,6 +118,24 @@
 &lt;p&gt;The user clicks an arrow or connection button in the browser and a Task object is created with that command and designated as not being done. In the end this worked well, however the latency between browser to database to daemon to telnet server was only manageable running the app locally.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/stevenklise/BallDropClient&quot;&gt;Source on Github&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Clumpers</title>
+   <link href="http://stevenklise.com/2011/05/17/Clumpers"/>
+   <updated>2011-05-17T00:00:00-04:00</updated>
+   <id>http://stevenklise.com/2011/05/17/Clumpers</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Clumpers is an experiment of combining flocking behaviors with cellular automaton like rules without discrete boundaries between organisms&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/23694777?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;772&quot; height=&quot;433&quot; frameborder=&quot;0&quot; webkitAllowFullScreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;My intention with Clumpers was to see what would happen when a cellular automaton was moved from a discrete grid to a continuous plane and allow the organisms to move around. What emergent qualities would result by combining two complex systems?&lt;/p&gt;
+
+&lt;p&gt;The program start with a few hundred organisms spawning at random throughout the screen. Each individual organism then looks for the average position of all the organisms, as well as the average heading of the organisms within a smaller neighborhood. These two values are scaled and combined to a desired velocity. A small random vector is summed to the velocities each frame to encourage movement.&lt;/p&gt;
+
+&lt;p&gt;At the same time as these steering behaviors, each organism is counting the number of neighbors it has. IF that number is above a &quot;crowded&quot; threshold or below a &quot;loneliness&quot; threshold the organism dies. Upon death the organism leaves behind a ripple and is reborn at a random location on screen. My original intention was to have organisms born in locations based on the density of living organisms, however without clear boundaries between organisms it proved difficult to get a global density map.&lt;/p&gt;
 </content>
  </entry>
  
