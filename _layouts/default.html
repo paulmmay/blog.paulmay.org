@@ -42,26 +42,28 @@
 
         {% if paginator %}
         <div class="pagination">
+            <p class="older-link">
             {% if paginator.next_page %}
-                <p class="col-4 older-link"><a href="/page{{ paginator.next_page }}">Older</a></p>
-            {% else %}
+                <a href="/page{{ paginator.next_page }}">Older</a>
             {% endif %}
+            </p>
 
-            <p class="col-4 page-count">{{ paginator.page }} of {{ paginator.total_pages }}</p>
+            <p class="page-count">{{ paginator.page }} of {{ paginator.total_pages }}</p>
 
+            <p class="newer-link">
             {% if paginator.previous_page %}
                 {% if paginator.previous_page == 1 %}
-                <p class="col-4 newer-link"><a href="/">Newer</a></li>
+                <a href="/">Newer</a>
                 {% else %}
-                <p class="col-4 newer-link"><a href="/page{{ paginator.previous_page }}">Newer</a></p>
+                <a href="/page{{ paginator.previous_page }}">Newer</a>
                 {% endif %}
-            {% else %}
             {% endif %}
+            </p>
         </div>
         {% endif %}
 
         <footer>
-            <div class="half">
+            <section>
             <h4>Elsewhere</h4>
                 <ul>
                     <li><a href="http://twitter.com/stevenklise">Twitter</a></li>
@@ -70,8 +72,8 @@
                     <li><a href="http://stevenklise.tumblr.com">Tumblr</a></li>
                     <li><a href="http://vimeo.com/stevenklise">Vimeo</a></li>
                 </ul>
-            </div>
-            <div class="half">
+            </section>
+            <section>
                 <h4>Categories</h4>
                 <ul>
                     <li><a href="/Musical-Sequence">Musical Sequence</a></li>
@@ -80,11 +82,13 @@
                     <li><a href="/Reading-Writing-Electronic-Text">Reading &amp; Writing Electronic Text</a></li>
                     <li><a href="/ITP-First-Semester">ITP First Semester</a></li>
                 </ul>
+            </section>
+            <section>
                 <h4>Etc.</h4>
                 <ul>
                 <li><a href="http://feeds.feedburner.com/StevenKlise">RSS</a></li>
                 </ul>
-            </div>
+            </section>
         </footer>
     </div>
     <script type="text/javascript">

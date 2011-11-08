@@ -17,3 +17,8 @@
 .align-center {
   text-align: center;
 }
+
+.clear-float {
+    overflow-y: auto;
+    overflow-x: hidden;
+}

@@ -1,5 +1,5 @@
 article {
-  
+  @include horizontal-separator;
   &:last-child{
     border-bottom: none;
   }
@@ -11,22 +11,23 @@ article {
     margin: 0 0 1em;
   }
 
-  header {
-    @include clear-float;
+  hgroup {
+    @extend .clear-float;
 
     h1 {
       font-size: 1.6em;
       line-height: 1.6em;
 
       span.date {
-        float: right;
+        @extend .float-right;
+        @extend .align-right;
         font-size: 60%;
         vertical-align: baseline;
       }
     }
   }
 
-  .article-body {
+  .post-body {
     font-size: 87.5%; /* 14 / 16 = .875 */
     line-height: 1.8em;
 
@@ -54,7 +55,7 @@ article {
   }
   
   footer {
-    @include clear-float;
+    @extend .clear-float;
     color: $color-light;
 
     a,
@@ -67,9 +68,8 @@ article {
       }
     }
 
-      @include header-font;
-//    font-size: $small-font;
-    
+    @include header-font;
+
     ul {
       li {
         font-style: italic;

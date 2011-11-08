@@ -1,8 +1,3 @@
-@mixin clear-float {
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
 @mixin rounded($radius:8px){
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
@@ -26,11 +21,3 @@
 @mixin horizontal-separator($edge:"bottom") {
 	  border-#{$edge}: 1px solid $color-base;
 }
-
-@mixin clear-float {
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-
-
-// Mixins for Modular Scale tied to this system.

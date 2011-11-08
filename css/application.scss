@@ -1,5 +1,6 @@
 $base-font: 10px;
 
+
 $background: rgb(255,255,255);
 $color-base: rgb(0,0,0);
 $color-link: rgb(31,55,229);
@@ -14,6 +15,7 @@ $color-code: rgb(230,230,230);
 @import 'formatting'; // Styles to be accessed via @extend
 @import 'forms';
 
+@include column-generator(12,772px,20px);
 
 html {
   background-color: $background;
@@ -22,7 +24,7 @@ html {
 
 body {
   @include base-font;
-  font-size: $base-font;
+  font-size: ms(1,$base-font,$gold);
   line-height: 1.6em;
   position: relative;
 }
@@ -61,22 +63,30 @@ code {
 }
 
 #wrapper {
+  @extend .column-wrapper;
   text-align: left;
-  width: #{$column*12};
-  max-width: 48.25em;
   margin: 10px auto;
 
+
   &>footer {
-    @include clear-float;
+    margin-top: 1em;
+    margin-bottom: 1em;
     @include horizontal-separator("top");
-    margin: 1em 0;
     padding: 1em 0;
+
     a, a:visited {
       color: $color-light;
       text-decoration: none;
 
       &:hover {
         color: $color-link;
+      }
+    }
+
+    section {
+      @include column-size(4);
+      &:first-child{
+        @include column-flush;
       }
     }
 
@@ -142,26 +152,23 @@ code {
   margin: 1em 0;
 }
 
-.half {
-  float: left;
-  width: 50%;
-}
-
 .pagination {
-  @include clear-float;
-  width: 100%;
-}
+  @extend .clear-float;
+  @extend .row;
 
-.page-count {
-  text-align: center;
-}
-.older-link {
-  float: left;
-}
-.newer-link {
-  float: right;
-}
+  .older-link,
+  .newer-link,
+  .page-count {
+    @include column-size(4);
+  }
 
-@include column-generator(12);
+  .page-count {
+    @extend .align-center;
+  }
+
+  .newer-link {
+    @extend .align-right;
+  }
+}
 
 @import 'article';

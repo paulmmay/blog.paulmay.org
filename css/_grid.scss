@@ -1,6 +1,5 @@
 $page-width : 772px;
 $gutter   : 20px;
-$column   : $page-width / 12;
 
 .standard-column {
   display: inline;
@@ -8,16 +7,28 @@ $column   : $page-width / 12;
   margin-left: $gutter;
 }
 
-@mixin column-generator($multiple, $class-slug:'col', $page-width:980px, $gutter:20px) {
-  $column: $page-width / $multiple;
+@mixin column-generator($multiple, $page-width:980px, $gutter:20px) {
+  $column: ($page-width + $gutter) / $multiple;
+
+  .row {
+    @extend .clear-float;
+    margin-left: #{-1*$gutter};
+  }
+
+  .column-wrapper {
+    width: $page-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   @for $i from 0 through $multiple {
-    .column-offset-${$i} {
-      margin-left: #{$gutter + $column-width*$i};
+    .column-offset-#{$i} {
+      margin-left: #{$gutter + $column*$i};
     }
     .column-#{$i} {
-      @extend .standard-column
+      @extend .standard-column;
       // Print the $property and return the value from the Modular Scale function
-      width: #{$column-width * $i - $gutter};
+      width: #{$column*$i - $gutter};
     }
   }
 }
@@ -26,6 +37,10 @@ $column   : $page-width / 12;
 
 @mixin column-size($span:1){
   @extend .column-#{$span};
+}
+
+@mixin column-flush {
+  margin-left: 0;
 }
 
 @mixin column-offset($offset:0){

@@ -1,100 +1,305 @@
-/*
-Syntax error: Invalid CSS after "....column-offset-": expected "{", was "${$i} {"
-        on line 14 of css/_grid.scss
-        from line 13 of css/application.scss
-
-9: }
-10: 
-11: @mixin column-generator($multiple, $class-slug:'col', $page-width:980px, $gutter:20px) {
-12:   $column: $page-width / $multiple;
-13:   @for $i from 0 through $multiple {
-14:     .column-offset-${$i} {
-15:       margin-left: #{$gutter + $column-width*$i};
-16:     }
-17:     .column-#{$i} {
-18:       @extend .standard-column
-19:       // Print the $property and return the value from the Modular Scale function
-
-Backtrace:
-css/_grid.scss:14
-css/application.scss:13
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:898:in `expected'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:841:in `expected'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:836:in `tok!'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:360:in `block'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:355:in `ruleset'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:417:in `block in declaration_or_ruleset'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:872:in `call'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:872:in `rethrow'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:418:in `declaration_or_ruleset'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:380:in `block_child'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:369:in `block_contents'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:361:in `block'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:180:in `for_directive'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:130:in `special_directive'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:109:in `directive'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:380:in `block_child'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:372:in `block_contents'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:361:in `block'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:137:in `mixin_directive'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:130:in `special_directive'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:109:in `directive'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:379:in `block_child'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:372:in `block_contents'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:57:in `stylesheet'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/scss/parser.rb:26:in `parse'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/engine.rb:320:in `_to_tree'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/engine.rb:252:in `to_tree'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:144:in `visit_import'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/root_node.rb:20:in `render'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/engine.rb:293:in `_render'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/engine.rb:240:in `render'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:319:in `update_stylesheet'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:181:in `block (2 levels) in update_stylesheets'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:175:in `each'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:175:in `block in update_stylesheets'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:173:in `each'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:173:in `update_stylesheets'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:252:in `block (4 levels) in watch'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/path.rb:73:in `call'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/path.rb:73:in `run_callback'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/path.rb:55:in `callback_action'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/path.rb:35:in `update'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/state/directory.rb:37:in `each'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/state/directory.rb:37:in `modified'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/backends/polling.rb:17:in `each'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/backends/polling.rb:15:in `run'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm/monitor.rb:26:in `run'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/vendor/fssm/lib/fssm.rb:20:in `monitor'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:245:in `watch'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin.rb:111:in `method_missing'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/exec.rb:408:in `watch_or_update'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/exec.rb:294:in `process_result'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/exec.rb:41:in `parse'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/exec.rb:21:in `parse!'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/bin/sass:8:in `<top (required)>'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/bin/sass:19:in `load'
-/Users/sklise/.rvm/gems/ruby-1.9.2-p290/bin/sass:19:in `<main>'
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"....column-offset-\": expected \"{\", was \"${$i} {\"\A         on line 14 of css/_grid.scss\A         from line 13 of css/application.scss\A \A 9: }\A 10: \A 11: @mixin column-generator($multiple, $class-slug:'col', $page-width:980px, $gutter:20px) {\A 12:   $column: $page-width / $multiple;\A 13:   @for $i from 0 through $multiple {\A 14:     .column-offset-${$i} {\A 15:       margin-left: #{$gutter + $column-width*$i};\A 16:     }\A 17:     .column-#{$i} {\A 18:       @extend .standard-column\A 19:       // Print the $property and return the value from the Modular Scale function"; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.standard-column, .column-0, .column-1, .column-2, .column-3, .column-4, #wrapper > footer section, .pagination .older-link,
+.pagination .newer-link,
+.pagination .page-count, .column-5, .column-6, .column-7, .column-8, .column-9, .column-10, .column-11, .column-12 {
+  display: inline;
+  float: left;
+  margin-left: 20px; }
+
+.float-right, article hgroup h1 span.date {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+.align-left {
+  text-align: left; }
+
+.align-right, .pagination .newer-link, article hgroup h1 span.date {
+  text-align: right; }
+
+.align-center, .pagination .page-count {
+  text-align: center; }
+
+.clear-float, .row, .pagination, article hgroup, article footer {
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+.row, .pagination {
+  margin-left: -20px; }
+
+.column-wrapper, #wrapper {
+  width: 772px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.column-offset-0 {
+  margin-left: 20px; }
+
+.column-0 {
+  width: -20px; }
+
+.column-offset-1 {
+  margin-left: 86px; }
+
+.column-1 {
+  width: 46px; }
+
+.column-offset-2 {
+  margin-left: 152px; }
+
+.column-2 {
+  width: 112px; }
+
+.column-offset-3 {
+  margin-left: 218px; }
+
+.column-3 {
+  width: 178px; }
+
+.column-offset-4 {
+  margin-left: 284px; }
+
+.column-4, #wrapper > footer section, .pagination .older-link,
+.pagination .newer-link,
+.pagination .page-count {
+  width: 244px; }
+
+.column-offset-5 {
+  margin-left: 350px; }
+
+.column-5 {
+  width: 310px; }
+
+.column-offset-6 {
+  margin-left: 416px; }
+
+.column-6 {
+  width: 376px; }
+
+.column-offset-7 {
+  margin-left: 482px; }
+
+.column-7 {
+  width: 442px; }
+
+.column-offset-8 {
+  margin-left: 548px; }
+
+.column-8 {
+  width: 508px; }
+
+.column-offset-9 {
+  margin-left: 614px; }
+
+.column-9 {
+  width: 574px; }
+
+.column-offset-10 {
+  margin-left: 680px; }
+
+.column-10 {
+  width: 640px; }
+
+.column-offset-11 {
+  margin-left: 746px; }
+
+.column-11 {
+  width: 706px; }
+
+.column-offset-12 {
+  margin-left: 812px; }
+
+.column-12 {
+  width: 772px; }
+
+html {
+  background-color: white; }
+
+body {
+  font-family: 'Lucida Grande', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  position: relative; }
+
+a {
+  color: #1f37e5; }
+  a:visited {
+    color: #1f37e5; }
+  a:hover {
+    color: blue; }
+
+em {
+  font-style: italic; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Abel', sans-serif; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: bold; }
+
+code {
+  font-family: "Menlo", "Monaco", monospace;
+  background-color: #e6e6e6;
+  font-size: 90%;
+  padding: 0.1em 0.2em; }
+
+#wrapper {
+  text-align: left;
+  margin: 10px auto; }
+  #wrapper > footer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-top: 1px solid black;
+    padding: 1em 0; }
+    #wrapper > footer a, #wrapper > footer a:visited {
+      color: #787878;
+      text-decoration: none; }
+      #wrapper > footer a:hover, #wrapper > footer a:visited:hover {
+        color: #1f37e5; }
+    #wrapper > footer section:first-child {
+      margin-left: 0; }
+    #wrapper > footer ul {
+      font-size: 90%;
+      margin: 0 0 1em; }
+
+#navigation {
+  font-family: 'Abel', sans-serif;
+  border-bottom: 1px solid black;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  padding: 0.25em 0;
+  position: relative;
+  width: 100%; }
+  #navigation header {
+    float: left;
+    padding: 0;
+    margin: 0; }
+  #navigation a {
+    border-top: 1px transparent;
+    color: black;
+    text-decoration: none; }
+    #navigation a:visited {
+      color: black; }
+    #navigation a:hover {
+      border-top: #1f37e5 1px solid;
+      background-color: transparent;
+      color: blue; }
+    #navigation a.current {
+      border-top: #1f37e5 1px solid; }
+  #navigation ul {
+    float: right; }
+    #navigation ul li {
+      float: left;
+      padding: 0 0.25em; }
+      #navigation ul li:last-child {
+        padding-right: 0; }
+
+#content {
+  margin: 1em 0; }
+
+#comments {
+  margin: 1em 0; }
+
+article {
+  border-bottom: 1px solid black;
+  margin: 1.5em 0 3.5em; }
+  article:last-child {
+    border-bottom: none; }
+  article header, article footer {
+    font-family: 'Lucida Grande', sans-serif;
+    margin: 0 0 1em; }
+  article hgroup h1 {
+    font-size: 1.6em;
+    line-height: 1.6em; }
+    article hgroup h1 span.date {
+      font-size: 60%;
+      vertical-align: baseline; }
+  article .post-body {
+    font-size: 87.5%;
+    /* 14 / 16 = .875 */
+    line-height: 1.8em; }
+    article .post-body img {
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+      max-width: 100%; }
+    article .post-body p {
+      margin: .7em 0 1.5em; }
+      article .post-body p.caption {
+        font-size: 0.9em;
+        font-style: italic;
+        color: #787878;
+        margin: 0;
+        padding: 0; }
+  article .gist {
+    font-size: 0.9em;
+    line-height: 1em; }
+  article footer {
+    color: #787878;
+    font-family: 'Abel', sans-serif; }
+    article footer a,
+    article footer a:visited {
+      color: #787878;
+      text-decoration: none; }
+      article footer a:hover,
+      article footer a:visited:hover {
+        color: #787878;
+        text-decoration: underline; }
+    article footer ul li {
+      font-style: italic;
+      display: inline;
+      padding-right: 0.5em; }
+    article footer ul.listed li {
+      display: block; }
+    article footer h1, article footer h2, article footer h3, article footer h3, article footer h4, article footer h5, article footer h6 {
+      font-style: normal;
+      color: black; }
