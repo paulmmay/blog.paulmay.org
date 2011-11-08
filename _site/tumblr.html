@@ -68,13 +68,13 @@
       <header>
         {block:Title}<h1><a href="{Permalink}">{Title}</a> {block:Date}<span class="date">{Year}/{DayOfMonthWithZero}/{MonthNumber}</span>{/block:Date}</h1>{/block:Title}
       </header>
-        <div class="post-body">
+        <div class="article-body">
         {Body}
         </div>
       {/block:Text}
       
       {block:Quote}
-        <div class="post-body">
+        <div class="article-body">
         <span class="quote {Length}">&#0147;{Quote}&#0148;</span>
         {block:Source}<p class="caption">{Source}</p>{/block:Source}
         </div>
@@ -85,7 +85,7 @@
         {block:Title}<h1>☞<a href="{URL}" {Target}>{Name}</a> {block:Date}<span class="date">{Year}/{DayOfMonthWithZero}/{MonthNumber}</span>{/block:Date}</h1>{/block:Title}
       </header>
 
-        <div class="post-body">
+        <div class="article-body">
         <div class="link-body">
         {block:Description}{Description}{/block:Description}
         </div>
@@ -94,7 +94,7 @@
       
       {block:Chat}
       {block:Title}<h1><a href="{Permalink}">{Title}</a></h1>{/block:Title}
-        <div class="post-body">
+        <div class="article-body">
         <ul>
           {block:Lines}
           <li>
@@ -106,7 +106,7 @@
       {/block:Chat}
 
       {block:Photo}
-        <div class="post-body">
+        <div class="article-body">
         <img class="photopost" src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>
         
         {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
@@ -114,14 +114,14 @@
       {/block:Photo}
 
       {block:Video}
-        <div class="post-body">
+        <div class="article-body">
         {Video-500}
         {block:Caption}<span class="caption">{Caption}</span>{/block:Caption}
         </div>
       {/block:Video}
           
       {block:Audio}
-        <div class="post-body">
+        <div class="article-body">
         {AudioPlayerGrey}
         {block:Caption}<span class="caption">{Caption}</span>{/block:Caption}
         </div>

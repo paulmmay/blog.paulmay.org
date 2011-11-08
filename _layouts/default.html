@@ -45,6 +45,8 @@
             <p class="older-link">
             {% if paginator.next_page %}
                 <a href="/page{{ paginator.next_page }}">Older</a>
+            {% else %}
+            &nbsp;
             {% endif %}
             </p>
 
@@ -57,6 +59,8 @@
                 {% else %}
                 <a href="/page{{ paginator.previous_page }}">Newer</a>
                 {% endif %}
+            {% else %}
+            &nbsp;
             {% endif %}
             </p>
         </div>
