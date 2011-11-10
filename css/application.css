@@ -265,16 +265,16 @@ article {
     article hgroup h1 span.date {
       font-size: 60%;
       vertical-align: baseline; }
-  article .post-body {
+  article .article-body {
     font-size: 87.5%;
     /* 14 / 16 = .875 */
     line-height: 1.8em; }
-    article .post-body img {
+    article .article-body img {
       box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
       max-width: 100%; }
-    article .post-body p {
+    article .article-body p {
       margin: .7em 0 1.5em; }
-      article .post-body p.caption {
+      article .article-body p.caption {
         font-size: 0.9em;
         font-style: italic;
         color: #787878;
