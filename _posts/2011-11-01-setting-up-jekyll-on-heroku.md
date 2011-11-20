@@ -19,3 +19,12 @@ Then insert the following to launch the app
     require "rack/jekyll"
     run Rack::Jekyll.new
 
+
+http://tom.preston-werner.com/
+https://github.com/mojombo/jekyll/wiki/Template-Data
+https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter
+https://github.com/adaoraul/rack-jekyll
+https://github.com/mojombo/jekyll/wiki
+https://github.com/mojombo/mojombo.github.com/blob/master/index.html
+https://github.com/mojombo/jekyll/wiki/Plugins
+https://gist.github.com/960150
