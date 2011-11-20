@@ -22,6 +22,31 @@
         
     <article>
     <hgroup>
+        <h1><a href="/2011/05/17/Clumpers">Clumpers</a> <span class="date">17 May 2011</span></h1>
+    </hgroup>
+    <div class="article-body">
+        <p><strong>Clumpers is an experiment of combining flocking behaviors with cellular automaton like rules without discrete boundaries between organisms</strong></p>
+
+<iframe src="http://player.vimeo.com/video/23694777?title=0&amp;byline=0&amp;portrait=0" width="772" height="433" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
+
+<p>My intention with Clumpers was to see what would happen when a cellular automaton was moved from a discrete grid to a continuous plane and allow the organisms to move around. What emergent qualities would result by combining two complex systems?</p>
+
+<p>The program start with a few hundred organisms spawning at random throughout the screen. Each individual organism then looks for the average position of all the organisms, as well as the average heading of the organisms within a smaller neighborhood. These two values are scaled and combined to a desired velocity. A small random vector is summed to the velocities each frame to encourage movement.</p>
+
+<p>At the same time as these steering behaviors, each organism is counting the number of neighbors it has. IF that number is above a "crowded" threshold or below a "loneliness" threshold the organism dies. Upon death the organism leaves behind a ripple and is reborn at a random location on screen. My original intention was to have organisms born in locations based on the density of living organisms, however without clear boundaries between organisms it proved difficult to get a global density map.</p>
+
+    </div>
+    <footer>
+        <p class="float-right"><a href="/2011/05/17/Clumpers">Permalink/Comments</a></p>
+        
+            <a href="/Nature-Of-Code">Nature-Of-Code</a> 
+        
+    </footer>
+</article>
+
+    <article>
+    <hgroup>
         <h1><a href="/2011/05/09/Last-Accessed-Last-Modified">Last Accessed / Last Modified</a> <span class="date">09 May 2011</span></h1>
     </hgroup>
     <div class="article-body">
@@ -68,31 +93,6 @@
     </footer>
 </article>
 
-    <article>
-    <hgroup>
-        <h1><a href="/2010/10/16/Stupid-Pet-Trick">Stupid Pet Trick</a> <span class="date">16 Oct 2010</span></h1>
-    </hgroup>
-    <div class="article-body">
-        <iframe src="http://player.vimeo.com/video/15904819?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
-
-
-<p>This assignment for PComp was to create a “stupid pet trick” by taking all the skills we have learned thus far in the labs and create something amusing or engaging. Continuing the theme of the ball sink game I made in Procressing I decided to take the same primitive game and add sensors, a servo and a score board.</p>
-
-<p>The player tilts the board rolling the ball into the hole which decreases the readings on a photocell to below a certain threshold, and then the Arduino turns a servo 90 degrees to knock the ball out of the hole. Upon each score the 7-segment LED updates. A reset button was added in to restart the score board without needing to hit the main reset button built in to the Arduino.</p>
-
-<p>I built the circuit entirely on a breadboard and wrote the code before starting on fabrication to be sure that if errors happened they could be isolated to the building process. And almost immediately the scroll saw proved unwieldy for cutting a perfect circle in the masonite. As a result the ping pong ball doesn’t always block the proper amount of light to trigger the photocell. If I were to make a Version2 of this I’d make the ball conductive and have to leads along the edge of the hole to prevent false triggers by low ambient light or no triggers from too much. I would also exchange the servo with a solenoid as currently the ball always gets pushed in the same direction but a solenoid would pop the ball straight up adding a variety to which direction it would go on a reset.</p>
-
-<p><a href="http://sklise.s3.amazonaws.com/itp/pcomp_pettrick_code.zip">Download Arduino Code</a></p>
-
-    </div>
-    <footer>
-        <p class="float-right"><a href="/2010/10/16/Stupid-Pet-Trick">Permalink/Comments</a></p>
-        
-            <a href="/ITP-First-Semester">ITP-First-Semester</a> 
-        
-    </footer>
-</article>
-
         </div>
         
 
@@ -100,11 +100,11 @@
         <div class="pagination">
             <p class="older-link">
             
-            &nbsp;
+                <a href="/page4">Older</a>
             
             </p>
 
-            <p class="page-count">3 of 3</p>
+            <p class="page-count">3 of 4</p>
 
             <p class="newer-link">
             

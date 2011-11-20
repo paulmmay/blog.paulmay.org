@@ -4,13 +4,48 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2011-11-10T12:57:37-05:00</updated>
+ <updated>2011-11-20T12:59:05-05:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
    <email>mail@stevenklise.com</email>
  </author>
 
+ 
+ <entry>
+   <title>ITPQA, Questions and Answers for the ITP Community</title>
+   <link href="http://stevenklise.com/2011/11/20/itpqa"/>
+   <updated>2011-11-20T00:00:00-05:00</updated>
+   <id>http://stevenklise.com/2011/11/20/itpqa</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;We've started a knowledge base for the ITP community.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://sklise.s3.amazonaws.com/itp/20111120-itpqabeta.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ITP is a two year graduate program nestled somewhere in between the arts and the cutting-edge of technology. We use a few email lists to keep in touch with the community. There's the informal Student list for questions, memes, flamewars, suggestions, announcements. There's the ICM list for help with Processing and other programming questions. And the PhysComp list for physical computing questions. There's also an Alumni list. Four individual email lists all with one main problem, the ability to search back before your time on the list. This is an issue for all the perennial questions like &quot;How do I actually make an LED blink?&quot; and &quot;Where is the best place around NYU to take a nap?&quot; As well as that one former student or faculty member that answered your question years ago but is no longer on the listserve.&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;a href=&quot;http://www.itpqa.com&quot;&gt;ITPQA&lt;/a&gt;, a Stack Overflow inspired question and answer site for ITP. After just one week of use we've had questions from current students and alumni and answers likewise as well as some faculty offering answers.&lt;/p&gt;
+
+&lt;p&gt;Go ahead, &lt;a href=&quot;http://www.itpqa.com/register&quot;&gt;sign up&lt;/a&gt; for an account and start asking and answering questions. And don't forget to vote up (or down) the questions and answers that are helpful to you. The site works on a system of reputation, reputation created by the other users on the site.&lt;/p&gt;
+
+&lt;h4&gt;The Background&lt;/h4&gt;
+
+&lt;p&gt;The seeds of this project started a year ago when &lt;a href=&quot;http://alexdodge.com/&quot;&gt;Alex Dodge&lt;/a&gt;, &lt;a href=&quot;http://paulmay.org/&quot;&gt;Paul May&lt;/a&gt;, &lt;a href=&quot;http://iamspikemccue.com/&quot;&gt;Spike McCue&lt;/a&gt; and I sat down as doe-eyed first years and came up with an ambitious project to revolutionize the way that ITP students interact and share information on the internet. We came up with a codename and a plan…and then got consumed by our other work.&lt;/p&gt;
+
+&lt;p&gt;Then this year Alex and I returned to our quest, though vastly scaled back. This conversation resulted in Alex building small sign-up sites for &lt;a href=&quot;http://itp.nyu.edu/tno/&quot;&gt;TNO&lt;/a&gt;, &lt;a href=&quot;http://itp.nyu.edu/driveby/&quot;&gt;DriveBys&lt;/a&gt; and &lt;a href=&quot;http://itp.nyu.edu/theoryclub/&quot;&gt;Theory Club&lt;/a&gt;. Sign up and scheduling for these events has been liberated from the inbox as well as an archive for the previous meetings.&lt;/p&gt;
+
+&lt;p&gt;Finally, in the aftermath of a heated discussion on the Student List about the list itself I talked to &lt;a href=&quot;http://benturner.com/&quot;&gt;Ben Turner&lt;/a&gt; and we decided it was time to stop complaining or making plans and to actually put something up.&lt;/p&gt;
+
+&lt;p&gt;We've expanded the team a bit already with some students, including &lt;a href=&quot;http://www.mlmckenna.com/&quot;&gt;Margaret McKenna&lt;/a&gt;, more skilled at PHP than I am.&lt;/p&gt;
+
+&lt;h4&gt;Roadmap&lt;/h4&gt;
+
+&lt;p&gt;Aside from bug fixes the main feature we hope to introduce to ITPQA is integration with the email lists. Questions tagged with &quot;PhysComp&quot; or &quot;ICM&quot; will soon automate emails to those lists. And soon writing an email to the Student list with &quot;[ITPQA]&quot; in the subject line will post that email to the site.&lt;/p&gt;
+
+&lt;h4&gt;The Tech Specs&lt;/h4&gt;
+
+&lt;p&gt;ITPQA is built on &lt;a href=&quot;https://github.com/Datawalke/Coordino&quot;&gt;Coordino&lt;/a&gt; and hosted on &lt;a href=&quot;https://phpfog.com/&quot;&gt;PHP Fog&lt;/a&gt;. The source code is on &lt;a href=&quot;http://github.com/stevenklise/itpqa&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Tapper</title>
