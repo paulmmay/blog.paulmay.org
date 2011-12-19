@@ -7,7 +7,7 @@ comments: true
 
 I'm presenting Floorsquare at the ITP Winter Show.
 
-![http://sklise.s3.amazonaws.com/itp/floorsquare_winter_2011.png]
+![](http://sklise.s3.amazonaws.com/itp/floorsquare_winter_2011.png)
 
 The project is an interactive directory of the students and faculty currently on the floor at ITP. It's purpose is to give a glimpse at what is going on around the floor as you first enter. What projects are being presented? Who is around offering help in certain subjects.
 

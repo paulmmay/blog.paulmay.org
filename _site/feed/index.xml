@@ -4,7 +4,7 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2011-12-19T15:44:38-05:00</updated>
+ <updated>2011-12-19T15:45:58-05:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
@@ -19,7 +19,7 @@
    <id>http://stevenklise.com/2011/12/18/floorsquare</id>
    <content type="html">&lt;p&gt;I'm presenting Floorsquare at the ITP Winter Show.&lt;/p&gt;
 
-&lt;p&gt;![http://sklise.s3.amazonaws.com/itp/floorsquare_winter_2011.png]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sklise.s3.amazonaws.com/itp/floorsquare_winter_2011.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The project is an interactive directory of the students and faculty currently on the floor at ITP. It's purpose is to give a glimpse at what is going on around the floor as you first enter. What projects are being presented? Who is around offering help in certain subjects.&lt;/p&gt;
 
