@@ -4,13 +4,64 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2011-11-20T13:00:40-05:00</updated>
+ <updated>2011-12-19T15:44:38-05:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
    <email>mail@stevenklise.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Floorsquare</title>
+   <link href="http://stevenklise.com/2011/12/18/floorsquare"/>
+   <updated>2011-12-18T00:00:00-05:00</updated>
+   <id>http://stevenklise.com/2011/12/18/floorsquare</id>
+   <content type="html">&lt;p&gt;I'm presenting Floorsquare at the ITP Winter Show.&lt;/p&gt;
+
+&lt;p&gt;![http://sklise.s3.amazonaws.com/itp/floorsquare_winter_2011.png]&lt;/p&gt;
+
+&lt;p&gt;The project is an interactive directory of the students and faculty currently on the floor at ITP. It's purpose is to give a glimpse at what is going on around the floor as you first enter. What projects are being presented? Who is around offering help in certain subjects.&lt;/p&gt;
+
+&lt;p&gt;Checking in to Floorsquare currently requires an NYU ID card. The app also serves as an open API for other student projects wishing to access student directory information.&lt;/p&gt;
+
+&lt;p&gt;Floorsquare is a group project with Jeremy Scott Diamond, Zach Schwartz, Lily Szajnberg, Noah Crowley, Meghan Hoke, Gabby Levine, Greg Dorsainville &amp;amp; Matt Tennie.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>So You Got a New Mac</title>
+   <link href="http://stevenklise.com/2011/12/03/newmac"/>
+   <updated>2011-12-03T00:00:00-05:00</updated>
+   <id>http://stevenklise.com/2011/12/03/newmac</id>
+   <content type="html">&lt;p&gt;Oh, cool. You just got a new Mac. And now you want to install all the best programs don't you? Here's my list of core apps with brief descriptions of what makes them so amazing. Also, a section on what default settings I like to adjust to smooth out my computing experience.&lt;/p&gt;
+
+&lt;h3&gt;Menu Bar&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://stereopsis.com/flux/&quot;&gt;Flux&lt;/a&gt; warms up the color temperature of your screen after sunset. The bright blue tones turn to muted reds and oranges as you keep coding late in to the night.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/caffeine/id411246225?mt=12&quot;&gt;Caffeine&lt;/a&gt; disables your screensaver and keeps the screen awake, very handy as you read long articles or watch videos that don't go full screen. I do wish their icon did a bit more to blend in with all-black system style.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.dropbox.com/&quot;&gt;Dropbox&lt;/a&gt;. You should already know about this program. One nice trick is to open Dropbox preferences and select &quot;Use black and white menu bar icons&quot; to get rid of the obnoxious blue icon.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CalendarBar&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SizeUp&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;iA Writer&lt;/li&gt;
+&lt;li&gt;Marked&lt;/li&gt;
+&lt;li&gt;Growl&lt;/li&gt;
+&lt;li&gt;Alfred&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Code&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TextWrangler&lt;/li&gt;
+&lt;li&gt;GitX&lt;/li&gt;
+&lt;li&gt;Sequel Pro&lt;/li&gt;
+&lt;li&gt;Transmit&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>ITPQA, Questions and Answers for the ITP Community</title>

@@ -22,6 +22,71 @@
         
     <article>
     <hgroup>
+        <h1><a href="/2011/11/07/tapper">Tapper</a> <span class="date">07 Nov 2011</span></h1>
+    </hgroup>
+    <div class="article-body">
+        <iframe src="http://player.vimeo.com/video/31712426?title=0&amp;byline=0&amp;portrait=0" width="772" height="434" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
+
+<p>Above is a video of the Tapper Sequencer. I made it for the midterm assignment in <a href="/Musical-Sequence">Musical Sequence</a>, it built around an Arduino. I'm happy to say that the Tapper can operate without the aid of a computer and has an 1/8" line-out jack to hook in to whatever sound system you so desire. So the Tapper can be patched in to other effects pedals and amps and stand alone as it's own music maker, though it is very primitive and made of cardboard.</p>
+
+<p>There are eight steps to the sequence, with the pitch of each set by a potentiometer. The potentiometer is divided invisibly into 12 steps designed so that all the notes are in tune relative to each other. It would be better if each of the 12 steps was demarcated either through using rotary encoders instead of potentiometers or even lines on the case. There is a five-way switch that shifts the notes up and down a total of five octaves.</p>
+
+<p>The illuminated red button resets the sequence when pressed. So if the 4th note just played and the red button is pressed the next note is the first note. The button above the red one reverses the sequence and while the sequence is running backwards this button is illuminated green. The other two buttons on this pad are currently not working.</p>
+
+<p>For the final I'm hoping to take this basic design and add a lot more functionality and put the sequencer in a less-cardboard box.</p>
+
+    </div>
+    <footer>
+        <p class="float-right"><a href="/2011/11/07/tapper">Permalink/Comments</a></p>
+        
+            <a href="/Musical-Sequence">Musical-Sequence</a> 
+        
+    </footer>
+</article>
+
+    <article>
+    <hgroup>
+        <h1><a href="/2011/11/04/comments-and-rss">New Site, Now with Comments and RSS</a> <span class="date">04 Nov 2011</span></h1>
+    </hgroup>
+    <div class="article-body">
+        <p>After a summer and fall of slowly rewriting this site in Ruby on Rails I realized that a Rails app is overkill. That and that I actually prefer the command line and text editor to any web form.</p>
+
+<p>Enter <a href="https://github.com/mojombo/jekyll">Jekyll</a>.</p>
+
+<p>It's a static site generator written in Ruby. No database. No browser interface. I write my posts in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> and have a handful of template files. Running Jekyll (<code>$ jekyll</code>) combines the templates with the posts and generates html files of the site. Very little server load, simple. Easy to update. No bloat or complicated (and largely unneeded) Wordpress upgrades.</p>
+
+<p>However I've been disappointed with the lack of detailed documentation for setting up Jekyll. I'll write a bit here how I set up comments and an RSS feed and soon I'll write up creating and deploying a site with Jekyll.</p>
+
+<h2>Comments with Disqus</h2>
+
+<p>For commenting, without a database, I had to look for a service that could embed in the page and save the comments on an external database. Embeddable commenting is exactly what <a href="http://disqus.com">Disqus</a> does. Getting Disqus on my site was wonderfully easy and straight forward. I found a tutorial by Douglas Creager who explains the whole process on <a href="http://dcreager.net/2009/08/07/disqus-comments/">his own Jekyll site</a>. So I've got Disqus comments, just like over on my <a href="http://stevenklise.tumblr.com">Tumblr</a>, so please use it.</p>
+
+<h2>Burning an RSS Feed</h2>
+
+<p>Even though Google Reader has just crippled itself I still prefer to digest the internet through RSS feeds. With Jekyll's templating building a feed was also easy and took 5 minutes to set up. Five minutes if you remove the time spent chasing character encoding issues from copying posts from Wordpress. I found a <a href="http://recursive-design.com/blog/2010/09/14/integrating-jekyll-with-feedburner/">tutorial</a> from Recursive Design to create a feed and then the one step process of getting that feed hosted on Feedburner.</p>
+
+<p>Straightforward until the author started talking about nginx rewrites. There is some code offered to make a rewrite but no indication where that code goes. If you're familiar with nginx you probably knew exactly how to do this, but I don't. This site is hosted on Heroku so a rewrite would not be able to be applied directly to the server and would have to be app specific. Jekyll on Heroku requires the <code>rack-jekyll</code> gem (<a href="https://github.com/bry4n/rack-jekyll">documentation on Github</a>). Running on Rack gives quick access to rewrites in just four lines. Open up <code>config.ru</code> (a full tutorial on Jekyll is coming soon, on this blog) and add the following lines:</p>
+
+<script src="https://gist.github.com/1340812.js?file=config.ru"></script>
+
+
+<p>You'll also need to include <code>rack/rewrite</code> in your <code>Gemfile</code> or <code>.gems</code>. I went with bundler and a <code>Gemfile</code> which you can see below</p>
+
+<script src="https://gist.github.com/1340812.js?file=Gemfile"></script>
+
+
+<p>So far, blogging with Jekyll has been great.</p>
+
+    </div>
+    <footer>
+        <p class="float-right"><a href="/2011/11/04/comments-and-rss">Permalink/Comments</a></p>
+        
+    </footer>
+</article>
+
+    <article>
+    <hgroup>
         <h1><a href="/2011/11/03/sequencer-final-proposal">Final Proposal for Musical Sequence</a> <span class="date">03 Nov 2011</span></h1>
     </hgroup>
     <div class="article-body">
@@ -39,60 +104,6 @@
         <p class="float-right"><a href="/2011/11/03/sequencer-final-proposal">Permalink/Comments</a></p>
         
             <a href="/Musical-Sequence">Musical-Sequence</a> 
-        
-    </footer>
-</article>
-
-    <article>
-    <hgroup>
-        <h1><a href="/2011/10/31/sequencer-teaser">Sequencer Teaser</a> <span class="date">31 Oct 2011</span></h1>
-    </hgroup>
-    <div class="article-body">
-        <p>The midterm assignment for <a href="/Musical-Sequence">Musical Sequence</a> was to build a sequencer using an Arduino. Here are two images of what I built. It's an eight step sequencer currently with a reset button and a reverse mode. No computer is necessary to operate, and there is a 1/8" audio out jack in the back of the box. Video and a more detailed write up are coming.</p>
-
-<p><img src="http://sklise.s3.amazonaws.com/musical-sequence/midterm-sequencer-outside.jpg" alt="Outside Sequencer" /></p>
-
-<p><img src="http://sklise.s3.amazonaws.com/musical-sequence/midterm-sequencer-inside.jpg" alt="Inside Sequencer" /></p>
-
-    </div>
-    <footer>
-        <p class="float-right"><a href="/2011/10/31/sequencer-teaser">Permalink/Comments</a></p>
-        
-            <a href="/Musical-Sequence">Musical-Sequence</a> 
-        
-    </footer>
-</article>
-
-    <article>
-    <hgroup>
-        <h1><a href="/2011/10/02/my-first-daemon">My First Daemon</a> <span class="date">02 Oct 2011</span></h1>
-    </hgroup>
-    <div class="article-body">
-        <p><strong>Playing a multiplayer game through Telnet with Sinatra &amp; a daemon.</strong></p>
-
-<p>For our first 'make something' assignment in <a href="/Understanding-Networks">Understanding Networks</a> we were tasked with creating a client for a Telnet server to play a game <a href="https://github.com/tigoe/MakingThingsTalk2/tree/master/chapter2/project2/MonskiPong">similar to pong</a>.</p>
-
-<p>The class is taught in PHP, a fact which has convinced me to do (and someday document how to do) everything in Ruby. Of course Telnet is a persistent connection and HTTP is stateless. Trying to maintain a Telnet connection strictly through a browser is then not possible without diving into the world of sockets and streaming.</p>
-
-<script src="https://gist.github.com/1257779.js?file=daemon.rb"></script>
-
-
-<p>To maintain the browser as the interface but not have <code>telnet</code> happening in the HTTP requests I wrote, with the help of resident Greg Borenstein, a daemon. A <a href="http://en.wikipedia.org/wiki/Daemon_(computing">daemon</a>) is a script that runs in the background, constantly. In my case the daemon listens to the database for a new Task. When it finds a new Task it sends the contents of the Task to the Telnet connection and then marks the Task as completed.</p>
-
-<p>The Task is a DataMapper object.</p>
-
-<script src="https://gist.github.com/1257779.js?file=Task.rb"></script>
-
-
-<p>The user clicks an arrow or connection button in the browser and a Task object is created with that command and designated as not being done. In the end this worked well, however the latency between browser to database to daemon to telnet server was only manageable running the app locally.</p>
-
-<p><a href="https://github.com/stevenklise/BallDropClient">Source on Github</a></p>
-
-    </div>
-    <footer>
-        <p class="float-right"><a href="/2011/10/02/my-first-daemon">Permalink/Comments</a></p>
-        
-            <a href="/Understanding-Networks">Understanding-Networks</a> 
         
     </footer>
 </article>
