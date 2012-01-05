@@ -1,0 +1,11 @@
+---
+layout: default
+title: ITP
+permalink: /ITP/index.html
+---
+
+<h2>{{page.title}}</h2>
+
+{% for post in site.categories.ITP %}
+    {% include post.html %}
+{% endfor %}
