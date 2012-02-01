@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>SK Get The Goods</title>
+    <title>SK </title>
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|Abel' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/application.css"/>
 </head>
@@ -20,54 +20,53 @@
           </ul>
         </div>
         <div id="content">
-        <article class="post">
+        
+    <article>
     <hgroup>
-        <h1>Get The Goods <span class="date">Friday, November 26, 2010</span></h1>
+        <h1><a href="/2010/10/16/Stupid-Pet-Trick">Stupid Pet Trick</a> <span class="date">16 Oct 2010</span></h1>
     </hgroup>
     <div class="article-body">
-        <p><strong>A three week project in Comm Lab with Nick Santaniello and Andi Cheung. Influenced greatly by Bullitt, The French Connection, and all other 70s cop capers. All three of us spent time behind and in front of the camera which is a Canon 5D Mark II which has revived my itch for expensive cameras.</strong></p>
+        <iframe src="http://player.vimeo.com/video/15904819?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 
-<iframe width="771" height="392" src="http://www.youtube.com/embed/D16Ip0MMQDU?rel=0" frameborder="0" allowfullscreen></iframe>
 
+<p>This assignment for PComp was to create a “stupid pet trick” by taking all the skills we have learned thus far in the labs and create something amusing or engaging. Continuing the theme of the ball sink game I made in Procressing I decided to take the same primitive game and add sensors, a servo and a score board.</p>
+
+<p>The player tilts the board rolling the ball into the hole which decreases the readings on a photocell to below a certain threshold, and then the Arduino turns a servo 90 degrees to knock the ball out of the hole. Upon each score the 7-segment LED updates. A reset button was added in to restart the score board without needing to hit the main reset button built in to the Arduino.</p>
+
+<p>I built the circuit entirely on a breadboard and wrote the code before starting on fabrication to be sure that if errors happened they could be isolated to the building process. And almost immediately the scroll saw proved unwieldy for cutting a perfect circle in the masonite. As a result the ping pong ball doesn’t always block the proper amount of light to trigger the photocell. If I were to make a Version2 of this I’d make the ball conductive and have to leads along the edge of the hole to prevent false triggers by low ambient light or no triggers from too much. I would also exchange the servo with a solenoid as currently the ball always gets pushed in the same direction but a solenoid would pop the ball straight up adding a variety to which direction it would go on a reset.</p>
+
+<p><a href="http://sklise.s3.amazonaws.com/itp/pcomp_pettrick_code.zip">Download Arduino Code</a></p>
 
     </div>
     <footer>
-        <h3>Related Posts</h3>
-        <ul class="listed">
-        
-              <li><span>30 Jan 2012</span> &raquo; <a href="/2012/01/30/Memory">On Being Memorious</a></li>
-        
-              <li><span>05 Jan 2012</span> &raquo; <a href="/2012/01/05/Powerful-Reading-List">Reading List from Powerful Ideas</a></li>
-        
-              <li><span>18 Dec 2011</span> &raquo; <a href="/2011/12/18/floorsquare">FloorSquare, ITP Winter Show 2011</a></li>
-        
-        </ul>
-
+        <p class="float-right"><a href="/2010/10/16/Stupid-Pet-Trick">Permalink/Comments</a></p>
         
             <a href="/ITP-First-Semester">ITP-First-Semester</a> 
         
     </footer>
 </article>
-        </div>
-        
-        <div id="comments">
-            <div id="disqus_thread"></div>
-            <script type="text/javascript">
-                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                var disqus_shortname = 'sklise'; // required: replace example with your forum shortname
 
-                /* * * DON'T EDIT BELOW THIS LINE * * */
-                (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
         </div>
         
 
+        
+        <div class="pagination">
+            <p class="older-link">
+            
+            &nbsp;
+            
+            </p>
+
+            <p class="page-count">5 of 5</p>
+
+            <p class="newer-link">
+            
+                
+                <a href="/page4">Newer</a>
+                
+            
+            </p>
+        </div>
         
 
         <footer>

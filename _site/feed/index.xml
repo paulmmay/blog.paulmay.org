@@ -4,13 +4,40 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2012-01-07T11:13:28-05:00</updated>
+ <updated>2012-02-01T02:10:15-05:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
    <email>mail@stevenklise.com</email>
  </author>
 
+ 
+ <entry>
+   <title>On Being Memorious</title>
+   <link href="http://stevenklise.com/2012/01/30/Memory"/>
+   <updated>2012-01-30T00:00:00-05:00</updated>
+   <id>http://stevenklise.com/2012/01/30/Memory</id>
+   <content type="html">&lt;p&gt;The first assignment in &lt;a href=&quot;http://jamesgeorge.org/3dworlds/&quot;&gt;Pixels to Polygons&lt;/a&gt; was to build a space from memory using only Unity's primitive shapes placed and manipulated entirely through scripting.&lt;/p&gt;
+
+&lt;h2&gt;Remembering a Place&lt;/h2&gt;
+
+&lt;p&gt;For my space I chose the view from an orange couch that used to be at the coffee shop from my college town. It was a spot where I spent much of my final two years at Kenyon College while doing homework and hanging out. There was a matching orange chair to the left and then a large south facing window with many trees just outside.&lt;/p&gt;
+
+&lt;h2&gt;New Territory&lt;/h2&gt;
+
+&lt;p&gt;I've spent almost the last year in web programming and the command line, manipulating documents and text. Though my first year at ITP involved a lot of Processing I rarely moved in to 3D environments and when I did, the use of pushing and popping the matrix is different than Unity's use of vectors for positioning.&lt;/p&gt;
+
+&lt;p&gt;The hardest part, and where I spent many hours, was finding out the hard way which primitives are best to use for what purpose. The floor plan of the coffee shop was not a simple rectangle but had two sections butting out with triangular corners. Due to these two triangular corners I decided it would be easiest to build the entire floor out of a series of triangles. This route didn't work to well, it required a lot of lines of code and did not seem efficient. Before figuring out how to best tackle the floor I decided to build the orange chair. After a poor reading of James George's &lt;code&gt;GeometryHelper&lt;/code&gt; class I did not realize that cubes in Unity could be deformed to solids with different sides of different lengths. Without this knowledge I proceeded by building the chair out of a series of planes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://sklise.s3.amazonaws.com/itp/pixelspolygons/20120130-mg-planes.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wow, that was difficult and didn't work well. Finally I figured out the &lt;code&gt;CreateCube&lt;/code&gt; function which made everything much easier. Rotations are hard to achieve with scripting. The command for rotating a camera takes a vector for where to point towards yet the UI gives degrees of rotation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://sklise.s3.amazonaws.com/itp/pixelspolygons/20120130-mg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The final result is very plain and not too lush. My false starts were frustrating but I learned a lot about programming in 3D. Using scripts to individually place and rotate every item is very time consuming and I look forward to using Unity's UI to build the objects and then scripting behaviors. The source code is available on &lt;a href=&quot;https://github.com/stevenklise/MiddleGround&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Reading List from Powerful Ideas</title>
