@@ -1,7 +1,10 @@
+---
+
+---
+
 $base-font: 10px;
 
-
-$background: rgb(255,255,255);
+$background: rgb(253,253,255);
 $color-base: rgb(0,0,0);
 $color-link: rgb(31,55,229);
 $color-light: rgb(120,120,120);
@@ -13,7 +16,6 @@ $color-code: rgb(230,230,230);
 @import 'modular_scale';
 @import 'grid';
 @import 'formatting'; // Styles to be accessed via @extend
-@import 'forms';
 
 @include column-generator(12,772px,20px);
 

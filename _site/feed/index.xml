@@ -4,13 +4,33 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2012-02-01T02:10:15-05:00</updated>
+ <updated>2012-02-11T13:31:28-05:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
    <email>mail@stevenklise.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Putting Your Face in a Webpage with Node.js &amp; FaceOSC</title>
+   <link href="http://stevenklise.com/2012/02/10/facedom"/>
+   <updated>2012-02-10T00:00:00-05:00</updated>
+   <id>http://stevenklise.com/2012/02/10/facedom</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;FaceDOM uses Kyle McDonald's &lt;a href=&quot;https://github.com/kylemcdonald/ofxFaceTracker&quot;&gt;ofxFaceTracker&lt;/a&gt; to send the points of a person's face to a web page and move DOM elements into the shape of the face.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/36563425&quot; width=&quot;772&quot; height=&quot;434&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;This past week in Kyle's &lt;a href=&quot;http://github.com/kylemcdonald/AppropriatingNewTechnologies&quot;&gt;Appropriating New Technologies&lt;/a&gt; we were asked to do something with face detection. After seeing Greg Borenstein send the Kinect skeleton data to a web browser &lt;a href=&quot;http://urbanhonking.com/ideasfordozens/2011/10/27/streaming-kinect-skeleton-data-to-the-web-with-node-js/&quot;&gt;last fall&lt;/a&gt; I've wanted to experiment with Node.js and sending things to the browser that don't traditionally belong there.&lt;/p&gt;
+
+&lt;p&gt;Also this project is in response to Kyle's &lt;a href=&quot;https://vimeo.com/groups/openframeworks/videos/25958231&quot;&gt;People Staring At Computers&lt;/a&gt;. We stare at our computers a lot and they don't respond to our stares. Mouse clicks and key hits yes, but reading an article on the web is still largely non-interactive.&lt;/p&gt;
+
+&lt;p&gt;Currently FaceDOM is a proof of concept. I plan to add more features and a finer amount of detail and response to facial gestures, such as an open mouth, closed eyes, etc. Another important addition will be dynamically parsing the page, currently the elements chosen to form my face were directly coded with the proper CSS tags.&lt;/p&gt;
+
+&lt;p&gt;The source code is available on Github &lt;a href=&quot;https://github.com/stevenklise/AppropriatingNewTechnologies/tree/master/week2&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>On Being Memorious</title>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>SK Tapper</title>
+    <title>SK Putting Your Face in a Webpage with Node.js & FaceOSC</title>
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|Abel' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/application.css"/>
 </head>
@@ -22,35 +22,37 @@
         <div id="content">
         <article class="post">
     <hgroup>
-        <h1>Tapper <span class="date">Monday, November 07, 2011</span></h1>
+        <h1>Putting Your Face in a Webpage with Node.js & FaceOSC <span class="date">Friday, February 10, 2012</span></h1>
     </hgroup>
     <div class="article-body">
-        <iframe src="http://player.vimeo.com/video/31712426?title=0&amp;byline=0&amp;portrait=0" width="772" height="434" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+        <p><strong>FaceDOM uses Kyle McDonald's <a href="https://github.com/kylemcdonald/ofxFaceTracker">ofxFaceTracker</a> to send the points of a person's face to a web page and move DOM elements into the shape of the face.</strong></p>
+
+<iframe src="http://player.vimeo.com/video/36563425" width="772" height="434" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
-<p>Above is a video of the Tapper Sequencer. I made it for the midterm assignment in <a href="/Musical-Sequence">Musical Sequence</a>, it built around an Arduino. I'm happy to say that the Tapper can operate without the aid of a computer and has an 1/8" line-out jack to hook in to whatever sound system you so desire. So the Tapper can be patched in to other effects pedals and amps and stand alone as it's own music maker, though it is very primitive and made of cardboard.</p>
+<p>This past week in Kyle's <a href="http://github.com/kylemcdonald/AppropriatingNewTechnologies">Appropriating New Technologies</a> we were asked to do something with face detection. After seeing Greg Borenstein send the Kinect skeleton data to a web browser <a href="http://urbanhonking.com/ideasfordozens/2011/10/27/streaming-kinect-skeleton-data-to-the-web-with-node-js/">last fall</a> I've wanted to experiment with Node.js and sending things to the browser that don't traditionally belong there.</p>
 
-<p>There are eight steps to the sequence, with the pitch of each set by a potentiometer. The potentiometer is divided invisibly into 12 steps designed so that all the notes are in tune relative to each other. It would be better if each of the 12 steps was demarcated either through using rotary encoders instead of potentiometers or even lines on the case. There is a five-way switch that shifts the notes up and down a total of five octaves.</p>
+<p>Also this project is in response to Kyle's <a href="https://vimeo.com/groups/openframeworks/videos/25958231">People Staring At Computers</a>. We stare at our computers a lot and they don't respond to our stares. Mouse clicks and key hits yes, but reading an article on the web is still largely non-interactive.</p>
 
-<p>The illuminated red button resets the sequence when pressed. So if the 4th note just played and the red button is pressed the next note is the first note. The button above the red one reverses the sequence and while the sequence is running backwards this button is illuminated green. The other two buttons on this pad are currently not working.</p>
+<p>Currently FaceDOM is a proof of concept. I plan to add more features and a finer amount of detail and response to facial gestures, such as an open mouth, closed eyes, etc. Another important addition will be dynamically parsing the page, currently the elements chosen to form my face were directly coded with the proper CSS tags.</p>
 
-<p>For the final I'm hoping to take this basic design and add a lot more functionality and put the sequencer in a less-cardboard box.</p>
+<p>The source code is available on Github <a href="https://github.com/stevenklise/AppropriatingNewTechnologies/tree/master/week2">here</a>.</p>
 
     </div>
     <footer>
         <h3>Related Posts</h3>
         <ul class="listed">
         
-              <li><span>10 Feb 2012</span> &raquo; <a href="/2012/02/10/facedom">Putting Your Face in a Webpage with Node.js & FaceOSC</a></li>
-        
               <li><span>30 Jan 2012</span> &raquo; <a href="/2012/01/30/Memory">On Being Memorious</a></li>
         
               <li><span>05 Jan 2012</span> &raquo; <a href="/2012/01/05/Powerful-Reading-List">Reading List from Powerful Ideas</a></li>
         
+              <li><span>18 Dec 2011</span> &raquo; <a href="/2011/12/18/floorsquare">FloorSquare, ITP Winter Show 2011</a></li>
+        
         </ul>
 
         
-            <a href="/categories/Musical-Sequence">Musical-Sequence</a> 
+            <a href="/categories/AppropriatingNewTechnologies">AppropriatingNewTechnologies</a> 
         
     </footer>
 </article>
