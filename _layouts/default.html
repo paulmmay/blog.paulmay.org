@@ -81,11 +81,10 @@
             <section>
                 <h4>Categories</h4>
                 <ul>
-                    <li><a href="/Musical-Sequence">Musical Sequence</a></li>
-                    <li><a href="/Understanding-Networks">Understanding Networks</a></li>
-                    <li><a href="/Nature-Of-Code">Nature of Code</a></li>
-                    <li><a href="/Reading-Writing-Electronic-Text">Reading &amp; Writing Electronic Text</a></li>
-                    <li><a href="/ITP-First-Semester">ITP First Semester</a></li>
+                  
+                  {% for category in site.categories %}
+                    <li><a href="/categories/{{category[0]}}">{{category[0]}}</a></li>
+                  {% endfor %}
                 </ul>
             </section>
             <section>
