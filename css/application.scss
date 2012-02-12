@@ -2,27 +2,58 @@
 
 ---
 
-$base-font: 10px;
+$base-font: 14px 180px;
+$line-height: 16px 190px;
 
-$background: rgb(253,253,255);
+$background: rgb(240,240,240);
 $color-base: rgb(0,0,0);
-$color-link: rgb(31,55,229);
+$color-link: rgb(25, 92, 153);
 $color-light: rgb(120,120,120);
 $color-hover: blue;
 $color-code: rgb(230,230,230);
 
+$color-header: #38A5E5;
+
+// Set Grid Sizes
+//__________________________________
+// width = 772px => because
+$column-width: 58px !default;
+$gutter-width: 6.33333333px !default;
+
+// Partials
+//__________________________________
 @import 'mixins';
 @import 'reset';
 @import 'modular_scale';
 @import 'grid';
 @import 'formatting'; // Styles to be accessed via @extend
+@import 'colaborate'; // Webfont kit for Colaborate
 
-@include column-generator(12,772px,20px);
+// Header Fonts
+//__________________________________
+@mixin header-thick {
+	font-family: 'ColaborateMediumRegular', sans-serif;
+	font-weight: normal;
+}
+
+@mixin header-regular {
+	font-family: 'ColaborateRegular', sans-serif;
+	font-weight: normal;
+}
+
+@mixin header-light {
+	font-family: 'ColaborateThinRegular', sans-serif;
+	font-weight: normal;
+}
+
+@mixin base-font {
+	font-family: 'Lucida Grande', sans-serif;
+}
+
 
 html {
   background-color: $background;
 }
-
 
 body {
   @include base-font;
@@ -33,9 +64,7 @@ body {
 
 a {
   color: $color-link;
-  &:visited {
-    color: $color-link;
-  }
+
   &:hover {
     color: $color-hover;
   }
@@ -46,11 +75,35 @@ em {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @include header-font;
+  @include header-thick;
+  margin: 0.5em 0;
+  a {
+  	color: $color-header;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: ms(4, $base-font, $golden);
+  line-height: ms(5, $base-font, $golden);
+}
+
+h2 {
+  font-size: ms(3, $base-font, $golden);
+  line-height: ms(3, $line-height, $golden);
+}
+
+h5 {
+  font-size: ms(1, $base-font, $golden);
+  @include header-light;
 }
 
 em {
   font-style: italic;
+}
+
+ul {
+  list-style: disc;
 }
 
 strong {
@@ -65,42 +118,13 @@ code {
 }
 
 #wrapper {
-  @extend .column-wrapper;
+  @include grid-page(12);
   text-align: left;
   margin: 10px auto;
-
-
-  &>footer {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    @include horizontal-separator("top");
-    padding: 1em 0;
-
-    a, a:visited {
-      color: $color-light;
-      text-decoration: none;
-
-      &:hover {
-        color: $color-link;
-      }
-    }
-
-    section {
-      @include column-size(4);
-      &:first-child{
-        @include column-flush;
-      }
-    }
-
-    ul {
-      font-size: 90%;
-      margin: 0 0 1em;
-    }
-  }
 }
 
 #navigation {
-  @include header-font;
+  @include header-regular;
   @include horizontal-separator;
   display: block;
   margin: 0;
@@ -136,6 +160,8 @@ code {
 
   ul {
     float: right;
+    list-style: none;
+
     li {
       float: left;
       padding: 0 0.25em;
@@ -154,6 +180,33 @@ code {
   margin: 1em 0;
 }
 
+footer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  @include horizontal-separator("top");
+  padding: 1em 0;
+
+  a, a:visited {
+    color: $color-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-link;
+    }
+  }
+
+  section {
+  @include grid-column(4);
+  }
+
+  ul {
+    font-size: 90%;
+    list-style: none;
+    margin: 0 0 1em;
+  }
+}
+
+
 .pagination {
   @extend .clear-float;
   @extend .row;
@@ -161,7 +214,7 @@ code {
   .older-link,
   .newer-link,
   .page-count {
-    @include column-size(4);
+    @include grid-column(4);
   }
 
   .page-count {
@@ -173,4 +226,78 @@ code {
   }
 }
 
-@import 'article';
+article {
+  @include horizontal-separator;
+  &:last-child{
+    border-bottom: none;
+  }
+  margin: 1.5em 0 3.5em;
+
+  header, footer {
+    @include base-font;
+    margin: 0 0 1em;
+  }
+
+  hgroup {
+    margin: 0 0 1em;
+  }
+
+  .article-body {
+    font-size: ms(1, $base-font, $golden);
+    line-height: ms(3, $base-font, $golden);
+
+    img {
+      box-shadow: 0 0 3px rgba(0,0,0,0.4);
+      max-width: 100%;
+    }
+
+    p {
+      margin: .7em 0 1.5em;
+      
+      &.caption {
+        font-size: 0.9em;
+        font-style: italic;
+        color: $color-light;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+  
+  .gist {
+    font-size: 0.9em;
+    line-height: 1em;
+  }
+  
+  footer {
+    @extend .clear-float;
+    border-top: none;
+    color: $color-light;
+
+    a,
+    a:visited {
+      color: $color-light;
+      text-decoration: none;
+      &:hover {
+        color: $color-light;
+        text-decoration: underline;
+      }
+    }
+
+    @include header-light;
+
+    ul {
+      list-style: none;
+
+      li {
+        font-style: italic;
+        display: inline;
+        padding-right: 0.5em;
+        
+      }
+      &.listed li {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,48 +1,114 @@
-$page-width : 772px;
-$gutter   : 20px;
+//-----------------------------------
+// Defaults
+//-----------------------------------
+$column-width: 60px !default;
+$gutter-width: 20px !default;
+$columns: 12 !default;
 
-.standard-column {
-  display: inline;
+// output the generic CSS styles
+$grid-css: false !default;
+
+// apply fixes for IE6
+$grid-support-for-ie6: false !default;
+
+//-----------------------------------
+// Column Widths
+//-----------------------------------
+
+// apply a width to a column
+@mixin grid($i, $plus: 0) {
+  width: grid-width($i, $plus);
+}
+
+// return a width
+@function grid-width($i, $plus: 0) {
+  @return $column-width * $i + $gutter-width * ($i - 1) + $plus;
+}
+
+//-----------------------------------
+// Containers
+//-----------------------------------
+
+// specify a container as a page
+@mixin grid-page($i: $columns, $plus: 0) {
+  @extend .clearfix;
+  width: grid-width($i, $plus + $gutter-width);
+  margin: 0 auto;
+}
+
+// specify a container as a row
+@mixin grid-row($page: false) {
+  @extend .clearfix;
+  width: auto;
+  
+  // rows directly inside a page don't need the negative margin
+  @if $page {
+    margin: 0 0;
+  } @else {
+    margin: 0 (-$gutter-width / 2);
+  }
+}
+
+//-----------------------------------
+// Columns
+//-----------------------------------
+
+// specify a column
+@mixin grid-column($i: false, $plus: 0) {
+  margin: 0 ($gutter-width / 2);
   float: left;
-  margin-left: $gutter;
+  
+  // paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+  @if $grid-support-for-ie6 { .ie6 & { display: inline; } }
+  
+  // apply a width
+  @if $i { @include grid($i, $plus); }
 }
 
-@mixin column-generator($multiple, $page-width:980px, $gutter:20px) {
-  $column: ($page-width + $gutter) / $multiple;
+// alter the margins of a column
+@mixin grid-offset($i: 1, $plus: 0, $side: left) {
+  margin-#{$side}: (grid-width($i, $gutter-width + $plus) + ($gutter-width/2));
+}
+@mixin grid-offset-left($i: 1, $plus: 0) {
+  @include grid-offset($i, $plus, left);
+}
+@mixin grid-offset-right($i: 1, $plus: 0) {
+  @include grid-offset($i, $plus, right);
+}
 
+//-----------------------------------
+// Default Styles
+//-----------------------------------
+@if $grid-css {
+  // containers
+  .page {
+    @include grid-page;
+  }
   .row {
-    @extend .clear-float;
-    margin-left: #{-1*$gutter};
+    @include grid-row;
+  }
+  .page > .row {
+    @include grid-row(true);
   }
 
-  .column-wrapper {
-    width: $page-width;
-    margin-left: auto;
-    margin-right: auto;
+  // columns
+  .column {
+    @include grid-column;
   }
 
-  @for $i from 0 through $multiple {
-    .column-offset-#{$i} {
-      margin-left: #{$gutter + $column*$i};
+  @for $i from 1 through $columns {
+    // columns widths
+    .grid-#{$i} { width: grid-width($i); }
+
+    // alter left and right margins
+    @if $i < $columns {
+      .before-#{$i} { @include grid-offset-left($i); }
+      .after-#{$i} { @include grid-offset-right($i); }
     }
-    .column-#{$i} {
-      @extend .standard-column;
-      // Print the $property and return the value from the Modular Scale function
-      width: #{$column*$i - $gutter};
-    }
   }
-}
 
-// To be called in stylesheet to set column sizes and offset.
-
-@mixin column-size($span:1){
-  @extend .column-#{$span};
-}
-
-@mixin column-flush {
-  margin-left: 0;
-}
-
-@mixin column-offset($offset:0){
-  @extend .column-offset#{$offset};
+  // Box
+  .box {
+    margin-bottom: $gutter-width;
+  }
 }

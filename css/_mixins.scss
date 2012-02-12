@@ -9,15 +9,6 @@
     padding: $padding;
 }
 
-@mixin header-font {
-	font-family: 'Abel', sans-serif;
-}
-@mixin base-font {
-	font-family: 'Lucida Grande', sans-serif;
-}
-@mixin accent-font {
-	font-family: 'News Cycle', 'Verdana', 'Arial', sans-serif;
-}
 @mixin horizontal-separator($edge:"bottom") {
 	  border-#{$edge}: 1px solid $color-base;
 }
