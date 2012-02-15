@@ -113,11 +113,17 @@
 
             <h4>Etc.</h4>
               <ul>
+                <li id="mt"></li>
                 <li><a href="http://feeds.feedburner.com/StevenKlise">RSS</a></li>
               </ul>
           </section>
         </footer>
     </div>
+    <script>
+      parts = ['steven','mail','klise','com'];
+      mt = document.getElementById('mt');
+      mt.innerHTML = "<a href='" + parts[1] + "to:" + parts[0] + "@" + parts[0] + parts[2] + "." + parts[3] + "'>Email</a>";
+    </script>
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
