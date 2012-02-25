@@ -4,13 +4,29 @@
  <title>Steven Klise</title>
  <link href="http://stevenklise.com/feed/" rel="self"/>
  <link href="http://stevenklise.com/"/>
- <updated>2012-02-14T21:23:46-05:00</updated>
+ <updated>2012-02-25T17:08:44-05:00</updated>
  <id>http://stevenklise.com/</id>
  <author>
    <name>Recursive</name>
    <email>mail@stevenklise.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Chillin' In Space</title>
+   <link href="http://stevenklise.com/2012/02/25/chillin"/>
+   <updated>2012-02-25T00:00:00-05:00</updated>
+   <id>http://stevenklise.com/2012/02/25/chillin</id>
+   <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/37177607?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=c9ff23&quot; width=&quot;772&quot; height=&quot;434&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;em&gt;Chillin' In Space&lt;/em&gt; is a navigable NASA boneyard &amp;amp; veritable chill spot that I made with &lt;a href=&quot;http://amjc.tv&quot;&gt;Alejandro Crawford&lt;/a&gt; in Unity3D. The objective to &lt;em&gt;Chillin' In Space&lt;/em&gt; is to do exactly that, chill in outerspace. We've littered space with various NASA artifacts, like Voyager and the Space Shuttle, as well as a few Star Trek models, the shuttle craft and space dock. The space program's past is intermingled with a future as imagined when the NASA artifacts were new. The astral explorer is invited to either think about this or just hang out and look at the stars.&lt;/p&gt;
+
+&lt;p&gt;Using an Arduino, an accelerometer, two momentary buttons and a potentiometer we built a control box for the program. One applies forward thrust, the amount of thrust is determined by the potentiometer, labelled &quot;Chill Rate.&quot; The other button slows the craft to a halt. Changing direction is achieved by flicking the control box in the desired direction.&lt;/p&gt;
+
+&lt;p&gt;To download &lt;em&gt;Chillin In Space&lt;/em&gt; to play on your computer (with keyboard and mouse) and to see pictures of the control box visit &lt;a href=&quot;http://chillininspace.us&quot;&gt;chillininspace.us&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Putting Your Face in a Webpage with Node.js &amp; FaceOSC</title>
