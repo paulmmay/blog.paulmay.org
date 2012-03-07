@@ -319,3 +319,12 @@ article {
   font-size: 0.9em;
   line-height: 1em;
 }
+
+li {
+  ul {
+    margin-left: 1em;
+    li {
+      list-style-type: square;
+    }
+  }
+}
