@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Final Proposal for Musical Sequence
-category: Musical-Sequence
+category: Musical Sequence
 comments: true
 ---
 

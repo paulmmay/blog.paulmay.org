@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Is Music?
-category: Musical-Sequence
+category: Musical Sequence
 comments: true
 published: false
 ---

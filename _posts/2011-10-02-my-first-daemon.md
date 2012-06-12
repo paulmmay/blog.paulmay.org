@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My First Daemon
-category: Understanding-Networks
+category: Understanding Networks
 comments: true
 ---
 

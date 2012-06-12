@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stupid Pet Trick
-category: ITP-First-Semester
+category: ITP
 comments: true
 ---
 

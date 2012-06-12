@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FloorSquare, ITP Winter Show 2011
-category: Understanding-Networks
+category: Understanding Networks
 comments: true
 ---
 

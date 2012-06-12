@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sequencer Teaser
-category: Musical-Sequence
+category: Musical Sequence
 comments: true
 ---
 

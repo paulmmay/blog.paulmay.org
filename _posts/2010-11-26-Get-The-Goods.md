@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Get The Goods
-category: ITP-First-Semester
+category: ITP
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Response to "Fine Art of Repetition"
-category: Musical-Sequence
+category: Musical Sequence
 comments: true
 published: false
 ---

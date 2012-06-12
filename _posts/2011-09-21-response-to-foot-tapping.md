@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Response to "Foot Tapping"
-category: Musical-Sequence
+category: Musical Sequence
 comments: true
 published: false
 ---
