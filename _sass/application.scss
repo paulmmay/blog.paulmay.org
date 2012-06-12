@@ -23,7 +23,8 @@ $gutter-width: 14.33333333px !default;
 @import 'reset';
 @import 'modular_scale';
 @import 'grid';
-@import 'formatting'; // Styles to be accessed via @extend
+@import 'formatting';
+@import 'pygments';
 
 // Header Fonts
 //__________________________________
