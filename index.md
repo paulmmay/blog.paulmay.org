@@ -3,13 +3,18 @@ layout: default
 title: 
 ---
 
-<p>Recently graduated, currently unemployed...ahem, highly employable.</p>
+Ohio raised and currently residing and coding in Brooklyn. I graduated from
+[ITP](http://itp.nyu.edu) in May and will start as a resident at ITP in August.
+I make things with code with the goal of keeping people at the computers just
+long enough to learn something and then get back in to the real world.
 
-<!--<img src="http://sklise.s3.amazonaws.com/sk.jpg" />-->
-<p>An avid fan of Law & Order, Steve Klise is a graduate student at ITP. He makes tools, toys & art with Ruby, Javascript, Arduino, ink & cameras.</p>
-
-<h3>Blog Posts</h3>
+### Blog Posts <a class="meta" href="http://feeds.feedburner.com/StevenKlise">RSS</a>
 
 {% include post_list.html %}
 
-<h3>Projects</h3>
+### Projects
+
+- Shep
+- Chillin In Space
+- True Cause I Read It On The Internet
+- As Always
