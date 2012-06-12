@@ -405,7 +405,7 @@ code {
 
 #navigation {
   display: block;
-  margin: 0;
+  margin: 0 0 1em;
   overflow-y: auto;
   padding: 0.25em 0;
   position: relative;
