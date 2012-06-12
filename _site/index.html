@@ -3,239 +3,200 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>SK </title>
-    <link href='http://fonts.googleapis.com/css?family=News+Cycle|Abel' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/application.css"/>
 </head>
 <body>
-    <div id="wrapper">
-        <div id="navigation">
-          <header>
-            <a href="/">Steven Klise</a>
-          </header>
-
-          <ul>
-            <li><a href="http://stevenklise.tumblr.com">Tumblr</a></li>
-            <li><a href="http://twitter.com/stevenklise">@stevenklise</a></li>
-          </ul>
-        </div>
-        <div id="content">
-        
-    <article>
-    <hgroup>
-        <h1><a href="/2012/02/25/chillin">Chillin' In Space</a></h1>
-        <h5>25 Feb 2012</h5>
-    </hgroup>
-    <div class="article-body">
-        <iframe src="http://player.vimeo.com/video/37177607?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="772" height="434" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-
-<p><em>Chillin' In Space</em> is a navigable NASA boneyard &amp; veritable chill spot that I made with <a href="http://amjc.tv">Alejandro Crawford</a> in Unity3D. The objective to <em>Chillin' In Space</em> is to do exactly that, chill in outerspace. We've littered space with various NASA artifacts, like Voyager and the Space Shuttle, as well as a few Star Trek models, the shuttle craft and space dock. The space program's past is intermingled with a future as imagined when the NASA artifacts were new. The astral explorer is invited to either think about this or just hang out and look at the stars.</p>
-
-<p>Using an Arduino, an accelerometer, two momentary buttons and a potentiometer we built a control box for the program. One applies forward thrust, the amount of thrust is determined by the potentiometer, labelled "Chill Rate." The other button slows the craft to a halt. Changing direction is achieved by flicking the control box in the desired direction.</p>
-
-<p>To download <em>Chillin In Space</em> to play on your computer (with keyboard and mouse) and to see pictures of the control box visit <a href="http://chillininspace.us">chillininspace.us</a>.</p>
-
-    </div>
-    <footer>
-        <p class="float-right"><a href="/2012/02/25/chillin">Permalink/Comments</a></p>
-        
-            <a href="/categories/PixelsToPolygons">PixelsToPolygons</a> 
-        
-    </footer>
-</article>
-
-    <article>
-    <hgroup>
-        <h1><a href="/2012/02/10/facedom">Putting Your Face in a Webpage with Node.js & FaceOSC</a></h1>
-        <h5>10 Feb 2012</h5>
-    </hgroup>
-    <div class="article-body">
-        <p><strong>FaceDOM uses Kyle McDonald's <a href="https://github.com/kylemcdonald/ofxFaceTracker">ofxFaceTracker</a> to send the points of a person's face to a web page and move DOM elements into the shape of the face.</strong></p>
-
-<iframe src="http://player.vimeo.com/video/36563425" width="772" height="434" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-
-<p>This past week in Kyle's <a href="http://github.com/kylemcdonald/AppropriatingNewTechnologies">Appropriating New Technologies</a> we were asked to do something with face detection. After seeing Greg Borenstein send the Kinect skeleton data to a web browser <a href="http://urbanhonking.com/ideasfordozens/2011/10/27/streaming-kinect-skeleton-data-to-the-web-with-node-js/">last fall</a> I've wanted to experiment with Node.js and sending things to the browser that don't traditionally belong there.</p>
-
-<p>Also this project is in response to Kyle's <a href="https://vimeo.com/groups/openframeworks/videos/25958231">People Staring At Computers</a>. We stare at our computers a lot and they don't respond to our stares. Mouse clicks and key hits yes, but reading an article on the web is still largely non-interactive.</p>
-
-<p>Currently FaceDOM is a proof of concept. I plan to add more features and a finer amount of detail and response to facial gestures, such as an open mouth, closed eyes, etc. Another important addition will be dynamically parsing the page, currently the elements chosen to form my face were directly coded with the proper CSS tags.</p>
-
-<p>The source code is available on Github <a href="https://github.com/stevenklise/AppropriatingNewTechnologies/tree/master/week2">here</a>.</p>
-
-    </div>
-    <footer>
-        <p class="float-right"><a href="/2012/02/10/facedom">Permalink/Comments</a></p>
-        
-            <a href="/categories/AppropriatingNewTechnologies">AppropriatingNewTechnologies</a> 
-        
-    </footer>
-</article>
-
-    <article>
-    <hgroup>
-        <h1><a href="/2012/01/30/Memory">On Being Memorious</a></h1>
-        <h5>30 Jan 2012</h5>
-    </hgroup>
-    <div class="article-body">
-        <p>The first assignment in <a href="http://jamesgeorge.org/3dworlds/">Pixels to Polygons</a> was to build a space from memory using only Unity's primitive shapes placed and manipulated entirely through scripting.</p>
-
-<h2>Remembering a Place</h2>
-
-<p>For my space I chose the view from an orange couch that used to be at the coffee shop from my college town. It was a spot where I spent much of my final two years at Kenyon College while doing homework and hanging out. There was a matching orange chair to the left and then a large south facing window with many trees just outside.</p>
-
-<h2>New Territory</h2>
-
-<p>I've spent almost the last year in web programming and the command line, manipulating documents and text. Though my first year at ITP involved a lot of Processing I rarely moved in to 3D environments and when I did, the use of pushing and popping the matrix is different than Unity's use of vectors for positioning.</p>
-
-<p>The hardest part, and where I spent many hours, was finding out the hard way which primitives are best to use for what purpose. The floor plan of the coffee shop was not a simple rectangle but had two sections butting out with triangular corners. Due to these two triangular corners I decided it would be easiest to build the entire floor out of a series of triangles. This route didn't work to well, it required a lot of lines of code and did not seem efficient. Before figuring out how to best tackle the floor I decided to build the orange chair. After a poor reading of James George's <code>GeometryHelper</code> class I did not realize that cubes in Unity could be deformed to solids with different sides of different lengths. Without this knowledge I proceeded by building the chair out of a series of planes.</p>
-
-<p><img src="http://sklise.s3.amazonaws.com/itp/pixelspolygons/20120130-mg-planes.png" alt="" /></p>
-
-<p>Wow, that was difficult and didn't work well. Finally I figured out the <code>CreateCube</code> function which made everything much easier. Rotations are hard to achieve with scripting. The command for rotating a camera takes a vector for where to point towards yet the UI gives degrees of rotation.</p>
-
-<p><img src="http://sklise.s3.amazonaws.com/itp/pixelspolygons/20120130-mg.png" alt="" /></p>
-
-<p>The final result is very plain and not too lush. My false starts were frustrating but I learned a lot about programming in 3D. Using scripts to individually place and rotate every item is very time consuming and I look forward to using Unity's UI to build the objects and then scripting behaviors. The source code is available on <a href="https://github.com/stevenklise/MiddleGround">Github</a>.</p>
-
-    </div>
-    <footer>
-        <p class="float-right"><a href="/2012/01/30/Memory">Permalink/Comments</a></p>
-        
-            <a href="/categories/PixelsToPolygons">PixelsToPolygons</a> 
-        
-    </footer>
-</article>
-
-    <article>
-    <hgroup>
-        <h1><a href="/2012/01/05/Powerful-Reading-List">Reading List from Powerful Ideas</a></h1>
-        <h5>05 Jan 2012</h5>
-    </hgroup>
-    <div class="article-body">
-        <p>Last semester I took a course titled <strong>Powerful Ideas: Useful Tools to Understand the World</strong>. It was taught by Nancy Hechinger and Alan Kay came in once a month as well as wrote us each week via email.</p>
-
-<p>Throughout the class many, many books were mentioned. Way more than could be read in one semester, more even than I could manage in a year. This list is a great addendum to Alan Kay's own <a href="http://www.squeakland.org/resources/books/readingList.jsp">reading list</a>.</p>
-
-<ul>
-<li><a href="http://www.amazon.com/New-Drawing-Right-Side-Brain/dp/0874774195/ref=sr_1_4?ie=UTF8&amp;qid=1325796152&amp;sr=8-4">Drawing on the Right Side of the Brain</a>, Betty Edwards</li>
-<li><a href="http://www.amazon.com/Eye-Brain-Richard-L-Gregory/dp/0691048371">Eye and Brain</a>, Richard Gregory</li>
-<li><a href="http://www.amazon.com/Victorian-Internet-Remarkable-Nineteenth--line/dp/0802716040/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325798092&amp;sr=1-1">The Victorian Internet</a>, Tom Standage</li>
-<li><a href="http://www.amazon.com/Brief-History-Organization-Civilization-Corporation/dp/0595271324/ref=sr_1_4?s=books&amp;ie=UTF8&amp;qid=1325798126&amp;sr=1-4">A Brief History of the Organization: From The Dawn of Civilization to Leadership of Today's Corporation</a>, Lynn Bentley</li>
-<li><a href="http://www.amazon.com/Silent-Language-Edward-T-Hall/dp/0385055498/ref=tmm_pap_title_0?ie=UTF8&amp;qid=1325798183&amp;sr=1-1">The Silent Language</a>, Edward Hall</li>
-<li><a href="http://www.amazon.com/Einsteins-Dreams-Alan-Lightman/dp/140007780X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325798229&amp;sr=1-1">Einstein's Dreams</a>, Alan Lightman</li>
-<li><a href="http://www.amazon.com/Mr-Tompkins-Paperback-George-Gamow/dp/0521447712/ref=pd_sim_b_6">Mr. Tompkins in Paperback</a>, George Gamow</li>
-<li><a href="http://www.amazon.com/How-Hippies-Saved-Physics-Counterculture/dp/039334231X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325798404&amp;sr=1-1">How the Hippies Saved Physics</a>, David Kaiser</li>
-<li><a href="http://www.amazon.com/McGuffeys-Eclectic-Readers-William-McGuffey/dp/0471294284/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325798481&amp;sr=1-1">McGuffey's Eclectic Reader</a>, Williams Holmes McGuffey</li>
-<li><a href="http://www.amazon.com/McGuffeys-Eclectic-Readers-William-McGuffey/dp/0471294284/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325798481&amp;sr=1-1">Relativity Visualized</a>, Lewis Carroll Epstein</li>
-<li><a href="http://electricalexperimenter.com/">The Electrical Experimenter</a>, periodical</li>
-<li><a href="http://backissues.com/issue/Scientific-American-September-1966">Scientific American, September 1966</a>, periodical, an excerpt <a href="http://www.scientificamerican.com/article.cfm?id=system-analysis-and-programming-christopher-strachey">here</a></li>
-<li><a href="http://www.amazon.com/Disappearance-Childhood-Neil-Postman/dp/0679751661/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325799231&amp;sr=1-1">Disappearance of Childhood</a>, Neil Postman</li>
-<li><a href="http://www.amazon.com/Gutenberg-Galaxy-Marshall-McLuhan/dp/144261269X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325799250&amp;sr=1-1">Gutenberg Galaxy</a>, Marshall McLuhan</li>
-<li><a href="http://www.amazon.com/Secret-Childhood-Maria-Montessori/dp/0345305833/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325799279&amp;sr=1-1">The Secret of Childhood</a>, Maria Montessori</li>
-<li><a href="http://www.amazon.com/Character-Physical-Messenger-Lectures-1964/dp/0262560038/ref=sr_1_4?s=books&amp;ie=UTF8&amp;qid=1325799295&amp;sr=1-4">Character of Physical Law</a>, Richard Feynman</li>
-<li><a href="http://www.amazon.com/Inner-Game-Tennis-Classic-Performance/dp/0679778314/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325799316&amp;sr=1-1">The Inner Game of Tennis</a>, W. Timothy Gallwey</li>
-<li><a href="http://www.amazon.com/Selfish-Gene-Anniversary----Introduction/dp/0199291152/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325799329&amp;sr=1-1">The Selfish Gene</a>, Richard Dawkins</li>
-<li><a href="http://www.amazon.com/Childrens-Machine-Rethinking-School-Computer/dp/0465010636/ref=sr_1_3?s=books&amp;ie=UTF8&amp;qid=1325799372&amp;sr=1-3">The Children's Machine: Rethinking School in the Age of the Computer</a>, Seymour Papert</li>
-<li><a href="http://www.amazon.com/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746/ref=sr_1_2?s=books&amp;ie=UTF8&amp;qid=1325799342&amp;sr=1-2">Mindstorms: Children, Computers, and Powerful Ideas</a>, Seymour Papert</li>
+  <div id="wrapper">
+    <div id="navigation">
+      <a id="title" href="/">Steven Klise</a>
+      <ul>
+  <li><a href="http://github.com/stevenklise">Code</a></li>
+  <li><a href="http://twitter.com/stevenklise">Tweets</a></li>
+  <li><a href="http://stevenklise.tumblr.com">Tumbles</a></li>
+  <li><a href="https://pinboard.in/u:sklise">Links</a></li>
+  <li><a href="http://vimeo.com/stevenklise">Videos</a></li>
+  <li><a href="http://flickr.com/photos/stevenklise">Photos</a></li>
+  <li id="mt"></li>
 </ul>
 
-
     </div>
+    <p>Ohio raised and currently residing and coding in Brooklyn. I graduated from
+<a href="http://itp.nyu.edu">ITP</a> in May and will start as a resident at ITP in August.
+I make things with code with the goal of keeping people at the computers just
+long enough to learn something and then get back in to the real world.</p>
+
+<h3>Blog Posts <a class="meta" href="http://feeds.feedburner.com/StevenKlise">RSS</a></h3>
+
+<div class="post-list">
+  <a class="post-title" href="/2012/02/25/chillin">Chillin' In Space</a> 
+  <span class="post-category">Pixels to Polygons</span> 
+  <span class="post-date">25 Feb 2012</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2012/02/10/facedom">Putting Your Face in a Webpage</a> 
+  <span class="post-category">Appropriating New Technologies</span> 
+  <span class="post-date">10 Feb 2012</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2012/01/30/Memory">On Being Memorious</a> 
+  <span class="post-category">Pixels to Polygons</span> 
+  <span class="post-date">30 Jan 2012</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2012/01/05/Powerful-Reading-List">Reading List from Powerful Ideas</a> 
+  <span class="post-category">ITP</span> 
+  <span class="post-date">05 Jan 2012</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2011/12/18/floorsquare">FloorSquare, ITP Winter Show 2011</a> 
+  <span class="post-category">Understanding Networks</span> 
+  <span class="post-date">18 Dec 2011</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2011/11/20/itpqa">ITPQA, Questions and Answers for the ITP Community</a> 
+  <span class="post-category">ITP</span> 
+  <span class="post-date">20 Nov 2011</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2011/11/07/tapper">Tapper</a> 
+  <span class="post-category">Musical Sequence</span> 
+  <span class="post-date">07 Nov 2011</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2011/11/04/comments-and-rss">New Site, Now with Comments and RSS</a> 
+   
+  <span class="post-date">04 Nov 2011</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2011/11/03/sequencer-final-proposal">Final Proposal for Musical Sequence</a> 
+  <span class="post-category">Musical Sequence</span> 
+  <span class="post-date">03 Nov 2011</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2011/10/31/sequencer-teaser">Sequencer Teaser</a> 
+  <span class="post-category">Musical Sequence</span> 
+  <span class="post-date">31 Oct 2011</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2011/10/02/my-first-daemon">My First Daemon</a> 
+  <span class="post-category">Understanding Networks</span> 
+  <span class="post-date">02 Oct 2011</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2011/05/17/Clumpers">Clumpers</a> 
+  <span class="post-category">Nature of Code</span> 
+  <span class="post-date">17 May 2011</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2011/05/09/Last-Accessed-Last-Modified">Last Accessed / Last Modified</a> 
+  <span class="post-category">Reading Writing Electronic Text</span> 
+  <span class="post-date">09 May 2011</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2010/11/26/Get-The-Goods">Get The Goods</a> 
+  <span class="post-category">ITP</span> 
+  <span class="post-date">26 Nov 2010</span> 
+  
+</div>
+
+
+
+
+<div class="post-list">
+  <a class="post-title" href="/2010/10/16/Stupid-Pet-Trick">Stupid Pet Trick</a> 
+  <span class="post-category">ITP</span> 
+  <span class="post-date">16 Oct 2010</span> 
+  
+</div>
+
+
+      
     <footer>
-        <p class="float-right"><a href="/2012/01/05/Powerful-Reading-List">Permalink/Comments</a></p>
-        
-            <a href="/categories/ITP">ITP</a> 
-        
-    </footer>
-</article>
+   
+</footer>
+  </div>
+  <script>
+    parts = ['steven','mail','klise','com'];
+    mt = document.getElementById('mt');
+    mt.innerHTML = "<a href='" + parts[1] + "to:" + parts[0] + "@" + parts[0] + parts[2] + "." + parts[3] + "'>Email</a>";
+  </script>
+  <script type="text/javascript">
 
-        </div>
-        
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6955602-2']);
+    _gaq.push(['_trackPageview']);
 
-        
-        <div class="pagination">
-            <p class="older-link">
-            
-                <a href="/page2">Older</a>
-            
-            </p>
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 
-            <p class="page-count">1 of 4</p>
-
-            <p class="newer-link">
-            
-            &nbsp;
-            
-            </p>
-        </div>
-        
-
-        <footer>
-          <section class="first">
-            <h4>About</h4>
-            <img src="http://sklise.s3.amazonaws.com/sk.jpg" /><p>An avid fan of Law & Order, Steve Klise is a graduate student at ITP. He makes tools, toys & art with Ruby, Javascript, Arduino, ink & cameras.</p>
-          </section>
-
-          <section>
-              <h4>Categories</h4>
-              <ul>
-                  
-                
-                  <li><a href="/categories/ITP-First-Semester">ITP-First-Semester</a></li>
-                
-                  <li><a href="/categories/Reading-Writing-Electronic-Text">Reading-Writing-Electronic-Text</a></li>
-                
-                  <li><a href="/categories/Nature-Of-Code">Nature-Of-Code</a></li>
-                
-                  <li><a href="/categories/Understanding-Networks">Understanding-Networks</a></li>
-                
-                  <li><a href="/categories/Musical-Sequence">Musical-Sequence</a></li>
-                
-                  <li><a href="/categories/ITP">ITP</a></li>
-                
-                  <li><a href="/categories/PixelsToPolygons">PixelsToPolygons</a></li>
-                
-                  <li><a href="/categories/AppropriatingNewTechnologies">AppropriatingNewTechnologies</a></li>
-                
-              </ul>
-          </section>
-
-          <section class="last">
-            <h4>Elsewhere</h4>
-              <ul>
-                <li><a href="http://twitter.com/stevenklise">Twitter</a></li>
-                <li><a href="http://github.com/stevenklise">Github</a></li>
-                <li><a href="http://stevenklise.tumblr.com">Tumblr</a></li>
-                <li><a href="https://pinboard.in/u:sklise">Pinboard</a></li>
-                <li><a href="http://vimeo.com/stevenklise">Vimeo</a></li>
-              </ul>
-
-            <h4>Etc.</h4>
-              <ul>
-                <li id="mt"></li>
-                <li><a href="http://feeds.feedburner.com/StevenKlise">RSS</a></li>
-              </ul>
-          </section>
-        </footer>
-    </div>
-    <script>
-      parts = ['steven','mail','klise','com'];
-      mt = document.getElementById('mt');
-      mt.innerHTML = "<a href='" + parts[1] + "to:" + parts[0] + "@" + parts[0] + parts[2] + "." + parts[3] + "'>Email</a>";
-    </script>
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-6955602-2']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
+  </script>
 </body>
 </html>
