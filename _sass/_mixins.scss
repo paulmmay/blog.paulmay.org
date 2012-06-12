@@ -1,9 +1,3 @@
-@mixin rounded($radius:8px){
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    border-radius: $radius;
-}
-
 @mixin padded($padding:0.5em) {
     -webkit-box-sizing: border-box;
     padding: $padding;

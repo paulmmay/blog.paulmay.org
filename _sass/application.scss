@@ -1,12 +1,8 @@
----
-
----
-
 $base-font: 14px 180px;
 $small-font: 11px;
 $line-height: 16px 190px;
 
-$background: rgb(240,240,240);
+$background: #fff;
 $color-base: rgb(0,0,0);
 $color-link: rgb(25, 92, 153);
 $color-light: rgb(120,120,120);
@@ -28,27 +24,26 @@ $gutter-width: 14.33333333px !default;
 @import 'modular_scale';
 @import 'grid';
 @import 'formatting'; // Styles to be accessed via @extend
-@import 'colaborate'; // Webfont kit for Colaborate
 
 // Header Fonts
 //__________________________________
 @mixin header-thick {
-	font-family: 'ColaborateMediumRegular', sans-serif;
-	font-weight: normal;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 800;
 }
 
 @mixin header-regular {
-	font-family: 'ColaborateRegular', sans-serif;
-	font-weight: normal;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 500;
 }
 
 @mixin header-light {
-	font-family: 'ColaborateThinRegular', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: normal;
 }
 
 @mixin base-font {
-	font-family: 'Lucida Grande', sans-serif;
+	font-family: 'Georgia', serif;
 }
 
 
@@ -66,9 +61,21 @@ body {
 a {
   color: $color-link;
 
+  &.post-title {
+  	color: $color-header;
+    @include header-thick;
+    text-decoration: none;
+  }
+
   &:hover {
     color: $color-hover;
   }
+}
+
+.post-date {
+  color: $color-light;
+  font-size: 90%;
+  font-style: italic;
 }
 
 em {
@@ -141,7 +148,6 @@ code {
   }
 
   a {
-    border-top: 1px transparent;
     color: $color-base;
     text-decoration: none;
 
@@ -150,7 +156,6 @@ code {
     }
 
     &:hover {
-      border-top: $color-link 1px solid;
       background-color: transparent;
       color: blue;
     }
@@ -256,6 +261,10 @@ article {
     @include base-font;
     margin: 0 0 1em;
   }
+  
+  footer {
+    font-size: 90%;
+  }
 
   hgroup {
     margin: 0 0 1em;
@@ -263,7 +272,6 @@ article {
 
   footer {
     @extend .clear-float;
-    @include header-light;
     border-top: none;
     color: $color-light;
 
