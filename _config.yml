@@ -1,4 +1,4 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title
-exclude: ["Gemfile","Gemfile.lock"]
+exclude: ["Gemfile","Gemfile.lock","tumblr.html","readme.md"]
