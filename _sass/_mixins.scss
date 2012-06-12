@@ -1,8 +1,0 @@
-@mixin padded($padding:0.5em) {
-    -webkit-box-sizing: border-box;
-    padding: $padding;
-}
-
-@mixin horizontal-separator($edge:"bottom") {
-	  border-#{$edge}: 1px solid $color-base;
-}

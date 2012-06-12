@@ -14,12 +14,11 @@ $color-header: #38A5E5;
 // Set Grid Sizes
 //__________________________________
 // width = 772px => because
-$column-width: 50px !default;
+$column-width: 45px !default;
 $gutter-width: 14.33333333px !default;
 
 // Partials
 //__________________________________
-@import 'mixins';
 @import 'reset';
 @import 'modular_scale';
 @import 'grid';
@@ -29,13 +28,8 @@ $gutter-width: 14.33333333px !default;
 // Header Fonts
 //__________________________________
 @mixin header-thick {
-	font-family: 'Helvetica', sans-serif;
-	font-weight: 800;
-}
-
-@mixin header-regular {
-	font-family: 'Helvetica', sans-serif;
-	font-weight: 500;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 800;
 }
 
 @mixin header-light {
@@ -75,8 +69,12 @@ a {
 
 .post-date {
   color: $color-light;
-  font-size: 90%;
   font-style: italic;
+}
+
+.post-category,
+.post-date {
+  font-size: 80%;
 }
 
 em {
@@ -102,6 +100,10 @@ h2 {
   line-height: ms(3, $line-height, $golden);
 }
 
+h3 {
+  margin-top: 1.4em;
+}
+
 h5 {
   font-size: ms(1, $base-font, $golden);
   @include header-light;
@@ -121,7 +123,7 @@ strong {
 
 code {
   font-family: "Menlo", "Monaco", monospace;
-  background-color: $color-code;
+/*  background-color: $color-code;*/
   font-size: 90%;
   padding: 0.1em 0.2em;
 }
@@ -133,49 +135,43 @@ code {
 }
 
 #navigation {
-  @include header-regular;
-  @include horizontal-separator;
   display: block;
   margin: 0;
-  overflow: hidden;
+  overflow-y: auto;
   padding: 0.25em 0;
   position: relative;
   width: 100%;
-
-  header {
-    float: left;
-    padding: 0;
-    margin: 0;
-  }
 
   a {
     color: $color-base;
     text-decoration: none;
 
-    &:visited {
-      color: $color-base;
-    }
-
     &:hover {
-      background-color: transparent;
-      color: blue;
+      color: $color-hover;
     }
-    &.current {
-      border-top: $color-link 1px solid;
+  }
+
+  a#title, a#title:visited {
+    @include header-thick;
+    color: rgb(28, 189, 43);
+    font-size: ms(1, $base-size, $golden);
+    
+    &:hover {
+      color: $color-base;
     }
   }
 
   ul {
-    float: right;
+    @include header-light;
     list-style: none;
+    margin: 0 0 1em;
 
     li {
+      font-size: 85%;
       float: left;
-      padding: 0 0.25em;
-      &:last-child {
-        padding-right: 0;
-      }
+      margin-right: 0.7em;
     }
+
   }
 }
 
@@ -188,10 +184,12 @@ code {
 }
 
 footer {
+  @include header-light;
   margin-top: 1em;
   margin-bottom: 1em;
-  @include horizontal-separator("top");
+  font-size: 12px;
   padding: 1em 0;
+  overflow-y: auto;
 
   a, a:visited {
     color: $color-light;
@@ -202,35 +200,10 @@ footer {
     }
   }
 
-  section {
-    @include grid-column(4);
-
-    img {
-      max-width: 50%;
-      float: left;
-      margin: 0 0.5em 0 0;
-    }
-
-    &.first {
-      @include grid-column(6);
-    }
-    
-    &.last {
-      @include grid-column(2);
-    }
-  }
-
   ul, p {
-    font-size: 12px;
     line-height: 1.6em;
   }
-
-  ul {
-    list-style: none;
-    margin: 0 0 1em;
-  }
 }
-
 
 .pagination {
   @extend .clear-float;
@@ -251,8 +224,7 @@ footer {
   }
 }
 
-article {
-  @include horizontal-separator;
+.post {
   &:last-child{
     border-bottom: none;
   }

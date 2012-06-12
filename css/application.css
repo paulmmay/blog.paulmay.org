@@ -60,10 +60,274 @@ table {
 .align-center, .pagination .page-count {
   text-align: center; }
 
-.clear-float, .pagination, article footer {
+.clear-float, .pagination, .post footer {
   overflow-y: auto;
   overflow-x: hidden; }
 
+.hll {
+  background-color: #ffffcc; }
+
+.c {
+  color: #408080;
+  font-style: italic; }
+
+/* Comment */
+.err {
+  border: 1px solid #FF0000; }
+
+/* Error */
+.k {
+  color: #008000;
+  font-weight: bold; }
+
+/* Keyword */
+.o {
+  color: #666666; }
+
+/* Operator */
+.cm {
+  color: #408080;
+  font-style: italic; }
+
+/* Comment.Multiline */
+.cp {
+  color: #BC7A00; }
+
+/* Comment.Preproc */
+.c1 {
+  color: #408080;
+  font-style: italic; }
+
+/* Comment.Single */
+.cs {
+  color: #408080;
+  font-style: italic; }
+
+/* Comment.Special */
+.gd {
+  color: #A00000; }
+
+/* Generic.Deleted */
+.ge {
+  font-style: italic; }
+
+/* Generic.Emph */
+.gr {
+  color: #FF0000; }
+
+/* Generic.Error */
+.gh {
+  color: #000080;
+  font-weight: bold; }
+
+/* Generic.Heading */
+.gi {
+  color: #00A000; }
+
+/* Generic.Inserted */
+.go {
+  color: #808080; }
+
+/* Generic.Output */
+.gp {
+  color: #000080;
+  font-weight: bold; }
+
+/* Generic.Prompt */
+.gs {
+  font-weight: bold; }
+
+/* Generic.Strong */
+.gu {
+  color: #800080;
+  font-weight: bold; }
+
+/* Generic.Subheading */
+.gt {
+  color: #0040D0; }
+
+/* Generic.Traceback */
+.kc {
+  color: #008000;
+  font-weight: bold; }
+
+/* Keyword.Constant */
+.kd {
+  color: #008000;
+  font-weight: bold; }
+
+/* Keyword.Declaration */
+.kn {
+  color: #008000;
+  font-weight: bold; }
+
+/* Keyword.Namespace */
+.kp {
+  color: #008000; }
+
+/* Keyword.Pseudo */
+.kr {
+  color: #008000;
+  font-weight: bold; }
+
+/* Keyword.Reserved */
+.kt {
+  color: #B00040; }
+
+/* Keyword.Type */
+.m {
+  color: #666666; }
+
+/* Literal.Number */
+.s {
+  color: #BA2121; }
+
+/* Literal.String */
+.na {
+  color: #7D9029; }
+
+/* Name.Attribute */
+.nb {
+  color: #008000; }
+
+/* Name.Builtin */
+.nc {
+  color: #0000FF;
+  font-weight: bold; }
+
+/* Name.Class */
+.no {
+  color: #880000; }
+
+/* Name.Constant */
+.nd {
+  color: #AA22FF; }
+
+/* Name.Decorator */
+.ni {
+  color: #999999;
+  font-weight: bold; }
+
+/* Name.Entity */
+.ne {
+  color: #D2413A;
+  font-weight: bold; }
+
+/* Name.Exception */
+.nf {
+  color: #0000FF; }
+
+/* Name.Function */
+.nl {
+  color: #A0A000; }
+
+/* Name.Label */
+.nn {
+  color: #0000FF;
+  font-weight: bold; }
+
+/* Name.Namespace */
+.nt {
+  color: #008000;
+  font-weight: bold; }
+
+/* Name.Tag */
+.nv {
+  color: #19177C; }
+
+/* Name.Variable */
+.ow {
+  color: #AA22FF;
+  font-weight: bold; }
+
+/* Operator.Word */
+.w {
+  color: #bbbbbb; }
+
+/* Text.Whitespace */
+.mf {
+  color: #666666; }
+
+/* Literal.Number.Float */
+.mh {
+  color: #666666; }
+
+/* Literal.Number.Hex */
+.mi {
+  color: #666666; }
+
+/* Literal.Number.Integer */
+.mo {
+  color: #666666; }
+
+/* Literal.Number.Oct */
+.sb {
+  color: #BA2121; }
+
+/* Literal.String.Backtick */
+.sc {
+  color: #BA2121; }
+
+/* Literal.String.Char */
+.sd {
+  color: #BA2121;
+  font-style: italic; }
+
+/* Literal.String.Doc */
+.s2 {
+  color: #BA2121; }
+
+/* Literal.String.Double */
+.se {
+  color: #BB6622;
+  font-weight: bold; }
+
+/* Literal.String.Escape */
+.sh {
+  color: #BA2121; }
+
+/* Literal.String.Heredoc */
+.si {
+  color: #BB6688;
+  font-weight: bold; }
+
+/* Literal.String.Interpol */
+.sx {
+  color: #008000; }
+
+/* Literal.String.Other */
+.sr {
+  color: #BB6688; }
+
+/* Literal.String.Regex */
+.s1 {
+  color: #BA2121; }
+
+/* Literal.String.Single */
+.ss {
+  color: #19177C; }
+
+/* Literal.String.Symbol */
+.bp {
+  color: #008000; }
+
+/* Name.Builtin.Pseudo */
+.vc {
+  color: #19177C; }
+
+/* Name.Variable.Class */
+.vg {
+  color: #19177C; }
+
+/* Name.Variable.Global */
+.vi {
+  color: #19177C; }
+
+/* Name.Variable.Instance */
+.il {
+  color: #666666; }
+
+/* Literal.Number.Integer.Long */
 html {
   background-color: white; }
 
@@ -85,8 +349,11 @@ a {
 
 .post-date {
   color: #787878;
-  font-size: 90%;
   font-style: italic; }
+
+.post-category,
+.post-date {
+  font-size: 80%; }
 
 em {
   font-style: italic; }
@@ -107,6 +374,9 @@ h2 {
   font-size: 26px;
   line-height: 28px; }
 
+h3 {
+  margin-top: 1.4em; }
+
 h5 {
   font-size: 16px;
   font-family: 'Helvetica', sans-serif;
@@ -123,48 +393,44 @@ strong {
 
 code {
   font-family: "Menlo", "Monaco", monospace;
-  background-color: #e6e6e6;
+  /*  background-color: $color-code;*/
   font-size: 90%;
   padding: 0.1em 0.2em; }
 
 #wrapper {
-  width: 772.0px;
+  width: 712.0px;
   margin: 0 auto;
   text-align: left;
   margin: 10px auto; }
 
 #navigation {
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 500;
-  border-bottom: 1px solid black;
   display: block;
   margin: 0;
-  overflow: hidden;
+  overflow-y: auto;
   padding: 0.25em 0;
   position: relative;
   width: 100%; }
-  #navigation header {
-    float: left;
-    padding: 0;
-    margin: 0; }
   #navigation a {
     color: black;
     text-decoration: none; }
-    #navigation a:visited {
-      color: black; }
     #navigation a:hover {
-      background-color: transparent;
       color: blue; }
-    #navigation a.current {
-      border-top: #195c99 1px solid; }
+  #navigation a#title, #navigation a#title:visited {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 800;
+    color: #1cbd2b;
+    font-size: 19px; }
+    #navigation a#title:hover, #navigation a#title:visited:hover {
+      color: black; }
   #navigation ul {
-    float: right;
-    list-style: none; }
+    font-family: 'Helvetica', sans-serif;
+    font-weight: normal;
+    list-style: none;
+    margin: 0 0 1em; }
     #navigation ul li {
+      font-size: 85%;
       float: left;
-      padding: 0 0.25em; }
-      #navigation ul li:last-child {
-        padding-right: 0; }
+      margin-right: 0.7em; }
 
 #content {
   margin: 1em 0; }
@@ -173,75 +439,57 @@ code {
   margin: 1em 0; }
 
 footer {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: normal;
   margin-top: 1em;
   margin-bottom: 1em;
-  border-top: 1px solid black;
-  padding: 1em 0; }
+  font-size: 12px;
+  padding: 1em 0;
+  overflow-y: auto; }
   footer a, footer a:visited {
     color: #787878;
     text-decoration: none; }
     footer a:hover, footer a:visited:hover {
       color: #195c99; }
-  footer section {
-    margin: 0 7.167px;
-    float: left;
-    width: 243.0px; }
-    footer section img {
-      max-width: 50%;
-      float: left;
-      margin: 0 0.5em 0 0; }
-    footer section.first {
-      margin: 0 7.167px;
-      float: left;
-      width: 371.667px; }
-    footer section.last {
-      margin: 0 7.167px;
-      float: left;
-      width: 114.333px; }
   footer ul, footer p {
-    font-size: 12px;
     line-height: 1.6em; }
-  footer ul {
-    list-style: none;
-    margin: 0 0 1em; }
 
 .pagination .older-link,
 .pagination .newer-link,
 .pagination .page-count {
   margin: 0 7.167px;
   float: left;
-  width: 243.0px; }
+  width: 223.0px; }
 
-article {
-  border-bottom: 1px solid black;
+.post {
   margin: 1.5em 0 3.5em; }
-  article:last-child {
+  .post:last-child {
     border-bottom: none; }
-  article header, article footer {
+  .post header, .post footer {
     font-family: 'Georgia', serif;
     margin: 0 0 1em; }
-  article footer {
+  .post footer {
     font-size: 90%; }
-  article hgroup {
+  .post hgroup {
     margin: 0 0 1em; }
-  article footer {
+  .post footer {
     border-top: none;
     color: #787878; }
-    article footer a,
-    article footer a:visited {
+    .post footer a,
+    .post footer a:visited {
       color: #787878;
       text-decoration: none; }
-      article footer a:hover,
-      article footer a:visited:hover {
+      .post footer a:hover,
+      .post footer a:visited:hover {
         color: #787878;
         text-decoration: underline; }
-    article footer ul {
+    .post footer ul {
       list-style: none; }
-      article footer ul li {
+      .post footer ul li {
         font-style: italic;
         display: inline;
         padding-right: 0.5em; }
-      article footer ul.listed li {
+      .post footer ul.listed li {
         display: block; }
 
 .article-body {
