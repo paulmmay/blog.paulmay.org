@@ -3,102 +3,18 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>SK {{page.title}}</title>
-    <link href='http://fonts.googleapis.com/css?family=News+Cycle|Abel' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/application.css"/>
 </head>
 <body>
     <div id="wrapper">
-        <div id="navigation">
-          <header>
-            <a href="/">Steven Klise</a>
-          </header>
-
-          <ul>
-            <li><a href="http://stevenklise.tumblr.com">Tumblr</a></li>
-            <li><a href="http://twitter.com/stevenklise">@stevenklise</a></li>
-          </ul>
-        </div>
-        <div id="content">
-        {{ content }}
-        </div>
-        {% if page.comments %}
-        <div id="comments">
-            <div id="disqus_thread"></div>
-            <script type="text/javascript">
-                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                var disqus_shortname = 'sklise'; // required: replace example with your forum shortname
-
-                /* * * DON'T EDIT BELOW THIS LINE * * */
-                (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-        </div>
-        {% endif %}
-
-        {% if paginator %}
-        <div class="pagination">
-            <p class="older-link">
-            {% if paginator.next_page %}
-                <a href="/page{{ paginator.next_page }}">Older</a>
-            {% else %}
-            &nbsp;
-            {% endif %}
-            </p>
-
-            <p class="page-count">{{ paginator.page }} of {{ paginator.total_pages }}</p>
-
-            <p class="newer-link">
-            {% if paginator.previous_page %}
-                {% if paginator.previous_page == 1 %}
-                <a href="/">Newer</a>
-                {% else %}
-                <a href="/page{{ paginator.previous_page }}">Newer</a>
-                {% endif %}
-            {% else %}
-            &nbsp;
-            {% endif %}
-            </p>
-        </div>
-        {% endif %}
-
-        <footer>
-          <section class="first">
-            <h4>About</h4>
-            <img src="http://sklise.s3.amazonaws.com/sk.jpg" /><p>An avid fan of Law & Order, Steve Klise is a graduate student at ITP. He makes tools, toys & art with Ruby, Javascript, Arduino, ink & cameras.</p>
-          </section>
-
-          <section>
-              <h4>Categories</h4>
-              <ul>
-                  
-                {% for category in site.categories %}
-                  <li><a href="/categories/{{category[0]}}">{{category[0]}}</a></li>
-                {% endfor %}
-              </ul>
-          </section>
-
-          <section class="last">
-            <h4>Elsewhere</h4>
-              <ul>
-                <li><a href="http://twitter.com/stevenklise">Twitter</a></li>
-                <li><a href="http://github.com/stevenklise">Github</a></li>
-                <li><a href="http://stevenklise.tumblr.com">Tumblr</a></li>
-                <li><a href="https://pinboard.in/u:sklise">Pinboard</a></li>
-                <li><a href="http://vimeo.com/stevenklise">Vimeo</a></li>
-              </ul>
-
-            <h4>Etc.</h4>
-              <ul>
-                <li id="mt"></li>
-                <li><a href="http://feeds.feedburner.com/StevenKlise">RSS</a></li>
-              </ul>
-          </section>
-        </footer>
+      <div id="navigation">
+        <header>
+          <a href="/">Steven Klise</a>
+        </header>
+      </div>
+      {{content}}
+      
+      {% include footer.html %}
     </div>
     <script>
       parts = ['steven','mail','klise','com'];

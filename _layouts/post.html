@@ -17,9 +17,5 @@ layout: default
               <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
-
-        {% for category in page.categories %}
-            <a href="/categories/{{category}}">{{ category }}</a> 
-        {% endfor %}
     </footer>
 </article>

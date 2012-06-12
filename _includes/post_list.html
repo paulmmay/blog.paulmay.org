@@ -1,0 +1,8 @@
+{% for post in site.posts %}
+<div>
+  <a class="post-title" href="{{ post.url }}">{{ post.title }}</a> 
+  {% if post.category %}<span class="post-category">{{ post.category }}</span>{% endif %} 
+  <span class="post-date">{{ post.date | date_to_string }}</span> 
+  <div>{{ post.summary }}</div>
+</div>
+{% endfor %}
