@@ -493,7 +493,6 @@ footer {
       list-style: none; }
       .post footer ul li {
         font-style: italic;
-        display: inline;
         padding-right: 0.5em; }
       .post footer ul.listed li {
         display: block; }
