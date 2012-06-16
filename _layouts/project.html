@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="post">
+  <hgroup>
+    <h1>{{ page.title }}</h1>
+    <h3>{{ page.year }}</h3>
+    <h5>{{ page.summary }}</h5>
+  </hgroup>
+  <div class="article-body">
+    {{ content }}
+  </div>
+  <footer>
+    {% if page.links %}
+    <h3>Project Links</h3>
+    <ul>
+    {% for link in page.links %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </footer>
+</div>
