@@ -11,3 +11,7 @@ long enough to learn something and then get back in to the real world.
 ### Blog Posts <a class="meta" href="http://feeds.feedburner.com/StevenKlise">RSS</a>
 
 {% include post_list.html %}
+
+### Projects
+
+{% include projects_list.md %}
