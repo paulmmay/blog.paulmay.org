@@ -520,3 +520,6 @@ li ul {
   margin-left: 1em; }
   li ul li {
     list-style-type: square; }
+
+body.tumblr #wrapper {
+  width: 612px; }
