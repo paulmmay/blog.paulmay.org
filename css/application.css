@@ -389,6 +389,11 @@ h5 {
   font-family: 'Helvetica', sans-serif;
   font-weight: normal; }
 
+h6 {
+  font-weight: normal;
+  font-style: italic;
+  font-family: 'Georgia', serif; }
+
 em {
   font-style: italic; }
 
