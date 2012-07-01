@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stupid Pet Trick
-category: ITP
+tag: ITP
 comments: true
 ---
 

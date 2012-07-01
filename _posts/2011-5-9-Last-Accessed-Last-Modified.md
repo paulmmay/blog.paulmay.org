@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Last Accessed / Last Modified
-category: Reading Writing Electronic Text
+tag: Reading Writing Electronic Text
 comments: true
 ---
 

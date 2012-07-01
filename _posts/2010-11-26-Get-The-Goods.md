@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Get The Goods
-category: ITP
+tag: ITP
 comments: true
 ---
 

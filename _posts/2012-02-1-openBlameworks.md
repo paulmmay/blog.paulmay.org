@@ -1,7 +1,7 @@
 ---
 layout: post
 title: openBlameworks
-category: Appropriating New Technologies
+tag: Appropriating New Technologies
 comments: true
 published: false
 ---

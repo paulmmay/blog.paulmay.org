@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading List from Powerful Ideas
-category: ITP
+tag: ITP
 comments: true
 ---
 
