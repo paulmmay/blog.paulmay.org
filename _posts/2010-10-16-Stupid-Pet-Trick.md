@@ -5,7 +5,7 @@ category: ITP
 comments: true
 ---
 
-<iframe src="http://player.vimeo.com/video/15904819?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/15904819?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0"></iframe>
 
 This assignment for PComp was to create a “stupid pet trick” by taking all the skills we have learned thus far in the labs and create something amusing or engaging. Continuing the theme of the ball sink game I made in Procressing I decided to take the same primitive game and add sensors, a servo and a score board.
 
