@@ -12,7 +12,3 @@ world...or to make jokes.
 ### Blog Posts <a class="meta" href="http://feeds.feedburner.com/StevenKlise">RSS</a>
 
 {% include post_list.html %}
-
-### Projects
-
-{% include projects_list.md %}
