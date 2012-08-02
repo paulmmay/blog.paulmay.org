@@ -389,6 +389,18 @@ h5 {
   font-family: 'Helvetica', sans-serif;
   font-weight: normal; }
 
+h5.date {
+  background: #f9eac6;
+  color: #5a5a5a;
+  display: inline-block;
+  line-height: 1em;
+  font-family: "Myriad Pro", "Arial", "Helvetica", sans-serif;
+  font-size: 90%;
+  padding: 6px 6px 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 h6 {
   font-weight: normal;
   font-style: italic;
@@ -402,6 +414,14 @@ ul {
 
 strong {
   font-weight: bold; }
+
+pre {
+  background-color: #1a1a1a;
+  color: #fefefe;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 code {
   font-family: "Menlo", "Monaco", monospace;
