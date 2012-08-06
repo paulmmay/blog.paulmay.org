@@ -2,3 +2,6 @@ markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title
 exclude: ["readme.md"]
+name: Steven Klise
+description: Spoiling My Dinner
+url: http://skli.se
