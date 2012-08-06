@@ -2,18 +2,24 @@
 layout: rss-feed
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>{{ site.name }}</title>
-    <description>{{ site.description }}</description>
-    <link>{{ site.url }}</link>
-    {% for post in site.posts limit:10 %}
-      <item>
-        <title>{{ post.title }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <published>{{ post.date }}</published>
-        <link>{{ site.url }}{{ post.url }}</link>
-      </item>
-    {% endfor %}
-  </channel>
-</rss>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.name | xml_escape}}</title>
+  <subtitle></subtitle>
+  <icon></icon>
+  <updated>{{ site.posts.last.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+  <id>http://skli.se/feed.xml</id>
+  <link type="text/html" rel="alternate" href="{{ site.url }}"/>
+  {% for post in site.posts limit:10 %}
+    <entry>
+      <title>{{ post.title | xml_escape}}</title>
+      <published>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</published>
+      <updated>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+      <content type="html">{{ post.content | xml_escape }}</content>
+      <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
+      <id>{{ site.url }}{{ post.url }}</id>
+      <author>
+        <name>Steven Klise</name>
+      </author>
+    </entry>
+  {% endfor %}
+</feed>
