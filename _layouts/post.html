@@ -3,39 +3,18 @@ layout: default
 ---
 
 <div class="post">
-  <hgroup>
-    <h1>{{ page.title }}</h1>
-    <h5 class="date">{{ page.date | date: "%A, %B %d, %Y" }}</h5>
-  </hgroup>
-  <div class="article-body">
+<p class="datestamp">{{ page.date | date: "%A, %B %d, %Y" }}</p>
+<h1>{{ page.title }}</h1>  
     {{ content }}
-  </div>
-  <div>
-    {% if page.comments %}
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'sklise'; // required: replace example with your forum shortname
 
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-    {% endif %}
-  </div>
-  <footer>
-    <h3>Related Posts</h3>
-    <ul class="listed">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-    <h3>Subscribe to <a href="http://feeds.feedburner.com/StevenKlise">RSS</a></h3>
-  </footer>
+<div id="mininav">
+<div id="next"></div>
+<div id="previous"></div>
 </div>
+    
+<div id="minibio">
+<img src="/g/me.jpg" height="60" width="60" class="mini-avatar"/>
+<span class="mini-text">Paul May is a researcher and designer from Dublin, living and working in New York. Find out <a href="/work" title="Paul May's portfolio of work">more about Paul's work</a> or <a href="mailto:hello@paulmay.org">get in touch</a>.</span>
+</div> 
+
+</div><!--end of post-->

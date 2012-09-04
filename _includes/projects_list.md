@@ -1,3 +1,0 @@
-- [Shep](/projects/shep)
-- [Floorsquare](/projects/floorsquare)
-- [As Always](/projects/asalways)

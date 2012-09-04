@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: true
-permalink: /:year/:month/:day/:title
+permalink: /:categories/:title
 exclude: ["readme.md"]
 name: Steven Klise
 description: Spoiling My Dinner
