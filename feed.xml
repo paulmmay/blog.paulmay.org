@@ -7,7 +7,7 @@ layout: rss-feed
   <subtitle></subtitle>
   <icon></icon>
   <updated>{{ site.posts.first.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
-  <id>http://skli.se/feed.xml</id>
+  <id>http://paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="{{ site.url }}"/>
   {% for post in site.posts limit:10 %}
     <entry>
@@ -18,7 +18,7 @@ layout: rss-feed
       <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
       <id>{{ site.url }}{{ post.url }}</id>
       <author>
-        <name>Steven Klise</name>
+        <name>Paul May</name>
       </author>
     </entry>
   {% endfor %}

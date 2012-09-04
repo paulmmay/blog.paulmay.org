@@ -2,6 +2,6 @@ markdown: rdiscount
 pygments: true
 permalink: /:categories/:title
 exclude: ["readme.md"]
-name: Steven Klise
-description: Spoiling My Dinner
-url: http://skli.se
+name: Paul May
+description: Paul May's Blog
+url: http://paulmay.org
