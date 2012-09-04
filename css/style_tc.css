@@ -1,0 +1,356 @@
+/* ---------- RESET - THANKS ERIC ---------- */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------- TYPE[CAST] ---------- */
+blockquote, blockquote p, p blockquote{ 
+margin-bottom: 1em; 
+font-weight: 400; 
+font-style: normal; 
+font-family: droid-serif; 
+font-size: 1em; 
+color: rgba(100, 100, 100, 1.00); 
+}		
+
+h1 { 
+font-style: normal; 	
+letter-spacing: 0px; 
+line-height: 1.125em; 
+margin-top: 0em; 
+margin-bottom: 0.4em;
+font-weight: 600; 
+font-family: nimbus-sans; 
+font-size: 2em; 
+color: rgba(51, 51, 51, 1.00); 
+}
+
+h3,h2 { 
+font-style: normal; 
+font-weight: 600; 
+font-family: nimbus-sans; 
+font-size: 1.6em; 
+text-transform: none; 
+margin-bottom: 0.4em; 
+color: rgba(51, 51, 51, 1.00); 
+}
+
+li{
+text-indent: 0em;
+margin-left:2em;
+list-style: square inside; 
+font-style: normal; 
+font-weight: 400; 
+font-family: droid-serif; 
+font-size: 1.4em; 
+line-height: 1.6em;
+color: rgba(51, 51, 51, 1.00); 
+}
+
+ul, ol{
+margin-bottom:1em;
+}
+
+p { 
+text-indent: 1em; 
+font-style: normal; 
+font-weight: 400; 
+font-family: droid-serif; 
+font-size: 1.4em; 
+margin-bottom: 0.8em; 
+line-height: 1.6em;
+color: rgba(51, 51, 51, 1.00); 
+}
+p.datestamp { 
+text-indent: 0px; 
+font-size: 1em; 
+line-height: 1.35em; 
+margin-bottom: 0.75em; 
+color: rgba(100, 100, 100, 1.00); 
+}
+p.summary { 
+font-size: 1.4em; 
+font-style: normal; 
+font-weight: 400; 
+font-family: droid-serif; 
+line-height: 1.6em; 
+}
+
+p a:link { 
+/*color: rgba(255, 157, 0, 1.00); */
+color:#55a2ca;
+text-decoration: none; 
+}
+
+p a:hover { 
+color: rgba(255, 199, 0, 1.00); 
+text-decoration: underline; 
+}
+
+p a:visited { 
+/*color: rgba(255, 199, 0, 1.00); */
+color:#68add0;
+text-decoration: underline; 
+}
+
+
+blockquote{
+font-weight: 400; 
+font-family: droid-serif; 
+font-size: 1.3em; 
+margin-bottom: 0.9em; 
+line-height: 1.5em;
+color: rgba(100, 100, 100, 1.00); 
+margin-left:2em;
+font-style:italic;
+}
+
+
+
+.youhere{
+border-bottom:5px solid #eadcad;
+/*border-bottom:3px solid #55a2ca;*/
+}
+
+footer ul li a{
+text-decoration:none;
+text-indent: 1em; 
+font-size:0.7em;
+font-style: normal; 
+font-weight: 400; 
+font-family: droid-serif; 
+color: rgba(51, 51, 51, 1.00); 
+}
+
+
+
+.mini-text{
+display:block;
+position:absolute;
+margin-left:80px;
+margin-top:20px;
+font-weight: 400; 
+font-family: droid-serif; 
+font-size: 1.15em; 
+line-height: 1.25em;
+color: rgba(51, 51, 51, 1.00); 
+}
+
+#minibio a{
+color: rgba(51, 51, 51, 1.00);
+font-weight: 600; 
+}
+
+
+/* ---------- STRUCTURE AND AREA ---------- */
+
+.meta{
+background: #F2f2f2;
+}
+
+p strong{
+font-weight:600;
+}
+
+em {
+font-style:italic;
+}
+
+body{
+background: #F9F9F9;
+border-top:5px solid #afd3e6;
+}
+
+#wrapper{
+color: #222;
+/*background: #F6f6f6;*/
+/*background: #f8f9ef;*/
+/*background: #f0f5fe;*/
+width: 730px;
+margin: 0 auto;
+margin-bottom:40px;
+margin-top:0;
+padding: 0;
+text-align: left;
+overflow: visible;
+/*border-top:5px solid #55a2ca;*/
+}
+
+
+#header{
+min-height:3em;
+padding: 1em 0 0 0;
+width: 100%;
+color: rgba(100, 100, 100, 1.00);  
+}
+
+#content{
+clear:both;
+margin-top:1em;
+padding: 0;
+width: 100%;
+}
+
+footer{
+text-align:center;
+clear:both;
+width:100%;
+/*background:#1C1C1C;*/
+min-height:1em;
+}
+
+#minibio{
+background: #eadcad;
+border-radius:5px;
+position: relative;
+min-height:80px;
+}
+
+#pagination{
+position:absolute;
+top:40px;
+margin:0 auto;
+}
+
+#pagination-next{
+float:right;
+}
+
+.divider{
+clear:both;
+/*border-bottom:5px solid rgba(100, 100, 100, 1.00); */
+/*border-bottom:5px solid #55a2ca;*/
+border-bottom:1px solid rgba(150, 150, 150, 1.00);
+}
+
+#masthead, #copyright{
+float:left;
+}
+
+#masthead a{
+text-decoration:none;
+font-style: normal; 
+font-weight: 600; 
+font-family: droid-serif; 
+font-size: 1.4em; 
+margin-bottom: 0em; 
+line-height: 1.6em;
+color: rgba(71, 71, 71, 1.00);
+/*color: rgba(100, 100, 100, 1.00); */
+}
+
+#primary, #secondary{
+float:right;
+}
+
+#primary ul li,#secondary ul li{
+list-style:none;
+display:inline;
+}
+
+#secondary ul li{
+font-weight: 400; 
+font-family: droid-serif; 
+font-size: 0.8em; 
+line-height: 1em;
+}
+
+#secondary ul li a{
+text-decoration:none;
+color: rgba(101, 101, 101, 1.00);
+}
+
+#primary ul{
+margin:0;
+}
+
+#primary ul li a{
+text-decoration:none;
+font-style: normal; 
+font-weight: 400; 
+font-family: droid-serif; 
+font-size: 0.9em; 
+line-height: 1em;
+padding-bottom:0.25em;
+color: rgba(91, 91, 91, 1.00);
+}
+
+.breathe{
+margin:1em 0 1em 0;
+}
+
+#copyright{
+font-weight: 400; 
+font-family: droid-serif; 
+font-size: 0.8em; 
+line-height: 1em;
+color: rgba(71, 71, 71, 1.00);
+}
+
+
+/* ---------- IMAGES ---------- */
+
+.flickr{
+text-indent:-1em; 
+margin:0;
+width:100%;
+border-radius: 10px;
+}
+
+.diagram{
+width:100%;
+border-radius: 10px;
+}
+
+.mini-avatar{
+position: absolute;
+left: 10px;
+top: 10px;
+width: 60px;
+height: 60px;}
+
