@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: true
-permalink: /:categories/:title
+permalink: /blog/:title
 exclude: ["readme.md"]
 name: Paul May
 description: Paul May's Blog
