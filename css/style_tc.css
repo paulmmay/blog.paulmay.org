@@ -121,18 +121,18 @@ font-family: droid-serif;
 line-height: 1.6em; 
 }
 
-p a:link { 
+li a:link, p a:link { 
 /*color: rgba(255, 157, 0, 1.00); */
 color:#55a2ca;
 text-decoration: none; 
 }
 
-p a:hover { 
+li a:hover, p a:hover { 
 color: rgba(255, 199, 0, 1.00); 
 text-decoration: underline; 
 }
 
-p a:visited { 
+li a:visited, p a:visited { 
 /*color: rgba(255, 199, 0, 1.00); */
 color:#68add0;
 text-decoration: underline; 
@@ -354,3 +354,10 @@ top: 10px;
 width: 60px;
 height: 60px;}
 
+.nimbus{
+font-style: normal; 
+font-weight: 600; 
+font-family: nimbus-sans; 
+text-transform: none; 
+color: rgba(51, 51, 51, 1.00); 
+}

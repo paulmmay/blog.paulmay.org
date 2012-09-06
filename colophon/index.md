@@ -11,5 +11,5 @@ This site is produced by <a href="/about">Paul May</a> using a few simple tools:
 * Web stats are tracked using Google <a href="http://google.com/analytics">Analytics</a>
 * Most of the photos on the site are shot on a Nikon D80 and hosted on <a href="http://www.flickr.com/paulmmay">Flickr</a>
 
-The website is set in two fonts; Droid Serif for body text and navigation, Nimbus sans for headings. Both of these fonts were chosen using <a href="http://www.typecastapp.com">Typecast</a> and are served by <a href="http://www.typekit.com">Typekit</a>. 
+The website is set in two fonts; Droid Serif for body text and navigation, <span class="nimbus">Nimbus Sans</span> for headings. Both of these fonts were carefully chosen using <a href="http://www.typecastapp.com">Typecast</a> and are served by <a href="http://www.typekit.com">Typekit</a>. 
  

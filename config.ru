@@ -1,7 +1,9 @@
-require "rack/jekyll"
-require "rack/rewrite"
-use Rack::Rewrite do
-  rewrite '/feed/', '/feed/index.xml'
-  rewrite '/itp/feed/', '/feed/index.xml'
-end
-run Rack::Jekyll.new
+require 'rack/contrib/try_static'
+
+use Rack::TryStatic,
+    :root => "_site",
+    :urls => %w[/],
+    :try => ['.html', 'index.html', '/index.html']
+
+
+run lambda { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}
