@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Paul May Irish Data - Hello World</title>
+    <link rel="stylesheet" href="/css/style_tc.css"/>
+</head>
+<body>
+
+
+<div id="wrapper">  
+<div id="header">
+<div id="masthead"><a href="/">Paul May</a></div>
+<div id="primary">
+<ul>
+<li><a href="/work">Work</a></li>
+<li><a href="/blog" class="youhere">Blog</a></li>
+<li><a href="/about">About</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="divider"></div>
+
+<div id="content">
+<!--The standard page structure. Page-specific markup lives in respective layout files-->
+<!--There will be a standard navigation-->
+    <div class="post">
+<p class="datestamp">Sunday, November 14, 2010</p>
+<h1>Irish Data - Hello World</h1>  
+    <p class="intro">The Irish Data project has been going well; here is a first look at some of my homemade API of useful Irish data. </p>
+
+
+<h3>Hello World</h3>
+
+<p>I've put in place a few basic calls to the API of Irish Data; all of which can be accessed via <em>http://api.irishdata.org/v1/statisticname.xml</em>. (See below for more details). Feel free to test the calls out - but be warned - this is totally in flux. The data will probably go a bit stale, the API will be intermittently available and I'll be fussing around with the output  - basically don't rely on this for anything. I'm just putting this out to get feedback from anybody who's interested.</p>
+
+<table class="fancy">
+<tr><th>Statistic</th><th>Description</th><th>Source</th><th>Parameters</th><th>URL/Example</th></tr>
+<tr><td>Annual Population Estimate</td><td class="wider">The annual April population estimate for the Irish state.</td><td>CSO.ie</td><td>Year as YYYY</td><td><a href="http://api.irishdata.org/v1/populationestimate.xml?year=2010">Example</a></td></tr>
+<tr><td>Quarterly Average House Price</td><td class="wider">The average price for new and second hand homes in Ireland per quarter.</td><td>CSO.ie</td><td>None</td><td><a href="http://api.irishdata.org/v1/averagehousepricequarter.xml">Example</a></td></tr>
+<tr><td>Quarterly House Loans Approved</td><td class="wider">The number and value of house loans approved per quarter.</td><td>CSO.ie</td><td>None</td><td><a href="http://api.irishdata.org/v1/houseloansapprovedquarter.xml">Example</a></td></tr>
+<tr><td>Quarterly Births, Deaths</td><td class="wider">The birthrate, number of births and number of deaths per quarter</td><td>CSO.ie</td><td>None</td><td><a href="http://api.irishdata.org/v1/birthsdeathsquarter.xml">Example</a></td></tr>
+</table>
+
+
+
+
+<br />
+
+
+<p>You can also use these calls to return JSON or PRINTR formatted data; just swap out .xml with .json or .printr respectively.</p>
+
+<h3>Next Steps</h3>
+
+<p>Here are the things I need to tackle next, in no particular order</p>
+
+<ul>
+<li>Sourcing - I need to document and cite the source of all the data in much more detail.</li>
+<li>Documentation - I need to document the (very basic) functionality of the different API calls.</li>
+<li>Parameters - I'd like for the user to be able to specify sensible parameters; county, date, date range; these are in the works.</li>
+<li>Process - There's not much point doing this if it can't be kept up to date; I'm going to try to apply the principles of the  <a href="http://en.wikipedia.org/wiki/Open_Archival_Information_System">Open Archival Information System</a> to map out the people, processes, systems and tools involved in keeping that data current; I will need your help on this!</li>
+<li>Data - I want to add more of it! All the data in v1 will be for the State, but in the New Year I'd like to break data down by county where available.</li>
+</ul>
+
+
+<p>I also want to get a simple website up and running to explain the project, point people towards documentation, showcase any apps/widgets that use the data.</p>
+
+<h3>What I Need</h3>
+
+<p>I would love to get <strong>as much feedback on this as possible</strong>; guidance on <strong>what data you'd like to see,</strong> any <strong>technical requirements</strong> you have (parameters you'd like to be able to pass into the API), and anything else that takes your fancy.&nbsp;</p>
+
+<p>Please comment with any suggestions or feedback, or find me on <a href="http://www.twitter.com/paulmmay">Twitter</a> (<a href="http://www.twitter.com/paulmmay">@paulmmay</a>).</p>
+
+
+<div id="mininav">
+<div id="next"></div>
+<div id="previous"></div>
+</div>
+    
+<div id="minibio">
+<img src="/g/me.jpg" height="60" width="60" class="mini-avatar"/>
+<span class="mini-text">Paul May is a researcher and designer from Dublin, living and working in New York. Find out <a href="/work" title="Paul May's portfolio of work">more about Paul's work</a> or <a href="mailto:hello@paulmay.org">get in touch</a>.</span>
+</div> 
+
+</div><!--end of post-->
+
+<div class="divider breathe"></div>
+
+<div id="footer">
+<div id="copyright">&copy; 2012 Paul May.</div>
+<div id="secondary">
+<ul>
+<li><a href="http://twitter.com/paulmmay">Twitter</a></li>
+<li><a href="/feed.xml">RSS</a></li>
+<li><a href="/colophon">Colophon</a></li>
+</ul>
+</div>
+</div>
+
+    
+</div>  
+</div>      
+</body>
+<script type="text/javascript" src="//use.typekit.net/ebp8vaa.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</html>

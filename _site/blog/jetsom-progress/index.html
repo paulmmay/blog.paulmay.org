@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Paul May Jetsom - Progress</title>
+    <link rel="stylesheet" href="/css/style_tc.css"/>
+</head>
+<body>
+
+
+<div id="wrapper">  
+<div id="header">
+<div id="masthead"><a href="/">Paul May</a></div>
+<div id="primary">
+<ul>
+<li><a href="/work">Work</a></li>
+<li><a href="/blog" class="youhere">Blog</a></li>
+<li><a href="/about">About</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="divider"></div>
+
+<div id="content">
+<!--The standard page structure. Page-specific markup lives in respective layout files-->
+<!--There will be a standard navigation-->
+    <div class="post">
+<p class="datestamp">Friday, March 02, 2012</p>
+<h1>Jetsom - Progress</h1>  
+    <p class="intro">A quick update on my Nature of Code midterm project.</p>
+
+
+<p>Jetsom is a physics-directed representation of the ephemera I find around my home. I'm just getting started with it, and have been starting to build up a set of data - scanned images and accompanying information. So, let's say it's a theatre ticket - I have scanned the ticket, and stored information like the address of the theatre and the price of a ticket in a database.</p>
+
+<p>Once I had a simple test dataset I started to build the usual internal machinery of a sketch like this - functions to get the data and parse it into objects. I've had very little time to make the visual rendering step anything more than a Box2D hello world.</p>
+
+<p><a href="http://www.flickr.com/photos/paulmmay/6945528483/" title="Jetsom by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7190/6945528483_ae098106bc_b.jpg" class="flickr" alt="a screenshot of jetsom - a series of rectancles sitting on a surface"></a></p>
+
+<p>At the moment the processing sketch is loading information from a database. For each row of the data set an object is created and a corresponding image is loaded into it. Each image is analyzed to find its size and average colour. This information is used to inform the creation of Box2D elements, and then the object is placed into the Box2D world. The objects appear and are directed down with the force of gravity, coming to rest on a surface.</p>
+
+<p><a href="http://www.flickr.com/photos/paulmmay/6945565681/" title="Jetsom by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7039/6945565681_fcc363309b_b.jpg" class="flickr" alt="a series of rectangles sitting on a surface"></a></p>
+
+<p>It's super simple for now. I will probably not be using Box2D after I hand in the mid-term; I'm interested in getting away from the literal representation of the pieces of ephemera - when I have more time I'll decide exactly what that means. I'm drawn to the idea that this junk is like leaf litter, or layers of time.</p>
+
+<p>We shall see.</p>
+
+
+<div id="mininav">
+<div id="next"></div>
+<div id="previous"></div>
+</div>
+    
+<div id="minibio">
+<img src="/g/me.jpg" height="60" width="60" class="mini-avatar"/>
+<span class="mini-text">Paul May is a researcher and designer from Dublin, living and working in New York. Find out <a href="/work" title="Paul May's portfolio of work">more about Paul's work</a> or <a href="mailto:hello@paulmay.org">get in touch</a>.</span>
+</div> 
+
+</div><!--end of post-->
+
+<div class="divider breathe"></div>
+
+<div id="footer">
+<div id="copyright">&copy; 2012 Paul May.</div>
+<div id="secondary">
+<ul>
+<li><a href="http://twitter.com/paulmmay">Twitter</a></li>
+<li><a href="/feed.xml">RSS</a></li>
+<li><a href="/colophon">Colophon</a></li>
+</ul>
+</div>
+</div>
+
+    
+</div>  
+</div>      
+</body>
+<script type="text/javascript" src="//use.typekit.net/ebp8vaa.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</html>

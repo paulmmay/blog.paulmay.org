@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
+  <title>Paul May</title>
+  <subtitle></subtitle>
+  <icon></icon>
+  <updated>2012-07-07T00:00:00Z</updated>
+  <id>http://paulmay.org/feed.xml</id>
+  <link type="text/html" rel="alternate" href="http://paulmay.org"/>
+  
+    <entry>
+      <title>MSKCC Bone Marrow Transplant Project</title>
+      <published>2012-07-07T00:00:00Z</published>
+      <updated>2012-07-07T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;A write-up of my research and design project done in collaboration with Memorial Sloan-Kettering Cancer Center. &lt;/p&gt;
+
+
+&lt;h3&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;A research and design project done in collaboration with Memorial Sloan-Kettering Cancer Center to investigate the period of rehabilitation that follows a bone marrow transplant and then design improvements for patients and medical staff.&lt;/p&gt;
+
+&lt;p&gt;The project features original research into the experience of a bone marrow transplant from the perspective of medical staff, administrative staff and transplant recipients. The findings from this research are grouped into six themes: The Patient’s Journey,&amp;nbsp; Symptoms, The Whole Patient, The Importance of the Caregiver, Informing Patients, Activity and Motivation.&lt;/p&gt;
+
+&lt;p&gt;A prototype web application based on these research findings was then developed; Activity App. Activity App builds on the capabilities of an off the shelf activity-monitoring/pedometer device, FitBit, to create a service that encourages bone marrow transplant patients to remain physically active before, during and after their treatment.&lt;/p&gt;
+
+&lt;p&gt;As part of the development of the prototype, I worked with Sloan-Kettering to write a section of a protocol that will allow Activity App to be tested with patients as part of a forthcoming clinical trial.&lt;/p&gt;
+
+&lt;h3&gt;Presentation Video&lt;/h3&gt;
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/42204358?color=f0d000&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
+
+
+&lt;h3&gt;Background&lt;/h3&gt;
+
+&lt;p&gt;While at ITP I've been fortunate enough to work on a number of health-related projects and I wanted to continue this work with my final thesis project.&lt;/p&gt;
+
+&lt;p&gt;In 2011 I approached Memorial Sloan-Kettering Cancer Center (MSKCC) in New York to see if we could collaborate on a project. MSKCC is one of the world's leading cancer hospitals. In 2011 MSKCC admitted over 23,000 patients, carried out 11,052 inpatient surgeries, carried out 8,181 outpatient surgeries, and conducted 1.18 million outpatient visits. The hospital also has a Design Innovation Group who work to improve procedures and patients' experiences.&lt;/p&gt;
+
+&lt;p&gt;Over a number of discussions we saw that there was an opportunity for me to work on a project related to bone marrow transplantation; a procedure that is currently actively being investigated and improved at the hospital. We identified the period of rehabilitation following a bone marrow transplant as being of particular interest.&lt;/p&gt;
+
+&lt;p&gt;We agreed that I would carry out a research and design project to improve patients' experience of bone marrow rehabilitation.&lt;/p&gt;
+
+&lt;p&gt;I would &lt;strong&gt;carry out a period research&lt;/strong&gt; to investigate bone marrow transplantation as it's experienced today. I would then use the insights gained from this research to &lt;strong&gt;identify opportunities&lt;/strong&gt; to improve the patient experience. In the time remaining I would take one of these opportunities and &lt;strong&gt;develop a prototype of some kind&lt;/strong&gt;; a new service, device or application of some kind. I would take all of this work and &lt;strong&gt;present it&lt;/strong&gt; the hospital for them to take forward.&lt;/p&gt;
+
+&lt;p&gt;In January 2012 I started working on the project.&lt;/p&gt;
+
+&lt;h3&gt;Research Phase&lt;/h3&gt;
+
+&lt;p&gt;The research phase of the project lasted just under 6 weeks. I spent two weeks carrying out desk research; reading about bone marrow transplantation and related topics. I spent 4 weeks working on-site at Memorial Sloan-Kettering Cancer Center conducting primary research. I carried out a number of in-hospital observations, visiting the locations in the hospital where bone marrow transplantation is carried out and observing staff at work.&lt;/p&gt;
+
+&lt;p&gt;I spent the majority of my time at the hospital meeting and interviewing medical staff, administrators and patients. I interviewed 12 people in total; each interview followed a semi-structured format and was recorded, then transcribed. These interviews allowed me to develop a detailed understanding of the journey that patients go on when they undergo a bone marrow transplant - the people they interact with, the places they visit, the objects they interact with, the activities they carry out, the knowledge and skills they are expected to acquire and carry out.&lt;/p&gt;
+
+&lt;h4&gt;Findings&lt;/h4&gt;
+
+
+&lt;p&gt;I organized the findings of this research under a number of headings:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Patient's Journey:&lt;/strong&gt; The experience of undergoing a bone marrow transplant is long and complicated. There are a number of different types of transplant offered depending on the patient's diagnosis, and while each type has its own set of attributes - no two transplants are identical.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Symptoms: &lt;/strong&gt; The symptoms experienced by bone marrow transplantation patients can be debilitating. The chemotherapy regimen causes patients to feel very weak and nauseous and these symptoms can prevent patients from carrying out simple daily tasks - standing, walking. The medicines being given to patients can be harmful to organs if the patient is not properly hydrated. Patients may experience impairments to their cognitive functions; attention and short term memory. After transplantation, patients may experience a range of complications e.g. infections, graft versus host disease.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Whole Patient: &lt;/strong&gt;Unsurprisingly, each person who needs to undergo a bone marrow transplant is a unique individual with specific personality traits, needs, fears, expectation, hobbies and relationships. All of these factors play a role in how the person will cope with treatment and rehabilitation.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Importance of the Caregiver: &lt;/strong&gt;Other than the patient and the primary care physician, no other person plays a more significant role in the progress of the patient than their designated &amp;#8220;caregiver&amp;#8221;. The caregiver is typically a spouse, family-member or friend who remains on-hand throughout the patient's treatment and rehabilitation - this is a significant undertaking, especially when the caregiver needs to work or has other responsibilities. It would be fair to say that the caregiver is, in effect, co-opted onto the patient's medical team.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Informing Patients: &lt;/strong&gt;Patients and caregivers receive/experience this large quantity of new information at a time when they are undergoing significant stress, and when the patient could be experiencing debilitating side affects related to their treatment. This information is not evenly distributed throughout the treatment journey, and they will be asked to make significant decisions based on this volume of new information.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Activity &amp;amp; Motivation: &lt;/strong&gt; Physical activity plays a clinically important role in the patient's progress.&amp;nbsp; The reasons why patients should remain physically active change over time. Before the patient receives their chemotherapy and transplant they are advised to take exercise to condition themselves e.g. walking to build up strength and fitness before being admitted.&amp;nbsp; Once they enter the hospital, it's likely that they will spend some amount of time in confinement, and it's also likely that their symptoms will make physical activity difficult or unappealing. All patients are advised to remain physically active to minimize the extent to which they de-condition. After the patient leaves the hospital or confinement, it is important that they remain physically active to regain condition lost while in hospital/confinement. The more physically able the patient is, the more they are able to carry out day to day activities crucial to their wellbeing and survival. The less the patient is able to do, the less they will do - and their physical condition will deteriorate.&amp;nbsp;&lt;/p&gt;
+
+&lt;h3&gt;Opportunities&lt;/h3&gt;
+
+&lt;p&gt;Once I had completed my research I investigated two design opportunities in more detail.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opportunity 1 - Informing the Patient: &lt;/strong&gt; I saw that there was an opportunity to re-design how useful, decision-critical information flows between the medical team, the patient and the caregiver. Rather than thinking about educating the patient using sets of materials, I proposed a way in which information could be offered through a service; experienced rather than given, staged over time, present when needed, discrete when not needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opportunity 2 - Activity &amp;amp; Motivation: &lt;/strong&gt; I saw that there was an opportunity to encourage patients to remain physically active throughout their entire journey. I proposed a way in which the hospital could begin to encourage physical activity long before the patient undergoes treatment. This approach/service would follow the patient during their treatment and rehabilitation; persuading them to take small amounts of regular exercise. It would give medical staff simple tools to offer feedback and encouragement to the patient; helping to keep them motivated as they return to health.&lt;/p&gt;
+
+&lt;h3&gt;Prototyping&lt;/h3&gt;
+
+&lt;p&gt;The second half of the project was devoted to responding to one of these opportunities. I chose to develop a prototype of a service that could encourage patients to remain physically active before, during and after their transplant. I called this activity and motivation service &lt;i&gt;Activity App&lt;/i&gt;.&lt;/p&gt;
+
+&lt;p&gt;Patients using Activity App are offered a small, off the shelf pedometer in the very early stages of their treatment. &lt;br /&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7522612082/&quot; title=&quot;fitbit_paulmay_thesis by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8154/7522612082_d8ee2ff133_c.jpg&quot; class=&quot;flickr&quot; alt=&quot;fitbit_paulmay_thesis&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This pedometer is paired with a web application, Activity App. Activity App offers a simple view of the patient's level of physical activity without distractions and inappropriate game mechanics, options and features. &lt;br /&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7522582918/&quot; title=&quot;screenshot_profile_1 by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8290/7522582918_c36a6143ab_c.jpg&quot; class=&quot;flickr&quot; alt=&quot;screenshot_profile_1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Working with a therapist, patients set a daily activity goal. Each day they will receive a prompt via SMS reminding them of their goal. &lt;br /&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7522585856/&quot; title=&quot;inboundmessage_paulmay_thesis by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7117/7522585856_1955d3bcd9_c.jpg&quot; class=&quot;flickr&quot; alt=&quot;inboundmessage_paulmay_thesis&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Each day, patients respond to their reminder SMS rating how difficult they found yesterday's activity. This gives medical staff vital, subjective information about the patients ability to remain active. &lt;br /&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7522587992/&quot; title=&quot;smsreply_paulmay_thesis by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8422/7522587992_28b3c03997_c.jpg&quot; class=&quot;flickr&quot; alt=&quot;smsreply_paulmay_thesis&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Medical staff have access to a dashboard showing how their patient population is doing. &lt;br /&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7522582284/&quot; title=&quot;screenshot_dashboard by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7248/7522582284_0e579fd7c3_c.jpg&quot; class=&quot;flickr&quot; alt=&quot;screenshot_dashboard&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Medical staff have some simple tools to offer encouragement to patients. &lt;br /&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7522582556/&quot; title=&quot;screenshot_feedback by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7267/7522582556_e92d49d272_c.jpg&quot; class=&quot;flickr&quot; alt=&quot;screenshot_feedback&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For the first time, rather than recommending physical activity to patients at different times and in different ways - MSKCC can offer a simple service that follows a patient throughout their treatment.&lt;/p&gt;
+
+&lt;p&gt;The service allows patients and therapists to work together to set a goal, and rather than expecting the patient to be active, the service expects them to be inactive - and offers a &amp;#8220;hot trigger&amp;#8221; in the form of a daily SMS that encourages them to be active.&lt;/p&gt;
+
+&lt;p&gt;Patients can monitor their own progress and can offer simple, subjective feedback. Because patients find feedback from medical staff highly motivating, medical staff have some simple tools they can use to offer encouragement.&lt;/p&gt;
+
+&lt;p&gt;Activity App is a fully working prototype, written in Sinatra and deployed to Heroku. I have released the source code to Memorial Sloan-Kettering Cancer Center under an MIT License for them to continue its development.&lt;/p&gt;
+
+&lt;p&gt;I presented my thesis project to the ITP community and representatives of MSKCC's Design Innovation Group in May of 2012 - completing the requirements for my Master's degree.&lt;/p&gt;
+
+&lt;h3&gt;Next Steps&lt;/h3&gt;
+
+&lt;p&gt;During the project I was asked to write a section of a &lt;strong&gt;clinical trial protocol &lt;/strong&gt;that would allow Activity App to be used in a forthcoming clinical trial involving a particular population of bone marrow transplant patients. and so if the hospital are happy that Activity App is stable and secure enough to be used in a real world context, it can be. This is a really exciting prospect for me.&lt;/p&gt;
+
+&lt;p&gt;I have completed a full write-up of the project, including a set of recommendations about how Activity App could be developed further, and delivered this write-up to Memorial Sloan-Kettering Cancer Center. I would love to continue to collaborate them in some way.&lt;/p&gt;
+
+&lt;h4&gt;Future Scenarios&lt;/h4&gt;
+
+
+&lt;p&gt;I am very happy with the work I did in such a short period of time. It would now be desirable for Activity App to be tested with real patients and medical staff. During this test a small group of patients would be offered the service at the beginning of their treatment. They would use the service, and offer feedback at set intervals. This feedback could be implemented as it was given by patients, or it could be aggregated and addressed at the end of the test. I have worked with Memorial Sloan-Kettering to write a section of a clinical trial document that would allow Activity App to be tested in such a way, and I hope that this happens in the near future.&lt;/p&gt;
+
+&lt;p&gt;I would also be very keen to see this type of service rolled out to all patients at the hospital. It may become standard practice for medical staff to recommend a period of conditioning/activity to all patients in advance of their treatment. If this was the case, then offering a service like Activity App could help to support patients’ motivation while offering medical staff insight into patient behavior. Over time, the ways in which patients are supported in the use of these types of persuasive systems could be refined and tested further.&lt;/p&gt;
+
+&lt;p&gt;It’s my belief that the integration of physical activity in a medical context, supported by simple technologies like Activity App, can improve clinical outcomes – obviously this is something that should be carefully considered, introduced slowly and evaluated over time. It’s an exciting challenge.&lt;/p&gt;
+
+&lt;h3&gt;Lessons Learned&lt;/h3&gt;
+
+&lt;p&gt;The key thing I learned from this project was that I am highly motivated and produce good work when I can work reasonably independently on projects that are personally meaningful to me. My challenge now is to make or shape an environment that allows me to work in this way most or all of the time; it’s likely that I will start or help co-found some sort of company/venture that takes on difficult challanges at the intersection of humanity and technology and seeks to measurably improve people’s lives.&lt;/p&gt;
+
+&lt;p&gt;While the project was incredibly motivating, I must also recognize that working  independently on a challenging project, especially one to human health, can be lonely and stressful at times. I had no contact with upsetting situations while carrying out research at MSKCC, but I underestimated how much I would be affected by the topic itself, the language, the enormity of the challenge facing medical staff and patients. This context, combined with a very challenging schedule in the early phases of the project, weighed on me. If and when I do a project related to human health in the future I will be sure to consider the impact of the subject matter on my emotional well being and mental health and I will put measures in place to ensure that I have proper support.&lt;/p&gt;
+
+&lt;h4&gt;Process&lt;/h4&gt;
+
+
+&lt;p&gt;I am satisfied that the methods I selected to undertake this project were, for the most part, appropriate and useful. The decision to adhere to a reasonably detailed project structure allowed me to spend the majority of my time researching, learning, interacting with people, documenting my work and producing software. I spent relatively little time during the project on planning or task management.&lt;/p&gt;
+
+&lt;p&gt;While each phase of the project was completed on time, or within an acceptable margin, I see now that this was in-part due to my willingness to scale the amount of work I did in each phase. I could have spent more time in each phase – interviewing more people, adding more functionality – but chose not to. I had never really reflected properly on the relationship between the attitude of a project (doing enough things well, rather than doing as many things as possible) and its outcome. I take heart in this and will continue to develop my skills and understanding of project planning and pre-production.&lt;/p&gt;
+
+&lt;h4&gt;Research&lt;/h4&gt;
+
+
+&lt;p&gt;Conducting a period of secondary research was very useful. In a short period of time I became familiar with the basic facts, processes and vocabularly associated with bone marrow transplantation. Without this knowledge I wouldn’t have been able to ask meaningful questions when it came time to do interviews.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;In retrospect I feel as though my secondary research could have been improved; all the materials I read didn’t fit closely enough with my research questions, and I could have made better use of my time if they had – I would have been able to read more deeply in a smaller number of areas. If I was to do this project again I would establish a much closer link between my research questions, a set of topics related to those questions and a set of materials related to each topic. I would consult with experts who could recommend materials to me. I would work with a reference librarian to help me find materials closely aligned with my research questions, and I would read deeply on those topics. I need to improve my secondary research skills.&lt;/p&gt;
+
+&lt;p&gt;The observation exercises were useful and produced useful photographs and notes. While carrying out the observations I felt uncomfortable and out of place and my interactions with people felt forced and shallow – I need to practice these skills so that I am more used to the being an outsider, being in the moment while gathering useful information.&lt;/p&gt;
+
+&lt;p&gt;Carrying out semi-structured interviews resulted in a wealth of detailed, useful information and allowed me to get to know the people who are involved in the delivery of care. I drew heavily on the information gathered during these interviews later in the project, and the empathy I developed for the people at MSKCC helped me make good decisions when it came to developing my ideas and software.&lt;/p&gt;
+
+&lt;p&gt;While I’ve carried out research interviews many times in the past, I found these interviews to be very challenging – the subject matter was complex and there was no real opportunity for people to be re-interviewed; it was important that each interview went well. If I was to do the interviews again I think I would reduce the number of questions significantly and tailor each interview more closely to the interviewee – I could have asked fewer, better questions and allowed the conversation to flow more naturally; in a sense I need to think of interviews as structured conversations rather than interviews where the person has information and my questions are tools to prompt them to give me that information.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Also, the volume of information created during interviews became something of a problem in itself. From a purely practical point of view, transcribing interviews is tedious. I could have used a commercial service to do the transcriptions, but felt as though there was merit in “sitting-with” and re-listening to interviews; transcribing them myself.&lt;/p&gt;
+
+&lt;p&gt;I am now sure that, given the short amount of time available in the research phase, having the interviews transcribed by sombody would have been a better approach. I would have had more time to do other work, and once the interviews had been transcribed I would have had more time to reflect on the things people were saying. I will take this approach on my next project.&lt;/p&gt;
+
+&lt;h4&gt;Prototyping, Production&lt;/h4&gt;
+
+
+&lt;p&gt;The prototyping and production phases of the project ran reasonably smoothly. Once I had described the practical project I wanted to work on I went a level deeper to describe the things I wanted users to be able to do. I used post-it notes to break “stories” (e.g. the user logs in for the first time) down into individual steps and supporting functions (e.g. the user must be able to pair their fitbit with my software). This system was simple and effective and one I’ll use again.&lt;/p&gt;
+
+&lt;p&gt;The production of the software itself was highly iterative; I released code to the production server over 140 times in the 4 week prototyping phase. I was able to do this because I was using the domain specific language Sinatra and the hosting provider Heroku. This system allowed me to write code on my laptop and issue a single command to release code to the production server. Using live data from my FitBit and testing with two volunteers allowed me to test that each of these small releases worked and improved the user experience.&amp;nbsp; I’ll be sure to bring this approach forward with me; when I develop software it really matters to me that I’m using real data. It’s important that my tools help me, rather than getting in the way – I am just not interested in configuring servers, so a system like Heroku is perfect for me. Being able to work locally and push to a remote server means that I’m able to see my changes almost instantly. This process was really groundbreaking for me.&lt;/p&gt;
+
+&lt;h4&gt;Presentation, Documentation&lt;/h4&gt;
+
+
+&lt;p&gt;I am glad that I gave myself a specific window of time in the project to document and present my work. I didn’t, however, leave myself enough time to document my work as I went along. I should have had one day per week, or one week in the middle of the project when I drew togehter all my materials into some sort of collection. Doing this would have made my final documentation more of a compilation exercise, rather than a separate act of documentation. This is something I’m still thinking about – but on my next project I’ll consider whether more “real-time” documentation would be useful.&amp;nbsp;&lt;/p&gt;
+
+&lt;h3&gt;Thanks&lt;/h3&gt;
+
+&lt;p&gt;I owe a sincere debt of gratitude to the staff of Memorial Sloan-Kettering's Design Innovation team for their support and guidance throughout this project. I would particularly like to thank Era Bani who acted as my liaison at the hospital and made sure that I had access to people, facilities and information vital to my project.&lt;/p&gt;
+
+&lt;p&gt;I am incredibly grateful to patients, doctors, nurses, therapists and administrators at Sloan-Kettering who, though busy with far more serious matters, agreed to be interviewed and provide feedback during the course of the project.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;I would like to thank all the staff and students at ITP for their support. I particularly want to thank Nancy Hechinger for her trust, patience and straight-talk. Steven Dean made the initial introduction to MSKCC and instructed me in the design of health-related applications. Steven Klise offered technical help and sound advice while I was developing the prototype of Activity App.&amp;nbsp;&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/mskcc-bone-marrow-transplant-project"/>
+      <id>http://paulmay.org/blog/mskcc-bone-marrow-transplant-project</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Thesis Presentation Video</title>
+      <published>2012-05-18T00:00:00Z</published>
+      <updated>2012-05-18T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;This is the presentation I gave about my master's thesis project at ITP. My project was a semester-long collaboration with Memorial Sloan-Kettering Cancer Center in New York. The goal of the project was to investigate and improve the period of rehabilitation that follows a bone marrow transplant.
+
+I carried out 6 weeks of detailed research at the hospital, then designed and built a service to encourage patients to remain physically active throughout their treatment.&lt;/p&gt;
+
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/42204358?color=f0d000&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
+
+
+&lt;p&gt;The slides that accompany the presentation &lt;a href=&quot;http://dl.dropbox.com/u/1299449/paulmay_nyu_thesis.pdf&quot; title=&quot;are also available&quot;&gt;are also available&lt;/a&gt;.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-presentation-video"/>
+      <id>http://paulmay.org/blog/thesis-presentation-video</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Nature of Code - Showreel</title>
+      <published>2012-05-02T00:00:00Z</published>
+      <updated>2012-05-02T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;A very short video showing some of the experiments and projects I did this semester in the Nature of Code class at ITP. &lt;/p&gt;
+
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/41395087?color=f0d000&quot; class=&quot;flickr&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
+
+
+&lt;p&gt;You can &lt;a href=&quot;https://vimeo.com/41395087&quot; title=&quot;download a much higher quality version&quot;&gt;download a much higher quality version&lt;/a&gt; of the video over on Vimeo. The code for all the experiments and projects shown in the video is &lt;a href=&quot;https://github.com/paulmmay/Nature-of-Code&quot; title=&quot;available over on github&quot;&gt;available over on github&lt;/a&gt;.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-showreel"/>
+      <id>http://paulmay.org/blog/nature-of-code-showreel</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Nature of Code - Creatures</title>
+      <published>2012-05-02T00:00:00Z</published>
+      <updated>2012-05-02T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;My final project for Nature of Code; a landscape of food and danger inhabited by different species of artificial creatures. &lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6967228282/&quot; title=&quot;Starting Point by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7111/6967228282_5743d1a1a8_c.jpg&quot; class=&quot;flickr&quot; alt=&quot;Starting Point&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Goals, Concept&lt;/h3&gt;
+
+&lt;p&gt;I was really fascinated by the examples of artificial agents we worked through in the Nature of Code class; there is just something incredibly fun about being able to create pseudo-lifelike behaviour in software.&lt;/p&gt;
+
+&lt;p&gt;My goal for this project was to improve my understanding of &lt;a href=&quot;http://www.red3d.com/cwr/steer/&quot; title=&quot;Reynolds' steering behaviours&quot;&gt;Reynolds' steering behaviours&lt;/a&gt; and &lt;a href=&quot;http://www.shiffman.net/teaching/nature/ga/&quot; title=&quot;genetic algorithms&quot;&gt;genetic algorithms&lt;/a&gt; by designing a &amp;#8220;landscape&amp;#8221; inhabited by different species of creatures. In this landscape the creatures seek food, feed, flee from danger, reproduce, age and die.&amp;nbsp; (The full proposal for the project &lt;a href=&quot;http://paulmay.org/blog/nature-of-code-final-project-proposal/&quot; title=&quot;is over here&quot;&gt;is over here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3&gt;The Landscape&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7113306833/&quot; title=&quot;Food Resources Regrown, Tiny Population by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7228/7113306833_c63757d3d1_c.jpg&quot; class=&quot;flickr&quot; alt=&quot;Food Resources Regrown, Tiny Population&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+The landscape inhabited by the creatures contains a number of food-sources and threats.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Food-sources&lt;/strong&gt; are indicated by green circles, and as the creatures deplete these food sources they shrink, disappear and then regrow slowly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Threats&lt;/strong&gt; are indicated by smaller red circles. Unlike food sources, these threats never deplete. If a creature comes too close, they are injured - proximity to the threat reduces the amount of energy that a creature has.&lt;/p&gt;
+
+&lt;p&gt;The creatures&lt;strong&gt; retain a memory of food sources and threats&lt;/strong&gt;; these are indicated by the green and red icons that are displayed next to each creature. (This visual indication of creatures' memory was one of the most useful things I made for the project - much more useful and immediate than print-line statements.)&lt;/p&gt;
+
+&lt;h3&gt;The Creatures&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6987651766/&quot; title=&quot;Creatures - Reproduction by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8156/6987651766_9d08fd7449_c.jpg&quot; class=&quot;flickr&quot; alt=&quot;Creatures - Reproduction&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+The creatures have attributes and exhibit behaviours that help them survive:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Energy/Life&lt;/strong&gt;: The creatures are created with a finite amount of energy that is depleted when they move and over time. To replenish their energy supplies they must consume food.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seeking&lt;/strong&gt;: The creatures will wander around the landscape at random until they find an object that interests them; at which point they will move towards that object.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vision&lt;/strong&gt;: When the creatures are within a short distance of an object they can tell if it is food or a threat.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fleeing&lt;/strong&gt;: The creature can move quickly away from threats.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feeding&lt;/strong&gt;: The creature can arrive at a food source and consume it; the food source is depleted and the creature's energy level increases.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reproduction&lt;/strong&gt;: If the creature has sufficient energy and is close to another creature of its species, it has a chance of reproducing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory&lt;/strong&gt;: Each creature can remember the food sources and threats it encounters in the landscape.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;All of these behaviours are triggered depending on scenario the creature finds itself in; if it's near an object, it will move towards it to examine it more closely and then feed/flee depending on what that object is. If the creature is near a potential mate, then a fitness algorithm will decide whether or not a new creature should be created etc.&lt;/p&gt;
+
+&lt;h3&gt;Video&lt;/h3&gt;
+
+&lt;p&gt;This video shows the version of the project I presented in class, with a couple of small tweaks. In the video you'll see three species searching for food and encountering threats. From time to time two creatures of the same species will encounter one another and a new creature will be produced. To make the new creatures easier to see a grey circle is drawn around them for the first 10 seconds of their life. A higher resolution version of the video can be &lt;a href=&quot;https://vimeo.com/41397044&quot; title=&quot;downloaded from Vimeo&quot;&gt;downloaded from Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/41397044?color=f0d000&quot; class=&quot;flickr&quot; width=&quot;700&quot; height=&quot;420&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
+
+
+&lt;h3&gt;Further Improvements&lt;/h3&gt;
+
+&lt;p&gt;There are lots of ways in which this project could be improved upon. I will definitely improve the genetic algorithm that is used when new creatures are created. At the moment there is no mutation, so the results are predictable and the fitness of the creatures doesn't improve across generations.&lt;/p&gt;
+
+&lt;p&gt;As I said in my original &lt;a href=&quot;http://paulmay.org/blog/nature-of-code-final-project-proposal/&quot; title=&quot;proposal&quot;&gt;proposal&lt;/a&gt;, I think it would also be great to tie some aspects of the landscape to information from the real world. Creatures could behave differently depending on the time of day, or they could respond to weather conditions. Food sources could regrow more quickly depending on weather etc.&lt;/p&gt;
+
+&lt;h3&gt;Documentation&lt;/h3&gt;
+
+&lt;p&gt;All of the code from the project is &lt;a href=&quot;https://github.com/paulmmay/Nature-of-Code&quot; title=&quot;available on github&quot;&gt;available on github&lt;/a&gt;; just clone it to your computer and then open the sketch in Processing. The code is reasonably well commented. &lt;a href=&quot;http://www.flickr.com/photos/paulmmay/sets/72157629123328271/&quot; title=&quot;Screenshots are available on Flickr&quot;&gt;Screenshots are available on Flickr&lt;/a&gt; and there are several &lt;a href=&quot;https://vimeo.com/album/1923090&quot; title=&quot;work-in-progress videos on Vimeo&quot;&gt;work-in-progress videos on Vimeo&lt;/a&gt;.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-creatures"/>
+      <id>http://paulmay.org/blog/nature-of-code-creatures</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Snippet</title>
+      <published>2012-04-22T00:00:00Z</published>
+      <updated>2012-04-22T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;Something that doesn't belong where I wrote it, and so is going to live here.&lt;/p&gt;
+
+
+&lt;p&gt;What I do believe is that we are still quite a long way away from having a shared and robust set of tools that can be applied to the creation of experiences that sit between the digital and the physical. The gap between our intention and what we end up making is still very wide - in saying this I'm thinking specifically about the ways in which creative teams come together to collaborate, the tools we use to map out our intentions, the hardware/software we use to try to express those intentions, the  hardware/software we use to foster genuine interactivity between people, the ways in which we share and improve the things that we do. It seems as though only the most exceptional among us get to jump the gap between intention and fidelity of outcome.&lt;/p&gt;
+
+&lt;p&gt;We have a long way to go before we can start a project knowing that we'll be able to focus on the needs of people and not on overcoming obstacles.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/snippet"/>
+      <id>http://paulmay.org/blog/snippet</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Nature of Code - Final Project Proposal</title>
+      <published>2012-04-04T00:00:00Z</published>
+      <updated>2012-04-04T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;As my final project for Nature of Code I'm going to continue my experiments with Reynolds steering behaviours to create a pseudo-natural landscape of foraging creatures.&lt;/p&gt;
+
+
+&lt;h3&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;I've had a lot of fun lately programming little creatures to &lt;a href=&quot;http://paulmay.org/blog/nature-of-code-reynolds-steering/&quot; title=&quot;display life-like behaviours like finding food, wandering, fleeing threats&quot;&gt;display life-like behaviours like finding food, wandering, fleeing threats&lt;/a&gt;. There is just something weirdly compelling about tweaking and shaping the way the creatures behave.&lt;/p&gt;
+
+&lt;p&gt;I'm going to continue this work. I'll create a landscape populated by a number of different species of creature who exhibit different behaviours. They'll be born, search for food, follow each other, flee from each other, seek shelter, reproduce and die. I'd like the creatures to have some sense of time and memory - things will happen depending on their age, and they'll be able to store information about their interactions. This information will inform their decision making.&lt;/p&gt;
+
+&lt;p&gt;If I get time I may tie some of the attributes of the world to data from the real world; maybe some real weather data to inform weather in the world. Having any sort of direct communication between our world and the world of the creatures isn't something I'm certain that I want to pursue; we'll see.&lt;/p&gt;
+
+&lt;h3&gt;The Creatures&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6891472446/&quot; title=&quot;01_creature_attributes by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6058/6891472446_5f735793ca_b.jpg&quot; class=&quot;flickr&quot; alt=&quot;01_creature_attributes&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+The creatures will have some basic capabilities; abilities to walk, run, consume food, follow others.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7037567511/&quot; title=&quot;02_creature_desires by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7137/7037567511_b734a1807e_b.jpg&quot; class=&quot;flickr&quot; alt=&quot;02_creature_desires&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+The creatures will want for things, they'll seek food, find a mate, flee from predators.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7037566717/&quot; title=&quot;04_herds by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6091/7037566717_5e5995b9a3_b.jpg&quot; class=&quot;flickr&quot; alt=&quot;04_herds&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+They creatures will organise themselves into groups based on their attributes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7037566183/&quot; title=&quot;06_time by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7040/7037566183_fa787bd434_b.jpg&quot;  class=&quot;flickr&quot;  alt=&quot;06_time&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+The passage of time will influence the creatures' behaviour; during the day they will range far and wide energetically. At night they will seek shelter and stay close to one another.&lt;/p&gt;
+
+&lt;h3&gt;Landscape&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6891473726/&quot; title=&quot;05_island by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6105/6891473726_956904b16c_b.jpg&quot; class=&quot;flickr&quot; alt=&quot;05_island&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+The creatures will roam around on a landscape, probably an island of some sort - a space with natural boundaries.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6891471134/&quot; title=&quot;03_textures by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6117/6891471134_d7c19da143_b.jpg&quot; class=&quot;flickr&quot; alt=&quot;03_textures&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+The island will have some natural textures or types of terrain and the creatures will interact with these textures - feeding on them, avoid them etc.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-final-project-proposal"/>
+      <id>http://paulmay.org/blog/nature-of-code-final-project-proposal</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Thesis Week 10 - Entering Final Phase</title>
+      <published>2012-04-01T00:00:00Z</published>
+      <updated>2012-04-01T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;I'm entering the final 4 week phase of my project; wrapping up. &lt;/p&gt;
+
+
+&lt;p&gt;This week I &lt;strong&gt;completed functional work on the prototype web application&lt;/strong&gt; related to my thesis; the app is now feature-complete (it does everything I identified as being critical to the delivery of the service to patients). The final piece of the puzzle was the implementation of a daily text message sent to a patient's phone with feedback on the previous day's exercise and encouragement to be active. This is what is sometimes called a &amp;#8220;&lt;a href=&quot;http://www.behaviormodel.org/triggers.html&quot; title=&quot;hot trigger&quot;&gt;hot trigger&lt;/a&gt;&amp;#8221; in persuasive systems design.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;On Monday I &lt;strong&gt;presented the project to my Thesis classmates&lt;/strong&gt; at ITP. I essentially summarised the background to the project, the different phases I had worked through and the results to date. The response was very positive. I'm proud of where I've managed to get to in 10 weeks, and I've learned a huge amount about my own design process.&lt;/p&gt;
+
+&lt;h3&gt;Next Steps&lt;/h3&gt;
+
+&lt;p&gt;I'm resisting the urge to add new things to the web application, and instead I'm focusing on &lt;strong&gt;making the interface a little more intuitive&lt;/strong&gt; - and generally tidying up some bits and pieces.&lt;/p&gt;
+
+&lt;p&gt;On Tuesday of next week &lt;strong&gt;I present the project to senior staff at Memorial Sloan-Kettering&lt;/strong&gt; for feedback and discussion. I'll document what they have to say, and will try to implement any suggestions they have that can be done within the week. Anything that can't be done within the week will have to persist into a subsequent project or phase, or taken as a requirement/idea for work they do in the future.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-week-10-entering-final-phase"/>
+      <id>http://paulmay.org/blog/thesis-week-10-entering-final-phase</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Nature of Code - Reynolds Steering</title>
+      <published>2012-03-27T00:00:00Z</published>
+      <updated>2012-03-27T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;This week for my Nature of Code class I'm doing a few experiments with Reynolds steering in Processing. &lt;/p&gt;
+
+
+&lt;h3&gt;Experiment 1 - Investigating&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7020882139/&quot; title=&quot;Seek Object by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7131/7020882139_8bded64c06_b.jpg&quot; class=&quot;flickr&quot; alt=&quot;Seek Object&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this first experiment I wanted to create a &amp;#8220;creature&amp;#8221; that would wander an area. If the creature smells something, it goes to investigate. Once it gets within visual range it approaches cautiously. Once it gets very close and can see what exactly the &amp;#8220;something&amp;#8221; is it can make a decision to eat or run away.&lt;/p&gt;
+
+&lt;p&gt;I'm about half way through with this - the creature is wandering, sensing a far off object and going to investigate. I have to implement the cautious approach and fleeing.&lt;/p&gt;
+
+&lt;p&gt;The code for this simple experiment is on &lt;a href=&quot;https://github.com/paulmmay/Nature-of-Code/tree/master/noc_steering&quot; title=&quot;GitHub&quot;&gt;GitHub&lt;/a&gt; and is almost entirely based on Dan Shiffman's &lt;a href=&quot;https://github.com/shiffman/The-Nature-of-Code&quot; title=&quot;examples&quot;&gt;examples&lt;/a&gt; of Reynolds steering behaviours in Processing.&lt;/p&gt;
+
+&lt;h3&gt;Experiment 2 - Fleeing, Memory&lt;/h3&gt;
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/39315771&quot; class=&quot;flickr&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7021774343/&quot; title=&quot;food-1465 by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6031/7021774343_e46405d6a0_b.jpg&quot; class=&quot;flickr&quot; alt=&quot;food-1465&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this next version the creatures are roaming a habitat. If they get within smelling distance of an interesting object, they go to investigate. If the object is a threat they run away quickly, retaining a memory of that object. The next time they come within smelling distance of that object they flee without going to take a closer look. You'll see in the image that some creatures roaming the habitat have a little red circle in their &amp;#8220;memory&amp;#8221; denoting knowledge of a threatening object.&lt;/p&gt;
+
+&lt;p&gt;Next, I'll introduce a second type of interesting object - food - that the creatures can feed upon, deplete and then leave. It might also be interesting to have the creatures share knowledge of threates with one another - but that'll have to wait for version 4. I'm riffing on this for the rest of the day I think&lt;/p&gt;
+
+&lt;h3&gt;Experiment 3 - Depleting a Foodsource&lt;/h3&gt;
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/39315772&quot; class=&quot;flickr&quot; width=&quot;700&quot; height=&quot;393&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6876189206/&quot; title=&quot;Depleting Foodsource by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6034/6876189206_c6100159df_b.jpg&quot; class=&quot;flickr&quot; alt=&quot;Depleting Foodsource&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+In this experiment the creatures are gravitating to a foodsource. As they feed, the foodsource is depleted. The more creatures who arrive to feed, the faster the foodsource is depleted. &lt;br /&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6876189246/&quot; title=&quot;Foodsource Depleted by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6106/6876189246_2cda242341_b.jpg&quot; class=&quot;flickr&quot; alt=&quot;Foodsource Depleted&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When the foodsource is depleted, the creatures continue to wander.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-reynolds-steering"/>
+      <id>http://paulmay.org/blog/nature-of-code-reynolds-steering</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Thesis Week 9 - Prototyping Coming to a Close</title>
+      <published>2012-03-26T00:00:00Z</published>
+      <updated>2012-03-26T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;I'm getting to the end of my prototyping phase; here's how I've been getting on this week. &lt;/p&gt;
+
+
+&lt;p&gt;I made great progress this week; it feels as though I am over the hump with my project. The web app at the centre of my proposed activity/exercise service for MSKCC is now functionally complete - save for a few tweaks. It's absolutely a minimal viable product, it does just enough to be useful and act as a platform for criticism and testing. (It has been very hard to resist the urge to add more features).&lt;/p&gt;
+
+&lt;p&gt;A web application is not a service. Even though I've built this with real people in mind, people I met and interviewed during my research, I still have to put in place other things that would be necessary for this to be adopted as a real service - a timeline, coaching/training material for staff, help documentation etc.&lt;/p&gt;
+
+&lt;p&gt;I also have to establish exactly what hurdles exist that would need to be overcome before the service would launch - such as further testing, a security audit etc. At the end of the day it's highly likely that for this to be used in a real context, with patients, an experienced developer would need to help out - but that is perfectly fine as far as I'm concerned.&lt;/p&gt;
+
+&lt;p&gt;So, I'm moving into a final phase - finishing out the look and feel of the web application, making supporting materials and writing up.&lt;/p&gt;
+
+&lt;p&gt;And like that, it'll be Summer.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-week-9-prototyping-coming-to-a-close"/>
+      <id>http://paulmay.org/blog/thesis-week-9-prototyping-coming-to-a-close</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Thesis Week 8 - Notifications, Nudges, Progress</title>
+      <published>2012-03-20T00:00:00Z</published>
+      <updated>2012-03-20T00:00:00Z</updated>
+      <content type="html">&lt;p class=&quot;intro&quot;&gt;A solid week of little improvements to the practical part of my thesis project - the end is in sight. &lt;/p&gt;
+
+
+&lt;p&gt;I spent this week working to close the loop between people using Activity App; my little extension of the FitBit service. I built on a dashboard for clinicians to see patient activity/progress as well as e-mail and SMS notifications to patients to offer encouragement and feedback. I am getting to a point now where the app is functionally useful.&lt;/p&gt;
+
+&lt;p&gt;As I've been developing I've been testing the app on myself, and now two other volunteers - two members of staff from MSKCC have been wearing FitBits for the last week. They subscribed to the Activity App allowing administrators to see their progress, offer feedback etc. Having real data coming in has been incredibly useful.&lt;/p&gt;
+
+&lt;p&gt;In other news, I've been working with the hospital to see how this type of service could be useful after the end of my thesis - there are positive signs that my project could be included in a clinical protocol (the set of rules, procedures that govern a clinical trial on a particular patient population) which would allow me to roll it out to some bone marrow transplant recipients, gather data and then improve the system.&lt;/p&gt;
+
+&lt;p&gt;The next major milestone for me is the 4th of April when I present the working prototype of the service and supporting materials to medical and administrative staff at the hospital. After this milestone I'll be moving into a tweaks phase and working almost exclusively on documentation, forward-planning.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-week-8-notifications-nudges-progress"/>
+      <id>http://paulmay.org/blog/thesis-week-8-notifications-nudges-progress</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+</feed>
