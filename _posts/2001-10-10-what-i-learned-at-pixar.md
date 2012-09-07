@@ -8,7 +8,7 @@ tags: [toy story 3, pixar, film, cross creative, creativity, animation]
 date: 05-07-2010
 ---
 <p class="intro">Earlier this year I had the pleasure of spending a few hours with the folks at Pixar; in the run up to the release of Toy Story 3 I thought I'd jot down a few thoughts on my visit. Short version: Pixar are awesome.</p>
-<a href="http://www.flickr.com/photos/paulmmay/4410971850/" title="Pixar by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4055/4410971850_c389e619cf_z.jpg" class="flickr" alt="The wonderful atrium at Pixar; a huge, open space that greets you as you enter the building. It's like an incredibly classy shopping centre (mall)"></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/4410971850/" title="Pixar by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4055/4410971850_c389e619cf_z.jpg" class="photo" alt="The wonderful atrium at Pixar; a huge, open space that greets you as you enter the building. It's like an incredibly classy shopping centre (mall)"></a><br />
 In March I spent a wonderful week in the Bay Area meeting with creative and innovative companies; field-trip as part of the excellent <a href="http://www.trcmedia.org/" title="Cross Creative">Cross Creative</a> programme. One of those companies, Pixar, needs no introduction - they have been responsible for some of the most successful, emotional, evocative and beautiful films of the past two decades and it was <em>very, very exciting</em> to have a chance to visit them.
 
 ### Enabling Creative Teams

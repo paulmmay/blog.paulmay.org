@@ -7,7 +7,7 @@ categories: [blog]
 tags: [storytelling, nuclear proliferation, games, big games, augmented reality gaming]
 date: 29-03-2011
 ---
-<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5570071244/" title="gnp-biggames by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5176/5570071244_4c10d81644_b.jpg" class="flickr" alt="Big Games: Global Nuclear Proliferation" /></a>
+<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5570071244/" title="gnp-biggames by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5176/5570071244_4c10d81644_b.jpg" class="photo" alt="Big Games: Global Nuclear Proliferation" /></a>
 
 Global Nuclear Proliferation was a 5 day long augmented reality game created for the Big Games class at ITP. Four players race to aid/stop an international conspiracy to smuggle a package of dangerous nuclear secrets. </p>
 ### Concept
@@ -52,7 +52,7 @@ Your job this week is to stop Taha from obtaining the Khan materials.
 ### Game Play
 The game played out over 5 days following a day by day playbook written by myself and Natalie. The playbook broke down the key plot points for the different characters, interventions that would need to be made by the non-player characters and any tools/props/materials we'd need to create.
 
-<a href="http://www.flickr.com/photos/paulmmay/5570196784/" title="Day by Day Playbook"><img src="http://farm6.static.flickr.com/5264/5570196784_ed86f7ea67_b.jpg" class="flickr" alt="Day by Day Playbook" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/5570196784/" title="Day by Day Playbook"><img src="http://farm6.static.flickr.com/5264/5570196784_ed86f7ea67_b.jpg" class="photo" alt="Day by Day Playbook" /></a>
 
 Over the course of the week, several chapters didn't go to plan or to schedule - so we essentially had to tweak the storyline in response to the actions of the characters; this was a lot of work, but also a lot of fun. For example, the Patsy didn't pick up a set of customs documents in time forcing the Sudanese gang contact to reveal the true nature of the scheme - implicating the Patsy, drawing him closer into the plot.
 

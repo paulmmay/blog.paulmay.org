@@ -8,7 +8,7 @@ tags: [triathlone, triathlon, spectator, report, race]
 date: 21-07-2009
 ---
 <p class="intro">TriAthlone gets better and better and better; this was my third time "attending" the race, but this time only as a spectator. It was a very enjoyable day.</p>
-<a href="http://www.flickr.com/photos/paulmmay/3732927592/" title="Wave 10 by paulmmay, on Flickr"><img src="http://farm4.static.flickr.com/3438/3732927592_85eaf315a8.jpg"  class="flickr" alt="Wave 10" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/3732927592/" title="Wave 10 by paulmmay, on Flickr"><img src="http://farm4.static.flickr.com/3438/3732927592_85eaf315a8.jpg"  class="photo" alt="Wave 10" /></a>
 
 ### Patsy Lagan Kicks Ass
 We had a fantastic time at TriAthy at the weekend. Unfortunately I wasn't in good enough shape to do the race, but went along to cheer on my Front colleague Patsy Lagan who was taking part. She kicked ass, and had a great time doing her first triathlon. 

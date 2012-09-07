@@ -14,7 +14,7 @@ The race is taking place at the Ming Tomb Reservoir&#8230;great name. We <a href
 If you've haven't managed to catch an Olympic triathlon on TV before make sure you check it out; it is incredibly exciting to watch!  I am flying to the UK for work tonight, so I will probably not get to see the race&#8230;.if any kind soul out there wants to DivX the race and make it available through some sort of filesharing application, that would be sweet.
 
 ### After
-<a href="http://www.flickr.com/photos/paulmmay/2773829492/" title="Emma Davis Finishes 37th by paulmmay, on Flickr"><img class="flickr" src="http://farm4.static.flickr.com/3038/2773829492_7a80f793fd.jpg" width="480" height="320" alt="Emma Davis Finishes 37th" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/2773829492/" title="Emma Davis Finishes 37th by paulmmay, on Flickr"><img class="photo" src="http://farm4.static.flickr.com/3038/2773829492_7a80f793fd.jpg" width="480" height="320" alt="Emma Davis Finishes 37th" /></a>
 
 Emma Davis Finishes 37th in the Women's Triathlon at the 2008 Olympics. Well done to Emma, our first ever Olympic Triathlete! **Update:** There's <a href="http://www.triathlonireland.com/article.php?story=20080818051629720">a very good report</a> on the <a href="http://www.triathlonireland.com/article.php?story=20080818051629720">Triathlon Ireland website</a> of Emma's race.
 

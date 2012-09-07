@@ -8,7 +8,7 @@ tags: [visualisation, pdf, open government, itp, irishdata, ireland, datasets, d
 date: 26-10-2010
 ---
 <p class="intro">In the spirit of "let's just build this and see what happens" I've started to build a repository of useful data about Ireland - I can't really hang on for the election.</p>
-<a href="http://www.flickr.com/photos/paulmmay/5119772748/" title="what-happened-4 by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4050/5119772748_718f30a26a_z.jpg" class="flickr" alt="what-happened-4" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/5119772748/" title="what-happened-4 by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4050/5119772748_718f30a26a_z.jpg" class="photo" alt="what-happened-4" /></a>
 
 ### Background
 I am starting to work on a data visualisation project called <a href="http://paulmay.org/itp/what-happened" title="What Happened">What Happened</a> - which is an exploration of Ireland from 1980 to 2010, drawing on publicly available information. 

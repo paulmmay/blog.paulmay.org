@@ -9,7 +9,7 @@ date: 27-09-2011
 ---
 <p class="intro">Today I continued my observation of the intersection of Flatbush Avenue, Park Place and 7th Avenue in Brooklyn. Last time, I was looking at objects around this intersection which interact with a network of some kind. Today, I was observing human activity; it was a fascinating exercise. </p>
 ### Method
-<a href="http://www.flickr.com/photos/paulmmay/6189313084/" title="Survey - Ethogram Map Detail by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6020/6189313084_a67c1903ab_z.jpg" class="flickr" alt="Survey - Ethogram Map Detail"></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/6189313084/" title="Survey - Ethogram Map Detail by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6020/6189313084_a67c1903ab_z.jpg" class="photo" alt="Survey - Ethogram Map Detail"></a><br />
 My focus in this observation is to document the spaces where people congregate at the intersection and their interactions (at a very broad level). 
 
 I broke the area I was observing into 6 **sections** (shown in pink on this rough map). I chose two **observation points**; a bus shelter at 1-2, and a table outside a cafe at 5-6. 
@@ -18,11 +18,11 @@ I made observations from these two points; sitting at point 1 for 60 minutes fro
 
 The view from observation point 1 on 7th Avenue. 
 
-<a href="http://www.flickr.com/photos/paulmmay/6188627535/" title="Survey - Human Activity 01 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6162/6188627535_68c182df56_z.jpg" class="flickr" alt="Survey - Human Activity 01"></a>
+<a href="http://www.flickr.com/photos/paulmmay/6188627535/" title="Survey - Human Activity 01 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6162/6188627535_68c182df56_z.jpg" class="photo" alt="Survey - Human Activity 01"></a>
 
 The view from observation point 2 on Flatbush Avenue.
 
-<a href="http://www.flickr.com/photos/paulmmay/6189155132/" title="Survey - Human Activity 10 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6030/6189155132_353d7f806e_z.jpg" class="flickr" alt="Survey - Human Activity 10"></a>
+<a href="http://www.flickr.com/photos/paulmmay/6189155132/" title="Survey - Human Activity 10 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6030/6189155132_353d7f806e_z.jpg" class="photo" alt="Survey - Human Activity 10"></a>
 
 I decided to code the behaviour I saw in very loose **categories**:
 
@@ -39,7 +39,7 @@ Again, these are loose categories with blurred edges. There are some cases where
 
 I decided to use a simple **ethogram** to document this activity. For each observation I recorded the **time**, the **section number** (from 1-6), the **category** of behaviour and some **notes**. Here's a snippet from my many, many pages of notes:
 
-<a href="http://www.flickr.com/photos/paulmmay/6188908717/" title="Survey - Ethogram Notes 02 - Detail by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6163/6188908717_25f42088ac_z.jpg" class="flickr" alt="Survey - Ethogram Notes 02 - Detail"></a>
+<a href="http://www.flickr.com/photos/paulmmay/6188908717/" title="Survey - Ethogram Notes 02 - Detail by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6163/6188908717_25f42088ac_z.jpg" class="photo" alt="Survey - Ethogram Notes 02 - Detail"></a>
 
 ### Data Recorded
 I made 81 observations in the 90 minute period - which I am now transcribing into a spreadsheet. I took 15 photos, which I've added to <a href="http://www.flickr.com/photos/paulmmay/sets/72157627749963308/with/6189155132/" title="the set of photos taken in my first observation">the set of photos taken in my first observation</a>. 

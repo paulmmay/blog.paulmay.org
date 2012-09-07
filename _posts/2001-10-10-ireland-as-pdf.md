@@ -8,7 +8,7 @@ tags: [press freedom, open government, media, itp, ireland, freedom of informati
 date: 24-10-2010
 ---
 <p class="intro">Why is Irish data so hard to find? I'm not sure, but as a country Ireland has an opportunity to create a new landscape for information sharing and press freedom. You know, so we don't end up in the shit again.</p>
-<a href="http://www.flickr.com/photos/paulmmay/5109382596/" title="Ireland as PDF by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1315/5109382596_5fc6e31d3d_z.jpg" class="flickr" alt="Ireland as PDF" /></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/5109382596/" title="Ireland as PDF by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1315/5109382596_5fc6e31d3d_z.jpg" class="photo" alt="Ireland as PDF" /></a><br />
 I've started working on <a href="http://paulmay.org/itp/what-happened" title="what happened - paul may">a project</a> to **aggregate and visualise data relating to Ireland from 1980-2010**. Finding this data has been difficult. Putting the data into formats I can use efficiently is going to be painful. It turns out, unsurprisingly, that most data I was trying to find about Irish public life in the last 30 years either isn't available, or isn't available in formats that make it easy to analyse. For example:
 
 
@@ -30,7 +30,7 @@ Good democracy requires that we are able to hold public government, and those wh
 We are living through a bruising period in Irish history - and the next government doesn't just need to take painful economic decisions, it also need to begin to **restore trust in the idea that government works in all our interests**. We have an information problem.
 
 ### We Are Not Alone
-<a href="http://www.flickr.com/photos/8058853@N06/4823859060/" title="Roads in Iceland by visiticeland on Flickr"><img src="http://farm5.static.flickr.com/4093/4823859060_c3d819d4b8_z.jpg" class="flickr" alt="Roads in Iceland" /></a><br />
+<a href="http://www.flickr.com/photos/8058853@N06/4823859060/" title="Roads in Iceland by visiticeland on Flickr"><img src="http://farm5.static.flickr.com/4093/4823859060_c3d819d4b8_z.jpg" class="photo" alt="Roads in Iceland" /></a><br />
 Soon after its own decline into economic chaos, Iceland (above - doesn't it look lovely?) realised it also had an information problem - there were just too many places for bad decisions to hide, so their parliament <a href="http://www.wired.co.uk/news/archive/2010-06/17/iceland-passes-world%27s-strongest-press-freedom-laws" title="passed strong press freedom laws ">passed strong press freedom laws </a>that would enable difficult questions to be asked in the future. It's embarrassing that in Ireland we are still bringing journalists to court to force them to reveal their sources. (I am not saying the economic meltdown could have been avoided if Irish financial journalists had tools to get at more information - they were asleep at the wheel - but it would be a start, and would give them no excuses.)
 
 The US government required that raw data on fiscal stimulus spending be made available in both human and <a href="http://gcn.com/Articles/2009/04/29/Kundra-talks-data-gov.aspx" title="machine-readable formats">machine-readable formats</a>. They also created <a href="http://data.gov" title="Data.gov">Data.gov</a> - a central source for federal data.&nbsp; We have PDFs.

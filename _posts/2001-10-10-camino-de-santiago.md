@@ -31,5 +31,5 @@ We spent last night in Molinaseca, about 6K before Ponferrada. It was a lovely p
 ### We Made It - 26th September 2007
 
 We made it! On Monday afternoon we successfully completed the Camino De Santiago from St. Jean de Pied de Port in the South of France, to Santiago De Compostela in Spain. It was an epic journey; 850K in ten days of cycling through some amazing scenery and over some daunting climbs. I'm back in Belfast now, just settling back into work. Today/tomorrow I'll post a more detailed description of the journey with photos.<br />
-<a title="Camino De Santiago - The Finish Line" href="http://www.flickr.com/photos/paulmmay/1441790019/"><img class="flickr" src="http://farm2.static.flickr.com/1072/1441790019_22e46a45e5.jpg" alt="Camino De Santiago - The Finish Line" /></a>
+<a title="Camino De Santiago - The Finish Line" href="http://www.flickr.com/photos/paulmmay/1441790019/"><img class="photo" src="http://farm2.static.flickr.com/1072/1441790019_22e46a45e5.jpg" alt="Camino De Santiago - The Finish Line" /></a>
 

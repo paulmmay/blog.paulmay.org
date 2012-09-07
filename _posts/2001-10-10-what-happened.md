@@ -11,7 +11,7 @@ date: 21-10-2010
 
 What Happened is my own small attempt to gain/share a better understanding of Ireland's past as a way of understanding what might happen next.
 
-<a href="http://www.flickr.com/photos/paulmmay/5119169997/" title="What Happened - Questions by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1352/5119169997_65532bc982_z.jpg" class="flickr" alt="What Happened - Questions" /></a></p>
+<a href="http://www.flickr.com/photos/paulmmay/5119169997/" title="What Happened - Questions by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1352/5119169997_65532bc982_z.jpg" class="photo" alt="What Happened - Questions" /></a></p>
 ### Outline Approach
 What Happened aggregates information from public records/data-sets, media sources and social networks to build a time-line of events over the last 30 years. It allows users to step through this time-line, view and download segments of the data and contribute their own thoughts. It will be presented online and in a physical installation.
 

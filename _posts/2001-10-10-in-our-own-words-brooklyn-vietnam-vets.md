@@ -7,7 +7,7 @@ categories: [blog]
 tags: [vietnam veterans, exhibition design, collective storytelling, brooklyn historical society]
 date: 24-02-2011
 ---
-<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5471975631/" title="Brooklyn Historical Society 3 by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5016/5471975631_fa50916b83_z.jpg" class="flickr" alt="Brooklyn Historical Society 3" /></a>
+<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5471975631/" title="Brooklyn Historical Society 3 by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5016/5471975631_fa50916b83_z.jpg" class="photo" alt="Brooklyn Historical Society 3" /></a>
 
 Today we took a trip to the <a href="http://www.brooklynhistory.org" title="Brooklyn Historical Society">Brooklyn Historical Society</a>'s exhibition <em>In Our Own Words: Portraits of Brooklyn's Vietnam Veterans</em>. </p>
 The exhibition presents the stories of 12 veterans of the Vietnam War who were all born in Brooklyn. Each veteran is shown in a near life-size portrait and while looking at the portrait you hear an interview with the veteran played through directional speakers. There are also photos, personal belongings and transcripts of longer interviews. 

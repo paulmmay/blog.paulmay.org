@@ -97,7 +97,7 @@ margin-bottom:1em;
 }
 
 p { 
-text-indent: 1em; 
+text-indent: 0.5em; 
 font-style: normal; 
 font-weight: 400; 
 font-family: droid-serif; 
@@ -160,7 +160,7 @@ border-bottom:5px solid #eadcad;
 
 footer ul li a{
 text-decoration:none;
-text-indent: 1em; 
+text-indent: 0em; 
 font-size:0.7em;
 font-style: normal; 
 font-weight: 400; 
@@ -344,11 +344,12 @@ color: rgba(71, 71, 71, 1.00);
 
 /* ---------- IMAGES ---------- */
 
-.flickr{
-text-indent:-1em; 
-margin:0;
+.photo{
 width:100%;
 border-radius: 10px;
+display:block;
+margin-top:1em;
+margin-bottom:1em;
 }
 
 .diagram{
@@ -362,9 +363,5 @@ left: 10px;
 top: 10px;
 width: 60px;
 height: 60px;
-}
-
-img{
-display:block;
 }
 

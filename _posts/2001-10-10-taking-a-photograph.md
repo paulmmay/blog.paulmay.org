@@ -8,7 +8,7 @@ tags: [process, photos, photography, cameras]
 date: 18-05-2010
 ---
 <p class="intro">I have been taking a lot of photos lately, and wanted to quickly jot down some thoughts on what I think is important to think about when I take a photo. You might find this useful, who knows.</p>
-<a href="http://www.flickr.com/photos/paulmmay/4614866026/" title="Cliona &amp; Choir by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4038/4614866026_45f81e5d60_z.jpg" class="flickr" alt="Cliona &amp; Choir" /></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/4614866026/" title="Cliona &amp; Choir by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4038/4614866026_45f81e5d60_z.jpg" class="photo" alt="Cliona &amp; Choir" /></a><br />
 Wowsers, I have been taking a lot of photos in the last few months - maybe 1500 photos in the last month (shhh&hellip;maybe 200 of which were worth keeping&hellip;). This photo-fest has made me think about the things I think about when I take a photo. For me, taking a good photo boils down to 5 simple factors:
 
 <ol>
@@ -35,7 +35,7 @@ The type of camera I use definitely has a role to play in taking a photo, but mo
 So, whatever camera I use will impose constraints, but ultimately I'm happy if I can get to understand these constraints and work within them to produce a good image.
 
 ### Letting the Equipment Go
-<a href="http://www.flickr.com/photos/paulmmay/2689912864/" title="Cameras by paulmmay, on Flickr"><img src="http://farm4.static.flickr.com/3289/2689912864_0342147f89.jpg" alt="Cameras" class="flickr" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/2689912864/" title="Cameras by paulmmay, on Flickr"><img src="http://farm4.static.flickr.com/3289/2689912864_0342147f89.jpg" alt="Cameras" class="photo" /></a>
 
 When I was a child I took piano lessons, but I never really got to the point where I wasn't conscious of sitting at a keyboard playing a thing. If I had been better, then the piano would have been a constraint, but the quality of the music and performance would have been my concern. **The piano as an object melts away, the music is left. **Maybe that's the point with all hobbies or skills -&nbsp; the goal is to get beyond the point where the equipment/interface is a concern to the point where the quality of the outcome is a happy by-product of the fun you have doing the activity. 
 

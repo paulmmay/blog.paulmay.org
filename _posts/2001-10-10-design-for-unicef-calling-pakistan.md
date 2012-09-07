@@ -8,7 +8,7 @@ tags: [unicef, pakistan, design for unicef]
 date: 08-10-2010
 ---
 <p class="intro">This week we were lucky enough to spend an hour talking to <a href="http://www.youtube.com/watch?v=Bg0FukPFe64">Paul Molinaro</a> and some of the UNICEF planning and logistics team in Pakistan who are helping people there recover from recent devastating floods
-<a href="http://www.flickr.com/photos/paulmmay/5059595799/" title="Skype call with UNICEF in Pakistan by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4092/5059595799_63da356e55_z.jpg" class="flickr" alt="Skype call with UNICEF in Pakistan" /></a></p>
+<a href="http://www.flickr.com/photos/paulmmay/5059595799/" title="Skype call with UNICEF in Pakistan by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4092/5059595799_63da356e55_z.jpg" class="photo" alt="Skype call with UNICEF in Pakistan" /></a></p>
 ### The UNICEF Team
 The UNICEF team was lead by <a href="http://www.youtube.com/watch?v=Bg0FukPFe64" title="Paul Molinaro">Paul Molinaro</a> who is responsible for disaster response logistics - moving supplies into Pakistan and getting them to where they are needed as quickly and efficiently as possible. Paul was joined by other members of the team responsible for supply planning, warehousing and information/data dissemination (when I check the spelling of their names I'll post them up).
 

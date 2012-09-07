@@ -9,7 +9,7 @@ date: 01-06-2009
 ---
 <p class="intro">Scorching temperatures, a fierce kick in the face; on balance it was a pretty nice day at TriAthy 2009.</p>
 Bless me Triathlon Ireland, for I have sinned. It has been - shock, <a href="http://paulmay.org/articles/Escape_from_Alcatraz/" title="nearly a year since my last triathlon">nearly a year since my last triathlon</a>. You, see&#8230;after slogging my guts out to get ready for Escape from Alcatraz, I just lost the will, the urge, &#8220;the hunger&#8221;. I promise not to stray again - at least not until October anyway when the weather turns to shite again. <br />
-<a href="http://www.flickr.com/photos/paulmmay/3580268969/" title="TriAthy - Sprint Wave 7 Swim Start by paulmmay, on Flickr"><img src="http://farm4.static.flickr.com/3309/3580268969_c81624d35a.jpg" class="flickr" alt="TriAthy - Sprint Wave 7 Swim Start" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/3580268969/" title="TriAthy - Sprint Wave 7 Swim Start by paulmmay, on Flickr"><img src="http://farm4.static.flickr.com/3309/3580268969_c81624d35a.jpg" class="photo" alt="TriAthy - Sprint Wave 7 Swim Start" /></a>
 
 ### Getting Ready
 I approach triathlon training in the same way that alcoholics approach the bad stuff; **I binge, hurt myself, regret what I've done horribly, go cold turkey - then relapse all too predictably**. This year has been different. With the help of a handy wall-chart I have actually, shock horror, paced my training nicely - building slowly over the last 5 weeks or so after a long winter lay off. It has worked, I've been swimming comfortably, cycling smoothly and running (yes!) without constant stabbing pains.

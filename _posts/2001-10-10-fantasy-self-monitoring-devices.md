@@ -17,17 +17,17 @@ I took a leap to imagine a time when these devices are so cheap and small that t
 
 ### Semi-Persistant Genotyping Pill
 This pill is essentially a miniature genetics laboratory. The person takes the pill, which travels through the gastrointestinal tract, building a genetic fingerprint of the organisms it encounters. <br />
-<a href="http://www.flickr.com/photos/paulmmay/6179716174/" title="Ingested Genotyping Pill by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6166/6179716174_423e9de8ea_z.jpg" class="flickr" alt="Ingested Genotyping Pill"></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/6179716174/" title="Ingested Genotyping Pill by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6166/6179716174_423e9de8ea_z.jpg" class="photo" alt="Ingested Genotyping Pill"></a><br />
 In the diagram I show a bacterium being captured by the pill, having its DNA separated and analyzed, before being genotyped and data sent back to the user.
 
 ### Persistent Genotyping Lab/Patch
 This miniature genetics testing lab would carry out a similar function to the genotyping pill, but in the bloodstream. <br />
-<a href="http://www.flickr.com/photos/paulmmay/6179715486/" title="Persistant Genotyping Lab by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6164/6179715486_2a38062002_z.jpg" class="flickr" alt="Persistant Genotyping Lab"></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/6179715486/" title="Persistant Genotyping Lab by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6164/6179715486_2a38062002_z.jpg" class="photo" alt="Persistant Genotyping Lab"></a><br />
 The lab would be inserted under the skin, or during surgery - and would  fixitself to the wall of a vein or artery, capturing microorganisms for genetic analysis. This would allow the user to get near real-time information about the strains of viruses they are exposed to and the types of bacterial infections  they have travelling in their bloodstream.&nbsp; 
 
 ### Antigen Lab/Patch
 This is a lab-on-chip device that sniffs for particular antigens in the bloodstream. The lab carries specific antibodies that bond with corresponding antigens that arrive via the bloodstream. When an antigen is detected, that information is sent back to the user. <br />
-<a href="http://www.flickr.com/photos/paulmmay/6179712838/" title="Persistant Antigen Test Lab by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6177/6179712838_5a540523ce_z.jpg" class="flickr" alt="Persistant Antigen Test Lab"></a>
+<a href="http://www.flickr.com/photos/paulmmay/6179712838/" title="Persistant Antigen Test Lab by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6177/6179712838_5a540523ce_z.jpg" class="photo" alt="Persistant Antigen Test Lab"></a>
 
 ### Conclusions
 I enjoyed this exercice; it's nice to just sit and sketch ideas - completely unencumbered by constraints (or knowledge!) - to see what happens. Though these devices are fantastic, I do like the idea that once-in-a-lifetime (or very infrequent) medical testing could become something much more immediate and persuasive. What that means of course is to be discussed and explored.

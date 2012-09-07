@@ -7,7 +7,7 @@ categories: [blog]
 tags: [we are working on it, storytelling, mskcc, itp, dataviz, data representation, cancer]
 date: 27-07-2011
 ---
-<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5828829669/" title="Paul May - From Over Here by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5022/5828829669_0c7f74ef5b_z.jpg" class="flickr" alt="Paul May - From Over Here"></a>
+<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5828829669/" title="Paul May - From Over Here by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5022/5828829669_0c7f74ef5b_z.jpg" class="photo" alt="Paul May - From Over Here"></a>
 We are Working On It is a representation of 1.9 million scientific journal articles related to cancer research from 1980 to 2010, accompanied by audio interviews with researchers from Memorial Sloan Kettering Cancer Center in New York. We Are Working On It was my final project for the Data Representation and Collective Storytelling classes at ITP.</p>
 ### Background and Objectives
 
@@ -17,7 +17,7 @@ My goal with this project was to combine both sources - data and audio recording
 
 ### Retrieving 1.9 Million Scientific Journal Article Abstracts
 
-<img src="http://farm6.static.flickr.com/5187/5683963777_838673f3bb_b.jpg" title="A screenshot of my application downloading cancer research articles" alt="A screenshot of my application" class="flickr" />
+<img src="http://farm6.static.flickr.com/5187/5683963777_838673f3bb_b.jpg" title="A screenshot of my application downloading cancer research articles" alt="A screenshot of my application" class="photo" />
 
 The first part of the project involved **identifying a source of scientific data**, then writing an application to retrieve, store, parse and display this data in a timeline. I decided to use the Pubmed scientific journal database provided by the <a href="http://www.ncbi.nlm.nih.gov/books/NBK25500/" title="National Center for Biotechnology Information">National Center for Biotechnology Information</a> (NCBI) as my primary source of data because of the range and depth of available data, and the fact that this data is accessible through a very solid API.
 
@@ -37,7 +37,7 @@ I have spoken about my belief that all data representation that purports to repr
 
 The application generated a number of PDF images (showing data for 1980, 1990, 2000, 2010) which were then brought into Adobe Illustrator for final type setting and small tweaks. 
 
-<img src="http://farm6.static.flickr.com/5110/5756913667_bcea349b69_b.jpg" alt="one graphic from my project showing cancer research data from 1980 to 2010" class="flickr" />
+<img src="http://farm6.static.flickr.com/5110/5756913667_bcea349b69_b.jpg" alt="one graphic from my project showing cancer research data from 1980 to 2010" class="photo" />
 
 The graphics were **printed on archival paper and framed**. When the framed graphics hang next to each other they show the change in the data being represented over time - with more time it would be great to print and hang each year, but this would have been very expensive. You <a href="http://www.flickr.com/photos/paulmmay/sets/72157626515103125/" title="can see the final graphics">can see the final graphics</a> (and the many failures along the way) on <a href="http://www.flickr.com/photos/paulmmay/sets/72157626515103125/" title="Flickr">Flickr</a>.
 

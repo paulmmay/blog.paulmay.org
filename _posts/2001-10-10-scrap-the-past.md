@@ -8,7 +8,7 @@ tags: [scrap saturday, physical computing, itp, audio, arduino]
 date: 19-09-2010
 ---
 <p class="intro">This week I wanted to do something interesting with analogue input into Arduino. The discovery of an old Walkman on the ITP junk shelf inspired me to take a trip into the past. The result is Scrap the Past - a Scrap Saturday visualisation machine.
-<a href="http://www.flickr.com/photos/paulmmay/5002734587/" title="The Only Tape I Own by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4144/5002734587_12f81c9db7_z.jpg" class="flickr" alt="The Only Tape I Own" /></a></p>
+<a href="http://www.flickr.com/photos/paulmmay/5002734587/" title="The Only Tape I Own by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4144/5002734587_12f81c9db7_z.jpg" class="photo" alt="The Only Tape I Own" /></a></p>
 ### The Past on Tape
 
 One of the sentimental items I brought from Ireland is **a tape of <a href="Saturday" title="Scrap Saturday">Scrap Saturday</a>**; a weekly radio programme that ran from 1989 to 1991 which satirsed Irish politics and public life . It was <em>massively</em> popular and we'd listen to it as a family in the kitchen most weekends. Back then I had the good sense to record some of the episodes of Scrap Saturday onto a cassette tape; I probably haven't listened to the tape in 10 years, probably more. I haven't owned a tape player in probably just as long.

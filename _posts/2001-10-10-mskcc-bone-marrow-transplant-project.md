@@ -64,22 +64,22 @@ Once I had completed my research I investigated two design opportunities in more
 The second half of the project was devoted to responding to one of these opportunities. I chose to develop a prototype of a service that could encourage patients to remain physically active before, during and after their transplant. I called this activity and motivation service <i>Activity App</i>. 
 
 Patients using Activity App are offered a small, off the shelf pedometer in the very early stages of their treatment. <br />
-<a href="http://www.flickr.com/photos/paulmmay/7522612082/" title="fitbit_paulmay_thesis by paulmmay, on Flickr"><img src="http://farm9.staticflickr.com/8154/7522612082_d8ee2ff133_c.jpg" class="flickr" alt="fitbit_paulmay_thesis"></a>
+<a href="http://www.flickr.com/photos/paulmmay/7522612082/" title="fitbit_paulmay_thesis by paulmmay, on Flickr"><img src="http://farm9.staticflickr.com/8154/7522612082_d8ee2ff133_c.jpg" class="photo" alt="fitbit_paulmay_thesis"></a>
 
 This pedometer is paired with a web application, Activity App. Activity App offers a simple view of the patient's level of physical activity without distractions and inappropriate game mechanics, options and features. <br />
-<a href="http://www.flickr.com/photos/paulmmay/7522582918/" title="screenshot_profile_1 by paulmmay, on Flickr"><img src="http://farm9.staticflickr.com/8290/7522582918_c36a6143ab_c.jpg" class="flickr" alt="screenshot_profile_1"></a>
+<a href="http://www.flickr.com/photos/paulmmay/7522582918/" title="screenshot_profile_1 by paulmmay, on Flickr"><img src="http://farm9.staticflickr.com/8290/7522582918_c36a6143ab_c.jpg" class="photo" alt="screenshot_profile_1"></a>
 
 Working with a therapist, patients set a daily activity goal. Each day they will receive a prompt via SMS reminding them of their goal. <br />
-<a href="http://www.flickr.com/photos/paulmmay/7522585856/" title="inboundmessage_paulmay_thesis by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7117/7522585856_1955d3bcd9_c.jpg" class="flickr" alt="inboundmessage_paulmay_thesis"></a>
+<a href="http://www.flickr.com/photos/paulmmay/7522585856/" title="inboundmessage_paulmay_thesis by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7117/7522585856_1955d3bcd9_c.jpg" class="photo" alt="inboundmessage_paulmay_thesis"></a>
 
 Each day, patients respond to their reminder SMS rating how difficult they found yesterday's activity. This gives medical staff vital, subjective information about the patients ability to remain active. <br />
-<a href="http://www.flickr.com/photos/paulmmay/7522587992/" title="smsreply_paulmay_thesis by paulmmay, on Flickr"><img src="http://farm9.staticflickr.com/8422/7522587992_28b3c03997_c.jpg" class="flickr" alt="smsreply_paulmay_thesis"></a>
+<a href="http://www.flickr.com/photos/paulmmay/7522587992/" title="smsreply_paulmay_thesis by paulmmay, on Flickr"><img src="http://farm9.staticflickr.com/8422/7522587992_28b3c03997_c.jpg" class="photo" alt="smsreply_paulmay_thesis"></a>
 
 Medical staff have access to a dashboard showing how their patient population is doing. <br />
-<a href="http://www.flickr.com/photos/paulmmay/7522582284/" title="screenshot_dashboard by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7248/7522582284_0e579fd7c3_c.jpg" class="flickr" alt="screenshot_dashboard"></a>
+<a href="http://www.flickr.com/photos/paulmmay/7522582284/" title="screenshot_dashboard by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7248/7522582284_0e579fd7c3_c.jpg" class="photo" alt="screenshot_dashboard"></a>
 
 Medical staff have some simple tools to offer encouragement to patients. <br />
-<a href="http://www.flickr.com/photos/paulmmay/7522582556/" title="screenshot_feedback by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7267/7522582556_e92d49d272_c.jpg" class="flickr" alt="screenshot_feedback"></a>
+<a href="http://www.flickr.com/photos/paulmmay/7522582556/" title="screenshot_feedback by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7267/7522582556_e92d49d272_c.jpg" class="photo" alt="screenshot_feedback"></a>
 
 For the first time, rather than recommending physical activity to patients at different times and in different ways - MSKCC can offer a simple service that follows a patient throughout their treatment. 
 

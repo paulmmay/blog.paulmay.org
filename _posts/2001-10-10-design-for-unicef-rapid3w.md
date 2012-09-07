@@ -8,7 +8,7 @@ tags: [unicef, itp, information management, design for unicef]
 date: 11-10-2010
 ---
 <p class="intro">Some thoughts and a quick sketch of a new aid supply order management tool for UNICEF. 
-<a href="http://www.flickr.com/photos/unicefcanada/4899075582/" title="Supplies arrive in Karachi by UNICEF Canada, on Flickr"><img src="http://farm5.static.flickr.com/4099/4899075582_f7f80d2812_z.jpg" class="flickr" alt="Supplies arrive in Karachi" /></a></p>
+<a href="http://www.flickr.com/photos/unicefcanada/4899075582/" title="Supplies arrive in Karachi by UNICEF Canada, on Flickr"><img src="http://farm5.static.flickr.com/4099/4899075582_f7f80d2812_z.jpg" class="photo" alt="Supplies arrive in Karachi" /></a></p>
 ### Background
 
 On our recent call with the UNICEF team in Pakistan they described **the impact of a less than ideal aid supply order management system** on their ability to get urgently needed supplies to people who need them. 

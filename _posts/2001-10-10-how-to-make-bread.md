@@ -8,7 +8,7 @@ tags: []
 date: 04-11-2010
 ---
 <p class="intro">Each week at our Applications class we hear from a guest speaker, and a group of students respond to the speaker from the previous week. We heard from, then reacted to Doug Rushkoff's talk about his new book, Program or be Programmed. 
-<a href="http://www.flickr.com/photos/paulmmay/5147195814/" title="Doug Rushkoff by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4027/5147195814_e5c6fbb09c_z.jpg" class="flickr" alt="Doug Rushkoff" /></a></p>
+<a href="http://www.flickr.com/photos/paulmmay/5147195814/" title="Doug Rushkoff by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4027/5147195814_e5c6fbb09c_z.jpg" class="photo" alt="Doug Rushkoff" /></a></p>
 ### The Talk
 Rushkoff's main point was that at a time when so much of our lives are influenced by, and mediated by digital technology it's important to foster a sense of curiosity, exploration, questioning and understanding of digital systems. Simplistically, **we need to understand the biases, traits and construction of tools like social networks so that we can make good decisions** and maintain independence of thought and action - basically so we don't get lead up the garden path by marketers and evil-doers. The other main point that I took away from his talk was his **advocacy for a peer-to-peer system of value** tied to effort, not arbitrary financial values - which as we've seen are built on somewhat flimsy ground.
 
@@ -28,7 +28,7 @@ We got together at my house, and I showed the group **how to make a simple yeast
 <iframe src="http://player.vimeo.com/video/16469414?byline=0&amp;portrait=0&amp;color=f0e563" width="699" height="393" frameborder="0"> </iframe>
 
 On the day of our presentation **we showed our short film to the rest of the class - which got a good reaction**. We handed out **cards for people to write down their skill to exchange with others** and gave a simple demo of what we wanted people to do. <br />
-<a href="http://www.flickr.com/photos/paulmmay/5146487039/" title="ITPExchange by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1374/5146487039_c8af5b555a_z.jpg" class="flickr" alt="ITPExchange" /></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/5146487039/" title="ITPExchange by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1374/5146487039_c8af5b555a_z.jpg" class="photo" alt="ITPExchange" /></a><br />
 As a final piece of the presentation we** asked everybody to go to a shared spreadsheet to document skills that they could offer others, and what they themselves wanted to learn** - creating a resource of 140 skills on offer or in demand. 
 
 So, that's it - it was a very busy week between Rushkoff's talk and the presentation, but I'm proud of the results. 

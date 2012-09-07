@@ -18,7 +18,7 @@ Pilot is a speculative system at the moment; I have been told by many, many swim
 
 ### Forever
 
-<a href="http://www.flickr.com/photos/paulmmay/6529147793/" title="Forever by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7001/6529147793_4f9643f2e8_b.jpg" class="flickr" alt="Forever"></a>
+<a href="http://www.flickr.com/photos/paulmmay/6529147793/" title="Forever by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7001/6529147793_4f9643f2e8_b.jpg" class="photo" alt="Forever"></a>
 
 Designed as <a href="http://en.wikipedia.org/wiki/The_Society_of_the_Spectacle" title="a critique of The Spectacle">a critique of The Spectacle</a> with the desire to avoid using the media of spectacle, Forever offers an isolating, immersive, indescribable experience for one person. The project is a collaboration with the amazing <a href="http://lilyszajnberg.com/" title="Lily Szajnberg">Lily Szajnberg</a> and came out of the Recurring Concepts in Art class at ITP (one of the best classes I have ever taken).&nbsp; 
 

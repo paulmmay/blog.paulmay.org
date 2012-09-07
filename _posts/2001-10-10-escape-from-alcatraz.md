@@ -8,7 +8,7 @@ tags: [triathlon, swim, sport, san francisco, run, escape from alcatraz, cycle, 
 date: 14-06-2008
 ---
 <p class="intro">I made it! The Escape from Alcatraz Triathlon was everything I hoped it would be; tough, fast, exciting. Hotter than I would have liked, but an absolutely great race. This is my **full report **of the lead up to the race, the race itself and the journey home.</p>
-<a title="After the Race by paulmmay, on Flickr" href="http://www.flickr.com/photos/paulmmay/2567008223/"><img class="flickr" src="http://farm4.static.flickr.com/3273/2567008223_4fbd0df9a6_z.jpg" alt="After the Race"/></a>
+<a title="After the Race by paulmmay, on Flickr" href="http://www.flickr.com/photos/paulmmay/2567008223/"><img class="photo" src="http://farm4.static.flickr.com/3273/2567008223_4fbd0df9a6_z.jpg" alt="After the Race"/></a>
 
 ### Background
 Despite the fact that Escape from Alcatraz is one of the "iconic" triathlons, the first I heard about it was about a year and a half ago from a work colleague. He was trying to get a spot in the race through a contact; keen to avoid the **qualification process** and the **lottery** for places. The race sounded incredible; **a swim from Alcatraz Island to San Francisco, then a bike and run course around the Golden Gate national park** overlooking the Pacific Ocean. Intriguing I thought - maybe I'll have a go at that one myself!

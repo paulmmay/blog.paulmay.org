@@ -8,7 +8,7 @@ tags: [physical computing, itp, human computer interaction, game controller]
 date: 11-10-2010
 ---
 <p class="intro">Multipurpose Fun Machine is a simple, versatile computer game/play controller; built as my stupid pet trick for the Introduction to Physical Computing class at ITP.
-<a href="http://www.flickr.com/photos/paulmmay/5069927480/" title="Multipurpose Fun Machine by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4145/5069927480_0cd50ea88a_z.jpg" class="flickr" alt="Multipurpose Fun Machine" /></a></p>
+<a href="http://www.flickr.com/photos/paulmmay/5069927480/" title="Multipurpose Fun Machine by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4145/5069927480_0cd50ea88a_z.jpg" class="photo" alt="Multipurpose Fun Machine" /></a></p>
 ### Original Idea
 My original idea was to **try to build a simple device capable of triggering my camera as a dart hit a balloon** - hopefully capturing the moment as the balloon burst. I thought that the simplest way to do this would be to confine the path of the dart; throwing it through a frame where a sensor could detect its presence and trigger the camera. 
 

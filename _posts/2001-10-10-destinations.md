@@ -7,11 +7,11 @@ categories: [blog]
 tags: [itp, game design, destinations, big games]
 date: 23-05-2011
 ---
-<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5752004821/" title="Destinations - Game in Progress by paulmmay, on Flickr"><img src="http://farm4.static.flickr.com/3208/5752004821_fcedf8e60f_z.jpg" class="flickr" alt="Destinations - Game in Progress"></a>
+<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5752004821/" title="Destinations - Game in Progress by paulmmay, on Flickr"><img src="http://farm4.static.flickr.com/3208/5752004821_fcedf8e60f_z.jpg" class="photo" alt="Destinations - Game in Progress"></a>
 
 Destinations is a game of global travel and strategy designed by Steve Klise, Paul May, Natalie Be'er and Spike McCue as our final project the ITP Big Games class. </p>
 ### Game Play
-<a href="http://www.flickr.com/photos/paulmmay/5752006361/" title="Destinations - Game Map by paulmmay, on Flickr"><img src="http://farm3.static.flickr.com/2399/5752006361_e5ac6080d7_z.jpg" class="flickr" alt="Destinations - Game Map"></a>
+<a href="http://www.flickr.com/photos/paulmmay/5752006361/" title="Destinations - Game Map by paulmmay, on Flickr"><img src="http://farm3.static.flickr.com/2399/5752006361_e5ac6080d7_z.jpg" class="photo" alt="Destinations - Game Map"></a>
 
 Destinations is a game that rewards players for travelling to far-flung parts of the world. Each country is assigned a number of points based on the number of connecting flights in and out of the country; the less connections there are, the more points a country is worth. 
 
@@ -20,7 +20,7 @@ Players start in countries of equal value; and use the Destinations web applicat
 Players will receive updates via SMS to tell them when their flight takes off or lands at which time they should go to the game board, and move their marker to their current destination. Players can view the current state of the world on a large map on the floor at ITP. 
 
 ### Scoring and Winning
-<a href="http://www.flickr.com/photos/paulmmay/5752022029/" title="Destinations - Scoreboard by paulmmay, on Flickr"><img src="http://farm3.static.flickr.com/2571/5752022029_6ab8aee5f0_z.jpg" class="flickr" alt="Destinations - Scoreboard"></a>
+<a href="http://www.flickr.com/photos/paulmmay/5752022029/" title="Destinations - Scoreboard by paulmmay, on Flickr"><img src="http://farm3.static.flickr.com/2571/5752022029_6ab8aee5f0_z.jpg" class="photo" alt="Destinations - Scoreboard"></a>
 
 Players travel around the world by plane, and receive points for the countries they have visited - once a player leaves a country, they start to earn points. Each player will continue to earn points every hour for a country they have left until another player arrives, and then leaves that country. 
 

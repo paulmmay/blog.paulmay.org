@@ -9,7 +9,7 @@ date: 16-07-2010
 ---
 <p class="intro">The Reith Lectures are an annual series of lectures given by a significant contemporary figure and broadcast by the BBC. This year's lectures, given by Professor Martin Rees, focused on the challenges faced by humans in the 21st century, and how science might help to overcome these challenges. 
 </p>
-<a href="http://www.flickr.com/photos/reith_lectures/4603901352/" title="Reith Lecture 1 (2) by The Reith Lectures, on Flickr"><img src="http://farm2.static.flickr.com/1046/4603901352_ab416a3848_z.jpg" class="flickr" alt="A photograph of Professor Martin Rees" /></a>
+<a href="http://www.flickr.com/photos/reith_lectures/4603901352/" title="Reith Lecture 1 (2) by The Reith Lectures, on Flickr"><img src="http://farm2.static.flickr.com/1046/4603901352_ab416a3848_z.jpg" class="photo" alt="A photograph of Professor Martin Rees" /></a>
 
 The lectures are available as <a href="http://www.bbc.co.uk/podcasts/series/reith" title="podcasts">podcasts</a>, and <a href="http://www.bbc.co.uk/programmes/b00729d9" title="transcripts">transcripts</a>.
 

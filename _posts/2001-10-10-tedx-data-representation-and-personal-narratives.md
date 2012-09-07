@@ -7,7 +7,7 @@ categories: [blog]
 tags: [tedx, storytelling, personal narrative, dataviz, data representation, data]
 date: 23-05-2011
 ---
-<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5670967252/" title="TEDx - Data Representation and Personal Narrative by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5029/5670967252_d93abbb970_b.jpg" class="flickr" alt="TEDx - Data Representation and Personal Narrative"></a>
+<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5670967252/" title="TEDx - Data Representation and Personal Narrative by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5029/5670967252_d93abbb970_b.jpg" class="photo" alt="TEDx - Data Representation and Personal Narrative"></a>
 
 While I wait for the video from my TEDx talk to be edited (I'm told it'll be ready in a couple of weeks) I thought I'd post my own notes from the day. This text is basically the framework I talked around on the day - so it's likely to be a bit different from what I say on the video (this is code for "on the day I was very nervous and lost my way a bit"). The talk was about some of my own work to analyse and represent large sets of data as well as the process of data representation. </p>
 ### Introduction

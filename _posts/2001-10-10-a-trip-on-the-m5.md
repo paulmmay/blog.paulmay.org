@@ -8,7 +8,7 @@ tags: []
 date: 08-11-2010
 ---
 <p class="intro">On Saturday I took the traditional ITP trip on the M5 bus which runs from the south of Manhattan near Wall Street to the George Washington Bridge on the northwest shore of the island. This is a description of the journey.
-<a href="http://www.flickr.com/photos/paulmmay/5157654181/" title="M5 Bus, Manhattan, New York by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1322/5157654181_a0f60d1c2c_z.jpg" class="flickr" alt="M5 Bus, Manhattan, New York" /></a></p>
+<a href="http://www.flickr.com/photos/paulmmay/5157654181/" title="M5 Bus, Manhattan, New York by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1322/5157654181_a0f60d1c2c_z.jpg" class="photo" alt="M5 Bus, Manhattan, New York" /></a></p>
 ### Saturday. Morning. New York.
 Today in New York it is emphatically, unmistakeably autumn. I've been here for a little over two months, and have been promised real seasons with discernible characteristics; defined edges, weather you can work with or work against - weather with personality. In Ireland our seasons are vague, average, cloudy sorts of things; it's hard to feel strongly about them. They exist as a murky backdrop I suppose. 
 
@@ -23,7 +23,7 @@ The bus needs a new set of shocks, and the driver needs to drink less coffee - w
 Near Canal Street we scrape through an amber then light; my notes remind me to mention that the bus driver is insane. Insanity appears to be a requirement (or at least encouraged) if you drive any form of public transport in New York. In minutes through no-traffic streets we have made it to the near-tip of Manhattan; the end of the southbound M5 near Wall Street. I get off to wander, to see what the fuss is about; maybe they'll be handing out bailout money - that'd be nice.
 
 ### Wall Street
-<a href="http://www.flickr.com/photos/paulmmay/5154225802/" title="Wall Street by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1059/5154225802_f70081cd6d_z.jpg" class="flickr" alt="Wall Street" /></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/5154225802/" title="Wall Street by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1059/5154225802_f70081cd6d_z.jpg" class="photo" alt="Wall Street" /></a><br />
 Jet-lag favours the European Tourist; today they, we, are up early, and have come in bus loads to see Wall Street and its bronze Bull. 
 
 The respectful ones pose with the Bull, the adventurous ones clamber up onto his neck. A surprisingly large proportion of them hunker down between his rear legs to get a good hold of his scrotum. I wonder if this is a recent trend, a sign of the changed relationship between the world and the global financial system - but it's probably been going on for years, because grabbing onto a set of bronze bull balls makes for a funny photo. Whatever the motivation, the bull and his bull-bits are a hit.

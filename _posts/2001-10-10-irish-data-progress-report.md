@@ -13,7 +13,7 @@ I tried to make <a href="http://paulmay.org/itp/what-happened" title="What Happe
 
 ### Status
 Information grappling:<br />
-<a href="http://www.flickr.com/photos/paulmmay/5164251556/" title="Screen shot 2010-11-10 at 09.00.07 by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4063/5164251556_0c05382c10_z.jpg"class="flickr" alt="Screen shot 2010-11-10 at 09.00.07" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/5164251556/" title="Screen shot 2010-11-10 at 09.00.07 by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4063/5164251556_0c05382c10_z.jpg"class="photo" alt="Screen shot 2010-11-10 at 09.00.07" /></a>
 
 
 * I've **gathered** a lot of the more-readily accessible data relating to Irish society; demographic and economic statistics as raw, ugly CSV files. 
@@ -21,7 +21,7 @@ Information grappling:<br />
 * I've compiled the interesting/fit-for-purpose data into **a single table as a time series**. This was not much fun, but it's done. 
 
 Infrastructure wrangling:<br />
-<a href="http://www.flickr.com/photos/paulmmay/5164262590/" title="Proof of Concept by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4025/5164262590_bc0473490a_z.jpg" class="flickr" alt="Proof of Concept" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/5164262590/" title="Proof of Concept by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4025/5164262590_bc0473490a_z.jpg" class="photo" alt="Proof of Concept" /></a>
 
 
 * Irish hosting company <a href="http://www.blacknight.com" title="Blacknight">Blacknight</a> have donated a **server** for a year - this is where I will store and share data, and where my visualisation project will go get its information from.

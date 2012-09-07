@@ -8,7 +8,7 @@ tags: []
 date: 04-11-2010
 ---
 <p class="intro">Power Plant is an interactive, artificial plant created with Eric Hagan and Suzanne Kirkpatrick as a mid-term project for the Introduction to Physical Computing class at ITP.
-<a href="http://www.flickr.com/photos/paulmmay/5145956328/" title="Power Plant by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1169/5145956328_20b2fac12c_z.jpg" class="flickr" alt="Power Plant" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/5145956328/" title="Power Plant by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1169/5145956328_20b2fac12c_z.jpg" class="photo" alt="Power Plant" /></a>
 </p>
 ### Project Brief &amp; Our Concept
 The brief for this project was to create a physical device that controls a medium of any kind. 
@@ -19,18 +19,18 @@ We were also interested in complex/living behaviours created to mimic real livin
 
 We talked through many, many thoughts - roughly sketched out about 5 different ideas around these themes, explored three in detail and chose one that we wanted to pursue: **A virtual garden that responded to physical interaction**; the ability for us to plant a physical seed in a virtual (on-screen) garden, watch a pea plant grow, tend to it - interact with physical implements like a watering can or garden tool.
 
-<a href="http://www.flickr.com/photos/paulmmay/5140569794/" title="Power Plant - Sketches 1 by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1410/5140569794_6bbace5d82_z.jpg" class="flickr" alt="Power Plant - Sketches 1" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/5140569794/" title="Power Plant - Sketches 1 by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1410/5140569794_6bbace5d82_z.jpg" class="photo" alt="Power Plant - Sketches 1" /></a>
 
 ### Ideation &amp; Design.
-<a href="http://www.flickr.com/photos/paulmmay/5102665567/" title="Experimenting with TUIO by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1373/5102665567_2a25c2e8b5_z.jpg" class="flickr" alt="Experimenting with TUIO" /></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/5102665567/" title="Experimenting with TUIO by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1373/5102665567_2a25c2e8b5_z.jpg" class="photo" alt="Experimenting with TUIO" /></a><br />
 We tested a system that used a camera, processing and an object tracking library to see where we planted a seed on a large screen. Our idea was that we would connect physical implements through Arduino into the Processing sketch, and/or have them recognised by the camera (by attaching tracking tokens to the implements). After initial tests with the object tracking approach we took some time to reflect. The interaction would work, but we were worried that there was just too much technology, moving parts, things to draw/animate and behaviours to program in the time available. 
 
 We** refined the idea** to make the interaction more direct and the constuction more straightforward; instead of growing/controlling an on-screen virtual plant, we would **make a physical plant that could respond to **a stimulus. We retain the same ideas as before; the ability to plant a seed, tend to the plant - but in a more physical format. From here we listed out parts we were likely to need and roughly how it would work. 
 
-<a href="http://www.flickr.com/photos/paulmmay/5146771170/" title="Power Plant - Sketches 5 (Zoomed) by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1119/5146771170_5ba0f6b8cc_z.jpg" class="flickr" alt="Power Plant - Sketches 5 (Zoomed)" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/5146771170/" title="Power Plant - Sketches 5 (Zoomed) by paulmmay, on Flickr"><img src="http://farm2.static.flickr.com/1119/5146771170_5ba0f6b8cc_z.jpg" class="photo" alt="Power Plant - Sketches 5 (Zoomed)" /></a>
 
 ### Construction
-<a href="http://www.flickr.com/photos/paulmmay/5145354753/" title="Wiring by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4011/5145354753_933fb6f0d7_z.jpg" class="flickr" alt="Wiring" /></a><br />
+<a href="http://www.flickr.com/photos/paulmmay/5145354753/" title="Wiring by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4011/5145354753_933fb6f0d7_z.jpg" class="photo" alt="Wiring" /></a><br />
 We build Power Plant from these major components:
 
 

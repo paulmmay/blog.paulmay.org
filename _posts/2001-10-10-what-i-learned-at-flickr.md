@@ -8,7 +8,7 @@ tags: [web, technology, san francisco, photography, photo sharing, hchamp, flick
 date: 13-07-2010
 ---
 <p class="intro">A quick recap of my visit to see the lovely people at Flickr in March of this year. This continues the theme of articles I should have written months ago, but didn't. Short version: Flickr loves you and your photos - for keeps.</p>
-<a href="http://www.flickr.com/photos/schill/4601849064/" title="FlickrHQ, Fisheye Style by .schill, on Flickr"><img src="http://farm2.static.flickr.com/1254/4601849064_0c7302c59a.jpg" class="flickr" alt="FlickrHQ, Fisheye Style"></a>
+<a href="http://www.flickr.com/photos/schill/4601849064/" title="FlickrHQ, Fisheye Style by .schill, on Flickr"><img src="http://farm2.static.flickr.com/1254/4601849064_0c7302c59a.jpg" class="photo" alt="FlickrHQ, Fisheye Style"></a>
 
 ### Mindblowing Stats to Blow Your Mind
 I am thoroughly biased; <a href="http://www.flickr.com/people/paulmmay/" title="I love Flickr">I love Flickr</a> - so let me start with some numbers/facts to set the scene in a somewhat objective fashion. 

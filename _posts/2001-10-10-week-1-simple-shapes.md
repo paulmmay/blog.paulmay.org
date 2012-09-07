@@ -19,5 +19,5 @@ This little exercise turned out to be a bit tricky actually. I ended up using so
 
 ### Final Sketch &amp; Source
 The applet is acting weird across different browsers - I'm not sure why. In the meantime here is a non-troublesome image of the sketch, and you can <a href="http://paulmay.org/images/uploads/sketch_sep08b_chessboard_3.pde" title="download the source">download the source</a> or <a href="http://paulmay.org/images/uploads/sketch_sep08b_chessboard_3.jar" title="the jar">the jar</a> to run this yourself. You might also be interested in <a href="http://www.flickr.com/photos/paulmmay/tags/week1simpleshapes/" title="some of the many hilarious failures along the way">some of the many hilarious failures along the way</a>.<br />
-<a href="http://www.flickr.com/photos/paulmmay/4974794235/" title="Chessboard Processing Sketch by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4154/4974794235_cfe8b8edd1_z.jpg" class="flickr" alt="Chessboard Processing Sketch" /></a>
+<a href="http://www.flickr.com/photos/paulmmay/4974794235/" title="Chessboard Processing Sketch by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4154/4974794235_cfe8b8edd1_z.jpg" class="photo" alt="Chessboard Processing Sketch" /></a>
 

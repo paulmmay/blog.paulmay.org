@@ -8,7 +8,7 @@ tags: [waste, urban experience, systems and layers, metrocard, itp, 52million]
 date: 01-11-2011
 ---
 <p class="intro">If you've ever visited or lived in New York City you'll be familiar with the MetroCard. These little cards are used by millions of people each day to access the subway and bus system. In this project, Stepan Boltalin, Genevieve Hoffman and I have broken apart the MetroCard pricing structure with some interesting results. Short version - don't buy the $10 MetroCard.</p>
-<a href="http://www.flickr.com/photos/paulmmay/6224396540/" title="Union Square - Metro Card Reader 2 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6160/6224396540_39f2575585_z.jpg" class="flickr" alt="Union Square - Metro Card Reader 2"></a>
+<a href="http://www.flickr.com/photos/paulmmay/6224396540/" title="Union Square - Metro Card Reader 2 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6160/6224396540_39f2575585_z.jpg" class="photo" alt="Union Square - Metro Card Reader 2"></a>
 
 ### The Missing Millions in the MetroCard System
 The MetroCard system has evolved over nearly two decades - it uses some pretty old technology (a magnetic stripe on the card is read at a turnstile, which updates the value on your card) and a slightly odd fare structure ($2.25 per ride plus a 7% bonus when you spend $10 or more on a MetroCard) which combine to create some unfortunate results; small amounts of value left on cards when they're discarded. 
@@ -27,7 +27,7 @@ Even a quick scan of <a href="http://bit.ly/metrocardpricing">the MetroCard pric
 
 A customer purchases a MetroCard for $10 and gets $0.70 of a bonus making the card worth $10.70. At a price of $2.25 per ride, the customer gets 4 rides leaving $1.70 remaining on the card. To get another ride the customer needs to add at least $0.55. 
 
-<a href="http://www.flickr.com/photos/paulmmay/6232627514/" title="MTA Interface Round 2 - 09 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6096/6232627514_4269714096_z.jpg" class="flickr" alt="MTA Interface Round 2 - 09"></a>
+<a href="http://www.flickr.com/photos/paulmmay/6232627514/" title="MTA Interface Round 2 - 09 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6096/6232627514_4269714096_z.jpg" class="photo" alt="MTA Interface Round 2 - 09"></a>
 
 Adding value using the MetroCard vending machine is a significantly longer process than buying another $10 card - and adding whole dollar values like $10 and $20 still gets priority.&nbsp; 
 

@@ -8,7 +8,7 @@ tags: [retro gaming, processing, itp, icm, computer games]
 date: 03-10-2010
 ---
 <p class="intro">This week we were asked to create sketches featuring iteration and objects; so I've built on the (pointless, but obligatory) bouncing balls sketch to make a brick and ball game.
-<a href="http://www.flickr.com/photos/paulmmay/5048085303/" title="Brick and Ball Game by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4111/5048085303_d6bd349cc2.jpg" class="flickr" alt="Brick and Ball Game" /></a></p>
+<a href="http://www.flickr.com/photos/paulmmay/5048085303/" title="Brick and Ball Game by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4111/5048085303_d6bd349cc2.jpg" class="photo" alt="Brick and Ball Game" /></a></p>
 This is a nowhere-near-finished tribute to all those cool games we played on the C64 when I was a kid. A few notes:
 
 
