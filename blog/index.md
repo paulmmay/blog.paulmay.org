@@ -4,4 +4,7 @@ layout: default
 
 ## Blog
 
-{% include post_list.html %}
+{% assign posts_collate = site.posts %}
+{% include bootstrap/posts_lastten %}
+
+<a href="/blog/archive/">Archive</a>
