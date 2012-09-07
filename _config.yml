@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 permalink: /blog/:title
-exclude: ["readme.md"]
+exclude: ["readme.md", "Gemfile", "Gemfile.lock", "config.ru"]
 name: Paul May
 description: Paul May's Blog
 url: http://paulmay.org
