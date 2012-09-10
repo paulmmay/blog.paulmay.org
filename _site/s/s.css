@@ -247,6 +247,10 @@ margin:0 0 2em 0;
 border-bottom:1px solid rgba(150, 150, 150, 1.00);
 }
 
+.borderless {
+border: none;
+}
+
 .meta{
 background: #F2f2f2;
 }
