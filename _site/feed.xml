@@ -27,6 +27,29 @@
     </entry>
   
     <entry>
+      <title>Happy Birthday Sneakers</title>
+      <published>2012-09-09T00:00:00Z</published>
+      <updated>2012-09-09T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;20 years ago today the film &lt;a href=&quot;http://www.imdb.com/title/tt0105435/&quot;&gt;Sneakers&lt;/a&gt; was released. It's one of my favorite films; I have watched it dozens of times. It's essentially a fun, nerdy B-movie caper with an A-list cast including Robert Redford, Sidney Poitier, River Phoenix, Dan Aykroyd and Ben Kingsley. The story has a simplicity and a completeness that I find really satisfying, and a score by James Horner that really moves things along nicely.&lt;/p&gt;
+
+&lt;iframe width=&quot;730&quot; height=&quot;411&quot; src=&quot;http://www.youtube.com/embed/5m2Dnb2YLOk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;From Slate's &lt;a href=&quot;http://www.slate.com/articles/arts/culturebox/features/2012/sneakers_20th_anniversary/robert_redford_sidney_poitier_and_ben_kingsley_made_one_very_prescient_movie_.html&quot;&gt;20th birthday article&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;For me, Sneakers occupies a special category: It’s a movie I can watch again and again and never get tired of; it’s the movie I happily settle on when every other DVD or download doesn’t quite suit my mood. I think I find it so trusty because it’s action-packed without being too violent, and smart without taking itself too seriously. And, perhaps most important, it’s perfectly paced: Even when you know every scene by heart, not one of them feels like it lasts a second longer than it needs to.&lt;/blockquote&gt;
+
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/happy-birthday-sneakers"/>
+      <id>http://paulmay.org/blog/happy-birthday-sneakers</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
       <title>Sloan-Kettering Bone Marrow Transplant Project</title>
       <published>2012-07-07T00:00:00Z</published>
       <updated>2012-07-07T00:00:00Z</updated>
@@ -432,30 +455,6 @@ In this experiment the creatures are gravitating to a foodsource. As they feed, 
 </content>
       <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-reynolds-steering"/>
       <id>http://paulmay.org/blog/nature-of-code-reynolds-steering</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Thesis Week 9 - Prototyping Coming to a Close</title>
-      <published>2012-03-26T00:00:00Z</published>
-      <updated>2012-03-26T00:00:00Z</updated>
-      <content type="html">&lt;p class=&quot;intro&quot;&gt;I'm getting to the end of my prototyping phase; here's how I've been getting on this week. &lt;/p&gt;
-
-
-&lt;p&gt;I made great progress this week; it feels as though I am over the hump with my project. The web app at the centre of my proposed activity/exercise service for MSKCC is now functionally complete - save for a few tweaks. It's absolutely a minimal viable product, it does just enough to be useful and act as a platform for criticism and testing. (It has been very hard to resist the urge to add more features).&lt;/p&gt;
-
-&lt;p&gt;A web application is not a service. Even though I've built this with real people in mind, people I met and interviewed during my research, I still have to put in place other things that would be necessary for this to be adopted as a real service - a timeline, coaching/training material for staff, help documentation etc.&lt;/p&gt;
-
-&lt;p&gt;I also have to establish exactly what hurdles exist that would need to be overcome before the service would launch - such as further testing, a security audit etc. At the end of the day it's highly likely that for this to be used in a real context, with patients, an experienced developer would need to help out - but that is perfectly fine as far as I'm concerned.&lt;/p&gt;
-
-&lt;p&gt;So, I'm moving into a final phase - finishing out the look and feel of the web application, making supporting materials and writing up.&lt;/p&gt;
-
-&lt;p&gt;And like that, it'll be Summer.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-week-9-prototyping-coming-to-a-close"/>
-      <id>http://paulmay.org/blog/thesis-week-9-prototyping-coming-to-a-close</id>
       <author>
         <name>Paul May</name>
       </author>
