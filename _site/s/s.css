@@ -65,7 +65,7 @@ line-height: 1.15em;
 margin-top: 0em; 
 margin-bottom: 0.4em;
 font-weight: 600; 
-font-family: nimbus-sans; 
+font-family: nimbus-sans,sans-serif; 
 font-size: 3em; 
 color: rgba(51, 51, 51, 1.00); 
 }
@@ -195,7 +195,7 @@ color: rgba(51, 51, 51, 1.00);
 display:block;
 position:absolute;
 margin-left:80px;
-margin-top:20px;
+margin-top:18px;
 font-weight: 400; 
 font-family: droid-serif; 
 font-size: 1.15em; 
