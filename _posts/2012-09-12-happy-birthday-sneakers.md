@@ -4,7 +4,7 @@ url: happy-birthday-sneakers
 comments: false
 layout: post
 categories: [blog]
-tags: [snippets]
+tags: [snippets, film, sneakers]
 date: 09-09-2012
 ---
 20 years ago today the film <a href="http://www.imdb.com/title/tt0105435/">Sneakers</a> was released. It's one of my favorite films; I have watched it dozens of times. It's essentially a fun, nerdy B-movie caper with an A-list cast including Robert Redford, Sidney Poitier, River Phoenix, Dan Aykroyd and Ben Kingsley. The story has a simplicity and a completeness that I find really satisfying, and a score by James Horner that really moves things along nicely.
