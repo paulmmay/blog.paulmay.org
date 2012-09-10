@@ -1,5 +1,5 @@
 ---
-title: MSKCC Bone Marrow Transplant Project
+title: Sloan-Kettering Bone Marrow Transplant Project
 url: mskcc-bone-marrow-transplant-project
 comments: true
 layout: post

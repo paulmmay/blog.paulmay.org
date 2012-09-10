@@ -1,0 +1,11 @@
+{% for post in posts_collate | limit:10 %}
+<article>
+<h2 class="articletitle"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+<div class="postmeta">
+<p class="date"><a href="http://paulmay.org{{post.url}}" class="permalink" title="Permalink to this article">{{ post.date | date: "%d %B %Y" }}</a></p>
+</div>
+{{post.content}}
+</article>
+
+{% endfor %}
+{% assign posts_collate = nil %}

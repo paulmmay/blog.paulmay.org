@@ -3,12 +3,29 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2012-07-07T00:00:00Z</updated>
+  <updated>2012-09-09T00:00:00Z</updated>
   <id>http://paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://paulmay.org"/>
   
     <entry>
-      <title>MSKCC Bone Marrow Transplant Project</title>
+      <title>NYC Century 2012</title>
+      <published>2012-09-09T00:00:00Z</published>
+      <updated>2012-09-09T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;I did the NYC Century yesterday; a 100 mile cycle from around Manhattan, Brooklyn, Queens and The Bronx.&lt;/p&gt;
+
+&lt;p&gt;We set out from Central Park just after 6am, cruised down into Brooklyn to meet other people at Prospect Park, then out to Coney Island, Breezy Point, the Rockaways, Forest Park, Little Neck, Flushing, Astoria, The Bronx, Harlem to the finish.&lt;/p&gt;
+
+&lt;p&gt;Congratulations to my fellow centurions Matthew, Will and Miguel. &lt;a href=&quot;http://www.flickr.com/photos/22463687@N05/7967084832/&quot; title=&quot;Centurions by Clionac, on Flickr&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8461/7967084832_92c38c45c8_c.jpg&quot; width=&quot;800&quot; height=&quot;455&quot; alt=&quot;Centurions&quot; class=&quot;photo&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nyc-century-2012"/>
+      <id>http://paulmay.org/blog/nyc-century-2012</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Sloan-Kettering Bone Marrow Transplant Project</title>
       <published>2012-07-07T00:00:00Z</published>
       <updated>2012-07-07T00:00:00Z</updated>
       <content type="html">&lt;p class=&quot;intro&quot;&gt;A write-up of my research and design project done in collaboration with Memorial Sloan-Kettering Cancer Center. &lt;/p&gt;
@@ -437,28 +454,6 @@ In this experiment the creatures are gravitating to a foodsource. As they feed, 
 </content>
       <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-week-9-prototyping-coming-to-a-close"/>
       <id>http://paulmay.org/blog/thesis-week-9-prototyping-coming-to-a-close</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Thesis Week 8 - Notifications, Nudges, Progress</title>
-      <published>2012-03-20T00:00:00Z</published>
-      <updated>2012-03-20T00:00:00Z</updated>
-      <content type="html">&lt;p class=&quot;intro&quot;&gt;A solid week of little improvements to the practical part of my thesis project - the end is in sight. &lt;/p&gt;
-
-
-&lt;p&gt;I spent this week working to close the loop between people using Activity App; my little extension of the FitBit service. I built on a dashboard for clinicians to see patient activity/progress as well as e-mail and SMS notifications to patients to offer encouragement and feedback. I am getting to a point now where the app is functionally useful.&lt;/p&gt;
-
-&lt;p&gt;As I've been developing I've been testing the app on myself, and now two other volunteers - two members of staff from MSKCC have been wearing FitBits for the last week. They subscribed to the Activity App allowing administrators to see their progress, offer feedback etc. Having real data coming in has been incredibly useful.&lt;/p&gt;
-
-&lt;p&gt;In other news, I've been working with the hospital to see how this type of service could be useful after the end of my thesis - there are positive signs that my project could be included in a clinical protocol (the set of rules, procedures that govern a clinical trial on a particular patient population) which would allow me to roll it out to some bone marrow transplant recipients, gather data and then improve the system.&lt;/p&gt;
-
-&lt;p&gt;The next major milestone for me is the 4th of April when I present the working prototype of the service and supporting materials to medical and administrative staff at the hospital. After this milestone I'll be moving into a tweaks phase and working almost exclusively on documentation, forward-planning.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-week-8-notifications-nudges-progress"/>
-      <id>http://paulmay.org/blog/thesis-week-8-notifications-nudges-progress</id>
       <author>
         <name>Paul May</name>
       </author>

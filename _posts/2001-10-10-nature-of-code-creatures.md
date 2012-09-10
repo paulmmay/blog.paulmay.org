@@ -51,4 +51,3 @@ As I said in my original <a href="http://paulmay.org/blog/nature-of-code-final-p
 
 ### Documentation
 All of the code from the project is <a href="https://github.com/paulmmay/Nature-of-Code" title="available on github">available on github</a>; just clone it to your computer and then open the sketch in Processing. The code is reasonably well commented. <a href="http://www.flickr.com/photos/paulmmay/sets/72157629123328271/" title="Screenshots are available on Flickr">Screenshots are available on Flickr</a> and there are several <a href="https://vimeo.com/album/1923090" title="work-in-progress videos on Vimeo">work-in-progress videos on Vimeo</a>. 
-
