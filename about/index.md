@@ -4,6 +4,7 @@ layout: default
 ## About
 Hello, my name is Paul May and I'm a researcher and multi-disciplinary designer from Dublin, Ireland - currently living and working in New York. You can contact me at <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a>. 
 
+### Work
 My work is focused on the design of satisfying and useful experiences that require fluid interaction between people and computers over time.
 
 Typically my projects begin loosely defined problem or context. I carry out research (by reading, analyzing data, speaking to people, observing) to define the project further, before expressing what I've learned through a prototype (content, software, hardware, service) and a series of tests. Most projects involve multiple iterations like this. 
@@ -27,8 +28,9 @@ I have worked on projects for many organisations including:
 * Microsoft
 * TouchTunes
 
-I recently graduated from NYU's Interactive Telecommunication Program (ITP) which I attended as a Fulbright winner. My time at ITP allowed me to design and explore as part of a wonderfully creative community.  
+I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecommunication Program (ITP)</a> which I attended as a Fulbright winner. My time at ITP allowed me to design and explore as part of a wonderfully creative community. 
 
+### Spare Time  
 In my spare time I enjoy the sport of triathlon, photography, writing and cooking. 
 
 ### Selected Press
