@@ -7,7 +7,7 @@ Hello, my name is Paul May and I'm a researcher and multi-disciplinary designer 
 ### Work
 My work is focused on the design of satisfying and useful experiences that require fluid interaction between people and computers over time.
 
-Typically my projects begin loosely defined problem or context. I carry out research (by reading, analyzing data, speaking to people, observing) to define the project further, before expressing what I've learned through a prototype (content, software, hardware, service) and a series of tests. Most projects involve multiple iterations like this. 
+Typically my projects begin loosely defined problem or context. I carry out research to define the project further (by reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype (content, software, hardware, service) and a series of tests. Most projects involve multiple iterations like this. 
 
 I am particularly interested in projects that relate to:
 
@@ -30,11 +30,7 @@ I have worked on projects for many organisations including:
 
 I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecommunication Program (ITP)</a> which I attended as a Fulbright winner. My time at ITP allowed me to design and explore as part of a wonderfully creative community. 
 
-### Spare Time  
-In my spare time I enjoy the sport of triathlon, photography, writing and cooking. 
-
 ### Selected Press
-
 * <a href="http://www.good.is/post/spare-change-for-social-change-can-wasted-subway-fees-be-used-for-public-good/">GOOD Magazine</a> (MetroChange)
 * <a href="http://www.theatlantic.com/technology/archive/2011/12/a-great-idea-for-what-to-do-with-the-pennies-left-on-your-metrocard/250287/">The Atlantic</a> (MetroChange)
 * <a href="http://www.fastcocreate.com/1679328/how-they-did-it-the-high-and-low-tech-behind-metrochange">Fast Company Co-Create</a> (MetroChange)
@@ -52,4 +48,6 @@ In my spare time I enjoy the sport of triathlon, photography, writing and cookin
 * <a href="http://www.visualizing.org/stories/sonifying-earthquake">Visualizing.org</a> (Japanese Earthquake as Sound)
 * <a href="http://www.core77.com/gallery/itp-winter-show-2010/6.asp">Core77: ITP Winter Show</a> (Photo+)
 * <a href="http://www.irishfulbrightalumni.com/pages/News28_Autumn2010.pdf">Irish Fulbright Alumni</a> [PDF]
-
+	
+### Spare Time  
+In my spare time I enjoy the sport of triathlon (swimming, cycling and running), photography, writing and cooking. 
