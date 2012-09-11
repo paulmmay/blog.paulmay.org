@@ -243,6 +243,10 @@ margin:0 0 2em 0;
 border-bottom:1px solid rgba(150, 150, 150, 1.00);
 }
 
+.many{
+padding-bottom:1.5em;
+}
+
 .borderless {
 border: none;
 }
@@ -419,7 +423,7 @@ height: 60px;
 @media screen and (max-width: 1100px) {
 .postmeta{
 float:none;
-margin:0;
+margin:0 0 1em 0;
 width:100%;
 }
 .postmeta .permalink{
