@@ -3,9 +3,29 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2012-09-09T00:00:00Z</updated>
+  <updated>2012-09-11T00:00:00Z</updated>
   <id>http://paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://paulmay.org"/>
+  
+    <entry>
+      <title>A Day in September</title>
+      <published>2012-09-11T00:00:00Z</published>
+      <updated>2012-09-11T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;On the 11th of September 2001 I helped my Dad move out of his office; a small unit in an industrial estate on the outskirts of Dublin, now the former home of his two-man company.
+His business partner had used the company like an ATM. The business faltered, then folded. We gathered what was left and loaded it into a borrowed white van; some tools, desks, a chair and a filing cabinet.
+As we drove away Joe Duffy was on the radio. It sounded like there had been a plane crash somewhere, or a disaster. Something had happened in New York and now listeners were calling in to the program.
+We stopped at a local pub and ordered soup and sandwiches. The small TV above the corner of the bar was showing news footage of a plane hitting a building. Later we'd discover that there were two more planes. The next day I watched a memorial service held in Dublin live on the television. I remember crying during one of the hymns.
+I left Ireland on the 14th to visit my brother in Chicago. People had been stranded at Heathrow for days and were lining up to get on any flight leaving for the US.
+I was accommodated on my scheduled flight. We ate food, we drank and enjoyed ourselves. The city was warm and quiet. The Sears Tower was closed.
+Now, many years later, I live in New York. There is a sadness about the place today, more police at the train station, maybe a nervousness on the subway.
+I think about that odd day every year; about small things - the contents of the van, Joe Duffy and sandwiches. I think about my Dad, who has had to rebuild from scratch more than once. I think about how much I love him and I hope that he's okay.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/a-day-in-september"/>
+      <id>http://paulmay.org/blog/a-day-in-september</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>NYC Century 2012</title>
@@ -408,52 +428,6 @@ The island will have some natural textures or types of terrain and the creatures
 </content>
       <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-week-10-entering-final-phase"/>
       <id>http://paulmay.org/blog/thesis-week-10-entering-final-phase</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Nature of Code - Reynolds Steering</title>
-      <published>2012-03-27T00:00:00Z</published>
-      <updated>2012-03-27T00:00:00Z</updated>
-      <content type="html">&lt;p class=&quot;intro&quot;&gt;This week for my Nature of Code class I'm doing a few experiments with Reynolds steering in Processing. &lt;/p&gt;
-
-
-&lt;h3&gt;Experiment 1 - Investigating&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7020882139/&quot; title=&quot;Seek Object by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7131/7020882139_8bded64c06_b.jpg&quot; class=&quot;photo&quot; alt=&quot;Seek Object&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In this first experiment I wanted to create a &amp;#8220;creature&amp;#8221; that would wander an area. If the creature smells something, it goes to investigate. Once it gets within visual range it approaches cautiously. Once it gets very close and can see what exactly the &amp;#8220;something&amp;#8221; is it can make a decision to eat or run away.&lt;/p&gt;
-
-&lt;p&gt;I'm about half way through with this - the creature is wandering, sensing a far off object and going to investigate. I have to implement the cautious approach and fleeing.&lt;/p&gt;
-
-&lt;p&gt;The code for this simple experiment is on &lt;a href=&quot;https://github.com/paulmmay/Nature-of-Code/tree/master/noc_steering&quot; title=&quot;GitHub&quot;&gt;GitHub&lt;/a&gt; and is almost entirely based on Dan Shiffman's &lt;a href=&quot;https://github.com/shiffman/The-Nature-of-Code&quot; title=&quot;examples&quot;&gt;examples&lt;/a&gt; of Reynolds steering behaviours in Processing.&lt;/p&gt;
-
-&lt;h3&gt;Experiment 2 - Fleeing, Memory&lt;/h3&gt;
-
-&lt;iframe src=&quot;http://player.vimeo.com/video/39315771&quot; class=&quot;photo&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7021774343/&quot; title=&quot;food-1465 by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6031/7021774343_e46405d6a0_b.jpg&quot; class=&quot;photo&quot; alt=&quot;food-1465&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In this next version the creatures are roaming a habitat. If they get within smelling distance of an interesting object, they go to investigate. If the object is a threat they run away quickly, retaining a memory of that object. The next time they come within smelling distance of that object they flee without going to take a closer look. You'll see in the image that some creatures roaming the habitat have a little red circle in their &amp;#8220;memory&amp;#8221; denoting knowledge of a threatening object.&lt;/p&gt;
-
-&lt;p&gt;Next, I'll introduce a second type of interesting object - food - that the creatures can feed upon, deplete and then leave. It might also be interesting to have the creatures share knowledge of threates with one another - but that'll have to wait for version 4. I'm riffing on this for the rest of the day I think&lt;/p&gt;
-
-&lt;h3&gt;Experiment 3 - Depleting a Foodsource&lt;/h3&gt;
-
-&lt;iframe src=&quot;http://player.vimeo.com/video/39315772&quot; class=&quot;photo&quot; width=&quot;700&quot; height=&quot;393&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6876189206/&quot; title=&quot;Depleting Foodsource by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6034/6876189206_c6100159df_b.jpg&quot; class=&quot;photo&quot; alt=&quot;Depleting Foodsource&quot;&gt;&lt;/a&gt;&lt;br /&gt;
-In this experiment the creatures are gravitating to a foodsource. As they feed, the foodsource is depleted. The more creatures who arrive to feed, the faster the foodsource is depleted. &lt;br /&gt;
-&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6876189246/&quot; title=&quot;Foodsource Depleted by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6106/6876189246_2cda242341_b.jpg&quot; class=&quot;photo&quot; alt=&quot;Foodsource Depleted&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;When the foodsource is depleted, the creatures continue to wander.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-reynolds-steering"/>
-      <id>http://paulmay.org/blog/nature-of-code-reynolds-steering</id>
       <author>
         <name>Paul May</name>
       </author>
