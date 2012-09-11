@@ -3,12 +3,10 @@ layout: default
 title: About
 ---
 ## About
-Hello, my name is Paul May and I'm a researcher and multi-disciplinary designer from Dublin, Ireland - currently living and working in New York. You can contact me at <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a>. 
+Hello, my name is Paul May and I'm a researcher and multi-disciplinary designer from Dublin, Ireland - currently living and working in New York. I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecommunications Program (ITP)</a> which I attended as a Fulbright winner.
 
-### Work, Process
-My work is focused on the design of satisfying and useful experiences that require fluid interaction between people and computers over time.
-
-Typically my projects begin loosely defined problem or context. I carry out research to define the project further (by reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype (content, software, hardware, service) and a series of tests. Most projects involve multiple iterations like this. 
+### Work
+I design satisfying, useful experiences that require fluid interaction between people and computers over time.
 
 I am particularly interested in projects that relate to:
 
@@ -16,20 +14,11 @@ I am particularly interested in projects that relate to:
 * Government and civic society
 * Media production, manipulation and sharing
 
-I have worked on projects for many organisations including:
+### Process
+Typically my projects begin with a loosely defined problem or a design context. I carry out research to define the project further (by reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype (a strategy, new content, some software, a device, a new service) and a series of tests. Most projects involve multiple iterations and produce different, inter-woven elements. 
 
-* Abbey Theatre
-* Accenture
-* Barracuda FX
-* BBC
-* Carte Blanche Greetings
-* Comcast Corporation
-* Frog Design
-* Memorial Sloan-Kettering Cancer Center
-* Microsoft
-* TouchTunes
-
-I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecommunications Program (ITP)</a> which I attended as a Fulbright winner. My time at ITP allowed me to design and explore as part of a wonderfully creative community. 
+### Clients
+I have worked on projects for many organisations including Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Memorial Sloan-Kettering Cancer Center, Microsoft and TouchTunes.
 
 ### Selected Press
 * <a href="http://www.good.is/post/spare-change-for-social-change-can-wasted-subway-fees-be-used-for-public-good/">GOOD Magazine</a> (MetroChange)
@@ -51,4 +40,7 @@ I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecom
 * <a href="http://www.irishfulbrightalumni.com/pages/News28_Autumn2010.pdf">Irish Fulbright Alumni</a> [PDF]
 	
 ### Not Work
-Outside of my work I enjoy the sport of triathlon (swimming, cycling and running), photography, writing and cooking.  
+Outside of my work I enjoy triathlon (swimming + cycling + running), photography, writing and cooking.  
+
+### Contact
+<a href="mailto:webmail@paulmay.org">Email</a>, <a href="http://twitter.com/paulmmay">Twitter</a>. 
