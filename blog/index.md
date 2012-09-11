@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Blog
 ---
 {% assign posts_collate = site.posts %}
 {% include bootstrap/posts_lastten %}

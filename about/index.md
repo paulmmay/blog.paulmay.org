@@ -1,10 +1,11 @@
 ---
 layout: default
+title: About
 ---
 ## About
 Hello, my name is Paul May and I'm a researcher and multi-disciplinary designer from Dublin, Ireland - currently living and working in New York. You can contact me at <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a>. 
 
-### Work
+### Work, Process
 My work is focused on the design of satisfying and useful experiences that require fluid interaction between people and computers over time.
 
 Typically my projects begin loosely defined problem or context. I carry out research to define the project further (by reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype (content, software, hardware, service) and a series of tests. Most projects involve multiple iterations like this. 
@@ -28,7 +29,7 @@ I have worked on projects for many organisations including:
 * Microsoft
 * TouchTunes
 
-I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecommunication Program (ITP)</a> which I attended as a Fulbright winner. My time at ITP allowed me to design and explore as part of a wonderfully creative community. 
+I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecommunications Program (ITP)</a> which I attended as a Fulbright winner. My time at ITP allowed me to design and explore as part of a wonderfully creative community. 
 
 ### Selected Press
 * <a href="http://www.good.is/post/spare-change-for-social-change-can-wasted-subway-fees-be-used-for-public-good/">GOOD Magazine</a> (MetroChange)
@@ -49,5 +50,5 @@ I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecom
 * <a href="http://www.core77.com/gallery/itp-winter-show-2010/6.asp">Core77: ITP Winter Show</a> (Photo+)
 * <a href="http://www.irishfulbrightalumni.com/pages/News28_Autumn2010.pdf">Irish Fulbright Alumni</a> [PDF]
 	
-### Spare Time  
-In my spare time I enjoy the sport of triathlon (swimming, cycling and running), photography, writing and cooking. 
+### Not Work
+Outside of my work I enjoy the sport of triathlon (swimming, cycling and running), photography, writing and cooking.  
