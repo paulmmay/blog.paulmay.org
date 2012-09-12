@@ -5,3 +5,18 @@ exclude: ["readme.md", "Gemfile", "Gemfile.lock", "config.ru"]
 name: Paul May
 description: Paul May's Blog
 url: http://paulmay.org
+
+# this goes inside _config.yml. Change as required
+navigation:
+- text: Work
+  url: /work/index.html
+  cleanurl: /work/
+  layout: work
+- text: Blog
+  url: /blog/index.html
+  cleanurl: /blog/
+  layout: post
+- text: About
+  url: /about/index.html
+  cleanurl: /about/
+  layout: about
