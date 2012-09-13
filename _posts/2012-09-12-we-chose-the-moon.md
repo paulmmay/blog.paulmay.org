@@ -7,7 +7,7 @@ categories: [blog]
 tags: [moon,jfk]
 date: 12-09-2012
 ---
-50 years ago today John F. Kennedy made a speech at Rice University committing the United States to a manned landing on the moon. At the time of the speech airplanes were about 60 years old and only 5 before, the first artificial satellite had was put into orbit. Now it was time to send humans to the moon.  
+50 years ago today John F. Kennedy made a speech at Rice University committing the United States to a manned landing on the moon. At the time of the speech airplanes were about 60 years old and only 5 before, the first artificial satellite had was put into orbit. Now it was time to send humans to the moon. Here's my favourite part of the speech:  
 
 <blockquote>Despite the striking fact that most of the scientists that the world has ever known are alive and working today, despite the fact that this Nation's own scientific manpower is doubling every 12 years in a rate of growth more than three times that of our population as a whole, despite that, the vast stretches of the unknown and the unanswered and the unfinished still far outstrip our collective comprehension.</blockquote>
 
