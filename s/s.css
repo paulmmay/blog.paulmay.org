@@ -73,7 +73,7 @@ color: rgba(51, 51, 51, 1.00);
 h4,h3 { 
 font-style: normal; 
 font-weight: 600; 
-font-family: nimbus-sans; 
+font-family: nimbus-sans, sans-serif; 
 font-size: 1.6em; 
 text-transform: none; 
 margin-bottom: 0.4em; 
