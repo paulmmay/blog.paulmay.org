@@ -1,5 +1,7 @@
 {% unless page.layout == 'front' %}
 <ul>{% for link in site.navigation %}{% assign current = nil %}{% if page.url == link.url or page.layout == link.layout %}
 {% assign current = ' class="youhere"' %}{%else%}{% assign current = ''%}{% endif %}
-<li><a href="{{link.cleanurl}}"{{current}}>{{ link.text }}</a></li>{% endfor %}</ul>
+<li><a href="{{link.cleanurl}}"{{current}}>{{ link.text }}</a></li>
+{% endfor %}
+</ul>
 {% endunless %}

@@ -172,7 +172,10 @@ font-style:italic;
 
 .youhere{
 border-bottom:5px solid rgba(255, 199, 0, 1.00);
-/*border-bottom:3px solid #55a2ca;*/
+}
+
+.youheresmall{
+border-bottom:3px solid rgba(255, 199, 0, 1.00);
 }
 
 footer ul li a{
@@ -365,6 +368,7 @@ line-height: 1em;
 #secondary ul li a{
 text-decoration:none;
 color: rgba(101, 101, 101, 1.00);
+padding-bottom:3px;
 }
 
 #primary ul{

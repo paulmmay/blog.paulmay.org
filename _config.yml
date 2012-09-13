@@ -20,3 +20,17 @@ navigation:
   url: /about/index.html
   cleanurl: /about/
   layout: about
+  
+secondary:
+- text: Twitter
+  url: http://twitter.com/paulmmay
+  cleanurl: http://twitter.com/paulmmay
+  layout: default
+- text: RSS
+  url: /feed.xml
+  cleanurl: /feed.xml
+  layout: default
+- text: Colophon
+  url: /colophon/index.html
+  cleanurl: /colophon/
+  layout: default
