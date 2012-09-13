@@ -1,0 +1,9 @@
+<div id="secondary">
+{% unless page.layout == 'front' %}
+<ul>{% for link in site.secondary %}{% assign current = nil %}{% if page.url == link.url%}
+{% assign current = ' class="youheresmall"' %}{%else%}{% assign current = ''%}{% endif %}
+<li><a href="{{link.cleanurl}}"{{current}}>{{ link.text }}</a></li>
+{% endfor %}
+</ul>
+{% endunless %}
+</div>
