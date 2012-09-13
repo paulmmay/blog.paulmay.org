@@ -13,6 +13,6 @@ date: 12-09-2012
 
 <div class="breathe"><script type="text/javascript" src="http://cdn-akm.vmixcore.com/vmixcore/js?auto_play=0&cc_default_off=1&player_name=uvp&width=730&height=573&player_id=1aa0b90d7d31305a75d7fa03bc403f5a&t=V0Ub55prG4z6v550c-CtIJi9NklVu5_5hE"></script></div>
 
-The audacity of it makes my head swim; the skills, infrastructures and technologies to do what Kennedy was proposing simply didn't exist. What did exist was an opponent, fear of nuclear annihilation at the hands of that opponent and limitless resources. The success of the moon landing was a measure of what human ingenuity and effort could achieve in a particularly scary geopolitical context.
+The audacity of it makes my head swim; the skills, infrastructures and technologies to do what Kennedy was proposing simply didn't exist. What did exist was an opponent, fear of nuclear annihilation at the hands of that opponent, and limitless resources. The success of the moon landing was a measure of what human ingenuity could achieve in a particularly scary geopolitical context.
 
 It would be nice to think that humans are still capable of crazy schemes like this, maybe even without the need for the world to be divided in half. Maybe we just need to choose to go to Mars, and figure the rest out later.
