@@ -6,16 +6,14 @@ title: About
 Hello, my name is Paul May and I'm a researcher and multi-disciplinary designer from Dublin, Ireland - currently living and working in New York. I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecommunications Program (ITP)</a> which I attended as a Fulbright winner.
 
 ### Work
-I design satisfying, useful experiences that require fluid interaction between people and computers over time.
-
-I am particularly interested in projects that relate to:
+I research, design and make interactive products, services and environments. I am particularly interested in projects related to:
 
 * Health and human activity
 * Government and civic society
 * Media production, manipulation and sharing
 
 ### Process
-Typically my projects begin with a loosely defined problem or a design context. I carry out research to define the project further (by reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype (a strategy, new content, some software, a device, a new service) and a series of tests. Most projects involve multiple iterations and produce different, inter-woven elements. 
+My projects typically begin with a loosely defined problem or a context. I define the project further through research (reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype and a series of tests. 
 
 ### Clients
 I have worked on projects for many organisations including Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Memorial Sloan-Kettering Cancer Center, Microsoft and TouchTunes.
