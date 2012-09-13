@@ -3,9 +3,34 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2012-09-11T00:00:00Z</updated>
+  <updated>2012-09-12T00:00:00Z</updated>
   <id>http://paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://paulmay.org"/>
+  
+    <entry>
+      <title>We Chose to go to the Moon</title>
+      <published>2012-09-12T00:00:00Z</published>
+      <updated>2012-09-12T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;50 years ago today John F. Kennedy made a speech at Rice University committing the United States to a manned landing on the moon. At the time of the speech airplanes were about 60 years old and 5 years perviously the first artificial satellite had been put into orbit. Now it was time to send humans to the moon.&lt;/p&gt;
+
+&lt;blockquote&gt;Despite the striking fact that most of the scientists that the world has ever known are alive and working today, despite the fact that this Nation's own scientific manpower is doubling every 12 years in a rate of growth more than three times that of our population as a whole, despite that, the vast stretches of the unknown and the unanswered and the unfinished still far outstrip our collective comprehension.&lt;/blockquote&gt;
+
+
+
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn-akm.vmixcore.com/vmixcore/js?auto_play=0&amp;cc_default_off=1&amp;player_name=uvp&amp;width=730&amp;height=573&amp;player_id=1aa0b90d7d31305a75d7fa03bc403f5a&amp;t=V0Ub55prG4z6v550c-CtIJi9NklVu5_5hE&quot;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;The audacity of it makes my head swim; the skills, infrastructures and technologies to do what Kennedy was proposing simply didn't exist. What did exist was an opponent, fear of nuclear annihilation at the hands of that opponent and limitless resources. The success of the moon landing was a measure of what human ingenuity and effort could achieve in a particularly scary geopolitical context.&lt;/p&gt;
+
+&lt;p&gt;It would be nice to think that humans are still capable of crazy schemes like this, maybe even without the need for the world to be divided in half. Maybe we just need to choose to go to Mars, and figure the rest out later.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/we-chose-the-moon"/>
+      <id>http://paulmay.org/blog/we-chose-the-moon</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>A Day in September</title>
@@ -410,30 +435,6 @@ The island will have some natural textures or types of terrain and the creatures
 </content>
       <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-final-project-proposal"/>
       <id>http://paulmay.org/blog/nature-of-code-final-project-proposal</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Thesis Week 10 - Entering Final Phase</title>
-      <published>2012-04-01T00:00:00Z</published>
-      <updated>2012-04-01T00:00:00Z</updated>
-      <content type="html">&lt;p class=&quot;intro&quot;&gt;I'm entering the final 4 week phase of my project; wrapping up. &lt;/p&gt;
-
-
-&lt;p&gt;This week I &lt;strong&gt;completed functional work on the prototype web application&lt;/strong&gt; related to my thesis; the app is now feature-complete (it does everything I identified as being critical to the delivery of the service to patients). The final piece of the puzzle was the implementation of a daily text message sent to a patient's phone with feedback on the previous day's exercise and encouragement to be active. This is what is sometimes called a &amp;#8220;&lt;a href=&quot;http://www.behaviormodel.org/triggers.html&quot; title=&quot;hot trigger&quot;&gt;hot trigger&lt;/a&gt;&amp;#8221; in persuasive systems design.&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;On Monday I &lt;strong&gt;presented the project to my Thesis classmates&lt;/strong&gt; at ITP. I essentially summarised the background to the project, the different phases I had worked through and the results to date. The response was very positive. I'm proud of where I've managed to get to in 10 weeks, and I've learned a huge amount about my own design process.&lt;/p&gt;
-
-&lt;h3&gt;Next Steps&lt;/h3&gt;
-
-&lt;p&gt;I'm resisting the urge to add new things to the web application, and instead I'm focusing on &lt;strong&gt;making the interface a little more intuitive&lt;/strong&gt; - and generally tidying up some bits and pieces.&lt;/p&gt;
-
-&lt;p&gt;On Tuesday of next week &lt;strong&gt;I present the project to senior staff at Memorial Sloan-Kettering&lt;/strong&gt; for feedback and discussion. I'll document what they have to say, and will try to implement any suggestions they have that can be done within the week. Anything that can't be done within the week will have to persist into a subsequent project or phase, or taken as a requirement/idea for work they do in the future.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-week-10-entering-final-phase"/>
-      <id>http://paulmay.org/blog/thesis-week-10-entering-final-phase</id>
       <author>
         <name>Paul May</name>
       </author>
