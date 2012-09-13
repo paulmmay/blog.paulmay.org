@@ -73,7 +73,7 @@ color: rgba(51, 51, 51, 1.00);
 h4,h3 { 
 font-style: normal; 
 font-weight: 600; 
-font-family: nimbus-sans; 
+font-family: nimbus-sans, sans-serif; 
 font-size: 1.6em; 
 text-transform: none; 
 margin-bottom: 0.4em; 
@@ -273,9 +273,6 @@ border-top:5px solid #afd3e6;
 
 #wrapper{
 color: #222;
-/*background: #F6f6f6;*/
-/*background: #f8f9ef;*/
-/*background: #f0f5fe;*/
 width: 730px;
 margin: 0 auto;
 margin-bottom:40px;
@@ -283,7 +280,6 @@ margin-top:0;
 padding: 0;
 text-align: left;
 overflow: visible;
-/*border-top:5px solid #55a2ca;*/
 }
 
 
@@ -423,7 +419,7 @@ width: 60px;
 height: 60px;
 }
 
-/* Somewhat Responsive */
+/*  ---------- Somewhat RESPONSIVE  ---------- */
 @media screen and (max-width: 1100px) {
 .postmeta{
 float:none;
@@ -439,5 +435,11 @@ color: rgba(100, 100, 100, 1.00);
 
 .postmeta .permalink a{
 color: rgba(100, 100, 100, 1.00);
+}
+}
+
+@media screen and (max-width: 900px) {
+#wrapper{
+width:90%;
 }
 }
