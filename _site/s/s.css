@@ -426,6 +426,18 @@ width: 60px;
 height: 60px;
 }
 
+.caption{
+width:100%;
+margin-top:-1.2em;
+margin-bottom:1em;
+text-align:right;
+font-weight: 400; 
+font-family: droid-serif; 
+font-size: 0.6em; 
+line-height: 0.9em;
+color: rgba(71, 71, 71, 1.00);
+}
+
 /*  ---------- Somewhat RESPONSIVE  ---------- */
 @media screen and (max-width: 1100px) {
 .postmeta{
