@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Irish Clinical Trials Map | Paul May</title>
+<link rel="stylesheet" href="/s/s.css"/>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.css" />
+ <!--[if lte IE 8]>
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.ie.css" />
+ <![endif]-->
+ 
+<!-- putting this stuff at the top if obviously bad practice, but needs must as the devil drives-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
+</head>
+<body>
+
+<div id="header">
+<div id="masthead"><h1><a href="/">Paul May</a></h1></div>
+<div id="primary">
+<ul>
+<li><a href="/work/">Work</a></li>
+
+<li><a href="/blog/">Blog</a></li>
+
+<li><a href="/about/">About</a></li>
+
+</ul>
+</div>
+</div>
+
+<div id="map"></div>
+
+<script>
+var map = L.map('map').setView([53.3485, -6.26392], 13);
+
+L.tileLayer('http://{s}.tile.cloudmade.com/c3a04dfc4ec0424bbf0099594725ff82/997/256/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
+        }).addTo(map);
+        
+        
+        $.getJSON('http://127.0.0.1:9292/ireland.json', function(data) {
+  var items = [];
+
+  $.each(data, function(key, val) {
+    items.push('<li id="' + key + '">' + val + '</li>');
+  });
+
+  $('<ul/>', {
+    'class': 'my-new-list',
+    html: items.join('')
+  }).appendTo('body');
+});
+    </script>
+
+
+
+
+</body>
+<script type="text/javascript" src="//use.typekit.net/ebp8vaa.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4312882-1']);
+  _gaq.push(['_setDomainName', 'new.paulmay.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>
