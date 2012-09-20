@@ -25,6 +25,30 @@
 <div id="content">
 
 
+<div><article class="many"><h2 class="articletitle"><a href="/blog/clinical-trials-map">Clinical Trials Map</a></h2><div class="postmeta"><p class="date"><a href="http://paulmay.org/blog/clinical-trials-map" class="permalink" title="Permalink to this article">19 September 2012</a></p></div><p>In the last few months I've been working on design projects with Memorial Sloan-Kettering Cancer Center in New York. I've noticed that the medical staff are constantly improving how they work; many patients are enrolled in clinical trials so that new techniques and technologies can be assessed.</p>
+
+<p>I did a bit of digging and found that there's a <a href="http://clinicaltrials.gov">central registry of clinical trials</a>, including the ones taking place at MSKCC, available online. It's a really interesting dataset.</p>
+
+<p>I was interested to see what trials were taking place in Brooklyn where I live, and in some other cities around the world so I wrote a little application that retrieves data from the registry and populates <a href="http://trials.paulmay.org"> a series of maps</a>.</p>
+
+<p><a href="http://trials.paulmay.org">Explore the maps</a>, and <a href="http://twitter.com/paulmmay">tell me what you think</a>. If you want more details about how the maps were made, read on.</p>
+
+<h3>Method</h3>
+
+<p>All data in the current maps was retrieved on the 16th of September 2012 and will be updated every 30 days.</p>
+
+<p>The clinical trial data is from <a href="http://clinicaltrials.gov">clinicaltrials.gov</a>. My application requests a list of open trials currently accepting new participants taking place in <a href="http://clinicaltrials.gov/ct2/results?recr=Open&no_unk=Y&cntry1=EU%3AIE&locn=Dublin&displayxml=true">Dublin</a>, <a href="http://clinicaltrials.gov/ct2/results?recr=Open&no_unk=Y&cntry1=ES%3ACN&locn=beijing&displayxml=true">Beijing</a>, <a href="http://clinicaltrials.gov/ct2/results?recr=Open&no_unk=Y&cntry1=EU%3AGB&locn=London&displayxml=true">London</a>, <a href="http://clinicaltrials.gov/ct2/results?recr=Open&no_unk=Y&cntry1=EU%3AES&locn=Barcelona&displayxml=true">Barcelona</a> or  <a href="http://clinicaltrials.gov/ct2/results?recr=Open&no_unk=Y&cntry1=NA%3AUS&state1=NA%3AUS%3ANY&locn=Brooklyn&displayxml=true">Brooklyn</a> and a list of studies is returned. Studies with unknown status are not returned. Each study is then <a href="http://clinicaltrials.gov/ct2/show/NCT00463294?displayxml=true">retrieved individually</a>. Each study has a number of "facilities" associated with it where the trial is being carried out - the address of these facilities is passed to the Google Maps API which returns location information. The latitude and longitude is used to populate a map made using <a href="http://leaflet.cloudmade.com/">Leaflet</a>. (I'll be releasing the application on GitHub when I've documented it and cleaned it up a bit.)</p>
+
+<h3>Caveats</h3>
+
+<p><strong>This is just a little experiment</strong> and the maps aren't offered with any guarantee of completeness, availability, quality or accuracy. You shouldn't use these maps to satisfy anything other than idle curiosity and if you want accurate trial data you should get it directly from <a href="http://clinicaltrials.gov">clinicaltrials.gov</a>.</p>
+
+<p><strong>Geocoding is inherently flaky</strong>; if Google Maps couldn't return a lat/lon for the facility where the trial is taking place, that trial is not shown at all. Even when Google Maps did return a lat/lon the location should be treated as approximate.mIn many cases trials are shown at the center of cities because Google Maps can't identify a more specific location (e.g. because  O'Connell Street in Dublin is returned when you search for Dublin, Ireland a lot of clinical trials appear to be taking place on O'Connell street).</p>
+
+<p><strong>Showing lots of markers close to each other on a map is a non-trivial problem</strong>; at the moment a lot of the little markers that show the position of trials are being drawn on top of each other - this is something I'll try to fix in the next release.</p>
+</article></div>
+
+
 <div><article class="many"><h2 class="articletitle"><a href="/blog/we-chose-the-moon">We Chose to go to the Moon</a></h2><div class="postmeta"><p class="date"><a href="http://paulmay.org/blog/we-chose-the-moon" class="permalink" title="Permalink to this article">12 September 2012</a></p></div><p>50 years ago today John F. Kennedy made a speech at Rice University committing the United States to a manned landing on the moon. At the time of the speech airplanes were about 60 years old and only 5 years previously, the first artificial satellite was put into orbit. Now it was apparently time to send humans to the moon - not to solve a problem, but because it might be possible. Here's my favourite part of the speech:</p>
 
 <blockquote>Despite the striking fact that most of the scientists that the world has ever known are alive and working today, despite the fact that this Nation's own scientific manpower is doubling every 12 years in a rate of growth more than three times that of our population as a whole, despite that, the vast stretches of the unknown and the unanswered and the unfinished still far outstrip our collective comprehension.</blockquote>
@@ -324,47 +348,12 @@ The creatures have attributes and exhibit behaviours that help them survive:</p>
 </article></div>
 
 
-<div><article class="many"><h2 class="articletitle"><a href="/blog/snippet">Snippet</a></h2><div class="postmeta"><p class="date"><a href="http://paulmay.org/blog/snippet" class="permalink" title="Permalink to this article">22 April 2012</a></p></div><p class="intro">Something that doesn't belong where I wrote it, and so is going to live here.</p>
+<div><article class="borderless" ><h2 class="articletitle"><a href="/blog/snippet">Snippet</a></h2><div class="postmeta"><p class="date"><a href="http://paulmay.org/blog/snippet" class="permalink" title="Permalink to this article">22 April 2012</a></p></div><p class="intro">Something that doesn't belong where I wrote it, and so is going to live here.</p>
 
 
 <p>What I do believe is that we are still quite a long way away from having a shared and robust set of tools that can be applied to the creation of experiences that sit between the digital and the physical. The gap between our intention and what we end up making is still very wide - in saying this I'm thinking specifically about the ways in which creative teams come together to collaborate, the tools we use to map out our intentions, the hardware/software we use to try to express those intentions, the  hardware/software we use to foster genuine interactivity between people, the ways in which we share and improve the things that we do. It seems as though only the most exceptional among us get to jump the gap between intention and fidelity of outcome.</p>
 
 <p>We have a long way to go before we can start a project knowing that we'll be able to focus on the needs of people and not on overcoming obstacles.</p>
-</article></div>
-
-
-<div><article class="borderless" ><h2 class="articletitle"><a href="/blog/nature-of-code-final-project-proposal">Nature of Code - Final Project Proposal</a></h2><div class="postmeta"><p class="date"><a href="http://paulmay.org/blog/nature-of-code-final-project-proposal" class="permalink" title="Permalink to this article">04 April 2012</a></p></div><p class="intro">As my final project for Nature of Code I'm going to continue my experiments with Reynolds steering behaviours to create a pseudo-natural landscape of foraging creatures.</p>
-
-
-<h3>Summary</h3>
-
-<p>I've had a lot of fun lately programming little creatures to <a href="http://paulmay.org/blog/nature-of-code-reynolds-steering/" title="display life-like behaviours like finding food, wandering, fleeing threats">display life-like behaviours like finding food, wandering, fleeing threats</a>. There is just something weirdly compelling about tweaking and shaping the way the creatures behave.</p>
-
-<p>I'm going to continue this work. I'll create a landscape populated by a number of different species of creature who exhibit different behaviours. They'll be born, search for food, follow each other, flee from each other, seek shelter, reproduce and die. I'd like the creatures to have some sense of time and memory - things will happen depending on their age, and they'll be able to store information about their interactions. This information will inform their decision making.</p>
-
-<p>If I get time I may tie some of the attributes of the world to data from the real world; maybe some real weather data to inform weather in the world. Having any sort of direct communication between our world and the world of the creatures isn't something I'm certain that I want to pursue; we'll see.</p>
-
-<h3>The Creatures</h3>
-
-<p><a href="http://www.flickr.com/photos/paulmmay/6891472446/" title="01_creature_attributes by paulmmay, on Flickr"><img src="http://farm7.staticflickr.com/6058/6891472446_5f735793ca_b.jpg" class="photo" alt="01_creature_attributes"></a><br />
-The creatures will have some basic capabilities; abilities to walk, run, consume food, follow others.&nbsp;</p>
-
-<p><a href="http://www.flickr.com/photos/paulmmay/7037567511/" title="02_creature_desires by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7137/7037567511_b734a1807e_b.jpg" class="photo" alt="02_creature_desires"></a><br />
-The creatures will want for things, they'll seek food, find a mate, flee from predators.</p>
-
-<p><a href="http://www.flickr.com/photos/paulmmay/7037566717/" title="04_herds by paulmmay, on Flickr"><img src="http://farm7.staticflickr.com/6091/7037566717_5e5995b9a3_b.jpg" class="photo" alt="04_herds"></a><br />
-They creatures will organise themselves into groups based on their attributes.</p>
-
-<p><a href="http://www.flickr.com/photos/paulmmay/7037566183/" title="06_time by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7040/7037566183_fa787bd434_b.jpg"  class="photo"  alt="06_time"></a><br />
-The passage of time will influence the creatures' behaviour; during the day they will range far and wide energetically. At night they will seek shelter and stay close to one another.</p>
-
-<h3>Landscape</h3>
-
-<p><a href="http://www.flickr.com/photos/paulmmay/6891473726/" title="05_island by paulmmay, on Flickr"><img src="http://farm7.staticflickr.com/6105/6891473726_956904b16c_b.jpg" class="photo" alt="05_island"></a><br />
-The creatures will roam around on a landscape, probably an island of some sort - a space with natural boundaries.</p>
-
-<p><a href="http://www.flickr.com/photos/paulmmay/6891471134/" title="03_textures by paulmmay, on Flickr"><img src="http://farm7.staticflickr.com/6117/6891471134_d7c19da143_b.jpg" class="photo" alt="03_textures"></a><br />
-The island will have some natural textures or types of terrain and the creatures will interact with these textures - feeding on them, avoid them etc.</p>
 </article></div>
 
 

@@ -3,9 +3,42 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2012-09-12T00:00:00Z</updated>
+  <updated>2012-09-19T00:00:00Z</updated>
   <id>http://paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://paulmay.org"/>
+  
+    <entry>
+      <title>Clinical Trials Map</title>
+      <published>2012-09-19T00:00:00Z</published>
+      <updated>2012-09-19T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;In the last few months I've been working on design projects with Memorial Sloan-Kettering Cancer Center in New York. I've noticed that the medical staff are constantly improving how they work; many patients are enrolled in clinical trials so that new techniques and technologies can be assessed.&lt;/p&gt;
+
+&lt;p&gt;I did a bit of digging and found that there's a &lt;a href=&quot;http://clinicaltrials.gov&quot;&gt;central registry of clinical trials&lt;/a&gt;, including the ones taking place at MSKCC, available online. It's a really interesting dataset.&lt;/p&gt;
+
+&lt;p&gt;I was interested to see what trials were taking place in Brooklyn where I live, and in some other cities around the world so I wrote a little application that retrieves data from the registry and populates &lt;a href=&quot;http://trials.paulmay.org&quot;&gt; a series of maps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://trials.paulmay.org&quot;&gt;Explore the maps&lt;/a&gt;, and &lt;a href=&quot;http://twitter.com/paulmmay&quot;&gt;tell me what you think&lt;/a&gt;. If you want more details about how the maps were made, read on.&lt;/p&gt;
+
+&lt;h3&gt;Method&lt;/h3&gt;
+
+&lt;p&gt;All data in the current maps was retrieved on the 16th of September 2012 and will be updated every 30 days.&lt;/p&gt;
+
+&lt;p&gt;The clinical trial data is from &lt;a href=&quot;http://clinicaltrials.gov&quot;&gt;clinicaltrials.gov&lt;/a&gt;. My application requests a list of open trials currently accepting new participants taking place in &lt;a href=&quot;http://clinicaltrials.gov/ct2/results?recr=Open&amp;no_unk=Y&amp;cntry1=EU%3AIE&amp;locn=Dublin&amp;displayxml=true&quot;&gt;Dublin&lt;/a&gt;, &lt;a href=&quot;http://clinicaltrials.gov/ct2/results?recr=Open&amp;no_unk=Y&amp;cntry1=ES%3ACN&amp;locn=beijing&amp;displayxml=true&quot;&gt;Beijing&lt;/a&gt;, &lt;a href=&quot;http://clinicaltrials.gov/ct2/results?recr=Open&amp;no_unk=Y&amp;cntry1=EU%3AGB&amp;locn=London&amp;displayxml=true&quot;&gt;London&lt;/a&gt;, &lt;a href=&quot;http://clinicaltrials.gov/ct2/results?recr=Open&amp;no_unk=Y&amp;cntry1=EU%3AES&amp;locn=Barcelona&amp;displayxml=true&quot;&gt;Barcelona&lt;/a&gt; or  &lt;a href=&quot;http://clinicaltrials.gov/ct2/results?recr=Open&amp;no_unk=Y&amp;cntry1=NA%3AUS&amp;state1=NA%3AUS%3ANY&amp;locn=Brooklyn&amp;displayxml=true&quot;&gt;Brooklyn&lt;/a&gt; and a list of studies is returned. Studies with unknown status are not returned. Each study is then &lt;a href=&quot;http://clinicaltrials.gov/ct2/show/NCT00463294?displayxml=true&quot;&gt;retrieved individually&lt;/a&gt;. Each study has a number of &quot;facilities&quot; associated with it where the trial is being carried out - the address of these facilities is passed to the Google Maps API which returns location information. The latitude and longitude is used to populate a map made using &lt;a href=&quot;http://leaflet.cloudmade.com/&quot;&gt;Leaflet&lt;/a&gt;. (I'll be releasing the application on GitHub when I've documented it and cleaned it up a bit.)&lt;/p&gt;
+
+&lt;h3&gt;Caveats&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;This is just a little experiment&lt;/strong&gt; and the maps aren't offered with any guarantee of completeness, availability, quality or accuracy. You shouldn't use these maps to satisfy anything other than idle curiosity and if you want accurate trial data you should get it directly from &lt;a href=&quot;http://clinicaltrials.gov&quot;&gt;clinicaltrials.gov&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Geocoding is inherently flaky&lt;/strong&gt;; if Google Maps couldn't return a lat/lon for the facility where the trial is taking place, that trial is not shown at all. Even when Google Maps did return a lat/lon the location should be treated as approximate.mIn many cases trials are shown at the center of cities because Google Maps can't identify a more specific location (e.g. because  O'Connell Street in Dublin is returned when you search for Dublin, Ireland a lot of clinical trials appear to be taking place on O'Connell street).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Showing lots of markers close to each other on a map is a non-trivial problem&lt;/strong&gt;; at the moment a lot of the little markers that show the position of trials are being drawn on top of each other - this is something I'll try to fix in the next release.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/clinical-trials-map"/>
+      <id>http://paulmay.org/blog/clinical-trials-map</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>We Chose to go to the Moon</title>
@@ -391,50 +424,6 @@ The creatures have attributes and exhibit behaviours that help them survive:&lt;
 </content>
       <link type="text/html" rel="alternate" href="http://paulmay.org/blog/snippet"/>
       <id>http://paulmay.org/blog/snippet</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Nature of Code - Final Project Proposal</title>
-      <published>2012-04-04T00:00:00Z</published>
-      <updated>2012-04-04T00:00:00Z</updated>
-      <content type="html">&lt;p class=&quot;intro&quot;&gt;As my final project for Nature of Code I'm going to continue my experiments with Reynolds steering behaviours to create a pseudo-natural landscape of foraging creatures.&lt;/p&gt;
-
-
-&lt;h3&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;I've had a lot of fun lately programming little creatures to &lt;a href=&quot;http://paulmay.org/blog/nature-of-code-reynolds-steering/&quot; title=&quot;display life-like behaviours like finding food, wandering, fleeing threats&quot;&gt;display life-like behaviours like finding food, wandering, fleeing threats&lt;/a&gt;. There is just something weirdly compelling about tweaking and shaping the way the creatures behave.&lt;/p&gt;
-
-&lt;p&gt;I'm going to continue this work. I'll create a landscape populated by a number of different species of creature who exhibit different behaviours. They'll be born, search for food, follow each other, flee from each other, seek shelter, reproduce and die. I'd like the creatures to have some sense of time and memory - things will happen depending on their age, and they'll be able to store information about their interactions. This information will inform their decision making.&lt;/p&gt;
-
-&lt;p&gt;If I get time I may tie some of the attributes of the world to data from the real world; maybe some real weather data to inform weather in the world. Having any sort of direct communication between our world and the world of the creatures isn't something I'm certain that I want to pursue; we'll see.&lt;/p&gt;
-
-&lt;h3&gt;The Creatures&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6891472446/&quot; title=&quot;01_creature_attributes by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6058/6891472446_5f735793ca_b.jpg&quot; class=&quot;photo&quot; alt=&quot;01_creature_attributes&quot;&gt;&lt;/a&gt;&lt;br /&gt;
-The creatures will have some basic capabilities; abilities to walk, run, consume food, follow others.&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7037567511/&quot; title=&quot;02_creature_desires by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7137/7037567511_b734a1807e_b.jpg&quot; class=&quot;photo&quot; alt=&quot;02_creature_desires&quot;&gt;&lt;/a&gt;&lt;br /&gt;
-The creatures will want for things, they'll seek food, find a mate, flee from predators.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7037566717/&quot; title=&quot;04_herds by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6091/7037566717_5e5995b9a3_b.jpg&quot; class=&quot;photo&quot; alt=&quot;04_herds&quot;&gt;&lt;/a&gt;&lt;br /&gt;
-They creatures will organise themselves into groups based on their attributes.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7037566183/&quot; title=&quot;06_time by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7040/7037566183_fa787bd434_b.jpg&quot;  class=&quot;photo&quot;  alt=&quot;06_time&quot;&gt;&lt;/a&gt;&lt;br /&gt;
-The passage of time will influence the creatures' behaviour; during the day they will range far and wide energetically. At night they will seek shelter and stay close to one another.&lt;/p&gt;
-
-&lt;h3&gt;Landscape&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6891473726/&quot; title=&quot;05_island by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6105/6891473726_956904b16c_b.jpg&quot; class=&quot;photo&quot; alt=&quot;05_island&quot;&gt;&lt;/a&gt;&lt;br /&gt;
-The creatures will roam around on a landscape, probably an island of some sort - a space with natural boundaries.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6891471134/&quot; title=&quot;03_textures by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6117/6891471134_d7c19da143_b.jpg&quot; class=&quot;photo&quot; alt=&quot;03_textures&quot;&gt;&lt;/a&gt;&lt;br /&gt;
-The island will have some natural textures or types of terrain and the creatures will interact with these textures - feeding on them, avoid them etc.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-final-project-proposal"/>
-      <id>http://paulmay.org/blog/nature-of-code-final-project-proposal</id>
       <author>
         <name>Paul May</name>
       </author>
