@@ -493,6 +493,10 @@ height: 50px;
 margin-bottom:1em;
 }
 
+#map_intro .noindent{
+text-indent:0;
+}
+
 h1.map{
 display:none;
 }
