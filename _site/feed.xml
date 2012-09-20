@@ -15,7 +15,7 @@
 
 &lt;p&gt;I did a bit of digging and found that there's a &lt;a href=&quot;http://clinicaltrials.gov&quot;&gt;central registry of clinical trials&lt;/a&gt;, including the ones taking place at MSKCC, available online. It's a really interesting dataset.&lt;/p&gt;
 
-&lt;p&gt;I was interested to see what trials were taking place in Brooklyn where I live, and in some other cities around the world so I wrote a little application that retrieves data from the registry and populates &lt;a href=&quot;http://trials.paulmay.org&quot;&gt; a series of maps&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I was interested to see what trials were taking place in Brooklyn where I live, and in some other cities around the world, so I wrote a little application that retrieves data from the registry and populates &lt;a href=&quot;http://trials.paulmay.org&quot;&gt; a series of maps&lt;/a&gt;. I'll be working to improve these maps over the next couple of weeks.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://trials.paulmay.org&quot;&gt;Explore the maps&lt;/a&gt;, and &lt;a href=&quot;http://twitter.com/paulmmay&quot;&gt;tell me what you think&lt;/a&gt;. If you want more details about how the maps were made, read on.&lt;/p&gt;
 
