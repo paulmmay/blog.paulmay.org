@@ -16,7 +16,7 @@ I research, design and make interactive products, services and environments. I a
 My projects typically begin with a loosely defined problem or a context. I define the project further through research (reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype and a series of tests. 
 
 ### Clients
-I have worked on projects for many organisations including Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Memorial Sloan-Kettering Cancer Center, Microsoft and TouchTunes.
+I have worked on projects for many organisations including Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Front, Memorial Sloan-Kettering Cancer Center, Microsoft and TouchTunes.
 
 ### Selected Press
 * <a href="http://www.good.is/post/spare-change-for-social-change-can-wasted-subway-fees-be-used-for-public-good/">GOOD Magazine</a> (MetroChange)
