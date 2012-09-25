@@ -497,6 +497,17 @@ margin-bottom:1em;
 text-indent:0;
 }
 
+#overlay .updated{
+margin:-1em 0 2em 0;
+font-size: 0.75em; 
+line-height: 100%; 
+color: rgba(100, 100, 100, 1.00); 
+} 
+
+#refreshdate{
+text-align:right;
+}
+
 h1.map{
 display:none;
 }
@@ -517,8 +528,8 @@ margin-bottom: 0.4em;
 }
 
 p.smaller{
-font-size: 1.2em; 
-margin-bottom: 0.8em; 
+font-size: 1.1em; 
+margin-bottom: 0.6em; 
 line-height: 1.4em;
 }
 
