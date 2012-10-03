@@ -5,7 +5,7 @@ comments: false
 layout: post
 categories: [blog]
 tags: [process, habit, personality]
-date: 02-10-2012
+date: 03-10-2012
 ---
 Like most people I am better at starting things than I am at finishing them. 
 
