@@ -382,6 +382,12 @@ color: rgba(101, 101, 101, 1.00);
 padding-bottom:3px;
 }
 
+#content ul li{
+margin-left: 0;
+padding-left: 1em;
+text-indent: -1em;
+}
+
 #primary ul{
 margin:0;
 }
