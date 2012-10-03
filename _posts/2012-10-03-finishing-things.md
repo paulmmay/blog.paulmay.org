@@ -20,7 +20,7 @@ Last week I finished a project; and while it's still fresh in my mind, I wanted 
 * <span class="strike">We celebrated</span>. I didn't celebrate with the team because my brother was in town, but we'll get together soon. 
 * I moved moved the documentation and rough-work from the project to a place where people can access it easily. 
 * I explained what documentation would be most useful in the future. 
-* I archived all the files and documentation related to the project , moving them out of my current projects folder into my completed projects folder. 
+* I archived all the files and documentation related to the project, moving them out of my current projects folder into my completed projects folder. 
 
 I'm now actively thinking about what else I can do to finish projects in a more complete way; finishing in a practical sense, finishing in an emotional sense. By doing this I hope to improve the way that all the work that goes before the finish unfolds. 
 
