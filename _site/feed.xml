@@ -23,6 +23,40 @@
     </entry>
   
     <entry>
+      <title>Finishing Things</title>
+      <published>2012-10-02T00:00:00Z</published>
+      <updated>2012-10-02T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;Like most people I am better at starting things than I am at finishing them.&lt;/p&gt;
+
+&lt;p&gt;The most successful projects I've worked on have been defined by how they are completed. Successful project flow backwards in time from the desired results, through the phase of making things, to the beginning where we set sail. (Which reminds me of &lt;a href=&quot;https://vimeo.com/10751957&quot; title=&quot;On Perspective&quot;&gt;this great talk&lt;/a&gt; by Charles Leadbeater)&lt;/p&gt;
+
+&lt;p&gt;Last week I finished a project; and while it's still fresh in my mind, I wanted to write down some of the loose ends that defined the end of the project.&lt;/p&gt;
+
+&lt;h2&gt;Finishing the Project - A Checklist of Sorts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I stood beside my colleagues and presented the project to a group of people who care about the work.&lt;/li&gt;
+&lt;li&gt;We discussed how the impact that the work will have, and how project might be continued.&lt;/li&gt;
+&lt;li&gt;We said thank you to these people, and to the people who have supported us along the way.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;strike&quot;&gt;We celebrated&lt;/span&gt;. I didn't celebrate with the team because my brother was in town, but we'll get together soon.&lt;/li&gt;
+&lt;li&gt;I moved moved the documentation and rough-work from the project to a place where people can access it easily.&lt;/li&gt;
+&lt;li&gt;I explained what documentation would be most useful in the future.&lt;/li&gt;
+&lt;li&gt;I archived all the files and documentation related to the project , moving them out of my current projects folder into my completed projects folder.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;I'm now actively thinking about what else I can do to finish projects in a more complete way.&lt;/p&gt;
+
+&lt;p&gt;If you have any thoughts or advice for me, please let me know.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/finishing-things"/>
+      <id>http://paulmay.org/blog/finishing-things</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
       <title>Clinical Trials Map</title>
       <published>2012-09-19T00:00:00Z</published>
       <updated>2012-09-19T00:00:00Z</updated>
@@ -354,74 +388,6 @@ I carried out 6 weeks of detailed research at the hospital, then designed and bu
 </content>
       <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-showreel"/>
       <id>http://paulmay.org/blog/nature-of-code-showreel</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Nature of Code - Creatures</title>
-      <published>2012-05-02T00:00:00Z</published>
-      <updated>2012-05-02T00:00:00Z</updated>
-      <content type="html">&lt;p class=&quot;intro&quot;&gt;My final project for Nature of Code; a landscape of food and danger inhabited by different species of artificial creatures. &lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6967228282/&quot; title=&quot;Starting Point by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7111/6967228282_5743d1a1a8_c.jpg&quot; class=&quot;photo&quot; alt=&quot;Starting Point&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Goals, Concept&lt;/h3&gt;
-
-&lt;p&gt;I was really fascinated by the examples of artificial agents we worked through in the Nature of Code class; there is just something incredibly fun about being able to create pseudo-lifelike behaviour in software.&lt;/p&gt;
-
-&lt;p&gt;My goal for this project was to improve my understanding of &lt;a href=&quot;http://www.red3d.com/cwr/steer/&quot; title=&quot;Reynolds' steering behaviours&quot;&gt;Reynolds' steering behaviours&lt;/a&gt; and &lt;a href=&quot;http://www.shiffman.net/teaching/nature/ga/&quot; title=&quot;genetic algorithms&quot;&gt;genetic algorithms&lt;/a&gt; by designing a &amp;#8220;landscape&amp;#8221; inhabited by different species of creatures. In this landscape the creatures seek food, feed, flee from danger, reproduce, age and die.&amp;nbsp; (The full proposal for the project &lt;a href=&quot;http://paulmay.org/blog/nature-of-code-final-project-proposal/&quot; title=&quot;is over here&quot;&gt;is over here&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h3&gt;The Landscape&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/7113306833/&quot; title=&quot;Food Resources Regrown, Tiny Population by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7228/7113306833_c63757d3d1_c.jpg&quot; class=&quot;photo&quot; alt=&quot;Food Resources Regrown, Tiny Population&quot;&gt;&lt;/a&gt;&lt;br /&gt;
-The landscape inhabited by the creatures contains a number of food-sources and threats.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Food-sources&lt;/strong&gt; are indicated by green circles, and as the creatures deplete these food sources they shrink, disappear and then regrow slowly.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Threats&lt;/strong&gt; are indicated by smaller red circles. Unlike food sources, these threats never deplete. If a creature comes too close, they are injured - proximity to the threat reduces the amount of energy that a creature has.&lt;/p&gt;
-
-&lt;p&gt;The creatures&lt;strong&gt; retain a memory of food sources and threats&lt;/strong&gt;; these are indicated by the green and red icons that are displayed next to each creature. (This visual indication of creatures' memory was one of the most useful things I made for the project - much more useful and immediate than print-line statements.)&lt;/p&gt;
-
-&lt;h3&gt;The Creatures&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/paulmmay/6987651766/&quot; title=&quot;Creatures - Reproduction by paulmmay, on Flickr&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8156/6987651766_9d08fd7449_c.jpg&quot; class=&quot;photo&quot; alt=&quot;Creatures - Reproduction&quot;&gt;&lt;/a&gt;&lt;br /&gt;
-The creatures have attributes and exhibit behaviours that help them survive:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Energy/Life&lt;/strong&gt;: The creatures are created with a finite amount of energy that is depleted when they move and over time. To replenish their energy supplies they must consume food.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Seeking&lt;/strong&gt;: The creatures will wander around the landscape at random until they find an object that interests them; at which point they will move towards that object.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vision&lt;/strong&gt;: When the creatures are within a short distance of an object they can tell if it is food or a threat.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fleeing&lt;/strong&gt;: The creature can move quickly away from threats.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Feeding&lt;/strong&gt;: The creature can arrive at a food source and consume it; the food source is depleted and the creature's energy level increases.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reproduction&lt;/strong&gt;: If the creature has sufficient energy and is close to another creature of its species, it has a chance of reproducing.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Memory&lt;/strong&gt;: Each creature can remember the food sources and threats it encounters in the landscape.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;All of these behaviours are triggered depending on scenario the creature finds itself in; if it's near an object, it will move towards it to examine it more closely and then feed/flee depending on what that object is. If the creature is near a potential mate, then a fitness algorithm will decide whether or not a new creature should be created etc.&lt;/p&gt;
-
-&lt;h3&gt;Video&lt;/h3&gt;
-
-&lt;p&gt;This video shows the version of the project I presented in class, with a couple of small tweaks. In the video you'll see three species searching for food and encountering threats. From time to time two creatures of the same species will encounter one another and a new creature will be produced. To make the new creatures easier to see a grey circle is drawn around them for the first 10 seconds of their life. A higher resolution version of the video can be &lt;a href=&quot;https://vimeo.com/41397044&quot; title=&quot;downloaded from Vimeo&quot;&gt;downloaded from Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe src=&quot;http://player.vimeo.com/video/41397044?color=f0d000&quot; class=&quot;photo&quot; width=&quot;700&quot; height=&quot;420&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
-
-
-&lt;h3&gt;Further Improvements&lt;/h3&gt;
-
-&lt;p&gt;There are lots of ways in which this project could be improved upon. I will definitely improve the genetic algorithm that is used when new creatures are created. At the moment there is no mutation, so the results are predictable and the fitness of the creatures doesn't improve across generations.&lt;/p&gt;
-
-&lt;p&gt;As I said in my original &lt;a href=&quot;http://paulmay.org/blog/nature-of-code-final-project-proposal/&quot; title=&quot;proposal&quot;&gt;proposal&lt;/a&gt;, I think it would also be great to tie some aspects of the landscape to information from the real world. Creatures could behave differently depending on the time of day, or they could respond to weather conditions. Food sources could regrow more quickly depending on weather etc.&lt;/p&gt;
-
-&lt;h3&gt;Documentation&lt;/h3&gt;
-
-&lt;p&gt;All of the code from the project is &lt;a href=&quot;https://github.com/paulmmay/Nature-of-Code&quot; title=&quot;available on github&quot;&gt;available on github&lt;/a&gt;; just clone it to your computer and then open the sketch in Processing. The code is reasonably well commented. &lt;a href=&quot;http://www.flickr.com/photos/paulmmay/sets/72157629123328271/&quot; title=&quot;Screenshots are available on Flickr&quot;&gt;Screenshots are available on Flickr&lt;/a&gt; and there are several &lt;a href=&quot;https://vimeo.com/album/1923090&quot; title=&quot;work-in-progress videos on Vimeo&quot;&gt;work-in-progress videos on Vimeo&lt;/a&gt;.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-creatures"/>
-      <id>http://paulmay.org/blog/nature-of-code-creatures</id>
       <author>
         <name>Paul May</name>
       </author>
