@@ -3,9 +3,24 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2012-09-19T00:00:00Z</updated>
+  <updated>2012-10-03T00:00:00Z</updated>
   <id>http://paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://paulmay.org"/>
+  
+    <entry>
+      <title>Wisdom</title>
+      <published>2012-10-03T00:00:00Z</published>
+      <updated>2012-10-03T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;Recently my wife, Cliona, recommended that I put as much effort and thought into my family and friends as I put into my work.&lt;/p&gt;
+
+&lt;p&gt;I have turned that advice over and over in my head since then, but have yet to really do anything about it. Change requires action. Action is difficult.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/wisdom"/>
+      <id>http://paulmay.org/blog/wisdom</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Clinical Trials Map</title>
@@ -407,24 +422,6 @@ The creatures have attributes and exhibit behaviours that help them survive:&lt;
 </content>
       <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-creatures"/>
       <id>http://paulmay.org/blog/nature-of-code-creatures</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Snippet</title>
-      <published>2012-04-22T00:00:00Z</published>
-      <updated>2012-04-22T00:00:00Z</updated>
-      <content type="html">&lt;p class=&quot;intro&quot;&gt;Something that doesn't belong where I wrote it, and so is going to live here.&lt;/p&gt;
-
-
-&lt;p&gt;What I do believe is that we are still quite a long way away from having a shared and robust set of tools that can be applied to the creation of experiences that sit between the digital and the physical. The gap between our intention and what we end up making is still very wide - in saying this I'm thinking specifically about the ways in which creative teams come together to collaborate, the tools we use to map out our intentions, the hardware/software we use to try to express those intentions, the  hardware/software we use to foster genuine interactivity between people, the ways in which we share and improve the things that we do. It seems as though only the most exceptional among us get to jump the gap between intention and fidelity of outcome.&lt;/p&gt;
-
-&lt;p&gt;We have a long way to go before we can start a project knowing that we'll be able to focus on the needs of people and not on overcoming obstacles.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/snippet"/>
-      <id>http://paulmay.org/blog/snippet</id>
       <author>
         <name>Paul May</name>
       </author>
