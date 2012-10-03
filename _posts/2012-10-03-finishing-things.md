@@ -13,7 +13,7 @@ The most successful projects I've worked on have been defined by how they are co
 
 Last week I finished a project; and while it's still fresh in my mind, I wanted to write down some of the loose ends that defined the end of the project. 
 
-*Finishing the Project - A Checklist of Sorts*
+### Finishing the Project - A Checklist of Sorts
 * I stood beside my colleagues and presented the project to a group of people who care about the work.
 * We discussed how the impact that the work will have, and how project might be continued.
 * We said thank you to these people, and to the people who have supported us along the way.
