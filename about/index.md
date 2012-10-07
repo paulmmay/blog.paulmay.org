@@ -37,4 +37,5 @@ I have worked on projects for many organisations including Abbey Theatre, Accent
 Outside of my work I enjoy triathlon (swimming + cycling + running), photography, writing and cooking.  
 
 ### Contact
-Email <a href="mailto:webmail@paulmay.org">hello@paulmay.org</a>, Twitter <a href="http://twitter.com/paulmmay">@paulmmay</a>. 
+Email: <a href="mailto:webmail@paulmay.org">hello@paulmay.org</a>
+Twitter: <a href="http://twitter.com/paulmmay">@paulmmay</a>. 

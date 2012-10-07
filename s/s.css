@@ -134,9 +134,11 @@ text-indent:0;
 
 .postmeta .date{
 font-size: 1em; 
-line-height: 100%; 
+line-height: 120%; 
 margin-bottom: 0.75em; 
 color: rgba(100, 100, 100, 1.00); 
+padding-left:1.5em;
+background: url(../g/calendar.png) no-repeat;
 }
 
 .postmeta .permalink{
