@@ -586,6 +586,10 @@ color: rgba(100, 100, 100, 1.00);
 #wrapper{
 width:90%;
 }
+
+.content{
+width:100%;
+}
 }
 
 @media screen and (max-width: 500px) {
