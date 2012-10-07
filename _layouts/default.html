@@ -9,12 +9,18 @@
 <div id="wrapper"> 
 {%include header%}
 <div class="divider"></div>
-<div id="content">
-{{content}}
+
+<article class="borderless">
+<h2 class="articletitle"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<div class="content">
+{{content}} 
+</div>
+</article>
+
 <div class="divider breathe"></div>
 {%include footer%}
-</div><!--content-->  
 </div><!--wrapper-->
 </body>
 {%include js%}
 </html>
+

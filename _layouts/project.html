@@ -1,24 +1,34 @@
----
-layout: default
----
-
-<div class="post">
-  <hgroup>
-    <h1>{{ page.title }}</h1>
-    <h3>{{ page.year }}</h3>
-    <h5>{{ page.summary }}</h5>
-  </hgroup>
-  <div class="article-body">
-    {{ content }}
-  </div>
-  <footer>
-    {% if page.links %}
-    <h3>Project Links</h3>
-    <ul>
-    {% for link in page.links %}
-      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-    {% endfor %}
-    </ul>
-    {% endif %}
-  </footer>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>{{page.title}} | Paul May</title>
+<link rel="stylesheet" href="/s/s.css"/>
+</head>
+<body>
+<img src="{{ page.largeimage }}" class="project-image" alt="hello world"/>
+<!--<img src="{{ page.smallimage }}"/>-->
+<div id="wrapper"> 
+{%include header%}
+<div class="divider"></div>
+<div id="content">
+   <article class="borderless">
+<h2 class="articletitle"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<div class="postmeta">
+<p class="date"><a href="http://paulmay.org{{page.url}}" class="permalink" title="Permalink to this article">{{ page.date | date: "%d %B %Y" }}</a></p>
 </div>
+{{ page.description }}
+{{content}}
+</article>
+<div id="minibio">
+<img src="/g/me.jpg" height="60" width="60" class="mini-avatar"/>
+<span class="mini-text">Paul May is a researcher and designer from Dublin, living and working in New York. Find out <a href="/work" title="Paul May's portfolio of work">more about Paul's work</a> or <a href="mailto:webmail@paulmay.org">get in touch</a>.</span>
+</div> 
+<div class="divider breathe"></div>
+{%include footer%}
+</div><!--content-->  
+</div><!--wrapper-->
+</body>
+{%include js%}
+</html>
+

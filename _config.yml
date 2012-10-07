@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: true
-permalink: /blog/:title
+permalink: /:categories/:title
 exclude: ["readme.md", "Gemfile", "Gemfile.lock", "config.ru"]
 name: Paul May
 description: Paul May's Blog

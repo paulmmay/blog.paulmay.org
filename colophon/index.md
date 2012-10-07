@@ -2,8 +2,6 @@
 layout: default
 title: Colophon
 ---
-## Colophon
-
 This site is produced by <a href="/about">Paul May</a> using a few simple tools:
 
 * The site is written in <a href="http://daringfireball.net/projects/markdown/">markdown</a> using <a href="http://www.iawriter.com">iA Writer</a>

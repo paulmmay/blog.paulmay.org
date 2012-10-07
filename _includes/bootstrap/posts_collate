@@ -23,7 +23,6 @@ Usage:
     {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
   
     {% if forloop.first %}
-      <h2>Archive</h2>
       <h3>{{this_year}}</h3>
       <p>{{this_month}}</p>
       <ul>
