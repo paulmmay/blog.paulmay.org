@@ -262,6 +262,36 @@ font-family: droid-serif;
 font-size: 18px/20px; 
 }
 
+/* ---------- Work ---------- */
+li.project{
+width:32%;
+float:left;
+text-decoration:none;
+list-style:none;
+margin:0 2% 0 0;
+padding:0;
+}
+
+.project img{
+width:100%;
+}
+
+li.project h3{
+font-family: droid-serif; 
+font-size:0.8em;
+font-weight:600;
+margin:0;
+padding:0;
+line-height:1.4em;
+}
+
+#projects-list li:nth-child(3n+3) {
+margin:0;
+}
+
+
+
+
 /* ---------- STRUCTURE AND AREA ---------- */
 
 .project-image{
