@@ -6,7 +6,7 @@ layout: rss-feed
   <title>{{ site.name | xml_escape}}</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>{{ site.posts.first.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+  <updated>{{ site.categories.blog.first.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
   <id>http://paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="{{ site.url }}"/>
   {% for post in site.categories.blog limit:10 %}
