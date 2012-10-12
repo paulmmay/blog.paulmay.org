@@ -37,6 +37,6 @@ I have worked on projects for many organisations including Abbey Theatre, Accent
 Outside of my work I enjoy triathlon (swimming + cycling + running), photography, writing and cooking.  
 
 ### Contact
-Email: <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a>
-Twitter: <a href="http://twitter.com/paulmmay">@paulmmay</a>
+Email: <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a><br />
+Twitter: <a href="http://twitter.com/paulmmay">@paulmmay</a><br />
 Phone: (347) 504-0798
