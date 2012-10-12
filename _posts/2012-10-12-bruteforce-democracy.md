@@ -7,7 +7,7 @@ categories: [blog]
 tags: []
 date: 12-10-2012
 ---
-When Crackerjack found the combination of numbers and letters that when, lightly encrypted, matched the string in the password file - the computer would beep. 
+When the program found the word or combination of random characters that when, lightly encrypted, matched the string in the password file - the computer would beep. 
 
 I'd get up from the dinner table and walk to the computer in our living room. I'd see what password this particular user had chosen and how long the program had left to run. 
 
