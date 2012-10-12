@@ -3,9 +3,32 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2012-10-11T00:00:00Z</updated>
+  <updated>2012-10-12T00:00:00Z</updated>
   <id>http://paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://paulmay.org"/>
+  
+    <entry>
+      <title>Bruteforce Democracy</title>
+      <published>2012-10-12T00:00:00Z</published>
+      <updated>2012-10-12T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;When Crackerjack found the combination of numbers and letters that when, lightly encrypted, matched the string in the password file - the computer would beep.&lt;/p&gt;
+
+&lt;p&gt;I'd get up from the dinner table and walk to the computer in our living room. I'd see what password this particular user had chosen and how long the program had left to run.&lt;/p&gt;
+
+&lt;p&gt;By the next day I would have access to hundreds of UNIX accounts at a nearby university. I would telnet in, look around, then log off. The fun part was over, and being 13 I lacked the imagination to do anything creative, let alone malicious with the accounts. This was just an incremental step along the path of Lego, magnets, my microscope, a 286, our first modem.&lt;/p&gt;
+
+&lt;p&gt;In the last few weeks here in the US I have remembered and thought repeatedly about this long-lost time.&lt;/p&gt;
+
+&lt;p&gt;It's election season, and there is something about the quality of the discourse here that reminds me of brute force password cracking; candidates rapidly cycling through a set of signs in an attempt to elicit a desirable signal. Word, sentence, image, emotion out - data, refinement, ballot in.&lt;/p&gt;
+
+&lt;p&gt;The mind of the voter is the hashed password, the barrel of a lock. The home directory, the other side of the door - they are not concerns for today.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/bruteforce-democracy"/>
+      <id>http://paulmay.org/blog/bruteforce-democracy</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Lance and Triathlon</title>
@@ -369,27 +392,6 @@ From Slate's &lt;a href=&quot;http://www.slate.com/articles/arts/culturebox/feat
 </content>
       <link type="text/html" rel="alternate" href="http://paulmay.org/blog/mskcc-bone-marrow-transplant-project"/>
       <id>http://paulmay.org/blog/mskcc-bone-marrow-transplant-project</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Thesis Presentation Video</title>
-      <published>2012-05-18T00:00:00Z</published>
-      <updated>2012-05-18T00:00:00Z</updated>
-      <content type="html">&lt;p class=&quot;intro&quot;&gt;This is the presentation I gave about my master's thesis project at ITP. My project was a semester-long collaboration with Memorial Sloan-Kettering Cancer Center in New York. The goal of the project was to investigate and improve the period of rehabilitation that follows a bone marrow transplant.
-
-I carried out 6 weeks of detailed research at the hospital, then designed and built a service to encourage patients to remain physically active throughout their treatment.&lt;/p&gt;
-
-
-&lt;iframe src=&quot;http://player.vimeo.com/video/42204358?color=f0d000&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
-
-
-&lt;p&gt;The slides that accompany the presentation &lt;a href=&quot;http://dl.dropbox.com/u/1299449/paulmay_nyu_thesis.pdf&quot; title=&quot;are also available&quot;&gt;are also available&lt;/a&gt;.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-presentation-video"/>
-      <id>http://paulmay.org/blog/thesis-presentation-video</id>
       <author>
         <name>Paul May</name>
       </author>
