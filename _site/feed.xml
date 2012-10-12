@@ -3,9 +3,30 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2012-10-03T00:00:00Z</updated>
+  <updated>2012-10-11T00:00:00Z</updated>
   <id>http://paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://paulmay.org"/>
+  
+    <entry>
+      <title>Lance and Triathlon</title>
+      <published>2012-10-11T00:00:00Z</published>
+      <updated>2012-10-11T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;To call today's New York Times article &lt;a href=&quot;http://www.nytimes.com/2012/10/11/sports/cycling/lance-armstrong-draws-mixed-reception-from-triathlon-community.html&quot;&gt;Armstrong Finds a Mixed Reception in Triathlon&lt;/a&gt; utterly disingenuous would be putting it mildly.&lt;/p&gt;
+
+&lt;p&gt;Lance Armstrong has been completely banned from the internationally governed (i.e. non-corporate) forms of triathlon because &lt;a href=&quot;http://cyclinginvestigation.usada.org/&quot;&gt;he used drugs to cheat in cycling&lt;/a&gt;. He has taken part in a small number of triathlons that were so desperate for publicity they opted out of the sport's rulebook and insurance coverage to allow him to race.&lt;/p&gt;
+
+&lt;p&gt;Drawing an equivalence between his official, global ban and his invitation to take part in rogue races is wrong. Saying that this represents &quot;mixed feelings&quot; is shabby.&lt;/p&gt;
+
+&lt;p&gt;If a golfer was caught taking drugs and banned from playing in any tournament that followed the official rules of golf, but was then invited to play big drive, trick shot and crazy golf tournaments, you would call that &lt;em&gt;being banned from golf&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Just because it's Lance doesn't mean it's complicated.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/lance-triathlon"/>
+      <id>http://paulmay.org/blog/lance-triathlon</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Wisdom</title>
@@ -369,25 +390,6 @@ I carried out 6 weeks of detailed research at the hospital, then designed and bu
 </content>
       <link type="text/html" rel="alternate" href="http://paulmay.org/blog/thesis-presentation-video"/>
       <id>http://paulmay.org/blog/thesis-presentation-video</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Nature of Code - Showreel</title>
-      <published>2012-05-02T00:00:00Z</published>
-      <updated>2012-05-02T00:00:00Z</updated>
-      <content type="html">&lt;p class=&quot;intro&quot;&gt;A very short video showing some of the experiments and projects I did this semester in the Nature of Code class at ITP. &lt;/p&gt;
-
-
-&lt;iframe src=&quot;http://player.vimeo.com/video/41395087?color=f0d000&quot; class=&quot;photo&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt; &lt;/iframe&gt;
-
-
-&lt;p&gt;You can &lt;a href=&quot;https://vimeo.com/41395087&quot; title=&quot;download a much higher quality version&quot;&gt;download a much higher quality version&lt;/a&gt; of the video over on Vimeo. The code for all the experiments and projects shown in the video is &lt;a href=&quot;https://github.com/paulmmay/Nature-of-Code&quot; title=&quot;available over on github&quot;&gt;available over on github&lt;/a&gt;.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://paulmay.org/blog/nature-of-code-showreel"/>
-      <id>http://paulmay.org/blog/nature-of-code-showreel</id>
       <author>
         <name>Paul May</name>
       </author>

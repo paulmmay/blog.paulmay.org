@@ -262,6 +262,63 @@ font-family: droid-serif;
 font-size: 18px/20px; 
 }
 
+/* ---------- Work ---------- */
+
+li.project{
+width:32%;
+float:left;
+text-decoration:none;
+list-style:none;
+margin:0 2% 1em 0;
+padding:0;
+}
+
+.project img{
+width:100%;
+border-radius: 8px;
+}
+
+.project p{
+text-indent:0;
+font-size: 0.6em; 
+line-height: 0.8em; 
+margin: 0; 
+color: rgba(100, 100, 100, 1.00); 
+}
+
+li.project h3{
+font-family: droid-serif; 
+font-size:0.8em;
+font-weight:600;
+margin:0 0 0.2em 0;
+padding:0;
+line-height:1.4em;
+}
+
+#projects-list li:nth-child(3n+3) {
+margin:0;
+}
+
+.project-detail-image{
+width:100%;
+}
+
+.project-summary{
+margin: 0 0 0.8em 0;
+}
+
+.projectmeta{
+}
+
+.project-description p{
+text-indent: 0;
+font-size: 1.1em;
+color: rgba(80, 80, 80, 1.00);
+}
+
+
+
+
 /* ---------- STRUCTURE AND AREA ---------- */
 
 .project-image{
@@ -575,16 +632,25 @@ line-height: 1.4em;
 .content{width:100%;}
 .postmeta{float:none;margin:0 0 1em 0;width:100%;}
 .postmeta .permalink{display:inline;font-size: 1em; color: rgba(100, 100, 100, 1.00);}
-.postmeta .permalink a{color: rgba(100, 100, 100, 1.00);}
+.postmeta .permalink a{color: rgba(100, 100, 100, 1.00);
+}
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+li.project{width:48%;float:left;text-decoration:none;list-style:none;margin:0 0 1em 0;padding:0;}
+#projects-list li:nth-child(3n+3) {
+margin:0;
+}
+}
 
 
 @media screen and (max-width: 480px) {
 #primary ul li{list-style: none; display:inline;margin:0 2em 0 0;}
 #primary ul li a{font-size: 1.2em; line-height: 1.4em;padding-bottom:0.15em;}
 #primary{float:none;clear:both;padding:1em 0 1em 0;}
+li.project{width:100%;float:left;text-decoration:none;list-style:none;margin:0 0 1em 0;padding:0;}
+#projects-list li:nth-child(3n+3) {
+}
 }
 
 
