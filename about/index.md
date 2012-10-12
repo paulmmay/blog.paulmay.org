@@ -38,7 +38,5 @@ Outside of my work I enjoy triathlon (swimming + cycling + running), photography
 
 ### Contact
 Email: <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a>
-
 Twitter: <a href="http://twitter.com/paulmmay">@paulmmay</a>
-
 Phone: (347) 504-0798
