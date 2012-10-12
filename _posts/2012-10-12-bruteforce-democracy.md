@@ -19,7 +19,7 @@ It's election season, and there is something about the quality of the discourse 
 
 The mind of the voter is the hashed password, the barrel of a lock. 
 
-The home directory, the other side of the door - they are apparently not concerns for today.
+The home directory, the other side of the door - they are not concerns for today.
 
 
 
