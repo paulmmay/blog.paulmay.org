@@ -16,4 +16,4 @@ From Over Here is constructed from hundreds of individual cards; with each card 
 
 When stacked on top of one another, the cards show the ebb and flow of interest in Ireland - culminating in a dramatic peak in the most dramatic months of Ireland's financial crisis in 2009. 
 
-The project received widespread coverage and was been featured in the Gestalten book <em>Visual Storytelling: Inspiring a New Visual Language</em>.
+The project received widespread coverage and is featured in the Gestalten book <em>Visual Storytelling: Inspiring a New Visual Language</em>.
