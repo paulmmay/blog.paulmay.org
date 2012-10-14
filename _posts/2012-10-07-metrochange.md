@@ -8,7 +8,7 @@ smallimage: /g/work-metrochange.jpg
 writeup: 
 categories: [work]
 tags: [metrochange, philanthropy]
-date: 07-12-2011
+date: 30-12-2011
 strapline: Donate your unused subway cards to charity.
 description: Every year, millions of dollars of value remaining on New York City transit cards is lost or discarded. What if that value could be put to an alternative use?  
 ---
