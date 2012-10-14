@@ -264,14 +264,6 @@ font-size: 18px/20px;
 
 /* ---------- Work ---------- */
 
-li.project{
-width:32%;
-float:left;
-text-decoration:none;
-list-style:none;
-margin:0 2% 1em 0;
-padding:0;
-}
 
 .project img{
 width:100%;
@@ -295,9 +287,7 @@ padding:0;
 line-height:1.4em;
 }
 
-#projects-list li:nth-child(3n+3) {
-margin:0;
-}
+
 
 .project-detail-image{
 width:100%;
@@ -332,9 +322,7 @@ margin:1em 0 2em 0;
 border-bottom:1px solid rgba(150, 150, 150, 1.00);
 }
 
-.content{
-width:730px;
-}
+
 
 .many{
 padding-bottom:1.5em;
@@ -361,16 +349,7 @@ background: #F9F9F9;
 border-top:5px solid #afd3e6;
 }
 
-#wrapper{
-color: #222;
-width: 960px;
-margin: 0 auto;
-margin-bottom:40px;
-margin-top:0;
-padding: 1.5em;
-text-align: left;
-overflow: visible;
-}
+
 
 
 
@@ -624,23 +603,31 @@ line-height: 1.4em;
  }
 
 /*  ---------- Somewhat RESPONSIVE  ---------- */
-@media screen and (min-width: 1440px) {}
+
+@media screen and (min-width: 960px) {
+#wrapper{ color: #222; width: 960px; margin: 0 auto; margin-bottom:40px; margin-top:0; padding: 1.5em; text-align: left; overflow: visible; }
+.content{ width:730px; }
+.postmeta{float:none;margin:0 0 1em 0;width:100%;}
+.postmeta .permalink{display:inline;font-size: 1em; color: rgba(100, 100, 100, 1.00);}
+.postmeta .permalink a{color: rgba(100, 100, 100, 1.00);}
+li.project{width:32%; float:left; text-decoration:none; list-style:none; margin:0 2% 1em 0; padding:0;}
+#projects-list li:nth-child(3n+3) { margin:0; }
+}
 
 
 @media screen and (max-width: 960px) {
-#wrapper{width:90%;}
+#wrapper{ color: #222; width: 90%; margin: 0 auto; margin-bottom:40px; margin-top:0; padding: 1.5em; text-align: left; overflow: visible; }
 .content{width:100%;}
 .postmeta{float:none;margin:0 0 1em 0;width:100%;}
 .postmeta .permalink{display:inline;font-size: 1em; color: rgba(100, 100, 100, 1.00);}
-.postmeta .permalink a{color: rgba(100, 100, 100, 1.00);
-}
+.postmeta .permalink a{color: rgba(100, 100, 100, 1.00);}
+li.project{width:32%; float:left; text-decoration:none; list-style:none; margin:0 2% 1em 0; padding:0;}
+#projects-list li:nth-child(3n+3) { margin:0; }
 }
 
 @media screen and (max-width: 768px) {
 li.project{width:48%;float:left;text-decoration:none;list-style:none;margin:0 0 1em 0;padding:0;}
-#projects-list li:nth-child(3n+3) {
-margin:0;
-}
+#projects-list li:nth-child(3n+3) {margin:0;}
 }
 
 
