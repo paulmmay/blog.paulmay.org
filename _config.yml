@@ -11,7 +11,7 @@ navigation:
 - text: Work
   url: /work/index.html
   cleanurl: /work/
-  layout: work
+  layout: project
 - text: Blog
   url: /blog/index.html
   cleanurl: /blog/
