@@ -123,10 +123,7 @@ p strong{
 font-weight: 600; 
 }
 
-.postmeta { 
-float: right;
-margin: 0.5em 0 0 0;
-}
+
 
 .postmeta p{
 text-indent:0;
@@ -607,7 +604,7 @@ line-height: 1.4em;
 @media screen and (min-width: 960px) {
 #wrapper{ color: #222; width: 960px; margin: 0 auto; margin-bottom:40px; margin-top:0; padding: 1.5em; text-align: left; overflow: visible; }
 .content{ width:730px; }
-.postmeta{float:none;margin:0 0 1em 0;width:100%;}
+.postmeta {float: right;margin: 0.5em 0 0 0;}
 .postmeta .permalink{display:inline;font-size: 1em; color: rgba(100, 100, 100, 1.00);}
 .postmeta .permalink a{color: rgba(100, 100, 100, 1.00);}
 li.project{width:32%; float:left; text-decoration:none; list-style:none; margin:0 2% 1em 0; padding:0;}
