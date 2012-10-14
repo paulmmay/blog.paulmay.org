@@ -624,7 +624,7 @@ li.project{width:32%; float:left; text-decoration:none; list-style:none; margin:
 
 @media screen and (max-width: 768px) {
 li.project{width:48%;float:left;text-decoration:none;list-style:none;margin:0 0 1em 0;padding:0;}
-#projects-list li:nth-child(3n+3) {margin:0;}
+#projects-list li:nth-child(odd) {margin-right:2%;}
 }
 
 
@@ -633,8 +633,6 @@ li.project{width:48%;float:left;text-decoration:none;list-style:none;margin:0 0 
 #primary ul li a{font-size: 1.2em; line-height: 1.4em;padding-bottom:0.15em;}
 #primary{float:none;clear:both;padding:1em 0 1em 0;}
 li.project{width:100%;float:left;text-decoration:none;list-style:none;margin:0 0 1em 0;padding:0;}
-#projects-list li:nth-child(3n+3) {
-}
 }
 
 
