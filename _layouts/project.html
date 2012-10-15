@@ -23,6 +23,10 @@
 <div class="content">
 <p class="project-summary">{{page.description}}</p>
 <div class="project-description">{{content}}</div>
+{% if page.destination-url %}
+<form id="launchform" method="get" action="{{page.destination-url}}" onsubmit="window.location=this.action; return false;"> 
+<input type="submit" class="launchbutton" title="{{page.launch-button-text}}" value="{{page.launch-button-text}}" onmouseover="window.status='{{page.launch-button-text}}'; return true;" onmouseout="window.status='';return true;" /></form>
+{% endif %}
 <div id="minibio">
 <img src="/g/me.jpg" height="60" width="60" class="mini-avatar" alt="A small photo of Paul May"/>
 <span class="mini-text">Paul May is a researcher and designer from Dublin, living and working in New York. See <a href="/work" title="Paul May's portfolio of work">more of Paul's work</a> or <a href="mailto:webmail@paulmay.org">get in touch</a>.</span>

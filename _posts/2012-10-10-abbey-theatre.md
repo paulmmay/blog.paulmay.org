@@ -11,6 +11,8 @@ tags: []
 date: 09-07-2009
 description: While working with <a href="http://www.designbyfront.com" title="Front">Front</a> I had the privilege of working on a new online presence for Abbey Theatre. 
 strapline: A new online home for Ireland's National Theatre
+destination-url: http://www.abbeytheatre.ie
+launch-button-text: Launch Site
 ---
 As Ireland's national theatre, Abbey Theatre has shaped Ireland and the idea of Ireland since it was founded by W.B. Yeats in 1904. 
 

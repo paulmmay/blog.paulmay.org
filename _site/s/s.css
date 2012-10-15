@@ -236,7 +236,7 @@ text-transform: none;
 color: rgba(51, 51, 51, 1.00); 
 }
 
-form#archiveform{
+form#archiveform, form#launchform{
 text-align: center;
 padding: 0;
 margin: 1em auto 2em 0;
@@ -245,7 +245,19 @@ margin: 1em auto 2em 0;
 form#archiveform input.archivebutton{
 color: rgba(51, 51, 51, 1.00); 
 background: #cde3ef;
-font: 26px/36px droid-serif, Georgia, serif;
+font: 1.5em droid-serif, Georgia, serif;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+padding: 10px;
+border-radius: 12px;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+}
+
+form#launchform input.launchbutton {
+color: rgba(51, 51, 51, 1.00); 
+background: #cde3ef;
+font: 1.2em droid-serif, Georgia, serif;
 text-transform: uppercase;
 letter-spacing: 0.2em;
 padding: 10px;
@@ -291,6 +303,7 @@ width:100%;
 }
 
 .project-summary{
+text-indent: 0;
 margin: 0 0 0.8em 0;
 }
 
@@ -298,7 +311,6 @@ margin: 0 0 0.8em 0;
 }
 
 .project-description p{
-text-indent: 0;
 font-size: 1.1em;
 color: rgba(80, 80, 80, 1.00);
 }
