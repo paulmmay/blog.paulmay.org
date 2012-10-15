@@ -10,7 +10,7 @@ categories: [work]
 tags: []
 date: 12-12-2010
 strapline: Store audio memories in physical photos.
-description: Photo+ was a service that allowed a person to make an audio recording of their voice - a memory, story or description - and then store that audio inside a physical photograph. It was designed to extend the capabilities of physical photographs with new technology, while preserving the tactile, physical nature of the photograph. Photo+ allows visitors to an exhibit or museum to record stories and descriptions of their photos as part of a community storytelling project. 
+description: Photo+ is a service that allows a person to make an audio recording of their voice - a memory, story or description - and then store that audio inside a physical photograph. Photo+ allows visitors to an exhibit or museum to record stories and descriptions of their photos as part of a community storytelling project. It was designed to extend the capabilities of physical photographs with new technology, while preserving the tactile nature of the photograph. 
 ---
 To begin using Photo+ the user pushes a button and a unique tag is printed for them. The person affixes the tag to the back of their photo and places it on a stand. 
 
