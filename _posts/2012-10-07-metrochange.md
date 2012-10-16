@@ -12,9 +12,7 @@ date: 30-12-2011
 strapline: Donate your unused subway cards to charity.
 description: Every year, millions of dollars of value remaining on New York City transit cards is lost or discarded. What if that value could be put to an alternative use?  
 ---
-MetroChange is a micro-donation platform that lets people donate the remaining value of the New York City transit cards to charity.
-
-Stepan Boltalin, Genevieve Hoffman and myself research and developed MetroChange; a service that reads the value remaining on a MetroCard and stores that value in web service. 
+Stepan Boltalin, Genevieve Hoffman and myself created MetroChange, a micro-donation platform that lets people donate the remaining value of the New York City transit cards to charity. The user swipes her card, the value on the card is read and stored in a web service. Each month the total value of all these swipes is matched and donated to charity (This final piece of the puzzle is still pending, but we're working on it).
 
 The project involved detailed research into the economics of the New York City transit system, a significant engineering effort to reverse-engineer the MetroCard system, and then the design of a satisfying service.
 
