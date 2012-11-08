@@ -14,6 +14,6 @@ description: Every year, millions of dollars of value remaining on New York City
 ---
 Stepan Boltalin, Genevieve Hoffman and myself created MetroChange, a micro-donation platform that lets people donate the remaining value of the New York City transit cards to charity. The user swipes her card, the value on the card is read and stored in a web service. Each month the total value of all these swipes is matched and donated to charity (This final piece of the puzzle is still pending, but we're working on it).
 
-The project involved detailed research into the economics of the New York City transit system, a significant engineering effort to reverse-engineer the MetroCard system, and then the design of a satisfying service.
+The project involved research into the economics of New York City transit, a significant engineering effort to reverse-engineer the MetroCard system, and then the design of a satisfying service.
 
 We have continued to work on MetroChange in the last 12 months and hope to roll the service out in New York in 2013.
