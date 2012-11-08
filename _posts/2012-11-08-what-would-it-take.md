@@ -13,6 +13,6 @@ I took some time to cycle around the city last week and the damage is immense; d
 
 Last night as I walked down Mercer Street in a near-blizzard I wondered what it would take to completely destroy a society like this - built around access to technologies like clean water, electric power and reliable heat. Probably not a lot; maybe a storm like Sandy every year, with an off-season punctuated by smaller storms like last night's. 
 
-It is hard not to feel insignificant in the face of the sea and the wind. We shape our cities and our bodies around the comfortable activities that new technologies afford. It's hard not think that the bias of modernity towards comfort leaves us vulnerable when comfort is not the priority - when living becomes coping. 
+It is hard not to feel insignificant in the face of the sea, the rain, and the wind. We shape our cities and our bodies around the comfortable activities that new technologies afford. The bias of modernity towards comfort leaves us vulnerable when comfort is not the priority - when living becomes coping. 
 
 I am thankful that we were unaffected, and thankful for being given a tiny glimpse of what hardship actually looks like. I get the feeling that I'll be noodling on the storm and its aftermath for quite a while. 
