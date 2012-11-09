@@ -28,7 +28,6 @@ Flickr has lost its way - it's in the expensive mainframe business when the worl
 Having said all of that, it could come back, it has the potential to come back - but not without taking a good look at how photography actually exists in people's lives today, not what an elite think photography should be - then designing for those needs. It's an exciting prospect, they can do it; I very much hope they do - but time is running out.
 
 ### Update, Continuing Conversation
-
 Stephen has <a href="http://stewf.tumblr.com/post/35334085915/flickr-is-dead-long-live-flickr">replied to my comment</a>, he has some good points:
 
 > I agree that Flickr has modernizing work to do, but I reject the increasingly common assertion that a platform must cater to the lowest common denominator in order to be relevant or successful. There is room on the web for outfits who do certain things very well and leave the rest to others.
