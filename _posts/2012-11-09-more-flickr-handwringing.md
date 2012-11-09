@@ -7,7 +7,7 @@ categories: [blog]
 tags: [flickr]
 date: 09-11-2012
 ---
-I wrote this as a comment on this article and thought it was probably worth snipping and keeping; maybe even expanding upon some time. The crux of the original article is this paragraph:
+I wrote this as a comment on <a href="http://stewf.tumblr.com/post/35334085915/flickr-is-dead-long-live-flickr">Stephen Coles' article</a> about Flickr and thought it was probably worth snipping and keeping; maybe even expanding upon some time. The crux of Stephen's original article is this paragraph:
 
 > Flickr is certainly not the all-purpose photography social network it once was. There is no doubt Instagram, Facebook, Twitter, and other more immediate, accessible, and — most importantly — mobile-savvy venues took that position. But Flickr is still a haven for professional photography, and for the visual documentation of specialized fields, because nothing is better for tagging, archiving, organizing, research, collaborating, curating, and finding others who share your particular interest. 
 
