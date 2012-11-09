@@ -11,7 +11,7 @@ I wrote this as a comment on <a href="http://stewf.tumblr.com/post/35334085915/f
 
 > Flickr is certainly not the all-purpose photography social network it once was. There is no doubt Instagram, Facebook, Twitter, and other more immediate, accessible, and — most importantly — mobile-savvy venues took that position. But Flickr is still a haven for professional photography, and for the visual documentation of specialized fields, because nothing is better for tagging, archiving, organizing, research, collaborating, curating, and finding others who share your particular interest. 
 
-I see what you're saying, but Flickr is not commercially viable as a place for "professional photographers" (whatever that means anymore). It needs the blend of subscription revenue, mass-participation, exposure to advertising and experimentation that have supported it since it launched. It needs that long tail of people who are trying it out and who might become a subscriber. It needs the huge percentage of people who might upload dozens or hundreds of photos, but look at thousands. 
+I see what you're saying, but Flickr is not commercially viable as a place for "professional photographers" (whatever that means anymore). It needs the blend of subscription revenue, mass-participation, exposure to advertising and experimentation that have supported it since it launched. It needs that long tail of people who are trying it out and who might become subscribers. It needs the huge percentage of people who might upload dozens or hundreds of photos, but look at thousands. (For me, the subscription cost is cheap for the value that Flickr offers in isolation, but seemingly expensive when compared to other services.)
 
 Flickr has always done a good job of focussing on doing a limited number of things really well; sharing, interoperability (its API), privacy, tagging, annotating photographs, the Commons - they designed the state of the art for much of what we take for granted in media sharing on the web. 
 
@@ -21,7 +21,7 @@ Since Heather Champ departed Flickr efforts to foster and understand the Flickr 
 
 I could go on. 
 
-Flickr is becoming a storage device and a community of people who regard themselves as being above the churning sea of content being produced by everyday photographers. It was never designed to be either. The subscription cost is cheap for the value that Flickr offers in isolation, but seemingly expensive when compared to other services. 
+Flickr is becoming a storage device and a community of people who regard themselves as being above the churning sea of content being produced by everyday photographers. It was never designed to be either; it was designed to get as many people as possible (casual and passionate alike) to share photos. 
 
 Flickr has lost its way - it's in the expensive mainframe business when the world is buying desktops; it panders to an idealised customer as the actual customer moves on. 
 
