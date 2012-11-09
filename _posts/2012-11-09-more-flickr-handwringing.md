@@ -17,7 +17,7 @@ Flickr has always done a good job of focussing on doing a limited number of thin
 
 Flickr hasn't responded in any way to the growth of mobile photography - the most significant thing to happen to casual snapping, reportage photography and the aesthetic of photography in decades. The mobile applications it has released have done little more than damage its brand.
 
-Since Heather Champ departed Flickr efforts to foster and understand the Flickr community have really withered on the vine. They've lost other, similarly talented folks in design, engineering - these people have found homes in start-ups and more dynamic online services. 
+Since Heather Champ left Flickr efforts to understand and nurture the Flickr community have really withered on the vine. They've lost other, similarly talented folks in design, engineering - these people have found homes in start-ups and more dynamic online services. 
 
 I could go on. 
 
