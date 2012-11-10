@@ -5,7 +5,7 @@ comments: false
 layout: post
 categories: [blog]
 tags: [science, brain, neurology, oliver sacks, john hockenberry, hallucinations]
-date: 09-09-2012
+date: 09-11-2012
 ---
 I had the pleasure of seeing Dr. Oliver Sacks in conversation with <a href="http://en.wikipedia.org/wiki/John_Hockenberry">John Hockenberry</a> at the Cooper Union last night. Sacks was speaking about his latest book *Hallucinations* as part of the <a href="http://worldsciencefestival.com/webcasts/sacks?/events/sacks">World Science Festival</a>. It was a really great event, not least because of John Hockenberry's stunning introduction: 
 
