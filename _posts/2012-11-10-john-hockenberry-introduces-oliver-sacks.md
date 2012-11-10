@@ -7,7 +7,7 @@ categories: [blog]
 tags: [science, brain, neurology, oliver sacks, john hockenberry, hallucinations]
 date: 10-11-2012
 ---
-I had the pleasure of seeing Dr. Oliver Sacks in conversation with <a href="http://en.wikipedia.org/wiki/John_Hockenberry">John Hockenberry</a> at the Cooper Union last night. Sacks was speaking about his latest book *Hallucinations* as part of the <a href="http://worldsciencefestival.com/webcasts/sacks?/events/sacks">World Science Festival</a>. It was a really great event, not least because of John Hockenberry's stunning introduction: 
+I had the pleasure of seeing <a href="http://www.oliversacks.com/">Dr. Oliver Sacks</a> in conversation with <a href="http://en.wikipedia.org/wiki/John_Hockenberry">John Hockenberry</a> at the Cooper Union last night. Sacks was speaking about his latest book *Hallucinations* as part of the <a href="http://worldsciencefestival.com/webcasts/sacks?/events/sacks">World Science Festival</a>. It was a really great event, not least because of John Hockenberry's stunning introduction: 
 
 > Tonight we're going to explore this notion of hallucinations. There's a really young crowd here. I hasten to say don't try this at home but I suspect many of you have. Oh well. Be that as it may. Let me tell you a little hallucination story here in this hall, where we might even get a glimpse of Abraham Lincoln of we're lucky. All of New York this week is something of a hallucination. My neighborhood looks like Gaza. We're experiencing a sense of perceptual distortion from our encounters with the natural world this week. 
 
