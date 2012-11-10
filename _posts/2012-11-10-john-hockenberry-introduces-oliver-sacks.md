@@ -1,5 +1,5 @@
 ---
-title: John Hockenberry Introduces Oliver Sacks
+title: John Hockenberry Introduces Oliver Sacks at the World Science Festival
 url: john-hockenberry-introduces-oliver-sacks
 comments: false
 layout: post
