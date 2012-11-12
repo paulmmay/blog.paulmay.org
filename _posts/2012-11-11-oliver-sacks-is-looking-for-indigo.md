@@ -15,7 +15,7 @@ In his talk at The Cooper Union last Friday, Oliver Sacks described his use of h
 
 > I felt very heartbroken, and in fact for months afterwards I would turn over little stones and things. I was looking for indigo. 
 
-> I did experience it once again and that was when I came to New York in '65 I went to a concert in the Metropolitan Museum of Art in the Egyptology gallery and the first half of the concert there was some Monteverdi which transported me and it was sort of rapture. In the interval I wandered into the Egyptology gallery and saw there was some <a href="http://en.wikipedia.org/wiki/Lapis_lazuli">lapis lazuli</a> amulets and so-forth and some of them were indigo and I thought "thank god - it exists in the world". 
+> I did experience it once again and that was when I came to New York in '65 I went to a concert in the Metropolitan Museum of Art in the Egyptology gallery and in the first half of the concert there was some Monteverdi which transported me and it was sort of rapture. In the interval I wandered into the Egyptology gallery and saw there was some <a href="http://en.wikipedia.org/wiki/Lapis_lazuli">lapis lazuli</a> amulets and so-forth and some of them were indigo and I thought "thank god - it exists in the world". 
 
 > In the second half of the concert I didn't like the music much. I became a little bored and irritable, I thought I'd go and get a sip of indigo, but when I went back the lapis lazuli was just blue and mauve and puce and I've never seen indigo again. 
 
