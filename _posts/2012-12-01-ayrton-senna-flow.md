@@ -7,7 +7,7 @@ categories: [blog]
 tags: [flow, senna]
 date: 01-12-2012
 ---
-<img src="http://farm9.staticflickr.com/8480/8235583569_2ee7cae0b5_o_d.gif" class="photo" alt="An animated gif showing a POV shot from Ayrton Senna's formula 1 racing car during the 1988 Monaco Grand Prix" />
+<img src="http://farm9.staticflickr.com/8480/8235583569_edc746d19e_o.gif" class="photo" alt="An animated gif showing a POV shot from Ayrton Senna's formula 1 racing car during the 1988 Monaco Grand Prix" />
 
 In the documentary <em><a href="http://www.imdb.com/title/tt1424432/">Senna</a></em>, Ayrton Senna describes his mental state during the 1988 Monaco Grand Prix. 
 
