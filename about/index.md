@@ -5,17 +5,17 @@ title: About
 Hello, my name is Paul May and I'm a researcher and multi-disciplinary designer from Dublin, Ireland - currently living and working in New York. I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecommunications Program (ITP)</a> which I attended as a Fulbright winner.
 
 ### Work
-I research, design and make interactive products, services and environments. I am particularly interested in projects related to:
+<p class="noindent">I research, design and make interactive products, services and environments. I am particularly interested in projects related to:</p>
 
 * Health and human activity
 * Government and civic society
 * Media production, manipulation and sharing
 
 ### Process
-My projects typically begin with a loosely defined problem or a context. I define the project further through research (reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype and a series of tests. 
+<p class="noindent">My projects typically begin with a loosely defined problem or a context. I define the project further through research (reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype and a series of tests.</p>
 
 ### Clients
-I have worked on projects for many organisations including Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Front, Memorial Sloan-Kettering Cancer Center, Microsoft and TouchTunes.
+<p class="noindent">I have worked on projects for many organisations including Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Front, Memorial Sloan-Kettering Cancer Center, Microsoft and TouchTunes.</p>
 
 ### Selected Press
 * <a href="http://www.good.is/post/spare-change-for-social-change-can-wasted-subway-fees-be-used-for-public-good/">GOOD Magazine</a> (MetroChange)
@@ -34,9 +34,9 @@ I have worked on projects for many organisations including Abbey Theatre, Accent
 * <a href="http://www.irishfulbrightalumni.com/pages/News28_Autumn2010.pdf">Irish Fulbright Alumni</a> [PDF]
 	
 ### Not Work
-Outside of my work I enjoy triathlon (swimming + cycling + running), photography, writing and cooking.  
+<p class="noindent">Outside of my work I enjoy triathlon (swimming + cycling + running), photography, making things, writing and cooking.</p>
 
 ### Contact
-Email: <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a><br />
-Twitter: <a href="http://twitter.com/paulmmay">@paulmmay</a><br />
-Phone: (347) 504-0798
+<p class="noindent">Email: <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a></p>
+<p class="noindent">Twitter: <a href="http://twitter.com/paulmmay">@paulmmay</a></p>
+<p class="noindent">Phone: (347) 504-0798</p>
