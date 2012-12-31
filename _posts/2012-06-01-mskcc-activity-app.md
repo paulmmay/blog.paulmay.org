@@ -16,8 +16,8 @@ launch-button-text: Read Project Write-Up
 ---
 <iframe src="http://player.vimeo.com/video/42204358?color=f0d000" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
 
-I carried out eight weeks of design research including interviews and workshops with patients, former patients, healthcare and administrative staff. I developed a web application called Activity App based on the findings of this research. 
+I carried out eight weeks of design research including interviews and workshops with patients, former patients, healthcare and administrative staff at Sloan-Kettering. I developed a web application called Activity App based on the findings of this research. 
 
-Activity App applies principles of persuasive design to encourage bone marrow transplant patients to remain physically active throughout their treatment and gives clinicians useful data about their patients' level of physical activity.
+Activity App applies principles of persuasive design to encourage Sloan-Kettering's bone marrow transplant patients to remain physically active throughout their treatment and gives clinicians useful data about their patients' level of physical activity.
 
-I then worked with Sloan-Kettering to write a section of a protocol that will allow Activity App to be tested with patients as part of a forthcoming clinical trial. 
+I then worked with Sloan-Kettering to write a section of a protocol that will allow Activity App to be tested with patients as part of a forthcoming clinical trial.
