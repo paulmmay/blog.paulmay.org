@@ -1,5 +1,9 @@
 require 'rack/contrib/try_static'
-require 'rack/rewrite'
+require 'rack-rewrite'
+
+use Rack::Rewrite do
+  r301	'/one',   '/two'
+end
 
 use Rack::TryStatic,
     :root => "_site",
