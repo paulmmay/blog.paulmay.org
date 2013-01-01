@@ -8,6 +8,7 @@ r301 '/itp/design-for-unicef-cell-phone-and-a-radio/', '/blog/unicef-phone-radio
 r301 %r{/homework(.*)}, '/blog$1'
 r301 %r{/itp(.*)}, '/blog$1'
 r301 %r{/articles(.*)}, '/blog$1'
+r301 %r{/tags(.*)}, '/blog'
 r301 '/blog/shaking-of-the-rust-data-representation/', '/blog/shaking-off-the-rust-data-representation/'
 r301 '/blog/shaking-of-the-rust-data-representation', '/blog/shaking-off-the-rust-data-representation/'
 r301 '/hello', '/work/'
