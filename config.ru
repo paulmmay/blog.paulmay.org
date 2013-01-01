@@ -17,6 +17,7 @@ r301 '/blog/tedx/', '/work/tedx/'
 r301 '/blog/tedx', '/work/tedx/'
 r301 '/blog/charles-leadbetter-perspective', '/blog/charles-leadbeater-perspective/'
 r301 '/thesis/paulmay-thesis.zip', 'https:/dl.dropbox.com/u/1299449/paulmay-thesis.zip'
+r301 %r{.*}, 'http://www.mydomain.com$&', :if => Proc.new {|rack_env|rack_env['SERVER_NAME'] == 'mydomain.com'}
 end
 
 use Rack::TryStatic,
