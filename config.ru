@@ -2,9 +2,9 @@ require 'rack/contrib/try_static'
 require 'rack-rewrite'
 
 use Rack::Rewrite do
-r301 '/articles/emma-davis', '/articles/Emma_Davis_Finishes_37th_in_Beijing'
-r301 '/articles/emma-davis-finishes-37th', '/articles/Emma_Davis_Finishes_37th_in_Beijing'
-r301 '/itp/design-for-unicef-cell-phone-and-a-radio/', '/itp/unicef-phone-radio/'
+r301 '/articles/emma-davis', '/blog/Emma_Davis_Finishes_37th_in_Beijing'
+r301 '/articles/emma-davis-finishes-37th', '/blog/Emma_Davis_Finishes_37th_in_Beijing'
+r301 '/itp/design-for-unicef-cell-phone-and-a-radio/', '/blog/unicef-phone-radio/'
 r301 '/homework', '/blog'
 r301 '/homework/', '/blog/'
 r301 '/itp/', '/blog/'
