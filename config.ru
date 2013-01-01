@@ -5,6 +5,7 @@ use Rack::TryStatic,
     :root => "_site",
     :urls => %w[/],
     :try => ['.html', 'index.html', '/index.html']
+    
 use Rack::Rewrite do
 r301 '/articles/emma-davis' 'http://paulmay.org/articles/Emma_Davis_Finishes_37th_in_Beijing'
 r301 '/articles/emma-davis-finishes-37th' 'http://paulmay.org/articles/Emma_Davis_Finishes_37th_in_Beijing'
@@ -22,6 +23,6 @@ r301 '/blog/tedx/' 'http://paulmay.org/blog/tedx-data-representation-and-persona
 r301 '/blog/tedx' 'http://paulmay.org/blog/tedx-data-representation-and-personal-narratives/'
 r301 '/blog/charles-leadbetter-perspective' 'http://paulmay.org/blog/charles-leadbeater-perspective/'
 r301 '/thesis/paulmay-thesis.zip' 'https://dl.dropbox.com/u/1299449/paulmay-thesis.zip'
-
 end
-run lambda { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}'
+
+run lambda { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}
