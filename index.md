@@ -2,4 +2,6 @@
 layout: default
 title: Welcome
 ---
-I'm putting together a new site for myself. Right now the <a href="/blog">blog</a> is the only thing that is somewhat presentable. I will be adding new content and tidying up for the next few months. My <a href="http://paulmay.org">my old site</a> is still available. Thanks.
+Paul May is an Irish researcher and interaction designer, currently based in New York. <a href="/about">Paul</a> holds a graduate degree from NYU's Interactive Telecommunications Program and is a former Fulbright award winner. 
+
+Paul is available for consulting <a href="/work">projects</a>, especially ones related to health and human activity, government and civic society, or media production, manipulation and sharing.
