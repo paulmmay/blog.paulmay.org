@@ -4,7 +4,7 @@ permalink: /:categories/:title
 exclude: ["readme.md", "Gemfile", "Gemfile.lock", "config.ru"]
 name: Paul May
 description: Paul May's Blog
-url: http://paulmay.org
+url: http://www.paulmay.org
 
 # this goes inside _config.yml. Change as required
 navigation:
