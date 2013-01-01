@@ -17,7 +17,7 @@ r301 '/hello', '/blog/itp-winter-show-2011/'
 r301 '/blog/tedx/', '/blog/tedx-data-representation-and-personal-narratives/'
 r301 '/blog/tedx', '/blog/tedx-data-representation-and-personal-narratives/'
 r301 '/blog/charles-leadbetter-perspective', '/blog/charles-leadbeater-perspective/'
-r301 '/thesis/paulmay-thesis.zip', 'https:/dl.dropbox.com/u/1299449/paulmay-thesis.zip
+r301 '/thesis/paulmay-thesis.zip', 'https:/dl.dropbox.com/u/1299449/paulmay-thesis.zip'
 end
 
 use Rack::TryStatic,
