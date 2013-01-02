@@ -2,7 +2,7 @@
 layout: default
 title: Colophon
 ---
-This site is produced by <a href="/about">Paul May</a> using a few simple tools:
+This site is produced using a few simple tools:
 
 * The site is written in <a href="http://daringfireball.net/projects/markdown/">markdown</a> using <a href="http://www.iawriter.com">iA Writer</a>
 * Content is managed/versioned using <a href="http://git-scm.com/">git</a> and <a href="https://github.com/paulmmay/blog.paulmay.org">GitHub</a>

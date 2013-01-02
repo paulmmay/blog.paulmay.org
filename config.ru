@@ -5,7 +5,7 @@ use Rack::Rewrite do
 r301 '/articles/emma-davis', '/blog/Emma_Davis_Finishes_37th_in_Beijing/'
 r301 '/articles/emma-davis-finishes-37th', '/blog/Emma_Davis_Finishes_37th_in_Beijing/'
 r301 '/itp/design-for-unicef-cell-phone-and-a-radio/', '/blog/unicef-phone-radio/'
-r301 '/blog/A_Beginners_Guide_to_Triathlon/', '/blog/a-beginners-guide-to-triathlon'
+r301 '/blog/A_Beginners_Guide_to_Triathlon/', '/blog/a-beginners-guide-to-triathlon/'
 r301 %r{/homework(.*)}, '/blog$1'
 r301 %r{/itp(.*)}, '/blog$1'
 r301 %r{/articles(.*)}, '/blog$1'

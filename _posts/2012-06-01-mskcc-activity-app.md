@@ -9,7 +9,7 @@ writeup:
 categories: [work]
 tags: [design research, prototyping, web applications, mskcc]
 date: 01-06-2012
-strapline: A persuasive web app for cancer patients
+strapline: A persuasive web app for cancer patients.
 description: For my graduate thesis project I collaborated with one of the world's leading cancer research and treatment hospitals, Memorial Sloan-Kettering Cancer Center, to investigate and improve the period of rehabilitation that follows a bone marrow transplant. 
 destination-url: /blog/mskcc-bone-marrow-transplant-project/
 launch-button-text: Read Project Write-Up
