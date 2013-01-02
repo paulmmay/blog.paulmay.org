@@ -18,6 +18,6 @@ In a recent project at <a href="http://www.mskcc.org">Memorial Sloan-Kettering C
 
 Most people arrive at the hospital with no special knowledge of cancer or medicine, but the educational materials they are given need to contain some medical terminology. I decided that I needed an objective, automated way to identify medical terms and other obscure words in text that I was reading and writing. I could then explain these words (e.g. include them in a glossary of terms) or replace them with simpler words.
 
-I created <a href="http://www.jrgn.info">Jargonator</a>; a simple web service that does just this - it takes a piece of text and highlights words that don't appear in standard, written English. 
+I created a simple web service that does just this - <a href="http://www.jrgn.info">Jargonator</a> takes a piece of text and highlights words that don't appear in standard, written English. 
 
 I am continuing to add small improvements to the service and would love to hear any comments or suggestions.
