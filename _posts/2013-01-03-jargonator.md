@@ -9,7 +9,7 @@ writeup:
 categories: [work]
 tags: []
 date: 03-01-2013
-strapline: A language analysis tool.
+strapline: A language analysis service.
 description: Jargonator is a service that identifies obscure words in passages of written English. It gives writers an objective way to identify words that might need to be explained for readers or replaced with more accessible words.
 destination-url: http://www.jrgn.info
 launch-button-text: Launch Project
