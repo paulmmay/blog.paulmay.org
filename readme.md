@@ -18,7 +18,8 @@ Moving my blog to Jekyll so I can write using iA Writer. Work in progress.
 * ~~Check again on iPad~~
 * ~~Switch DNS to point at Heroku (new.paulmay.org pointing - yet to move main site)~~
 * ~~Point old.paulmay.org at current host~~
-* Dig out old articles from web archive (long finger)
+* ~~Dig out old articles from web archive (long finger)~~
+* Dig out very, very old articles from web archive
 * ~~Improve responsiveness, add viewport and better media queries per https://docs.google.com/present/view?id=dkx3qtm_22dxsrgcf4~~
 * * ~~Clean up the archive page a bit~~
 
