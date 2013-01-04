@@ -1,9 +1,9 @@
 ---
 title: Ben Folds Five - Breakup Announcement
-url: bff-02-11-2000
+url: bff-breakup
 comments: false
 layout: post
-categories: [bff, blog]
+categories: [blog]
 tags: []
 date: 02-11-2000
 ---

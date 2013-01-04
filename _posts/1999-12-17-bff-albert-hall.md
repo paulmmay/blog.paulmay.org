@@ -1,9 +1,9 @@
 ---
 title: Ben Folds Five - Albert Hall Gig
-url: bff-17-12-1999
+url: bff-albert-hall
 comments: false
 layout: post
-categories: [blog, bff]
+categories: [blog]
 tags: []
 date: 17-12-1999
 ---
