@@ -21,4 +21,4 @@ The band have released the official announcement following the break-up. Here it
 
 This release can also be found on their press company's site
 
-Thanks to all of you who have mailed me over the last few days. I also got a very nice mail from Ben, and he was happy with the way it had ended, and to be moving on to new things. As I said in my Armchair post, this is a new beginning for three talented musicians. All the best
+Thanks to all of you who have mailed me over the last few days. I also got a very nice mail from Ben, and he was happy with the way it had ended, and to be moving on to new things. As I said in my Armchair post, this is a new beginning for three talented musicians. All the best.
