@@ -20,6 +20,7 @@ r301 '/blog/charles-leadbetter-perspective', '/blog/charles-leadbeater-perspecti
 r301 '/thesis/paulmay-thesis.zip', 'https:/dl.dropbox.com/u/1299449/paulmay-thesis.zip'
 r301 %r{.*}, 'http://www.paulmay.org$&', :if => Proc.new {|rack_env|rack_env['SERVER_NAME'] == 'paulmay.org'}
 r301 %r{.*}, 'http://www.paulmay.org$&', :if => Proc.new {|rack_env|rack_env['SERVER_NAME'] == 'new.paulmay.org'}
+r301 '/blog/The_Hell_of_the_West/', '/blog/the-hell-of-the-west'
 end
 
 use Rack::TryStatic,
