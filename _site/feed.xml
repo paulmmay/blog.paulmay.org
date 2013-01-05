@@ -3,9 +3,26 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2013-01-02T00:00:00Z</updated>
+  <updated>2013-01-04T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
+  
+    <entry>
+      <title>Irish News Media - Two Decades Wasted?</title>
+      <published>2013-01-04T00:00:00Z</published>
+      <updated>2013-01-04T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;What I find most disappointing about the recent statements from &lt;a href=&quot;http://www.nni.ie/v2/broad/portal.php?content=../_includes/prportal.php&amp;date=4th%20Jan%202013&amp;year=2013&quot;&gt;National Newspapers of Ireland&lt;/a&gt; isn't that they continue to assert that linking to a website could possibly constitute copyright infringement and/or require licensing - that old chestnut is as old as the web itself.&lt;/p&gt;
+
+&lt;p&gt;What is most disappointing is that it demonstrates that the NNI and the newspapers it represents have done very little to understand the unique opportunities that the web offers to them in the two decades since the web became broadly available in Ireland. What we've seen in the last few weeks from NNI is old thinking, an entrenched mindset that can't consider the value of content unbundled from a physical medium or an insular website. If hyperlinks are beyond their ken, what about complex economic issues, data-driven journalism, APIs, mobile computing, video, audio, strategic partnerships?&lt;/p&gt;
+
+&lt;p&gt;I contend that two decades is adequate time for any industry to hone the critical faculties, business models and skills made relevant by new technologies. Let the newspapers that NNI represents keep pace with Irish people and contemporary society or let them die. No more holding back the seas.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/two-decades-wasted"/>
+      <id>http://www.paulmay.org/blog/two-decades-wasted</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>The Beginning of The End</title>
@@ -222,40 +239,6 @@
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/wisdom"/>
       <id>http://www.paulmay.org/blog/wisdom</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Finishing Things</title>
-      <published>2012-10-03T00:00:00Z</published>
-      <updated>2012-10-03T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;Like most people I am better at starting things than I am at finishing them.&lt;/p&gt;
-
-&lt;p&gt;The most successful projects I've worked on have been defined by how they are completed. Successful projects seem to flow backwards in time from the desired results, through the phase of making things, to the beginning where we started the journey. (Which reminds me of &lt;a href=&quot;https://vimeo.com/10751957&quot; title=&quot;On Perspective&quot;&gt;this great talk&lt;/a&gt; by Charles Leadbeater)&lt;/p&gt;
-
-&lt;p&gt;Last week I finished a project; and while it's still fresh in my mind, I wanted to write down some of the loose ends that defined the end of the project.&lt;/p&gt;
-
-&lt;h3&gt;Finishing a Project - A Checklist of Sorts&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I stood beside my colleagues and presented the project to a group of people who care about the work.&lt;/li&gt;
-&lt;li&gt;We discussed how the impact that the work will have, and how project might be continued.&lt;/li&gt;
-&lt;li&gt;We said thank you to these people, and to the people who have supported us along the way.&lt;/li&gt;
-&lt;li&gt;&lt;span class=&quot;strike&quot;&gt;We celebrated&lt;/span&gt;. I didn't celebrate with the team because my brother was in town, but we'll get together soon.&lt;/li&gt;
-&lt;li&gt;I moved moved the documentation and rough-work from the project to a place where people can access it easily.&lt;/li&gt;
-&lt;li&gt;I explained what documentation would be most useful in the future.&lt;/li&gt;
-&lt;li&gt;I archived all the files and documentation related to the project, moving them out of my current projects folder into my completed projects folder.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;I'm now actively thinking about what else I can do to finish projects in a more complete way; finishing in a practical sense, finishing in an emotional sense. By doing this I hope to improve the way that all the work that goes before the finish unfolds.&lt;/p&gt;
-
-&lt;p&gt;If you have any thoughts or advice for me, please let me know.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/finishing-things"/>
-      <id>http://www.paulmay.org/blog/finishing-things</id>
       <author>
         <name>Paul May</name>
       </author>
