@@ -19,4 +19,4 @@ By the time film was a couple of decades old it had been transformed from a curi
 
 By comparison, today's cinema - and indeed all media - look timid and conformist. The web is about as old as cinema was during its heady days of experimentation and is becoming more cynical and homogenous each year. If the history of cinema tells us anything it's that we shouldn't be afraid to write a new rule book, or indeed to burn that rule book when things become too familiar.
 
-*The Story of Film: An Odyssey* is inspiring, it has put fire in my belly. I really recommend it. 
+*The Story of Film: An Odyssey* is inspiring. It has put fire in my belly. I really recommend it. 
