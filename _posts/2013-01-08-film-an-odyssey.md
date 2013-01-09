@@ -9,7 +9,7 @@ date: 08-01-2013
 ---
 <iframe width="700" height="525" src="https://www.youtube-nocookie.com/embed/usQIoKoJSFM" frameborder="0" allowfullscreen></iframe>
 
-I am *really* enjoying Mark Cousins' series [*The Story of Film: An Odyssey*](http://www.imdb.com/title/tt2044056/) which is now available to stream on <a href="http://movies.netflix.com/WiMovie/The_Story_of_Film_An_Odyssey/70261400?locale=en-US">Netflix</a>. It is a beautifully made documentary broken into 15, one hour-long episodes. *The Story of Film traces the history of film from its birth through to the current day.
+I am *really* enjoying Mark Cousins' series [*The Story of Film: An Odyssey*](http://www.imdb.com/title/tt2044056/) which is now available to stream on <a href="http://movies.netflix.com/WiMovie/The_Story_of_Film_An_Odyssey/70261400?locale=en-US">Netflix</a>. It is a beautifully made documentary broken into 15, one hour-long episodes. *The Story of Film* traces the history of film from its birth through to the current day.
 
 Unlike a lot of film historians, Cousins really goes out of his way to show examples of films from all over the world, like Yevgeni Bauer's *[After Death](http://www.imdb.com/title/tt0005916/)* (*Posle Smerti*) from Russia, made in 1915 (above). 
 
