@@ -17,6 +17,6 @@ What really comes across in *The Story of Film: An Odyssey* is the rapid change 
 
 By the time film was a couple of decades old it had been transformed from a curiosity into an art form. Fascination with the technology of filmmaking had been superseded by a fascination with new forms of storytelling enabled by technology. By the 1920s filmmakers had formulated, refined and then deliberately subverted successive forms of film-making. The grammar of film was constantly being re-written and the result was innumerable, fascinating, deeply different films. 
 
-By comparison, today's cinema - and indeed all media - look timid and conformist. The web, the medium most close to my heart, is about as old as cinema was during its heady days of experimentation and is becoming more cynical and homogenous each year. If the history of cinema tells us anything its that we shouldn't be afraid to write a new rule book, or indeed burn that rule book when things become too familiar.
+By comparison, today's cinema - and indeed all media - look timid and conformist. The web is about as old as cinema was during its heady days of experimentation and is becoming more cynical and homogenous each year. If the history of cinema tells us anything its that we shouldn't be afraid to write a new rule book, or indeed burn that rule book when things become too familiar.
 
 *The Story of Film: An Odyssey* is inspiring, it has put fire in my belly. I really recommend it. 
