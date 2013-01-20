@@ -3,9 +3,37 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2013-01-08T00:00:00Z</updated>
+  <updated>2013-01-20T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
+  
+    <entry>
+      <title>Upstream Color</title>
+      <published>2013-01-20T00:00:00Z</published>
+      <updated>2013-01-20T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8517/8400307938_80ea7a7188_b_d.jpg&quot; alt=&quot;a still photo from Upstream Color. A man and a woman lie together, fully dressed in an empty bath tub&quot; / class=&quot;photo&quot;&gt;
+I'm excited to see Shane Carruth's new film, &lt;a href=&quot;http://www.shanecarruth.com/film/upstreamcolor&quot;&gt;Upstream Color&lt;/a&gt;. Carruth is the writer and director of one of my favourite films, &lt;a href=&quot;http://www.shanecarruth/film/primer&quot;&gt;Primer&lt;/a&gt;. Made on a shoestring budget and released in 2004, Primer updates a well-worn mainstay of science fiction storytelling, the &quot;time-machines are probably a bad idea&quot; tale. The film's major innovation was to show, in ambitious detail, the practical and emotional burdens of time travel.&lt;/p&gt;
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/53890508?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffffff&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;As life for the two protagonists divides into a tangle of recursive, competing timelines we're asked to consider how complicated things would get if more people had access to the time machine. Like all time-machine stories, Primer is a moral fable about the limits of human imagination and the hazard of acting purely in self interest. It's an energetic, rich, and very rewarding film.&lt;/p&gt;
+
+&lt;p&gt;My hope is that Upstream Color comes close to being as entertaining as Primer. The press notes and trailer for the film are compelling in their vagueness:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;A man and woman are drawn together, entangled in the lifecycle of an ageless organism. Identity becomes an illusion as they struggle to assemble the loose fragments of wrecked lives.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/57342043?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffffff&quot; width=&quot;700&quot; height=&quot;299&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;Upstream Color will be shown at the &lt;a href=&quot;http://filmguide.sundance.org/film/13010/upstream_color&quot;&gt;Sundance Film Festival&lt;/a&gt; next week before going on limited/guerrilla release in April.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/upstream-color"/>
+      <id>http://www.paulmay.org/blog/upstream-color</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>The Story of Film</title>
@@ -231,27 +259,6 @@
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/bruteforce-democracy"/>
       <id>http://www.paulmay.org/blog/bruteforce-democracy</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Lance and Triathlon</title>
-      <published>2012-10-11T00:00:00Z</published>
-      <updated>2012-10-11T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;To call today's New York Times article &lt;a href=&quot;http://www.nytimes.com/2012/10/11/sports/cycling/lance-armstrong-draws-mixed-reception-from-triathlon-community.html&quot;&gt;Armstrong Finds a Mixed Reception in Triathlon&lt;/a&gt; utterly disingenuous would be putting it mildly.&lt;/p&gt;
-
-&lt;p&gt;Lance Armstrong has been completely banned from the internationally governed (i.e. non-corporate) forms of triathlon because &lt;a href=&quot;http://cyclinginvestigation.usada.org/&quot;&gt;he used drugs to cheat in cycling&lt;/a&gt;. He has taken part in a small number of triathlons that were so desperate for publicity they opted out of the sport's rulebook and insurance coverage to allow him to race.&lt;/p&gt;
-
-&lt;p&gt;Drawing an equivalence between his official, global ban and his invitation to take part in rogue races is wrong. Saying that this represents &quot;mixed feelings&quot; is shabby.&lt;/p&gt;
-
-&lt;p&gt;If a golfer was caught taking drugs and banned from playing in any tournament that followed the official rules of golf, but was then invited to play big drive, trick shot and crazy golf tournaments, you would call that &lt;em&gt;being banned from golf&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Just because it's Lance doesn't mean it's complicated.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/lance-triathlon"/>
-      <id>http://www.paulmay.org/blog/lance-triathlon</id>
       <author>
         <name>Paul May</name>
       </author>
