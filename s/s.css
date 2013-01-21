@@ -80,16 +80,25 @@ margin-bottom: 0.4em;
 color: rgba(51, 51, 51, 1.00); 
 }
 
+/* Lists */
+
 li{
 text-indent: 0em;
 margin-left:2em;
-list-style: square inside; 
 font-style: normal; 
 font-weight: 400; 
 font-family: droid-serif; 
 font-size: 1.4em; 
 line-height: 1.6em;
 color: rgba(51, 51, 51, 1.00); 
+}
+
+ul li{
+list-style: square outside; 
+}
+
+ol li{
+list-style: decimal outside; 
 }
 
 ul, ol{
@@ -123,6 +132,14 @@ p strong{
 font-weight: 600; 
 }
 
+ .super{
+ font-size:0.8em; 
+ vertical-align:top;
+ margin-top:-0.5em;
+ margin-left:0.2em;
+ line-height:1.25em;
+ color:#666
+ } 
 
 
 .postmeta p{
@@ -510,6 +527,12 @@ line-height: 0.9em;
 color: rgba(71, 71, 71, 1.00);
 }
 
+figcaption{
+font-size: 0.8em; 
+line-height:1.4em;
+color: rgba(100, 100, 100, 1.00);
+}
+
 /* Exotica */
 #map_wrapper{
 position: relative;
@@ -601,11 +624,6 @@ margin-bottom: 0.6em;
 line-height: 1.4em;
 }
 
- .super{
- font-size:0.5em; 
- vertical-align:top;
- margin-top:-0.25em
- } 
  
  .strike{
  text-decoration: line-through;
