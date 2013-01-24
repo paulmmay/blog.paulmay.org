@@ -35,6 +35,4 @@ I am not alone. Universities and professional associations urge caution around d
 
 > [AIGA](http://www.aiga.org/position-spec-work/) believes that professional designers should be compensated fairly for their work and should negotiate the ownership or use rights of their intellectual and creative property through an engagement with clients. To that end, AIGA strongly encourages designers to enter into client projects with full engagement to show the value of their creative endeavor, and to be aware of all potential risks before entering into speculative work.
 
-I know that New York City can do better than this. 
-
-I'd love to hear your thoughts on uncompensated design challenges, and ways of encouraging participation and collaboration without exploitation.
+I know that New York City can do better than this. I'd love to hear your thoughts about design challenges. Maybe you can think of ways to encourage participation without exploitation?
