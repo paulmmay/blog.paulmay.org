@@ -22,14 +22,14 @@ navigation:
   layout: about
   
 secondary:
-- text: Photos
-  url: /photos
-  cleanurl: /photos
-  layout: photo
 - text: Twitter
   url: http://twitter.com/paulmmay
   cleanurl: http://twitter.com/paulmmay
   layout: default
+- text: Photos
+  url: /photos
+  cleanurl: /photos
+  layout: photo
 - text: RSS
   url: /feed.xml
   cleanurl: /feed.xml
