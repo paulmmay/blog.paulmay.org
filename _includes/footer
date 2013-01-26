@@ -1,4 +1,4 @@
-<div id="footer">
+<footer>
 <div id="copyright">&copy; 2012 Paul May.</div>
 {%include secondary_nav%}
-</div>
+</footer>
