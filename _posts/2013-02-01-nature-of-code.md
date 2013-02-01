@@ -14,4 +14,4 @@ The class was a real revelation for me. I wasn't good at maths or physics in sch
 
 Dan has just [released a book](http://www.amazon.com/gp/product/0985930802/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0985930802&linkCode=as2&tag=natureofcode-20) that covers, and expands upon, the content of the class. There's a freely available [library of code](https://github.com/shiffman/The-Nature-of-Code-Examples) and Dan is [recording a series of (highly entertaining) videos](https://vimeo.com/channels/464686) to help students along. 
 
-I can't recommend Nature of Code highly enough. Enjoy the class, and help this great content finds its way to people teaching maths, physics, biology, or computing to young people. 
+I can't recommend The Nature of Code highly enough. Enjoy the content from the class, and help it finds its way to people teaching maths, physics, biology, or computing to young people. 
