@@ -5,11 +5,7 @@ title: About
 Paul May is an Irish researcher and interaction designer, currently based in New York. <a href="/about">Paul</a> holds a graduate degree from NYU's Interactive Telecommunications Program and is a former Fulbright award winner. 
 
 ### Work
-<p class="noindent">Paul researches, designs and develops interactive products, services and environments. Paul's work typically relates to a small number of themes:</p>
-
-* Health and human activity
-* Government and civic society
-* Media production, manipulation and sharing
+<p class="noindent">Paul researches, designs and develops interactive products, services and environments. 
 
 ### Clients
 <p class="noindent">Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Front, Memorial Sloan-Kettering Cancer Center, Microsoft, and TouchTunes.</p>
