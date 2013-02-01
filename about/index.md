@@ -2,20 +2,17 @@
 layout: default
 title: About
 ---
-Hello, my name is Paul May and I'm a researcher and multi-disciplinary designer from Dublin, Ireland - currently living and working in New York. I recently graduated from NYU's <a href="http://itp.nyu.edu">Interactive Telecommunications Program (ITP)</a> which I attended as a Fulbright winner.
+Paul May is an Irish researcher and interaction designer, currently based in New York. <a href="/about">Paul</a> holds a graduate degree from NYU's Interactive Telecommunications Program and is a former Fulbright award winner. 
 
 ### Work
-<p class="noindent">I research, design and make interactive products, services and environments. I am particularly interested in projects related to:</p>
+<p class="noindent">Paul researches, designs and develops interactive products, services and environments. Paul's work typically relates to a small number of themes:</p>
 
 * Health and human activity
 * Government and civic society
 * Media production, manipulation and sharing
 
-### Process
-<p class="noindent">My projects typically begin with a loosely defined problem or a context. I define the project further through research (reading, analyzing data, speaking to people, observing), before expressing what I've learned through a prototype and a series of tests.</p>
-
 ### Clients
-<p class="noindent">I have worked on projects for many organisations including Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Front, Memorial Sloan-Kettering Cancer Center, Microsoft and TouchTunes.</p>
+<p class="noindent">Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Front, Memorial Sloan-Kettering Cancer Center, Microsoft, and TouchTunes.</p>
 
 ### Selected Press
 * <a href="http://www.good.is/post/spare-change-for-social-change-can-wasted-subway-fees-be-used-for-public-good/">GOOD Magazine</a> (MetroChange)
@@ -32,9 +29,6 @@ Hello, my name is Paul May and I'm a researcher and multi-disciplinary designer 
 * <a href="http://www.core77.com/gallery/itp-spring-show-2011/61.asp">Core 77: ITP Spring Show 2011</a> (We Are Working on It) 
 * <a href="http://www.core77.com/gallery/itp-winter-show-2010/6.asp">Core77: ITP Winter Show</a> (Photo+)
 * <a href="http://www.irishfulbrightalumni.com/pages/News28_Autumn2010.pdf">Irish Fulbright Alumni</a> [PDF]
-	
-### Not Work
-<p class="noindent">Outside of my work I enjoy triathlon (swimming + cycling + running), photography, making things, writing and cooking.</p>
 
 ### Contact
 <p class="noindent">Email: <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a></p>
