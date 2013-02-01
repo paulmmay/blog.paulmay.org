@@ -42,7 +42,7 @@ All of these behaviours are triggered depending on scenario the creature finds i
 ### Video
 This video shows the version of the project I presented in class, with a couple of small tweaks. In the video you'll see three species searching for food and encountering threats. From time to time two creatures of the same species will encounter one another and a new creature will be produced. To make the new creatures easier to see a grey circle is drawn around them for the first 10 seconds of their life. A higher resolution version of the video can be <a href="https://vimeo.com/41397044" title="downloaded from Vimeo">downloaded from Vimeo</a>.
 
-<iframe src="http://player.vimeo.com/video/41397044?color=f0d000" class="photo" width="700" height="420" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
+<iframe src="http://player.vimeo.com/video/41397044?color=f0d000" width="700" height="420" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
 
 ### Further Improvements
 There are lots of ways in which this project could be improved upon. I will definitely improve the genetic algorithm that is used when new creatures are created. At the moment there is no mutation, so the results are predictable and the fitness of the creatures doesn't improve across generations. 
