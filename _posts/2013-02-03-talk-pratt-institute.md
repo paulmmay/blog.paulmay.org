@@ -10,4 +10,4 @@ date: 04-02-2013
 Tonight I'm visiting Visual Communication students at the Pratt Institute to give feedback on their assignment "Something Useful". The students have been asked to: 
 > Uncover, research, and visualize the innerworkings of a frequently used system that tends to go unnoticed.
 
-It's a cool assignment, and I am looking forward to seeing the students' progress. I'll also be giving a brief talk about doing research to inform a design project. Thanks to [Bobby Genalo](http://www.genalodesigns.com/) for inviting me along.
+It's a cool assignment, and I am looking forward to seeing the students' progress. I'll also be giving a brief talk about doing research to inform a design project. Thanks to Pratt instructor [Bobby Genalo](http://www.genalodesigns.com/) for inviting me along.
