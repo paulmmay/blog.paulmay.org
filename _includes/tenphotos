@@ -1,0 +1,8 @@
+{% for post in site.categories.photos|limit:20%}
+<figure class="photo photolist">
+<a href="{{ post.url }}"><img src="{{post.imageurl}}" class="photo large" /></a>
+<figcaption>
+{{post.caption}} {{ post.date | date: "%B %Y" }}
+</figcaption>
+</figure>
+{%endfor%}
