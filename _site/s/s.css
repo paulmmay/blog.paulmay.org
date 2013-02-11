@@ -127,13 +127,14 @@ width:100%;
 .project-summary{
 text-indent: 0;
 margin: 0 0 0.8em 0;
+font-size: 1.5em;
 }
 
 .projectmeta{
 }
 
-.project-description p{
-font-size: 1.1em;
+.project-description p, .project-description ul li, .project-description ol li{
+font-size: 1.2em;
 color: rgba(80, 80, 80, 1.00);
 }
 
