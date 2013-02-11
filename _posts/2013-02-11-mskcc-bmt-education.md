@@ -10,7 +10,7 @@ categories: [work]
 tags: [mskcc, cancer, education, design research]
 date: 01-10-2012
 strapline: New educational tools for Sloan-Kettering patients.
-description: I spent four months working with Memorial Sloan-Kettering Cancer Center to understand the informational needs of stem cell transplant patients and their families. I proposed and prototyped a new service to help these patients manage the significant amount of information that needs to be managed throughout this complex medical procedure.
+description: I spent four months working with Memorial Sloan-Kettering Cancer Center to understand the informational needs of stem cell transplant patients and their families. I proposed and prototyped a new service to help these patients manage the significant amount of information they encounter throughout this complex medical procedure.
 destination-url:
 launch-button-text:
 ---
