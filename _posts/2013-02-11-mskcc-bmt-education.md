@@ -24,9 +24,10 @@ I carried out careful research into the ways that patients and their families le
 * Interviewing patients and their families
 * Interviewing doctors, nurses, therapists, and social workers
 * Visiting and observing medical facilities
+* Facilitating workshops
 * Presenting crisp, timely summaries of research to MSKCC staff
 
-I wrote up and presented the key insights from this research, then developed a set of design principles that would help inform future projects based on this research. 
+I wrote up and presented the key insights from this research, then developed a set of design principles that would help inform future projects. 
 
 Informed by these design principles, I proposed that MSKCC should build a new service to help stem cell transplant patient manage the information associated with their treatment. 
 
