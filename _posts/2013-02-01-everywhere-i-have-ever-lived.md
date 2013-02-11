@@ -28,13 +28,13 @@ In 2005 I moved into a small house on Dargle Road in Drumcondra.  My housemates 
 In 2006 I moved to a rather grand house on Booterstown Park; my first foray onto the South Side of Dublin. My housemates were Karl Podesta, Louise Connolly, and Johnny Callaghan. Even though this was a very quiet street in a very quiet area, I really enjoyed living here. My room was huge, the garden was great, the kitchen was great, and everybody did their bit to keep the house in working order. It was a really pleasant experience all round. Not cheap though.
 
 <img src="http://farm9.staticflickr.com/8224/8435873423_1451725dee_b_d.jpg" alt="Satellite photo of Titania Street, Belfast" class="photo"/>
-In 2007 I quit my wretched job in management consulting and move to Belfast to work at Front (now part of Monotype). I lived in a little house on Titania Street off the Cregagh Road, first in the attic room, then in a nicer front-facing room. My constantly rotating cast of housemates included Emma, Aasa, Greg, and Mario. They were all very nice.
+In 2007 I quit my wretched job in management consulting and moved to Belfast to work at Front (now part of Monotype). I lived in a little house on Titania Street off the Cregagh Road, first in the attic room, then in a nicer front-facing room. My constantly rotating cast of housemates included Emma, Aasa, Greg, and Mario. They were all very nice.
 
 <img src="http://farm9.staticflickr.com/8463/8435871471_3cb41c70e0_b_d.jpg" alt="Satellite photo of Rossmore Avenue, Belfast" class="photo"/>
-In February of 2009 the constantly changing cast of characters at Titania Street prompted me to relocate across the city to Rossmore Avenue. My new housemates were Cassie, Breda, Chris, Johann, and for a short time, Emma. 
+In February of 2009 the constantly changing cast of characters at Titania Street, and a desire to be closer to both work and a swimming pool, prompted me to relocate across the city to Rossmore Avenue. My new housemates were Cassie, Breda, Chris, Johann, and for a short time, Emma.
 
 <img src="http://farm9.staticflickr.com/8075/8436971692_09286e4923_b_d.jpg" alt="Satellite photo of Rossmore Avenue, Belfast" class="photo"/>
-I spent weekdays in Belfast, but came back to Dublin on weekends to stay with Cliona. I was frequently to be found at her place on Parnell Street. Cliona's flatmates, Beatriz and then Kate, tolerated me beyond the call of duty and reason. 
+I spent weekdays in Belfast, but came back to Dublin on weekends to stay with Cliona. I was frequently to be found at her place on Parnell Street. Cliona's flatmates, Beatriz and then Kate, tolerated me beyond the call of duty and reason.
 
 <img src="http://farm9.staticflickr.com/8502/8435871615_d9a2009481_b_d.jpg" alt="Satellite photo of North Great George's Street, Dublin" class="photo"/>
 In September of 2009 I managed to persuade the folks at Front to let me work from Dublin 2 days a week. Me and Cliona rented a really nice basement/garden apartment on North Great George's Street in Dublin. This is probably the most fabulous place I will ever live. We had a spare bedroom and a huge garden. We are able to have parties without bothering a soul. We spent a happy year here in the run up to our wedding.
