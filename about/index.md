@@ -5,7 +5,7 @@ title: About
 Paul May is an Irish researcher and interaction designer, currently based in New York. Paul holds a graduate degree from NYU's Interactive Telecommunications Program and is a former Fulbright award winner. 
 
 ### Work
-<p class="noindent">Paul researches, designs and develops interactive products, services and environments. Clients include Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Front, Memorial Sloan-Kettering Cancer Center, Microsoft, and TouchTunes.</p>
+<p class="noindent">Paul researches, designs and develops <a href="/work">interactive products, services and environments</a>. Clients include Abbey Theatre, Accenture, Barracuda FX, BBC, Carte Blanche Greetings, Comcast Corporation, Frog Design, Front, Memorial Sloan-Kettering Cancer Center, Microsoft, and TouchTunes.</p>
 
 ### Selected Press
 * <a href="http://www.good.is/post/spare-change-for-social-change-can-wasted-subway-fees-be-used-for-public-good/">GOOD Magazine</a> (MetroChange)
@@ -23,7 +23,10 @@ Paul May is an Irish researcher and interaction designer, currently based in New
 * <a href="http://www.core77.com/gallery/itp-winter-show-2010/6.asp">Core77: ITP Winter Show</a> (Photo+)
 * <a href="http://www.irishfulbrightalumni.com/pages/News28_Autumn2010.pdf">Irish Fulbright Alumni</a> [PDF]
 
-### Contact
-<p class="noindent">Email: <a href="mailto:webmail@paulmay.org">webmail@paulmay.org</a></p>
-<p class="noindent">Twitter: <a href="http://twitter.com/paulmmay">@paulmmay</a></p>
-<p class="noindent">Phone: (347) 504-0798</p>
+### Contact Details &amp; Résumé	
+* E-Mail: [webmail@paulmay.org](mailto:webmail@paulmay.org)
+* Twitter: [@paulmmay](http://twitter.com/paulmmay)	
+* Phone: +1 347 504 0798
+* Portfolio: [www.paulmay.org/work](http://www.paulmay.org/work)
+* Profile: [LinkedIn](http://www.linkedin.com/in/paulmay)
+* Résumé/CV: [Available here](/about/resume)
