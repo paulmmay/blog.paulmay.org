@@ -274,8 +274,8 @@ ul, ol{
 margin-bottom:1em;
 }
 
-p { 
-text-indent: 0.5em; 
+p {
+/*text-indent: 0.5em;*/
 font-style: normal; 
 font-weight: 400; 
 font-family: droid-serif; 
@@ -286,7 +286,7 @@ color: rgba(51, 51, 51, 1.00);
 }
 
 p:first-child { 
-text-indent: 0; 
+/*text-indent: 0em;*/
 }
 
 .content p:first-child{
