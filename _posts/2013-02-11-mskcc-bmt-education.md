@@ -33,4 +33,4 @@ Informed by these design principles, I proposed that MSKCC should build a new se
 
 I developed a prototype of one key part of this service; a web application that offers educational content to patients and their families based on their specific medical circumstances and learning preferences.
 
-The project was presented to senior medical staff in September 2012. Reaction to the project was very positive, and Sloan-Kettering is now implementing the service in full. My collaborator on this project was the very talented [Galina Rybatsky](http://http://galinaryb.wordpress.com/).
+The project was presented to senior medical staff in September 2012. Reaction to the project was very positive, and Sloan-Kettering is now implementing the service in full. My collaborator on this project was the very talented [Galina Rybatsky](http://galinaryb.wordpress.com/).
