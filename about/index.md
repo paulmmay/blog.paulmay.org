@@ -21,7 +21,6 @@ Paul May is an Irish researcher and interaction designer, currently based in New
 * <a href="http://infosthetics.com/archives/2011/03/from_over_here_a_physical_representation_of_news.html">Infosthetics</a> (From Over Here)
 * <a href="http://www.core77.com/gallery/itp-spring-show-2011/61.asp">Core 77: ITP Spring Show 2011</a> (We Are Working on It) 
 * <a href="http://www.core77.com/gallery/itp-winter-show-2010/6.asp">Core77: ITP Winter Show</a> (Photo+)
-* <a href="http://www.irishfulbrightalumni.com/pages/News28_Autumn2010.pdf">Irish Fulbright Alumni</a> [PDF]
 
 ### Contact Details &amp; Résumé	
 * E-Mail: [webmail@paulmay.org](mailto:webmail@paulmay.org)
