@@ -3,9 +3,34 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2013-02-04T00:00:00Z</updated>
+  <updated>2013-03-21T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
+  
+    <entry>
+      <title>Watson Project at MSKCC</title>
+      <published>2013-03-21T00:00:00Z</published>
+      <updated>2013-03-21T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;I've been really busy in the last month. We've started to make plans for our exit from New York. We've narrowed down our list of European cities where we'd like to live, and have started to look into job opporunities. As well as the exit planning, I've been working on a fascinating new project at Memorial Sloan Kettering Cancer Center.&lt;/p&gt;
+
+&lt;p&gt;The team I work with at Sloan-Kettering is working with IBM to train &lt;a href=&quot;http://www-03.ibm.com/innovation/us/watson/index.shtml&quot;&gt;Watson&lt;/a&gt;, IBM's &lt;a href=&quot;http://www.nytimes.com/2011/02/17/science/17jeopardy-watson.html?pagewanted=all&quot;&gt;machine learning and decision making system&lt;/a&gt;, to diagnose different forms of cancer based on historical medical cases. Once the system has been trained and refined, Watson will be able to recommend appropriate courses of treatment for cancer patients. The project is groundbreaking, and was &lt;a href=&quot;http://www.theatlantic.com/magazine/archive/2013/03/the-robot-will-see-you-now/309216/&quot;&gt;recently profiled in the Atlantic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://cdn.theatlantic.com/static/newsroom/img/2013/02/15/watson-meeting.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Ari Caroline and his colleagues at Sloan-Kettering are leading Watson's training in cancer care. &quot;You're going to need a tool like Watson,&quot; he says, given the rapidly increasing complexity of the field. (Photo: Kareem Black)&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;My role on the project is to work with the messier, less structured parts of anonymized medical records, to prepare clean data for the Watson machine learning pipeline. I've also had a little time to work on some of my own experiments involving machine learning and natural language processing.&lt;/p&gt;
+
+&lt;p&gt;It's a real privilege to be involved with the project, and to work with such audaciously intelligent and passionate people. I can't wait to get started in the morning, and my thoughts stay with the project long after I leave in the evening. I have been spending a lot of my downtime thinking about the intersection of user experience design and different forms of machine learning. I hope to crystallize a few thoughts into blog articles soon.&lt;/p&gt;
+
+&lt;p&gt;That's all from me for now.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/watson-project-sloan-kettering"/>
+      <id>http://www.paulmay.org/blog/watson-project-sloan-kettering</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Design Research Talk at the Pratt Institute</title>
@@ -241,28 +266,6 @@ I'm excited to see Shane Carruth's new film, &lt;a href=&quot;http://www.shaneca
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/the-beginning-of-the-end"/>
       <id>http://www.paulmay.org/blog/the-beginning-of-the-end</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Ayrton Senna in Flow</title>
-      <published>2012-12-01T00:00:00Z</published>
-      <updated>2012-12-01T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8480/8235583569_edc746d19e_o.gif&quot; class=&quot;photo&quot; alt=&quot;An animated gif showing a POV shot from Ayrton Senna's formula 1 racing car during the 1988 Monaco Grand Prix&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the documentary &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt1424432/&quot;&gt;Senna&lt;/a&gt;&lt;/em&gt;, Ayrton Senna describes his mental state during the 1988 Monaco Grand Prix.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;That day I suddenly realised that I was no longer driving it conscious, and I was in a different dimension for me. The circuit for me was a tunnel, which I was just going, going going…and I realised I was well beyond my conscious understanding.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Since watching the film this morning I've been thinking about human-machine interfaces (for the first time in a while). I wonder whether the type of &lt;a href=&quot;http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&quot;&gt;experience&lt;/a&gt; Senna describes requires an interface so simple that it melts into the background. What are the critical ingredients of an experience like this? When is an experience like this undesirable? These aren't new questions, but again - I have haven't thought about them in a while.&lt;/p&gt;
-
-&lt;p class=&quot;footnote&quot;&gt;Incidentally, in the race Senna built up a substantial lead over Alain Prost before crashing out on the 65th lap. &lt;/p&gt;
-
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/ayrton-senna-flow"/>
-      <id>http://www.paulmay.org/blog/ayrton-senna-flow</id>
       <author>
         <name>Paul May</name>
       </author>
