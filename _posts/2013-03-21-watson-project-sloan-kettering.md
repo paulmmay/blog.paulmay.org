@@ -9,7 +9,7 @@ date: 21-03-2013
 ---
 It's been a busy month. 
 
-We've started to make plans for our exit from New York. We've narrowed down the list of European cities where we'd like to live, and have started to look into job opporunities. 
+We've started to make plans for our exit from New York. We've narrowed down the list of European cities where we'd like to live, and have started to look into job opportunities. 
 
 As well as the exit planning, I've been working on a fascinating new project at [Memorial Sloan Kettering Cancer Center](http://www.mskcc.org/).  
 
@@ -21,4 +21,4 @@ The team I work with at Sloan-Kettering is working with IBM to train [Watson](ht
 
 My role on the project is to work with the messier, less structured parts of anonymized medical records, to prepare clean data for the Watson machine learning pipeline. I've also had a little time to work on some of my own experiments involving machine learning and natural language processing. 
 
-It's a real privilege to be involved with the project, and to work with such audaciously intelligent, passionate people. I can't wait to get started in the morning, and my thoughts stay with the project long after I leave in the evening. I have been spending a lot of my downtime thinking about the intersection of user experience design and different forms of machine learning. I hope to crystallize a few thoughts into blog articles soon.
+It's a real privilege to be involved with the project, and to work with such audaciously intelligent people. I can't wait to get started in the morning, and my thoughts stay with the project long after I leave in the evening. I have been spending a lot of my downtime thinking about the intersection of user experience design and different forms of machine learning. I hope to crystallize a few thoughts into blog articles soon.
