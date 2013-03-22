@@ -9,9 +9,9 @@ date: 21-03-2013
 ---
 I've been really busy in the last month. We've started to make plans for our exit from New York. We've narrowed down our list of European cities where we'd like to live, and have started to look into job opporunities. As well as the exit planning, I've been working on a fascinating new project at Memorial Sloan Kettering Cancer Center. 
 
-The team I work with at Sloan-Kettering is working with IBM to train [Watson](http://www-03.ibm.com/innovation/us/watson/index.shtml), IBM's [machine learning and decision making system](http://www.nytimes.com/2011/02/17/science/17jeopardy-watson.html?pagewanted=all), to diagnose different forms of cancer based on historical medical cases. Once the system has been trained and refined, Watson will be able to recommend appropriate courses of treatment for cancer patients. The project is groundbreaking, and was [recently profiled in the Atlantic](http://www.theatlantic.com/magazine/archive/2013/03/the-robot-will-see-you-now/309216/).
+The team I work with at Sloan-Kettering is working with IBM to train [Watson](http://www-03.ibm.com/innovation/us/watson/index.shtml), IBM's [machine learning and decision making system](http://www.nytimes.com/2011/02/17/science/17jeopardy-watson.html?pagewanted=all), to diagnose different forms of cancer based on historical medical cases. Once the system has been trained and refined, Watson will be able to recommend appropriate courses of treatment for cancer patients. The project is groundbreaking, and was [recently profiled in the Atlantic:](http://www.theatlantic.com/magazine/archive/2013/03/the-robot-will-see-you-now/309216/).
 
-<img src="http://cdn.theatlantic.com/static/newsroom/img/2013/02/15/watson-meeting.jpg" class="photo" />
+<a href="http://www.theatlantic.com/magazine/archive/2013/03/the-robot-will-see-you-now/309216/"><img src="http://cdn.theatlantic.com/static/newsroom/img/2013/02/15/watson-meeting.jpg" class="photo" /></a>
 
 > Ari Caroline and his colleagues at Sloan-Kettering are leading Watson's training in cancer care. "You're going to need a tool like Watson," he says, given the rapidly increasing complexity of the field. (Photo: Kareem Black)
 
