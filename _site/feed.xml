@@ -3,9 +3,32 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2013-03-21T00:00:00Z</updated>
+  <updated>2013-06-11T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
+  
+    <entry>
+      <title>Goodbye (For Now) New York</title>
+      <published>2013-06-11T00:00:00Z</published>
+      <updated>2013-06-11T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;In a couple of hours we head to the airport, bound for Costa Rica, then Iceland - a gentle transition out of life in New York to something new. We are moving on after three amazing years.&lt;/p&gt;
+
+&lt;p&gt;The category of visa we have requires us to leave the US two years, before being eligible to stay for longer. I am not going to riff on the contradictions of the J visa right now, but it's fair to say that we wouldn't leave New York if we didn't have to. We are thriving here, and we both have a lot more to contribute to this great city.&lt;/p&gt;
+
+&lt;p&gt;We leave behind our places, routines, hobbies, and most importantly - our family, and our wonderful friends. We will miss them all. We know that it's more than possible to stay connected to them from afar, it'll just take a little more work. I am going to try to treat the distance as a fun challenge, and maybe as an opportunity to do some fun projects related to interaction at a distance.&lt;/p&gt;
+
+&lt;p&gt;Our destination, at least in the medium term, is London. I'm going to continue working on design projects related to healthcare and computation for Memorial Sloan-Kettering Cancer Center, and I'm really delighted about this. I love my job. Cliona is looking for opportunities in biotech.&lt;/p&gt;
+
+&lt;p&gt;Honestly, I am not at the point where I'm excited about being in a new city, but I'll get there.&lt;/p&gt;
+
+&lt;p&gt;New York, friends and family - thank you so much for a great three years. We love you all.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/goodbye-for-now-new-york"/>
+      <id>http://www.paulmay.org/blog/goodbye-for-now-new-york</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Watson Project at MSKCC</title>
@@ -253,21 +276,6 @@ I'm excited to see Shane Carruth's new film, &lt;a href=&quot;http://www.shaneca
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/two-decades-wasted"/>
       <id>http://www.paulmay.org/blog/two-decades-wasted</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>The Beginning of The End</title>
-      <published>2013-01-02T00:00:00Z</published>
-      <updated>2013-01-02T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;It's January. In six months time we will leave New York bound for who-knows-where. I have become deeply attached to this city, to my friends who live here, to the seemingly infinite possibility of the place.&lt;/p&gt;
-
-&lt;p&gt;The J Visa is a cruel mistress - you come for a while then you go for a while. All we can do is try to make every day we have left in New York count, and thank our lucky stars that we got the chance to be here, even for a short while. I am really, really excited about the future - but leaving will be hard.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/the-beginning-of-the-end"/>
-      <id>http://www.paulmay.org/blog/the-beginning-of-the-end</id>
       <author>
         <name>Paul May</name>
       </author>
