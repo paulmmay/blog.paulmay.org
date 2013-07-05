@@ -11,7 +11,7 @@ It's been a very positive first full week in London.
 
 Even though we've left New York, I'm going to continue working with Sloan-Kettering from London. I am really delighted about that. My working day in London overlaps with New York by about 4 hours, which is perfect - lots of time for us to collaborate, then lots of time for heads-down work. 
 
-Over the the coming year my focus will be on desinging experiences/agents (nimble little products) that use some of the wonderful knowledge available at MSKCC to help the hospital plan for the future, and make good day-to-day decisions.
+Over the the coming year my focus will be on designing experiences/agents (nimble little products) that use some of the wonderful knowledge available at MSKCC to help the hospital plan for the future, and make good day-to-day decisions.
 
 This week I've just been getting set up. I've moved into a very nice co-working space in Hackney, and have been getting my desk and micro-office set up. The space overlooks the site of the 2012 Olympic Games, which is currently being redeveloped as a public park.
 
