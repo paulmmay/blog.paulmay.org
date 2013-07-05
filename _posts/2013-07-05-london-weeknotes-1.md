@@ -17,12 +17,12 @@ This week I've just been getting set up. I've moved into a very nice co-working 
 
 <img src="http://farm4.staticflickr.com/3766/9212353117_ecd0ce2357_o.jpg" width="612" height="612" alt="Olympic Village Recalibration" class="photo">
 
-Next week, I'll finish getting set up. Then, it'll be down to real work.
+Next week, I'll finish getting set up. Then, it'll be down to some real work. 
 
 ### Quickies
 * I invested in [Sublime Text 2](http://www.sublimetext.com/2), a fabulous text editor. 
 * I bought [this monitor](http://www.amazon.co.uk/gp/product/B005QVZ79C/ref=oh_details_o00_s00_i02?ie=UTF8&psc=1) for my desk.
 * I have started using [Instagram](http://instagram.com/paulmayorg/), despite my queasiness about their terms and conditions. My real photos will still be uploaded to [Flickr](http://www.flickr.com/photos/paulmmay/). 
+* I have still not scanned any of the photos I took in May or June.
 * I am taking [this class](https://class.coursera.org/matrix-001/) on linear algebra. So far, it's not much fun.  
 * I am 60% of the way through 1Q84.
-* I have still not scanned any of the photos I took in May or June.
