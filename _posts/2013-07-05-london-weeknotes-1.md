@@ -22,7 +22,7 @@ Next week, I'll finish getting set up. Then, it'll be down to real work.
 ### Quickies
 * I invested in [Sublime Text 2](http://www.sublimetext.com/2), a fabulous text editor. 
 * I bought [this monitor](http://www.amazon.co.uk/gp/product/B005QVZ79C/ref=oh_details_o00_s00_i02?ie=UTF8&psc=1) for my desk.
-* I have started using [Instagram](http://instagram.com/paulmayorg/), despite my queasiness about their terms and conditions. My real photos will still be going on [Flickr](http://www.flickr.com/photos/paulmmay/). 
-* I am taking [this class](https://class.coursera.org/matrix-001/f) on linear algebra. So far, it's not much fun.  
+* I have started using [Instagram](http://instagram.com/paulmayorg/), despite my queasiness about their terms and conditions. My real photos will still be uploaded to [Flickr](http://www.flickr.com/photos/paulmmay/). 
+* I am taking [this class](https://class.coursera.org/matrix-001/) on linear algebra. So far, it's not much fun.  
 * I am 60% of the way through 1Q84.
 * I have still not scanned any of the photos I took in May or June.
