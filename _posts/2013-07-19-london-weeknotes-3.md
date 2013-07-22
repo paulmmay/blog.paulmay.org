@@ -17,7 +17,7 @@ I've been using the same cycling gear since about 2008, and having left a lot of
 
 Work is going pretty well. Design and development of two products is proceeding nicely. 
 
-## Quickies
+### Quickies
 * My linear algebra practice has being getting scant attention. I am sorry linear algebra gods.
 * I am 90% of the way through 1Q84. I don't get a sense that it'll end satisfactoryily. I can't say it's been among my favourite Murakami books; it needs a damn good editing.
 
