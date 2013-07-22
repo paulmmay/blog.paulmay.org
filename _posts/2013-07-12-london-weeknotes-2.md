@@ -5,7 +5,7 @@ comments: false
 layout: post
 categories: [blog]
 tags: [weeknotes]
-date: 23-07-2013
+date: 12-07-2013
 ---
 Not too much to report this week. I've been continuing to get set up in London, and have been working on some early plans for two new projects. 
 

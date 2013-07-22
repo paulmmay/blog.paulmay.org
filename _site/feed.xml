@@ -3,34 +3,9 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2013-07-23T00:00:00Z</updated>
+  <updated>2013-07-19T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
-  
-    <entry>
-      <title>London Week 2</title>
-      <published>2013-07-23T00:00:00Z</published>
-      <updated>2013-07-23T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;Not too much to report this week. I've been continuing to get set up in London, and have been working on some early plans for two new projects.&lt;/p&gt;
-
-&lt;p&gt;Tonight I'm off to Dublin for a flying visit - I'll be in Longford at a wedding tomorrow, then back in Dublin for a few hours on Sunday.&lt;/p&gt;
-
-&lt;h3&gt;Quickies&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I bought a Windows laptop to use as my work computer. It's ugly.&lt;/li&gt;
-&lt;li&gt;I finally bought a scanner that can scan negatives, slides/positives.&lt;/li&gt;
-&lt;li&gt;I have not done any of my linear algebra coursework this week.&lt;/li&gt;
-&lt;li&gt;I am 68% of the way through 1Q84.&lt;/li&gt;
-&lt;/ul&gt;
-
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/london-weeknotes-2"/>
-      <id>http://www.paulmay.org/blog/london-weeknotes-2</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
   
     <entry>
       <title>London Week 3</title>
@@ -56,6 +31,31 @@
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/london-weeknotes-3"/>
       <id>http://www.paulmay.org/blog/london-weeknotes-3</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>London Week 2</title>
+      <published>2013-07-12T00:00:00Z</published>
+      <updated>2013-07-12T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;Not too much to report this week. I've been continuing to get set up in London, and have been working on some early plans for two new projects.&lt;/p&gt;
+
+&lt;p&gt;Tonight I'm off to Dublin for a flying visit - I'll be in Longford at a wedding tomorrow, then back in Dublin for a few hours on Sunday.&lt;/p&gt;
+
+&lt;h3&gt;Quickies&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I bought a Windows laptop to use as my work computer. It's ugly.&lt;/li&gt;
+&lt;li&gt;I finally bought a scanner that can scan negatives, slides/positives.&lt;/li&gt;
+&lt;li&gt;I have not done any of my linear algebra coursework this week.&lt;/li&gt;
+&lt;li&gt;I am 68% of the way through 1Q84.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/london-weeknotes-2"/>
+      <id>http://www.paulmay.org/blog/london-weeknotes-2</id>
       <author>
         <name>Paul May</name>
       </author>
