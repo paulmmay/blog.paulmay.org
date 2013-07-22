@@ -33,6 +33,35 @@
     </entry>
   
     <entry>
+      <title>London Week 3</title>
+      <published>2013-07-19T00:00:00Z</published>
+      <updated>2013-07-19T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;I spent last weekend in Ireland; at a wedding in Longford on the Saturday, and in Dublin on the Sunday. The weather in Ireland is roasting. The country really shines in the sun. The landscape sparkles, people are happy and friendly, and there's a sense of optimism about the place that's sometimes absent in the greyer months. It was a real pleasure to see Ireland at its best.&lt;/p&gt;
+
+&lt;p&gt;While I was in Dublin, I got to meet Mr. Jack Holland, newly arrived son of Therese Veale and Derek Holland. He is a dote of the highest order, well-mannered to boot, and his parents were a sight for sore eyes.&lt;/p&gt;
+
+&lt;p&gt;I managed to get a spot on a return bus for the &lt;a href=&quot;http://southwarkcyclists.org.uk/news/dunwich-dynamo-xxi-2013-faqs-essentials&quot;&gt;Dunwich Dynamo&lt;/a&gt;, an overnight ride from London to Dunwich, Suffolk. It's 120 miles, or about 200Km. I haven't done a cycle of that length in quite a while, but I'm told it's pretty flat.&lt;/p&gt;
+
+&lt;p&gt;I've been using the same cycling gear since about 2008, and having left a lot of it in the US, or disposed of it altogether, it was time to get new stuff. I bought myself a new jersey, shorts, helmet, shoes - and some other bits and pieces. Thanks to Alex at Swift Cycles in London for helping me choose and fit the gear properly.&lt;/p&gt;
+
+&lt;p&gt;Work is going pretty well. Design and development of two products is proceeding nicely.&lt;/p&gt;
+
+&lt;h2&gt;Quickies&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My linear algebra practice has being getting scant attention. I am sorry linear algebra gods.&lt;/li&gt;
+&lt;li&gt;I am 90% of the way through 1Q84. I don't get a sense that it'll end satisfactoryily. I can't say it's been among my favourite Murakami books; it needs a damn good editing.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/london-weeknotes-3"/>
+      <id>http://www.paulmay.org/blog/london-weeknotes-3</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  
+    <entry>
       <title>London Week 1</title>
       <published>2013-07-05T00:00:00Z</published>
       <updated>2013-07-05T00:00:00Z</updated>
@@ -263,34 +292,6 @@ In August 2010 I arrived in New York to start at NYU. I spent a couple of weeks 
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/uncompensated-design-challenges"/>
       <id>http://www.paulmay.org/blog/uncompensated-design-challenges</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Upstream Color</title>
-      <published>2013-01-20T00:00:00Z</published>
-      <updated>2013-01-20T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8517/8400307938_80ea7a7188_b_d.jpg&quot; alt=&quot;a still photo from Upstream Color. A man and a woman lie together, fully dressed in an empty bath tub&quot; / class=&quot;photo&quot;&gt;
-I'm excited to see Shane Carruth's new film, &lt;a href=&quot;http://www.shanecarruth.com/film/upstreamcolor&quot;&gt;Upstream Color&lt;/a&gt;. Carruth is the writer and director of one of my favourite films, &lt;a href=&quot;http://www.shanecarruth/film/primer&quot;&gt;Primer&lt;/a&gt;. Made on a shoestring budget and released in 2004, Primer updates a well-worn mainstay of science fiction storytelling, the &quot;time-machines are probably a bad idea&quot; tale. The film's major innovation was to show, in ambitious detail, the practical and emotional burdens of time travel.&lt;/p&gt;
-
-&lt;iframe src=&quot;http://player.vimeo.com/video/53890508?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffffff&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-
-
-&lt;p&gt;As life for the two protagonists divides into a tangle of recursive, competing timelines we're asked to consider how complicated things would get if more people had access to the time machine. Like all time-machine stories, Primer is a moral fable about the limits of human imagination and the hazard of acting purely in self interest. It's an energetic, rich, and very rewarding film.&lt;/p&gt;
-
-&lt;p&gt;My hope is that Upstream Color comes close to being as entertaining as Primer. The press notes and trailer for the film are compelling in their vagueness:&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;A man and woman are drawn together, entangled in the lifecycle of an ageless organism. Identity becomes an illusion as they struggle to assemble the loose fragments of wrecked lives.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;iframe src=&quot;http://player.vimeo.com/video/57342043?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffffff&quot; width=&quot;700&quot; height=&quot;299&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-
-
-&lt;p&gt;Upstream Color will be shown at the &lt;a href=&quot;http://filmguide.sundance.org/film/13010/upstream_color&quot;&gt;Sundance Film Festival&lt;/a&gt; next week before going on limited/guerrilla release in April.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/upstream-color"/>
-      <id>http://www.paulmay.org/blog/upstream-color</id>
       <author>
         <name>Paul May</name>
       </author>
