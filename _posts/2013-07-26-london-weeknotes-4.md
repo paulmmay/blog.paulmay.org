@@ -29,6 +29,7 @@ The first full month in London has flown by.
 * I am falling behind in the linear algebra class, and thinking of shelving it for now. I've already learned a lot, and I can come back to it on my own time, or the next time the online class is run.
 * I finished 1Q84. It's definitely the least coherent and most conventional Murakami book that I've read. Whole sections feel repititious. There's a sort of sappy misogyny about the plot. The resolution feels like an unconvincing magic trick. It's his worst book to date in my opinion. 
 * What should I read next?
+* I've started taking yoga classes, they are very challenging, but I think I am making progress.
 
 
 
