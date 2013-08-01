@@ -359,8 +359,8 @@ font-style:italic;
 
 /* ------------------------------- Embeds/Twitter ---------------------------------*/
 .twitter-tweet{
-	margin-left:2em;
-	margin-bottom:0.25em;
+	margin-left:2em; !important
+	margin-bottom:0.25em; !important
 }
 
 /* ------------------------------ Mini Biography  ------------------------------ */
