@@ -357,6 +357,12 @@ margin-left:2em;
 font-style:italic;
 }
 
+/* ------------------------------- Embeds/Twitter ---------------------------------*/
+.twitter-tweet{
+	margin-left:2em;
+	margin-bottom:0.25em;
+}
+
 /* ------------------------------ Mini Biography  ------------------------------ */
 #minibio{
 background: #eadcad;
