@@ -3,9 +3,36 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2013-07-26T00:00:00Z</updated>
+  <updated>2013-08-02T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
+  
+    <entry>
+      <title>London Week 5</title>
+      <published>2013-08-02T00:00:00Z</published>
+      <updated>2013-08-02T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;Busy week. Desire to turn off computer for the evening. All quickies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3815/9384652196_d6cab8217c_o.jpg&quot; class=&quot;photo&quot; alt=&quot;Duck Pal&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Quickies&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Last weekend we took a trip to the British Museum. It's astounding. The Rosetta Stone is jawdropping. The number of tourists in the British Museum jostling to get a terrible, flash-lit photograph of the Rosetta Stone is jawdropping, in a very different way. The British Museum is wall to wall loot, and tourists clambering over and photographing said loot in a frenzy.&lt;/li&gt;
+&lt;li&gt;We had a very tasty breakfast at Towpath Cafe, then visited Columbia Road Flower Market, and Hackney City Farm (see Duck, above). Gorgeous, gorgeous.&lt;/li&gt;
+&lt;li&gt;Cliona has been interviewing for jobs, and has made very good progress - news soon.&lt;/li&gt;
+&lt;li&gt;We've been tip-toeing our way through the latest episodes of Breaking Bad. It's so, so, so good. Probably the most compelling TV show I've ever watched.&lt;/li&gt;
+&lt;li&gt;I am making progress with yoga. I am still the sweaty beginner in the class, but I can feel myself getting stronger. Less painful vibration as I hold simple poses. Result.&lt;/li&gt;
+&lt;li&gt;A so-so week at work. Nobody said this was going to be easy.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/london-weeknotes-5"/>
+      <id>http://www.paulmay.org/blog/london-weeknotes-5</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>London Week 4</title>
@@ -265,28 +292,6 @@ In August 2010 I arrived in New York to start at NYU. I spent a couple of weeks 
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/tom-sorell-on-surveillance"/>
       <id>http://www.paulmay.org/blog/tom-sorell-on-surveillance</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>The Nature of Code Book and Videos</title>
-      <published>2013-02-01T00:00:00Z</published>
-      <updated>2013-02-01T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;&lt;a href=&quot;http://natureofcode.com/&quot;&gt;The Nature of Code&lt;/a&gt; is a wonderful creative programming class taught at ITP by &lt;a href=&quot;http://www.shiffman.net/&quot;&gt;Dan Shiffman&lt;/a&gt;. In The Nature of Code, students learn how to programme software applications that mimic nature in some way, covering topics like gravity, wind, flocking, learning and evolution. For my own final project I made &lt;a href=&quot;https://vimeo.com/41397044&quot;&gt;a little simulation&lt;/a&gt; where creatures are born, flock, find food, react to danger, age and die.&lt;/p&gt;
-
-&lt;p&gt;The class was a real revelation for me. I wasn't good at maths or physics in school, and only really started to grasp concepts like trigonometry, vectors and forces in Dan's class. I really wish that a class like this (and more creative methods of teaching) had been available when I was much younger.&lt;/p&gt;
-
-&lt;iframe src=&quot;http://player.vimeo.com/video/58734251?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffffff&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-
-
-&lt;p&gt;Dan has just &lt;a href=&quot;http://www.amazon.com/gp/product/0985930802/ref=as_li_tf_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0985930802&amp;amp;linkCode=as2&amp;amp;tag=natureofcode-20&quot;&gt;released a book&lt;/a&gt; that covers, and expands upon, the content of the class. There's a freely available &lt;a href=&quot;https://github.com/shiffman/The-Nature-of-Code-Examples&quot;&gt;library of code&lt;/a&gt; and Dan is &lt;a href=&quot;https://vimeo.com/channels/464686&quot;&gt;recording a series of (highly entertaining) videos&lt;/a&gt; to help students along.&lt;/p&gt;
-
-&lt;p&gt;I can't recommend The Nature of Code highly enough. Enjoy the content from the class, and help it finds its way to people teaching maths, physics, biology, or computing to young people.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/nature-of-code-book-videos"/>
-      <id>http://www.paulmay.org/blog/nature-of-code-book-videos</id>
       <author>
         <name>Paul May</name>
       </author>
