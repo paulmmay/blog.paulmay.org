@@ -58,7 +58,8 @@ margin: 1em auto 2em 0;
 form#archiveform input.archivebutton{
 color: rgba(51, 51, 51, 1.00); 
 background: #cde3ef;
-font: 1.5em droid-serif, Georgia, serif;
+font-size: 1.5em;
+font-family:'CentennialLTW01-55Roman', Georgia, serif;
 text-transform: uppercase;
 letter-spacing: 0.2em;
 padding: 10px;
@@ -70,7 +71,7 @@ border-radius: 12px;
 form#launchform input.launchbutton {
 color: rgba(51, 51, 51, 1.00); 
 background: #cde3ef;
-font: 1.2em droid-serif, Georgia, serif;
+font: 1.2em 'CentennialLTW01-55Roman', Georgia, serif;
 text-transform: uppercase;
 letter-spacing: 0.2em;
 padding: 10px;
@@ -82,10 +83,9 @@ border-radius: 12px;
 
 
 
-.nimbus{
+.sans{
 font-style: normal; 
-font-weight: 600; 
-font-family: nimbus-sans; 
+font-family: 'Avenir LT W01 85 Heavy'; 
 text-transform: none; 
 color: rgba(51, 51, 51, 1.00); 
 }
@@ -110,9 +110,8 @@ color: rgba(100, 100, 100, 1.00);
 }
 
 li.project h3{
-font-family: droid-serif; 
+font-family:'CentennialLTW01-75Bold',Georgia,serif;
 font-size:0.8em;
-font-weight:600;
 margin:0 0 0.2em 0;
 padding:0;
 line-height:1.4em;
@@ -146,7 +145,7 @@ border-top:10px solid #afd3e6;
 }
 
 body{
-font-family: droid-serif; 
+font-family: 'CentennialLTW01-55Roman',Georgia,serif
 font-size: 18px/20px; 
 }
 
@@ -158,7 +157,7 @@ article{
 /* ------------------------------ Common Type ------------------------------ */
 
 p strong{
-font-weight:600;
+font-family:'CentennialLTW01-75Bold';
 }
 
 p.smaller{
@@ -201,9 +200,8 @@ text-decoration: none;
 
 blockquote, blockquote p, p blockquote{ 
 margin-bottom: 1em; 
-font-weight: 400; 
 font-style: normal; 
-font-family: droid-serif; 
+font-family: 'CentennialLTW01-55Roman',Georgia,serif;
 font-size: 1em; 
 color: rgba(100, 100, 100, 1.00); 
 }		
@@ -214,16 +212,14 @@ letter-spacing: 0px;
 line-height: 1.15em; 
 margin-top: 0em; 
 margin-bottom: 0.4em;
-font-weight: 600; 
-font-family: nimbus-sans,sans-serif; 
+font-family: 'Avenir LT W01 85 Heavy',sans-serif; 
 font-size: 3em; 
 color: rgba(51, 51, 51, 1.00); 
 }
 
 h4,h3 { 
 font-style: normal; 
-font-weight: 600; 
-font-family: nimbus-sans, sans-serif; 
+font-family: 'Avenir LT W01 85 Heavy', sans-serif; 
 font-size: 1.6em; 
 text-transform: none; 
 margin-bottom: 0.4em; 
@@ -248,8 +244,7 @@ li{
 text-indent: 0em;
 margin-left:2em;
 font-style: normal; 
-font-weight: 400; 
-font-family: droid-serif; 
+font-family:'CentennialLTW01-55Roman',Georgia,serif;
 font-size: 1.4em; 
 line-height: 1.6em;
 color: rgba(51, 51, 51, 1.00); 
@@ -277,8 +272,7 @@ margin-bottom:1em;
 p {
 /*text-indent: 0.5em;*/
 font-style: normal; 
-font-weight: 400; 
-font-family: droid-serif; 
+font-family:'CentennialLTW01-55Roman',Georgia,serif;
 font-size: 1.4em; 
 margin-bottom: 0.8em; 
 line-height: 1.6em;
@@ -298,7 +292,7 @@ line-height: 1.8em;*/
 }
 
 p strong{
-font-weight: 600; 
+font-family:'CentennialLTW01-75Bold';
 }
 
 .super{
@@ -341,14 +335,12 @@ color: rgba(100, 100, 100, 1.00);
 p.summary { 
 font-size: 1.4em; 
 font-style: normal; 
-font-weight: 400; 
-font-family: droid-serif; 
+font-family:'CentennialLTW01-55Roman',Georgia,serif;
 line-height: 1.6em; 
 }
 
 blockquote{
-font-weight: 400; 
-font-family: droid-serif; 
+font-family:'CentennialLTW01-55Roman',Georgia,serif;
 font-size: 1.3em; 
 margin-bottom: 0.9em; 
 line-height: 1.5em;
@@ -376,8 +368,7 @@ display:block;
 position:absolute;
 margin-left:80px;
 margin-top:18px;
-font-weight: 400; 
-font-family: droid-serif; 
+font-family:'CentennialLTW01-55Roman',Georgia,serif;
 font-size: 1.15em; 
 line-height: 1.25em;
 color: rgba(51, 51, 51, 1.00); 
@@ -385,7 +376,7 @@ color: rgba(51, 51, 51, 1.00);
 
 #minibio a, #tinybio a{
 color: rgba(51, 51, 51, 1.00);
-font-weight: 600; 
+font-family:'CentennialLTW01-75Bold';
 }
 
 #tinybio{
@@ -400,8 +391,7 @@ display:block;
 position:absolute;
 margin-left:70px;
 margin-top:18px;
-font-weight: 400; 
-font-family: droid-serif; 
+font-family:'CentennialLTW01-55Roman',Georgia,serif;
 font-size: 0.9em; 
 line-height: 1.3em;
 color: rgba(51, 51, 51, 1.00); 
@@ -429,8 +419,7 @@ width:100%;
 margin-top:-1.2em;
 margin-bottom:1em;
 text-align:right;
-font-weight: 400; 
-font-family: droid-serif; 
+font-family:'CentennialLTW01-55Roman',Georgia,serif;
 font-size: 0.6em; 
 line-height: 0.9em;
 color: rgba(71, 71, 71, 1.00);
@@ -504,8 +493,7 @@ h2.map{
 line-height: 1.15em; 
 margin-top: 0em; 
 margin-bottom: 0.2em;
-font-weight: 600; 
-font-family: nimbus-sans,sans-serif; 
+font-family: 'Avenir LT W01 85 Heavy',sans-serif; 
 font-size: 2.5em; 
 }
 
@@ -539,8 +527,7 @@ h1 a:link,h1 a:visited,h1 a:hover{
 text-decoration: none;
 margin-right: 0.5em;
 font-style: normal;
-font-weight: 600;
-font-family: droid-serif;
+font-family:'CentennialLTW01-75Bold',Georgia,serif;
 font-size: 1.4em;
 line-height: 1.6em;
 color: rgba(91, 91, 91, 1.00);
@@ -587,8 +574,7 @@ display:inline;
 }
 
 #secondary ul li{
-font-weight: 400; 
-font-family: droid-serif; 
+font-family:'CentennialLTW01-55Roman',Georgia,serif;
 font-size: 1em; 
 line-height: 1.2em;
 }
@@ -633,7 +619,7 @@ li.project{width:100%;float:left;text-decoration:none;list-style:none;margin:0 0
 article p, .content p { text-indent: 0.5em; font-size: 1em; margin-bottom: 0.8em; line-height: 1.4em;}
 .content ol li, .content ul li, article ol li, article ul li {font-size: 1em; line-height: 1.6em;}
 blockquote { text-indent: 0.5em; font-size: 1em; margin-bottom: 1em;}
-h2 { line-height: 1.25em; margin-top: 0em;  margin-bottom: 0.4em; font-weight: 600;  font-family: nimbus-sans,sans-serif;  font-size: 1.5em; }
+h2 { line-height: 1.25em; margin-top: 0em;  margin-bottom: 0.4em; font-family: 'Avenir LT W01 85 Heavy',sans-serif;  font-size: 1.5em; }
 #secondary ul li{margin-left:1em;}
 form#archiveform input.archivebutton {font-size: 1.3em;}
 blockquote{margin-left:1em;}
