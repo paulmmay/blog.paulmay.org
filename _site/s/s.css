@@ -166,6 +166,19 @@ margin-bottom: 0.6em;
 line-height: 1.4em;
 }
 
+.smaller{
+	font-size:70%;
+}
+.discrete{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+.grey{
+	color:#cccccc;
+}
+
+
 em {
 font-style:italic;
 }
