@@ -3,9 +3,32 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2013-08-24T00:00:00Z</updated>
+  <updated>2013-08-30T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
+  
+    <entry>
+      <title>Somewhere Week 9</title>
+      <published>2013-08-30T00:00:00Z</published>
+      <updated>2013-08-30T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;A busy week, a tiring week. While Cliona was settling into her new job, I stayed in London to tidy a few things up.&lt;/p&gt;
+
+&lt;p&gt;Yesterday I moved out of the co-working space in Hackney Wick, rented a little van, and drove our stuff up to Oxford. Our little house there is the bees' knees, and I'm looking forward to getting settled.&lt;/p&gt;
+
+&lt;p&gt;Today, I'm back in London to lock up our sublet in Hackney. Tomorrow morning I fly to the US. I am staying with Simon and Amy in Allentown for a couple of days, then I'll be in New York to see the good people at Sloan-Kettering.&lt;/p&gt;
+
+&lt;p&gt;Obituaries; not to become a regular feature.&lt;/p&gt;
+
+&lt;p&gt;This week we lost the founder of ITP, &lt;a href=&quot;http://www.nytimes.com/2013/08/27/nyregion/red-burns-godmother-of-silicon-alley-dies-at-88.html&quot;&gt;Red Burns&lt;/a&gt;. The reaction to her death on the ITP Alumni mailing list has been quite intense. Some people loved Red. Some really didn't. I think there is a consensus that she was a hardworking, whip-smart, opinionated, and uncompromising woman.&lt;/p&gt;
+
+&lt;p&gt;We also lost &lt;a href=&quot;http://www.bbc.co.uk/news/entertainment-arts-13930435&quot;&gt;Seamus Heaney&lt;/a&gt;. At school we read and studied him, but I didn't hear him. Today, for the first time, I feel like I heard him.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/somewhere-week-9"/>
+      <id>http://www.paulmay.org/blog/somewhere-week-9</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Red Burns</title>
@@ -258,33 +281,6 @@
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/goodbye-for-now-new-york"/>
       <id>http://www.paulmay.org/blog/goodbye-for-now-new-york</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Watson Project at MSKCC</title>
-      <published>2013-03-21T00:00:00Z</published>
-      <updated>2013-03-21T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;It's been a busy month.&lt;/p&gt;
-
-&lt;p&gt;We've started to make plans for our exit from New York. We've narrowed down the list of European cities where we'd like to live, and have started to look into job opportunities.&lt;/p&gt;
-
-&lt;p&gt;As well as the exit planning, I've been working on a fascinating new project at &lt;a href=&quot;http://www.mskcc.org/&quot;&gt;Memorial Sloan Kettering Cancer Center&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The team I work with at Sloan-Kettering is working with IBM to train &lt;a href=&quot;http://www-03.ibm.com/innovation/us/watson/index.shtml&quot;&gt;Watson&lt;/a&gt;, IBM's &lt;a href=&quot;http://www.nytimes.com/2011/02/17/science/17jeopardy-watson.html?pagewanted=all&quot;&gt;machine learning and decision making system&lt;/a&gt;, to diagnose different forms of cancer based on historical medical cases. Once the system has been trained and refined, Watson will be able to recommend appropriate courses of treatment for cancer patients. The project is groundbreaking, and was &lt;a href=&quot;http://www.theatlantic.com/magazine/archive/2013/03/the-robot-will-see-you-now/309216/&quot;&gt;recently profiled in the Atlantic:&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;Ari Caroline and his colleagues at Sloan-Kettering are leading Watson's training in cancer care. &quot;You're going to need a tool like Watson,&quot; he says, given the rapidly increasing complexity of the field. (Photo: Kareem Black)&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.theatlantic.com/magazine/archive/2013/03/the-robot-will-see-you-now/309216/&quot;&gt;&lt;img src=&quot;http://cdn.theatlantic.com/static/newsroom/img/2013/02/15/watson-meeting.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;My role on the project is to work with the messier, less structured parts of anonymized medical records, to prepare clean data for the Watson machine learning pipeline. I've also had a little time to work on some of my own experiments involving machine learning and natural language processing.&lt;/p&gt;
-
-&lt;p&gt;It's a real privilege to be involved with the project, and to work with such audaciously intelligent people. I can't wait to get started in the morning, and my thoughts stay with the project long after I leave in the evening (in a good way). I have been spending a lot of my downtime thinking about the intersection of user experience design and different forms of machine learning. I hope to crystallize a few thoughts into blog articles soon.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/watson-project-sloan-kettering"/>
-      <id>http://www.paulmay.org/blog/watson-project-sloan-kettering</id>
       <author>
         <name>Paul May</name>
       </author>
