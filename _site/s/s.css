@@ -597,11 +597,47 @@ text-decoration:none;
 color: rgba(101, 101, 101, 1.00);
 padding-bottom:3px;
 }
+/* ------------------------------ Palette Tests ------------------------------ */
+.pal-wrapper{
+	min-height:300px;
+}
+#pal{
+	border:10px solid white;
+	float:left;
+}
+
+.pal-description{
+	margin-top:10px;
+	font-size:80%;
+	width:410px;
+	float:right;
+}
+
+.horizontal-stripe{	
+	width:400px;
+	height:1.6em;
+	padding-top:1em;
+	text-align: center;
+}
+
+.colour-value{
+	font-family:'CentennialLTW01-55Roman',Georgia,serif;
+	font-size: 0.8em;
+	color:#fefefe;
+	line-height: 1em;
+	padding:0.25em 0 0.25em 0;
+	/*margin-left:10000px;*/
+}
+
+.colour-value:hover{
+	/*margin-left:0;*/
+}
 
 /* ------------------------------ Responsive Elements ------------------------------ */
 @media screen and (min-width: 960px) {
 #wrapper{ color: #222; width: 960px; margin: 0 auto; margin-bottom:40px; margin-top:0; padding: 1.5em; text-align: left; overflow: visible; }
 .content{ width:730px; }
+.content-wide{ width:860px; }
 .postmeta {float: right;margin: 0.5em 0 0 0;}
 .postmeta .permalink{display:inline;font-size: 1em; color: rgba(100, 100, 100, 1.00);}
 .postmeta .permalink a{color: rgba(100, 100, 100, 1.00);}
