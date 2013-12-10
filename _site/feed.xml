@@ -3,9 +3,34 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2013-12-06T00:00:00Z</updated>
+  <updated>2013-12-10T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
+  
+    <entry>
+      <title>Paying for the Web we Need</title>
+      <published>2013-12-10T00:00:00Z</published>
+      <updated>2013-12-10T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;I probably reacted to the &lt;a href=&quot;http://www.theguardian.com/world/edward-snowden&quot;&gt;Edward Snowden&lt;/a&gt; revelations in the same way that a lot of people did. Not with surprise that mass surveillance happens, but that it happens &lt;a href=&quot;http://www.nytimes.com/2013/11/03/world/no-morsel-too-minuscule-for-all-consuming-nsa.html&quot;&gt;so completely and so effectively&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Months later, I&#39;ve factored the revelations into my opinion of how governments tend to behave (&lt;em&gt;slightly more competent, a lot less cautious&lt;/em&gt;), but otherwise, my behaviour remains unchanged.&lt;/p&gt;
+
+&lt;p&gt;The web that I use, and have helped to build, is one where acceptance of minute surveillance of my activities is a pre-condition for the use of the most basic services.&lt;/p&gt;
+
+&lt;p&gt;This web has laid the technical foundations for mass surveillance, but I believe that it has also laid the psychological/ethical groundwork for the acceptance of surveillance as just another facet of my daily life. (Why governments &lt;em&gt;wouldn&#39;t&lt;/em&gt; put me under surveillance when I&#39;ve accepted that companies can, in exchange for keeping track of my friends&#39; birthdays.)&lt;/p&gt;
+
+&lt;p&gt;Technology introduces biases in the types of things it makes more or less easy. Things that are easy become normal. Things that are difficult become other. The Snowden leaks are the clearest demonstration of this at scale. Remaining private is difficult, and so demanding privacy now would disconnect me from the majority.&lt;/p&gt;
+
+&lt;p&gt;More importantly maybe, the leaks show me that technology has drastically skewed my sense of what is acceptable. I can&#39;t help but fit the NSA&#39;s activities into the moral framework I&#39;ve built up around targeted advertising. And they are certainly not equivalent.&lt;/p&gt;
+
+&lt;p&gt;It&#39;d be impractical, and lonely, to move my online life over to services that aren&#39;t funded via surveillance-marketing, but I can make small steps by paying for the parts of the web that I value in cold hard cash. I can also try to evaluate things that  might be technologically similar with a more critical eye.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/paying-for-the-web-we-need"/>
+      <id>http://www.paulmay.org/blog/paying-for-the-web-we-need</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Weeknotes, Colder Weather</title>
@@ -112,8 +137,8 @@
   
     <entry>
       <title>Seamus Heaney - The Underground</title>
-      <published>2013-08-30T22:31:00Z</published>
-      <updated>2013-08-30T22:31:00Z</updated>
+      <published>2013-08-30T23:31:00Z</published>
+      <updated>2013-08-30T23:31:00Z</updated>
       <content type="html">&lt;p&gt;Leaving is difficult. Moving is difficult. Starting is  difficult. Doing all three at once has been, at times, difficult.&lt;/p&gt;
 
 &lt;p&gt;I heard this today for the first time, to my shame. I thought of Cliona, our journey forward together, and not looking back.&lt;/p&gt;
@@ -233,33 +258,6 @@ For your step following and damned if I look back.&lt;/p&gt;&lt;/blockquote&gt;
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/london-week-6"/>
       <id>http://www.paulmay.org/blog/london-week-6</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>London Week 5</title>
-      <published>2013-08-02T00:00:00Z</published>
-      <updated>2013-08-02T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;Busy week. Desire to turn off computer for the evening. All quickies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3815/9384652196_d6cab8217c_o.jpg&quot; class=&quot;photo&quot; alt=&quot;Duck Pal&quot;&gt;&lt;/p&gt;
-
-&lt;h3&gt;Quickies&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Last weekend we took a trip to the British Museum. It&#39;s astounding. The Rosetta Stone is jawdropping. The number of tourists in the British Museum jostling to get a terrible, flash-lit photograph of the Rosetta Stone is jawdropping, in a very different way. The British Museum is wall to wall loot, and tourists clambering over and photographing said loot in a frenzy.&lt;/li&gt;
-&lt;li&gt;We had a very tasty breakfast at Towpath Cafe, then visited Columbia Road Flower Market, and Hackney City Farm (see Duck, above). Gorgeous, gorgeous.&lt;/li&gt;
-&lt;li&gt;Cliona has been interviewing for jobs, and has made very good progress - news soon.&lt;/li&gt;
-&lt;li&gt;We&#39;ve been tip-toeing our way through the latest episodes of Breaking Bad. It&#39;s so, so, so good. Probably the most compelling TV show I&#39;ve ever watched.&lt;/li&gt;
-&lt;li&gt;I am making progress with yoga. I am still the sweaty beginner in the class, but I can feel myself getting stronger. Less painful vibration as I hold simple poses. Result.&lt;/li&gt;
-&lt;li&gt;A so-so week at work. Nobody said this was going to be easy.&lt;/li&gt;
-&lt;/ul&gt;
-
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/london-weeknotes-5"/>
-      <id>http://www.paulmay.org/blog/london-weeknotes-5</id>
       <author>
         <name>Paul May</name>
       </author>
