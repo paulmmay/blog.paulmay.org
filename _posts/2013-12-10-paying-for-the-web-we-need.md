@@ -13,7 +13,7 @@ Months later, I've factored the revelations into my opinion of how governments t
 
 The web that I use, and have helped to build, is one where acceptance of minute surveillance of my activities is a pre-condition for the use of the most basic services. 
 
-This web has laid the technical foundations for mass surveillance, but I believe that it has also laid the psychological/ethical groundwork for the acceptance of surveillance as just another facet of my daily life. (Why governments _wouldn't_ put me under surveillance when I've accepted that companies can, in exchange for keeping track of my friends' birthdays.)
+This web has laid the technical foundations for mass surveillance, but I believe that it has also laid the psychological/ethical groundwork for the acceptance of surveillance as just another facet of my daily life. (Why _wouldn't_ governments put me under surveillance when I've accepted that companies are allowed to, in exchange for keeping track of my friends' birthdays.)
 
 Technology introduces biases in the types of things it makes more or less easy. Things that are easy become normal. Things that are difficult become other. The Snowden leaks are the clearest demonstration of this at scale. Remaining private is difficult, and so demanding privacy now would disconnect me from the majority. 
 
