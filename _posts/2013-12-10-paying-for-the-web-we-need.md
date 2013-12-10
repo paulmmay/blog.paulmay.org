@@ -19,7 +19,9 @@ Technology introduces biases in the types of things it makes more or less easy. 
 
 More importantly maybe, the leaks show me that technology has drastically skewed my sense of what is acceptable. I can't help but fit the NSA's activities into the moral framework I've built up around targeted advertising. And they are certainly not equivalent. 
 
-It'd be impractical, and lonely, to move my online life over to services that aren't funded via surveillance-marketing, but I can make small steps by paying for the parts of the web that I value in cold hard cash. I can also try to evaluate things that  might be technologically similar with a more critical eye. 
+It'd be impractical, and lonely, to move my online life over to services that aren't funded via surveillance-marketing, but I can take a small step by paying for more parts of the web that I value in cold hard cash. 
+
+I can also try to evaluate things that might be technologically similar, but ethically different, with a much more critical eye. 
 
 
 
