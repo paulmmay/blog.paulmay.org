@@ -20,7 +20,7 @@ Paul's former clients include Abbey Theatre, Accenture, Barracuda FX, BBC, Carte
 * <a href="http://infosthetics.com/archives/2011/03/from_over_here_a_physical_representation_of_news.html">Infosthetics</a> (From Over Here)
 
 ### Contact Details &amp; Résumé	
-* E-Mail: [webmail@paulmay.org](mailto:webmail@paulmay.org) <a href="./about/paulmay.pub" class="smaller discrete">[public key]</a>
+* E-Mail: [webmail@paulmay.org](mailto:webmail@paulmay.org) <a href="paulmay.pub" class="smaller discrete">[public key]</a>
 * Twitter: [@paulmmay](http://twitter.com/paulmmay)	
 * Phone: +1 646 583 3211
 * Portfolio: [www.paulmay.org/work](http://www.paulmay.org/work)
