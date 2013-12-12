@@ -22,7 +22,7 @@ Paul's former clients include Abbey Theatre, Accenture, Barracuda FX, BBC, Carte
 ### Contact Details &amp; Résumé	
 * E-Mail: [webmail@paulmay.org](mailto:webmail@paulmay.org) <a href="paulmay.pub" class="smaller discrete">[public key]</a>
 * Twitter: [@paulmmay](http://twitter.com/paulmmay)	
-* Phone: +1 646 583 3211
+* Phone: +1 646 583 3211x
 * Portfolio: [www.paulmay.org/work](http://www.paulmay.org/work)
 * Profile: [LinkedIn](http://www.linkedin.com/in/paulmay)
 * Résumé/CV: [Available here](/about/resume)
