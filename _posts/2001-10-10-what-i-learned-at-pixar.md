@@ -33,10 +33,10 @@ This type of exploration isn't unique to Pixar; many other animation companies c
 
 It was an inspiring few hours at Pixar, and in a way I'm glad it's taken me this long to sit down and reflect on the experience. At this distance, it is pretty clear to me that the success of Pixar's films hinges on a few simple-to-understand but probably-impossible-to-emulate factors:
 
-<ol>* Deeply and honestly felt **passion** for storytelling and great ideas.
+* Deeply and honestly felt **passion** for storytelling and great ideas.
 * A willingness to **take time, care and attention** to explore and refine stories and ideas - there is no shortcut to the goal of an amazing Pixar film.
 * Amazingly talented people - not just talented people - **the best people** working in film-making today.
-* Continuous focus on **smoothing out friction** in the creative process - reducing waste and unnecessary costs.</ol>
+* Continuous focus on **smoothing out friction** in the creative process - reducing waste and unnecessary costs.
 
 So; easy-peasy. Let's all put the kettle on, dream, explore, iterate and learn. (p.s. I want to work for Pixar)
 
