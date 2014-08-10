@@ -4,7 +4,7 @@ url: staying-relevant
 comments: true
 layout: post
 categories: [blog]
-tags: [technology, talks and teaching, strategy, relevance, featured, belfast, barcamp]
+tags: [technology, talks and teaching, strategy, relevance, belfast, barcamp]
 date: 23-06-2008
 ---
 <p class="intro">There are some incredibly talented people working in technology, design, business - and I wondered how do these people stay so fresh, so highly skilled and so motivated when the nature of their industry and their business changes so quickly and so often. So I asked them; and gave a talk at Barcamp Belfast 2008 to discuss the findings.</p>

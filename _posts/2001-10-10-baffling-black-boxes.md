@@ -4,7 +4,7 @@ url: baffling-black-boxes
 comments: true
 layout: post
 categories: [blog]
-tags: [technology, reith lectures, martin rees, education, complexity]
+tags: [technology, reith lectures, martin rees, education, complexity, featured]
 date: 16-07-2010
 ---
 <p class="intro">The Reith Lectures are an annual series of lectures given by a significant contemporary figure and broadcast by the BBC. This year's lectures, given by Professor Martin Rees, focused on the challenges faced by humans in the 21st century, and how science might help to overcome these challenges. 

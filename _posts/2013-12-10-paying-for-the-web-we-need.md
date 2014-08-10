@@ -4,7 +4,7 @@ url: paying-for-the-web-we-need
 comments: false
 layout: post
 categories: [blog]
-tags: []
+tags: [featured]
 date: 10-12-2013
 ---
 I probably reacted to the [Edward Snowden](http://www.theguardian.com/world/edward-snowden) revelations in the same way that a lot of people did. Not with surprise that mass surveillance happens, but that it happens [so completely and so effectively](http://www.nytimes.com/2013/11/03/world/no-morsel-too-minuscule-for-all-consuming-nsa.html). 

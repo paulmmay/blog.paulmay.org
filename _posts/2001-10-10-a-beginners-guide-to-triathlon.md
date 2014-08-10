@@ -4,7 +4,7 @@ url: A_Beginners_Guide_to_Triathlon
 comments: true
 layout: post
 categories: [blog]
-tags: [triathlon, swim, run, nutrition, guide, getting started, featured, cycle, beginners, basics]
+tags: [triathlon, swim, run, nutrition, guide, getting started, cycle, beginners, basics]
 date: 09-07-2008
 ---
 <p class="intro">This is a quick, hopefully useful Beginner's Guide to Triathlon. I've been competing in the sport for a couple of years and I wanted to put down a few hints and tips to help anybody thinking of giving Triathlon a try. We'll cover training, equipment and some race-day tips.</p>

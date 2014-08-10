@@ -4,7 +4,7 @@ url: a-piece-of-the-puzzle
 comments: true
 layout: post
 categories: [blog]
-tags: [san francisco, playfish, pixar, palo alto, innovation, ideo, get satisfaction, flickr, design, cross creative, creativity, creative culture, adaptive path]
+tags: [san francisco, playfish, pixar, palo alto, innovation, ideo, get satisfaction, flickr, design, cross creative, creativity, creative culture, adaptive path, featured]
 date: 09-03-2010
 ---
 <p class="intro">If we ever wanted to create a more vibrant, creative, diverse economy here in Ireland where would we start? Education is important, scale is important - but I'd start with humility, generosity and honesty.</p>

@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<link rel="alternate" type="application/rss+xml" title="Paul May - Research and Interaction Design" href="/feed.xml" />
-<title>
-{{page.title}} | Paul May</title>
-<link rel="stylesheet" href="/s/s.css"/>
-</head>
-<body>
-<div id="wrapper">
-{%include header%}
-{{content}}
-{%include footer%}
-</div>
-<!--wrapper-->
-</body>
-{%include js%}
-</html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>{{page.title}} | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+
+		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>		
+
+	</head>
+
+	<body>
+
+
+	<header role="banner">
+		{% include primary_nav %}
+	</header>
+
+		{{content}}
+
+
+	<footer>
+		<p>&copy; 2014 Paul May.</p>
+		<ul class="footernav">
+		<li><a href="/colophon">Colophon</a></li>
+		<li><a href="/feed">RSS</a></li>
+		</ul>
+	</footer>
+
+	</body>
+	</html>

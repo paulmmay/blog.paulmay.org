@@ -1,10 +1,10 @@
 ---
-title: Sloan-Kettering Bone Marrow Transplant Project
+title: Sloan Kettering Bone Marrow Transplant Project
 url: mskcc-bone-marrow-transplant-project
 comments: true
 layout: post
 categories: [blog]
-tags: [thesis, service design, research, prototyping, mskcc, itp, interaction design, bone marrow transplantation]
+tags: [thesis, service design, featured, research, prototyping, mskcc, itp, interaction design, bone marrow transplantation]
 date: 07-07-2012
 ---
 <p class="intro">A write-up of my research and design project done in collaboration with Memorial Sloan-Kettering Cancer Center. </p>
@@ -18,7 +18,7 @@ A prototype web application based on these research findings was then developed;
 As part of the development of the prototype, I worked with Sloan-Kettering to write a section of a protocol that will allow Activity App to be tested with patients as part of a forthcoming clinical trial. 
 
 ### Presentation Video
-<iframe src="http://player.vimeo.com/video/42204358?color=f0d000" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
+<iframe src="http://player.vimeo.com/video/42204358?color=f0d000" width="700" height="394"frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
 
 ### Background
 While at ITP I've been fortunate enough to work on a number of health-related projects and I wanted to continue this work with my final thesis project. 

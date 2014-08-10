@@ -8,33 +8,11 @@ url: http://www.paulmay.org
 
 # this goes inside _config.yml. Change as required
 navigation:
-- text: Work
-  url: /work/index.html
-  cleanurl: /work/
-  layout: project
+- text: Home
+  url: /
+  cleanurl: /
+  layout: home
 - text: Blog
   url: /blog/index.html
   cleanurl: /blog/
   layout: post
-- text: About
-  url: /about/index.html
-  cleanurl: /about/
-  layout: about
-  
-secondary:
-- text: Twitter
-  url: http://twitter.com/paulmmay
-  cleanurl: http://twitter.com/paulmmay
-  layout: default
-- text: Photos
-  url: /photos
-  cleanurl: /photos
-  layout: photo
-- text: RSS
-  url: /feed.xml
-  cleanurl: /feed.xml
-  layout: default
-- text: Colophon
-  url: /colophon/index.html
-  cleanurl: /colophon/
-  layout: default

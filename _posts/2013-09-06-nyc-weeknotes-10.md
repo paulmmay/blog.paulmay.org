@@ -8,7 +8,7 @@ tags: [weeknotes]
 date: 06-09-2013
 ---
 <figure>
-<img src="http://farm4.staticflickr.com/3703/9687360957_f2cc742855_b_d.jpg" class="photo">
+<img src="http://farm4.staticflickr.com/3703/9687360957_f2cc742855_b_d.jpg" class="photo silverframe">
 <figcaption>Me and Simon taking part in the <a href="http://www.lehighwheelmen.org/">2013 Donut Derby</a>.</figcaption>
 </figure>
 
