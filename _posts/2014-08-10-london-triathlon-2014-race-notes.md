@@ -63,4 +63,4 @@ This week I've spent quite a bit of time thinking back over the race, and have s
 
 I'm hoping that these notes serve me well as I think about doing more races, and face into my first full winter of training in 5 years. I want to keep it fun and challenging, then come back in the Spring with a plan to do more races. I might do London again next year, just to see if I can translate what I learned this year into a better performance.
 
-More than anything, I'm very happy to be back doing a sport I love, after having very nearly thrown in the towel completely. I want to say a special thank you to Cliona who is always there for me when I'm pushing myself, and who supported me completely on the day of the race.
+More than anything, I'm very happy to be back doing a sport I love, after having very nearly thrown in the towel completely. I want to say a special thank you to Cliona who is always there for me when I'm pushing myself, and who gave me amazing support on the day of the race. 
