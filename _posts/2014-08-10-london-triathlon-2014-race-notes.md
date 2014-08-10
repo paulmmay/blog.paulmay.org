@@ -6,7 +6,7 @@ layout: post
 categories: [blog]
 tags: [weeknotes]
 date: 10-08-2014
-tweets: true
+tweets: false
 tweets-start: 2014-08-01
 tweets-end: 2014-08-10
 ---
