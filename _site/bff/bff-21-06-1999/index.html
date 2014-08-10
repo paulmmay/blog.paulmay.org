@@ -11,7 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
 		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
 
-		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>		
+		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
 
 	</head>
 
@@ -31,7 +32,6 @@
 	I still want it to break left right like the main content div.
 	Two containers? Yes. Two bloody containers. Deal with it. -->
 	<div class="wrapper top">
-		
 		<div class="left masthead">
 			<p class="author">Paul May</p>
 			<h1><a href="/bff/bff-21-06-1999">Ben Fold Five - Relaunch</a></h1>
@@ -46,6 +46,16 @@
 		<div class="left content">
 		<p>As you can see, my exams have finished, and the page is open for business again! I've redesigned most of the content, and hopefully in the next few week the page will be going through some major changes. As usual, the People on the Armchair page is looking for new volunteers, so click here for details. Navigate the page using the drop-down menu at the top of the screen.</p>
 
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
 
 	<div class="pagination">
 	
@@ -77,6 +87,8 @@
 		<ul class="footernav">
 		</ul>
 	</footer>
+
+
 
 </body>
 </html>

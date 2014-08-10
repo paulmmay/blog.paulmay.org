@@ -11,7 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
 		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
 
-		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>		
+		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
 
 	</head>
 
@@ -31,7 +32,6 @@
 	I still want it to break left right like the main content div.
 	Two containers? Yes. Two bloody containers. Deal with it. -->
 	<div class="wrapper top">
-		
 		<div class="left masthead">
 			<p class="author">Paul May</p>
 			<h1><a href="/bff/bff-30-06-2000">Ben Folds Five - Summerfest 2000</a></h1>
@@ -46,6 +46,16 @@
 		<div class="left content">
 		<p>Summerfest is one of the largest music festivals in the world, and runs this year from June 29th to July 9th. Why is this important you ask? This year Ben Folds Five will play on the closing day of the festival (July 9th), and the show will be broadcast live over the internet. The show is tentatively scheduled for 8.00pm PDT, and you can listen in on the show by clicking on the banner below. Check the Summerfest page for more accurate show times closer to the date. Let's all hope they play more new material!!!</p>
 
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
 
 	<div class="pagination">
 	
@@ -79,6 +89,8 @@
 		<ul class="footernav">
 		</ul>
 	</footer>
+
+
 
 </body>
 </html>

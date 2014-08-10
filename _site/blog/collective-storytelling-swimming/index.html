@@ -11,7 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
 		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
 
-		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>		
+		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
 
 	</head>
 
@@ -31,7 +32,6 @@
 	I still want it to break left right like the main content div.
 	Two containers? Yes. Two bloody containers. Deal with it. -->
 	<div class="wrapper top">
-		
 		<div class="left masthead">
 			<p class="author">Paul May</p>
 			<h1><a href="/blog/collective-storytelling-swimming">Audio Story - Swimming</a></h1>
@@ -72,6 +72,16 @@
 
 <p>Thank you so much to Saraswathi Subbaraman, Will Jennings and Eszter Ozsvald who were kind enough to talk to me for the piece; they are nice people. Eszter's interview isn't featured in the final piece; the symmetry between Saraswathi and Will's voices (one male, one female) just worked well so I stuck with that.</p>
 
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
 
 	<div class="pagination">
 	
@@ -105,6 +115,8 @@
 		<ul class="footernav">
 		</ul>
 	</footer>
+
+
 
 </body>
 </html>

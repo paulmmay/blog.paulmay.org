@@ -11,7 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
 		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
 
-		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>		
+		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
 
 	</head>
 
@@ -31,7 +32,6 @@
 	I still want it to break left right like the main content div.
 	Two containers? Yes. Two bloody containers. Deal with it. -->
 	<div class="wrapper top">
-		
 		<div class="left masthead">
 			<p class="author">Paul May</p>
 			<h1><a href="/blog/thesis-week-4-research-complete">Thesis Week 4 - Research Complete</a></h1>
@@ -53,6 +53,16 @@
 
 <p>I enjoyed the research phase a lot; I met some really remarkable people and had the opportunity to reflect on my design process in a lot of detail. I've identified a couple of exciting, practical projects that I think flow naturally from the research findings - so now I just need to pick what sub-set of these challenges I want to focus on for the next few weeks and get building.</p>
 
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
 
 	<div class="pagination">
 	
@@ -86,6 +96,8 @@
 		<ul class="footernav">
 		</ul>
 	</footer>
+
+
 
 </body>
 </html>

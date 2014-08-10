@@ -11,7 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
 		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
 
-		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>		
+		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
 
 	</head>
 
@@ -31,7 +32,6 @@
 	I still want it to break left right like the main content div.
 	Two containers? Yes. Two bloody containers. Deal with it. -->
 	<div class="wrapper top">
-		
 		<div class="left masthead">
 			<p class="author">Paul May</p>
 			<h1><a href="/blog/alignment-of-private-personal-and-public-data">Alignment of Private, Personal and Public Data</a></h1>
@@ -59,6 +59,16 @@
 
 <p>I had no idea that two peaks from these two unrelated projects would align. I was reminded how useful it is to have some understanding of how to work with data. I get a sense that these abilities will be even more relevant in the future as we try to draw together a sense of our lives and our histories using data; we'll need to know how to draw on memory, privately held data, personal public data (like our tweets) and news sources to add context and perspective - drawing it all together to gain insight.&nbsp; I've said this <a href="http://paulmay.org/blog/tedx-data-representation-and-personal-narratives/" title="before">before</a>, but today's coincidence just made it feel much more real.</p>
 
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
 
 	<div class="pagination">
 	
@@ -92,6 +102,8 @@
 		<ul class="footernav">
 		</ul>
 	</footer>
+
+
 
 </body>
 </html>

@@ -2,7 +2,7 @@
 title: London Triathlon Race Notes
 url: london-triathlon-2014-note
 comments: true
-layout: weeknote
+layout: post
 categories: [blog]
 tags: [weeknotes]
 date: 10-08-2014
