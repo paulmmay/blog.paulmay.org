@@ -1,6 +1,6 @@
 ---
 title: London Triathlon Race Notes
-url: london-triathlon-weeknotes
+url: london-triathlon-2014-note
 comments: true
 layout: weeknote
 categories: [blog]
