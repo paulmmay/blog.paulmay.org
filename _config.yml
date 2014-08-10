@@ -8,9 +8,9 @@ url: http://www.paulmay.org
 
 # this goes inside _config.yml. Change as required
 navigation:
-- text: Home
-  url: /
-  cleanurl: /
+- text: About
+  url: /about/index.html
+  cleanurl: /about/
   layout: home
 - text: Blog
   url: /blog/index.html
