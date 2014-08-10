@@ -60,6 +60,13 @@
 
 	
 	
+	<div id="tweets">
+	<h3>This Week's Tweets</h3>
+	<ul id="recent_tw">
+		<!-- placeholder for me shiting on about shite. -->
+	</ul>
+	</div>
+	
 
 	
 	<div id="templates">
@@ -102,6 +109,12 @@
 		</ul>
 	</footer>
 
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.js"></script>
+<script src="/j/tweets.js"></script>
+<script>
+TWEETS.retrievers.getTweets("2014-01-01","2014-01-12",true);
+</script>
 
 
 </body>

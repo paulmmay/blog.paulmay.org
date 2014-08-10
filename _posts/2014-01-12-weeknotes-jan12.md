@@ -6,6 +6,9 @@ layout: post
 categories: [blog]
 tags: [weeknotes]
 date: 12-01-2014
+tweets: true
+tweets-start: 2014-01-01
+tweets-end: 2014-01-12
 ---
 We're back in Oxford this week after two weeks in Ireland for Christmas. Things are going well. 
 
