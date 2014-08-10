@@ -6,9 +6,6 @@ TWEETS.retrievers = {};
 TWEETS.retrievers = {
    getTweets: function(_startdate,_enddate,_render) {
 
-    _startdate = "2014-07-1";
-    _enddate = "2014-08-10";
-
     baseURL = "http://api.paulmay.org/tweets/";
     format = "json";
    
