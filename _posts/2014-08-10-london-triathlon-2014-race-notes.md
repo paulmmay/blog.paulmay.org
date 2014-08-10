@@ -34,7 +34,7 @@ Just before 3pm, my wave assembled in the Excel Centre, and a few minutes later 
 
 The transition to bike was fairly smooth. For the first time, I attached my shoes to my bike, and tried a rolling mount, albeit at low speed. I got away without a fuss, and got my feet into the shoes after about 100m. 
 
-I really went as hard as I could on the bike, without going into the red. I kept up a high cadence, and thankfully the conditions allowed me to get up to a good speed. I kept an eye on my average speed, but really focused on maintaining my level of effort and cadence. I took on about 500ml of energy drink, and two gels on the bike. Unlike times when I've raced in the past, these felt essential. I could really feel the difference at the end of the bike; sore, but not out of energy.
+I really went as hard as I could on the bike, without going into the red. I kept up a high cadence in my target heart range, and thankfully the conditions allowed me to get up to a good speed. I took on about 500ml of energy drink, and two gels on the bike. Unlike previous races, eating on the bike felt essential. I could really feel the difference at the end of the bike; sore, but not out of energy.
 
 After two laps, I pulled into transition, but got confused and wasted time talking to the race marshals. The bike course is a bit shorter than advertised, and this threw me. I spent easily 3 minutes trying to work out if I had missed a segment of the course. I was still thinking about this, and worrying about being disqualified, well into the run. 
 
@@ -58,7 +58,7 @@ This week I've spent quite a bit of time thinking back over the race, and have s
 * Swim start - I need to be much fitter and more efficient on the swim. I don't need to start quickly, but I can't struggle in the first 500m. My lungs need to be open and ready within a couple of minutes, not 10.
 * T1 - I need to practice taking my wetsuit off, with specific focus on getting my right ankle out.
 * T1 - I need to get a lot better at mounting the bike.
-* Bike - I need to think about being more aerodynamic. I need to build up more endurance; I was getting to my limit at the one hour mark. 
+* Bike - I need to think about being more aerodynamic. I need to build up more endurance so that I can cope with tougher conditions, and stay fresh in the last 10-15 monutes of sustained effort.
 * Run - I need to do more work on the mental side of running, especially off the bike. I am able to run quickly off the bike, but if I'm not feeling confident, I listen to the pain too much. I obviously need to get faster and more efficient as well. 
 
 I'm hoping that these notes serve me well as I think about doing more races, and face into my first full winter of training in 5 years. I want to keep it fun and challenging, then come back in the Spring with a plan to do more races. I might do London again next year, just to see if I can translate what I learned this year into a better performance.
