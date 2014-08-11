@@ -10,7 +10,7 @@ tweets: false
 tweets-start: 2014-08-01
 tweets-end: 2014-08-10
 ---
-I took up triathlon in 2004 on a whim. A work colleague was racing the Chicago Triathlon to raise money for charity, and he wanted others to race with him. I took up the sport, raced in Chicago, and continued to train and race for a couple of years. Having done little sport or exercise before then, finding a sport that I enjoyed was a revalation to me. It had a hugely positive impact on my life.
+I took up triathlon in 2006 on a whim. A work colleague was racing the Chicago Triathlon to raise money for charity, and he wanted others to race with him. I took up the sport, raced in Chicago, and continued to train and race for a couple of years. Having done little sport or exercise before then, finding a sport that I enjoyed was a revalation to me. It had a hugely positive impact on my life.
 
 In New York, I flirted with the idea of running a marathon. I did more running than I had ever before, but when I tried to ramp up my distance, my ankles and knees gave way, and I was forced to stop all running, and any training involving force or impact on my legs. At first, being injured was depressing and frustrating, not to mention sore. After a while, I got used to it. That was two years ago. 
 
