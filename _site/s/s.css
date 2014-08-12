@@ -289,7 +289,8 @@ color:hsl(0,100%,0%);
 	width:50%;
 }
 
-h3{
+/* I FEEL BAD ABOUT THIS BUT HEY */
+h4, h3{
 	font-family: 'HelveticaMonospacedW01- 883251';
 	font-size:1.2rem;
 	line-height: 2.51.4rem;
@@ -594,7 +595,43 @@ header.transparent{
 
 /* Races */
 
+.races-wrapper h3{
+	font-family: 'HelveticaMonospacedW01- 883251';
+	font-size:1.8rem;
+	line-height: 2.51rem;
+	margin:0.7rem 0 0.7rem 0;
+	color: hsl(0, 0%, 90%);
+	-webkit-font-smoothing: antialiased;
+}
 
+.races-wrapper p.tagline{
+	border-bottom: 1px solid hsl(0, 0%, 23%);
+	padding-bottom: 0.5rem;
+}
+
+.racecount .darker{
+	color:hsl(0,0%,45%);
+}
+
+.race-item{
+	background-color: hsl(0, 0%, 12%);
+	padding:1rem;
+	max-width:10rem;
+	display:inline-block;
+	margin:0.25rem 0.1rem 0.25rem 0.25rem;
+}
+
+.race-item:hover{
+	background-color: hsl(0, 0%, 14%);
+	cursor:pointer;
+}
+
+
+
+.race-item img{
+	width:100%;
+	height:auto;
+}
 
 .nav{
 	max-width:300px;
@@ -620,6 +657,10 @@ header.transparent{
 
 .races-wrapper{
 	padding:3rem;
+}
+
+.races-wrapper.summary{
+	background-color: hsl(0, 0%, 18%);
 }
 
 .races-wrapper p.author{
@@ -649,17 +690,103 @@ header.races{
 }
 
 body.races{
-	color: hsl(0, 0%, 85%);
+	color: hsl(0, 0%, 90%);
 	background-color: hsl(0, 0%, 20%);
 }
 
 
+/* Vizzy Tests */
+
+.num-races{
+	border-bottom:1px solid hsl(0,0%,30%);
+	max-width: 35%;
+}
+
+.num-races ul{
+	display:inline-block;
+}
+
+.num-races p{
+display:inline-block;
+margin-right:1rem;
+font-size:1rem;
+}
+ul.racecount{
+
+}
+
+.tinycircle{
+	display:inline-block;
+	margin:0 5px 0 0;
+	padding:0;
+	height:10px;
+	width:10px;
+	border-radius: 50%;
+}
+
+.nofloat{
+	float:none;
+}
+
+.floatleft{
+	float:left;
+}
+
+.floatright{
+	float:right;
+}
+
+.tinycircle.run{
+		background-color: hsl(190, 30%, 55%);
+	}
+
+.tinycircle.tri{
+		background-color: #4a9945;
+	}
 
 
+.tinycircle.cyc{
+		background-color: #efc341;
+}
+
+.race-types{
+	max-width:35%;
+}
+
+.race-types p{
+	display:inline-block;
+}
+
+.race-types li{
+	display:inline-block;
+	margin:0;
+	border:0;
+	padding:0;
+	height:10px;
+	background-color: #ccc;
+}
+
+.racecount span.type-name{
+	margin-right:0.5rem;
+}
+
+.race-item span.desc{
+	font-size:0.8rem;
+	line-height: 1rem;
+	color:hsl(0,0%,70%);
+}
+
+td.col1{
+	max-width:20%;
+	padding-right:2rem;
+}
+td.col2{
+	max-width:70%;
+}
 /*Responsive Test*/
 
 @media screen and (max-width: 480px) {
-
+	
 	.right{
 		display:none;
 	}
