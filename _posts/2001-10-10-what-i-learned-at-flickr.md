@@ -13,13 +13,13 @@ date: 13-07-2010
 ### Mindblowing Stats to Blow Your Mind
 I am thoroughly biased; <a href="http://www.flickr.com/people/paulmmay/" title="I love Flickr">I love Flickr</a> - so let me start with some numbers/facts to set the scene in a somewhat objective fashion. 
 
-<ol>
+
 * Flickr was <a href="http://www.salon.com/technology/feature/2004/12/20/flickr/" title="2004">publicly launched in 2004</a>, and was <a href="http://blog.flickr.net/en/2005/03/20/yahoo-actually-does-acquire-flickr/" title="acquired by Yahoo!">acquired by Yahoo!</a> in 2005. 
 * Flickr is now home to over <a href="http://blog.flickr.net/en/2009/10/12/4000000000/" title="4 billion photos">4 billion (yes <em>billion</em>) photos</a> taken by a community of 45 million registered users, experienced by 80 million unique visitors per month.
 * Flickr spend practically no money on marketing; what little <em>is</em> spent goes on to support Flickr meetups with schwag (stickers, buttons, t-shirts, pro accounts).
 * Flickr has a healthy revenue model (though they wouldn't say how healthy) built on subscriptions, advertising, <a href="http://news.bbc.co.uk/2/hi/technology/8744817.stm" title="photo licensing">photo licensing</a> and e-commerce (printing). 
 * Flickr is a team of just <em>40 people</em> - plus about the same number again who work in Yahoo! data centres where Flickr is deployed.
-</ol>
+
 
 So, in a cobbling-together-of-factoids sort of way - Flickr is a nimble and successful company. 
 
