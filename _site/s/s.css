@@ -447,7 +447,7 @@ margin:1.8rem auto;
 	/*display:none;*/
 }
 
-#tweets{
+#tweets .separator{
 	padding-top:1rem;
 	border-top:1px solid hsl(0, 0%, 75%);
 }
