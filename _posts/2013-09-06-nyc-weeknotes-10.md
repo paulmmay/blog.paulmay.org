@@ -8,7 +8,7 @@ tags: [weeknotes]
 date: 06-09-2013
 tweets: true
 tweets-start: 2013-09-06
-tweets-start: 2013-08-30
+tweets-end: 2013-08-30
 ---
 <figure>
 <img src="http://farm4.staticflickr.com/3703/9687360957_f2cc742855_b_d.jpg" class="photo silverframe">
