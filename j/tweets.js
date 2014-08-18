@@ -9,13 +9,13 @@ TWEETS.retrievers = {
     baseURL = "http://api.paulmay.org/tweets/";
     format = "json";
    
-    $.ajax({url: baseURL+_startdate+"/"+_enddate+"/"+format+"/",dataType:"json",success:handleSuccess});
+    var request = $.ajax({url: baseURL+_startdate+"/"+_enddate+"/"+format+"/",dataType:"json",success:handleSuccess});
     
     function handleSuccess(_response,_status,jqXHR){
       // console.log({"status":_status,"tweets":_response});
       TWEETS.parsed = {"status":"ok","tweets":_response};
       //render?
-      if(_render===true && _response.length !== undefined && _response.length > 0){
+      if(_render===true){
         TWEETS.renderers.simple("recent_tw","tweet_template");
       }
     }
@@ -31,13 +31,11 @@ TWEETS.renderers = {
     $("#"+_target).append("<h3>This Week's Tweets</h3>");
     $("#"+_target).addClass("separator");
 
-    for(t in tweets){
-      //render the html
-      html = tweet_template({text:tweets[t]["t"],date:TWEETS.handy.parseDate(tweets[t]["c_a"])});
-      //append the html to the page
+    //iterate over tweets
+    for (var id in tweets) {
+      tweet = tweets[id];
+      html = tweet_template({text:tweet["t"],date:TWEETS.handy.parseDate(tweet["c_a"])});
       $("#"+_target).append(html);
-      //try out the date parsing
-      
     }
   }
 }

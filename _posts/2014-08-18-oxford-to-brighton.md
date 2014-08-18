@@ -6,8 +6,8 @@ layout: post
 categories: [blog]
 tags: []
 tweets: true
-tweets-start: 2014-08-18
-tweets-end: 2014-08-11
+tweets-start: 2014-08-11
+tweets-end: 2014-08-18
 date: 2014-08-18
 ---
 A week of solid progress on work projects; things are starting to get very interesting - that point of a project where big chunks start knitting together. 
