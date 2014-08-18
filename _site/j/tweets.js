@@ -15,7 +15,7 @@ TWEETS.retrievers = {
       // console.log({"status":_status,"tweets":_response});
       TWEETS.parsed = {"status":"ok","tweets":_response};
       //render?
-      if(_render===true){
+      if(_render===true && _response.length !== undefined && _response.length > 0){
         TWEETS.renderers.simple("recent_tw","tweet_template");
       }
     }
