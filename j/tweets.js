@@ -28,7 +28,9 @@ TWEETS.renderers = {
     var source   = $("#"+_template).html();
     var tweet_template = Handlebars.compile(source);
     tweets = TWEETS.parsed.tweets;
-     $("#"+_target).append("<h3>This Week's Tweets</h3>");
+    $("#"+_target).append("<h3>This Week's Tweets</h3>");
+    $("#"+_target).addClass("separator")
+
     for(t in tweets){
       //render the html
       html = tweet_template({text:tweets[t]["t"],date:TWEETS.handy.parseDate(tweets[t]["c_a"])});
