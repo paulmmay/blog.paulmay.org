@@ -51,15 +51,3 @@ TWEETS.handy = {
     return(dateBits[2]+" "+months[parseInt(dateBits[1]-1)].toString()+" "+dateBits[0]);
   }
 }
-
-
-
-
-
-
-    // .done(function(response) {
-    //   parsed = {"status":"ok","data":response};
-    // })
-    // .fail(function(){
-    //   parsed = {"status":"error"}
-    // });
