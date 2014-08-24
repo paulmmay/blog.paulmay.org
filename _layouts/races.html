@@ -10,8 +10,11 @@
 
 		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
 		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="/s/dot.css" media="all"/>
 
-		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>		
+		<script type="text/javascript" src="http://fast.fonts.net/jsapi/0f971dd6-a4a7-44df-b3b5-bf59901be7cc.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>	
+		<script src="/j/dot.js"></script>		
 
 	</head>
 
@@ -32,8 +35,46 @@
 			<li class="tinycircle cyc nofloat"></li><span class="type-name darker">Cycle/Sportive</span>
 			<li class="tinycircle tri nofloat"></li><span class="type-name darker">Triathlon</span>
 		</ul>
-		<div id="race-numbers"><!--REPLACE WITH TEMPLATE-->
-		<div class="race-item">
+
+		<!--DETAIL - REPLACE WITH TEMPLATE-->
+		<div id="race-detail">
+			<div class="detail-number">
+			<img src="numbers/img_numbers_001.jpg" class="number"/>
+			</div>
+
+			<div class="detail-data">
+			<div class="headline">
+			<ul>
+				<li>1500<span class="unit">m</span><div class="desc">Swim</div></li>
+				<li>40<span class="unit">km</span><div class="desc">Cycle</div></li>
+				<li>10<span class="unit">km</span><div class="desc">Run</div></li>
+
+			<li>38:16<div class="desc">Time</div></li>
+			<li>128<div class="desc">Pos</div></li>
+			<li>18<div class="desc">Cat Pos</div></li>
+		</ul>
+			</div>
+
+			<table class="race-summary-table">
+				<tr><td class="col1">Race</td><td>God's Love We Deliver</td></tr>
+				<tr><td class="col1">Date</td><td>10th September 2014</td></tr>
+				<tr><td class="col1">Type</td><td><div class="tinycircle run nofloat"></div><span class="type-name">Run</span></td></tr>
+				<tr><td class="col1">Location</td><td>Central Park, New York</td></tr>
+				<tr><td class="col1">Distance</td><td>5 Km</td></tr>
+				<tr><td class="col1">Time</td><td>00:38:16</td></tr>
+				<tr><td class="col1">Finishers</td><td>347</td></tr>
+				<tr><td class="col1">Position</td><td>180</td></tr>
+				<tr><td class="col1">Category Pos</td><td>12</td></tr>
+
+			</table>
+			</div>
+		</div>
+		<!--END DETAIL - REPLACE WITH TEMPLATE-->
+
+
+		<div id="race-numbers">
+		<!--REPLACE WITH TEMPLATE-->
+		<div class="race-item" id="item1">
 			<img src="numbers/img_numbers_001.jpg" class="number"/>
 			<div class="tinycircle run nofloat"></div><span class="desc">Aug 13</span>	
 		</div>
@@ -157,7 +198,7 @@
 		<h3>Summary</h3>
 
 <!--LEGITIMATE USE OF A TABLE SHUT UP-->
-<table id="race-summary-table">
+<table class="race-summary-table">
 	<tr>
 		<td class="col1">Number of Races</td><td>24</td>
 	</tr>
