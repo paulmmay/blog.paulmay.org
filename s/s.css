@@ -620,13 +620,35 @@ header.transparent{
 
 	/*General*/
 	html{
-	font-size:14px;
+	font-size:12px;
 	}
 	body{
 	/*background-color: red;*/
 	}
 
 	/*Article*/
+
+	a.previous-link{
+	font-size:1rem;
+	float:left;
+	overflow: hidden;
+	white-space: nowrap;
+	}
+
+	a.next-link{
+	font-size:1rem;
+	clear:right;
+	float: right;
+	overflow: hidden;
+	white-space: nowrap;
+	}
+
+
+
+	blockquote,p,ul,figcaption{
+		font-size:1.1rem;
+		line-height: 1.5rem;
+	}
 
 	.content ul{
 		margin-left:1.2rem;
