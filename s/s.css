@@ -324,10 +324,18 @@ h4, h3{
 	border-top:4px double hsl(0, 0%, 75%);
 }
 
-a.next-link{
-	float: right;
+a.previous-link{
+	float:left;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
+a.next-link{
+	clear:right;
+	float: right;
+	overflow: hidden;
+	white-space: nowrap;
+}
 
 /* Footer */
 
