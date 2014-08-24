@@ -1,0 +1,25 @@
+---
+layout: rss-feed
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.name | xml_escape}}</title>
+  <subtitle></subtitle>
+  <icon></icon>
+  <updated>{{ site.categories.blog.first.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+  <id>http://www.paulmay.org/feed.xml</id>
+  <link type="text/html" rel="alternate" href="{{ site.url }}"/>
+  {% for post in site.categories.blog limit:10 %}
+    <entry>
+      <title>{{ post.title | xml_escape}}</title>
+      <published>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</published>
+      <updated>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+      <content type="html">{{ post.content | xml_escape }}</content>
+      <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
+      <id>{{ site.url }}{{ post.url }}</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
+  {% endfor %}
+</feed>
