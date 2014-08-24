@@ -58,7 +58,7 @@ This week I've spent quite a bit of time thinking back over the race, and have s
 * Swim start - I need to be much fitter and more efficient on the swim. I don't need to start quickly, but I can't struggle in the first 500m. My lungs need to be open and ready within a couple of minutes, not 10.
 * T1 - I need to practice taking my wetsuit off, with specific focus on getting my right ankle out.
 * T1 - I need to get a lot better at mounting the bike.
-* Bike - I need to think about being more aerodynamic. I need to build up more endurance so that I can cope with tougher conditions, and stay fresh in the last 10-15 monutes of sustained effort.
+* Bike - I need to think about being more aerodynamic. I need to build up more endurance so that I can cope with tougher conditions, and stay fresh in the last 10-15 minutes of sustained effort.
 * Run - I need to do more work on the mental side of running, especially off the bike. I am able to run quickly off the bike, but if I'm not feeling confident, I listen to the pain too much. I obviously need to get faster and more efficient as well. 
 
 I'm hoping that these notes serve me well as I think about doing more races, and face into my first full winter of training in 5 years. I want to keep it fun and challenging, then come back in the Spring with a plan to do more races. I might do London again next year, just to see if I can translate what I learned this year into a better performance.
