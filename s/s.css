@@ -3,7 +3,7 @@
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
 
- html{
+html{
 	font-size: 16px;
 	line-height: 22px;
 }
@@ -663,6 +663,12 @@ header.transparent{
 	}
 
 	.left{
+		width:90%;
+		margin-right:10%;
+		padding-right:0;
+	}
+
+	.blurb{
 		width:90%;
 		margin-right:10%;
 		padding-right:0;
