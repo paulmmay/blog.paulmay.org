@@ -214,12 +214,12 @@ ul.bookmarks li{
 
 
 
-.content  p.datetime{
+/*.content  p.datetime{
 	font-size:0.8em;
 	line-height:1.4em;
 	margin-bottom:1.4em;
 	color:#878787;
-}
+}*/
 
 .content  p:last-child{
 	margin-bottom:0;
@@ -616,13 +616,17 @@ header.transparent{
 		padding-right:0;
 	}
 
+	p.datetime{
+		font-size: 100%;
+	}
+
 	.right{
 		display:none;
 	}
 	.masthead h1{
-		max-width: 95%;
-		font-size:2.5rem;
-		line-height: 3.2rem;
+		max-width: 100%;
+		font-size:2rem;
+		line-height: 2.4rem;
 	}
 
 	html{
