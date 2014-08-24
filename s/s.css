@@ -116,6 +116,7 @@ header li, footer li{
 .nav.main a{
 	text-decoration: none;
 	color:hsl(0, 0%, 70%);
+	padding-bottom: 0.25rem;
 }
 
 .nav.main a:hover{
