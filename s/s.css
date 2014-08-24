@@ -627,6 +627,11 @@ header.transparent{
 	}
 
 	/*Article*/
+
+	.content ul{
+		margin-left:1.5rem;
+	}
+
 	.left{
 		width:90%;
 		margin-right:10%;
