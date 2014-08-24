@@ -610,6 +610,15 @@ header.transparent{
 /*Tiny Little Screens*/
 @media screen and (max-width: 480px) {
 
+	/*General*/
+	html{
+	font-size:12px;
+	}
+	body{
+	/*background-color: red;*/
+	}
+
+	/*Article*/
 	.left{
 		width:90%;
 		margin-right:10%;
@@ -618,6 +627,10 @@ header.transparent{
 
 	p.datetime{
 		font-size: 100%;
+	}
+
+	.tweetdate{
+	font-size: 100%;
 	}
 
 	.right{
@@ -629,10 +642,4 @@ header.transparent{
 		line-height: 2.4rem;
 	}
 
-	html{
-		font-size:12px;
-		}
-		body{
-		/*background-color: red;*/
-	}
 }
