@@ -100,7 +100,8 @@ header li, footer li{
 .nav.main{
 	/*font-family:'HelveticaNeueW01-67MdCn 692710';*/
 	/*font-family:'NeueHaasGroteskDisp W01';*/
-	font-size:1em;
+	font-size:1rem;
+	line-height: 1.4rem
 	letter-spacing: 0.05em;
 }
 
@@ -626,6 +627,14 @@ header.transparent{
 	/*background-color: red;*/
 	}
 
+	/* Nav */
+
+	.nav.main{
+		font-size:1.1rem;
+		line-height: 1.5rem
+		letter-spacing: 0.05em;
+	}
+
 	/*Article*/
 
 	a.previous-link{
@@ -643,9 +652,7 @@ header.transparent{
 	white-space: nowrap;
 	}
 
-
-
-	blockquote,p,ul,figcaption{
+	.content blockquote,.content p,.content ul,.content figcaption{
 		font-size:1.1rem;
 		line-height: 1.5rem;
 	}
