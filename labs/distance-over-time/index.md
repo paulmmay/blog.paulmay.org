@@ -1,4 +1,0 @@
----
-layout: races
-title: Races
----
