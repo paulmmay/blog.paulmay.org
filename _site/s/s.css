@@ -31,6 +31,15 @@ footer{
 	padding: 2rem 0 2rem 0;
 }
 
+.bottom{
+	/*background-color: hsl(240,4.2%,81.2%);*/
+	display:block;
+	text-align:center;
+	vertical-align: baseline;
+}
+
+
+
 .max50{
 max-width:50%;
 }
@@ -613,6 +622,49 @@ header.transparent{
 	margin-left:2em;
 }
 
+/* Experimental Home */
+.site-title{
+	text-align:center;
+}
+.site-title h1.author{
+	font-family:'HelveticaMonospacedW01- 883254';
+	font-size:3rem;
+	line-height: 5rem;
+	margin-bottom:0.7rem;
+	color:rgba(51, 51, 51, 1);
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.foot1{
+background-color: hsl(0,0%,60%);
+padding: 0.1rem;
+}
+
+.foot2{
+background-color: hsl(0,0%,50%);
+padding: 0.2rem;
+}
+
+.foot3{
+background-color: hsl(0,0%,40%);
+padding: 0.3rem;
+}
+
+.foot4{
+background-color: hsl(0,0%,30%);
+padding: 0.4rem;
+}
+
+.foot5{
+background-color: hsl(0,0%,20%);
+padding: 0.5rem;
+}
+
+footer.home{
+	padding:0;
+}
 
 
 /*Responsive Test*/
