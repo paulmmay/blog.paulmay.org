@@ -1,30 +1,16 @@
 /* Distance Over Time */
 
-.num-races{
-	border-bottom:1px solid hsl(0,0%,30%);
-	max-width: 35%;
+
+
+/* Structure */
+
+header.races{
+	background-color: hsl(0, 0%, 15%);
 }
 
-.num-races ul{
-	display:inline-block;
-}
-
-.num-races p{
-display:inline-block;
-margin-right:1rem;
-font-size:1rem;
-}
-ul.racecount{
-
-}
-
-.tinycircle{
-	display:inline-block;
-	margin:0 5px 0 0;
-	padding:0;
-	height:10px;
-	width:10px;
-	border-radius: 50%;
+body.races{
+	color: hsl(0, 0%, 90%);
+	background-color: hsl(0, 0%, 20%);
 }
 
 .nofloat{
@@ -39,60 +25,14 @@ ul.racecount{
 	float:right;
 }
 
-.tinycircle.run{
-		background-color: hsl(190, 30%, 55%);
-	}
-
-.tinycircle.tri{
-		background-color: #4a9945;
-	}
-
-
-.tinycircle.cyc{
-		background-color: #efc341;
-}
-
-.race-types{
-	max-width:35%;
-}
-
-.race-types p{
-	display:inline-block;
-}
-
-.race-types li{
-	display:inline-block;
-	margin:0;
-	border:0;
-	padding:0;
-	height:10px;
-	background-color: #ccc;
-}
-
-.racecount span.type-name{
-	margin-right:0.5rem;
-}
-
+/* General Type */
 .desc{
-	font-size:0.9rem;
-	line-height: 1rem;
+	font-size:1rem;
+	line-height: 1.2rem;
 	color:hsl(0, 0%, 60%);
 }
 
-td.col1{
-	color:hsl(0, 0%, 60%);
-	max-width:20%;
-	padding-right:2rem;
-}
-td.col2{
-	max-width:70%;
-}
-
-
-
-
-
-
+/* Navigation */
 .nav.races a{
 	text-decoration: none;
 	color:hsl(0,0%,50%)
@@ -109,24 +49,7 @@ td.col2{
 	border-bottom:2px solid hsl(0, 0%, 50%);
 }
 
-.races-wrapper{
-	padding:3rem;
-}
-
-.races-wrapper.summary{
-	background-color: hsl(0, 0%, 18%);
-}
-
-.races-wrapper p.author{
-	color:inherit;
-}
-
-.race-summary-table{
-	/*background-color: red;*/
-	font-size:0.9rem;
-}
-
-
+/* Masthead, Project Title */
 
 .races-wrapper h1{
 	font-family:'CentennialLTW01-75Bold';
@@ -146,74 +69,16 @@ color:rgba(51, 51, 51, 1);
 	color:hsl(0, 0%, 20%);
 }
 
-header.races{
-	background-color: hsl(0, 0%, 15%);
-}
-
-body.races{
-	color: hsl(0, 0%, 90%);
-	background-color: hsl(0, 0%, 20%);
-}
-
-
-
-/* Races */
-
-.detail-data h2{
-	font-family: 'HelveticaMonospacedW01- 883251';
-	font-size:1.2rem;
+.races-wrapper p.author{
+	font-family:'HelveticaMonospacedW01- 883254';
+	font-size:1.5rem;
 	line-height: 2rem;
-	margin:0;
-	color:hsl(0, 0%, 60%);
+	margin-bottom:0.7rem;
+	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 }
 
-.detail-data .headline{
-padding-bottom:1rem;
-margin-bottom:1rem;
-border-bottom:1px solid hsl(0, 0%, 23%);
-}
-
-.detail-data .headline li{
-font-size:1.4rem;
-line-height: 1.6rem;
-display:inline-block;
-margin-right:0.8rem;
-}
-
-.detail-data .headline li span.unit{
-font-size: 1rem;
-}
-
-.desc{
-	font-size:1rem;
-	line-height: 1.2rem;
-	color:hsl(0, 0%, 60%);
-}
-
-
-#race-detail{
-
-}
-
-.detail-number{
-	background-color: hsl(0, 0%, 12%);
-	padding:1rem;
-	width:50%;
-	float:left;
-	margin-right:2rem;
-}
-
-.detail-data{
-	width:45%;
-	float:left;
-}
-
-.detail-number img{
-	width:100%;
-	height:auto;
-}
-
+/* Wrapper */
 .races-wrapper h3{
 	font-family: 'HelveticaMonospacedW01- 883251';
 	font-size:1.8rem;
@@ -225,46 +90,202 @@ font-size: 1rem;
 
 .races-wrapper p.tagline{
 	border-bottom: 1px solid hsl(0, 0%, 23%);
-	padding-bottom: 0.5rem;
+	padding-bottom: 0.7rem;
 }
 
-.racecount .darker{
+
+.races-wrapper{
+	padding:2rem 3rem 2rem 3rem;
+}
+
+/*.num-races{
+	border-bottom:1px solid hsl(0,0%,30%);
+	max-width: 35%;
+}*/
+
+/*.num-races ul{
+	display:inline-block;
+}
+
+.num-races p{
+display:inline-block;
+margin-right:1rem;
+font-size:1rem;
+}
+ul.racecount{
+
+}*/
+
+/*.tinycircle{
+	display:inline-block;
+	margin:0 5px 0 0;
+	padding:0;
+	height:10px;
+	width:10px;
+	border-radius: 50%;
+}*/
+
+
+
+/*.tinycircle.run{
+		background-color: hsl(190, 30%, 55%);
+	}
+
+.tinycircle.tri{
+		background-color: #4a9945;
+	}
+
+
+.tinycircle.cyc{
+		background-color: #efc341;
+}*/
+
+/*.race-types{
+	max-width:35%;
+}
+*/
+
+/*.race-types p{
+	display:inline-block;
+}*/
+
+/*.race-types li{
+	display:inline-block;
+	margin:0;
+	border:0;
+	padding:0;
+	height:10px;
+	background-color: #ccc;
+}*/
+
+/*.racecount span.type-name{
+	margin-right:0.5rem;
+}*/
+
+
+
+/*td.col1{
+	color:hsl(0, 0%, 60%);
+	max-width:20%;
+	padding-right:2rem;
+}
+td.col2{
+	max-width:70%;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/*.races-wrapper.summary{
+	background-color: hsl(0, 0%, 18%);
+}*/
+
+/*.races-wrapper p.author{
+	color:inherit;
+}*/
+
+/*.race-summary-table{
+	font-size:0.9rem;
+}*/
+
+
+
+
+
+
+/* Races */
+
+/*.detail-data h2{
+	font-family: 'HelveticaMonospacedW01- 883251';
+	font-size:1.2rem;
+	line-height: 2rem;
+	margin:0;
+	color:hsl(0, 0%, 60%);
+	-webkit-font-smoothing: antialiased;
+}*/
+
+/*.detail-data .headline{
+padding-bottom:1rem;
+margin-bottom:1rem;
+border-bottom:1px solid hsl(0, 0%, 23%);
+}*/
+
+/*.detail-data .headline li{
+font-size:1.4rem;
+line-height: 1.6rem;
+display:inline-block;
+margin-right:0.8rem;
+}*/
+
+/*.detail-data .headline li span.unit{
+font-size: 1rem;
+}*/
+
+/*.desc{
+	font-size:1rem;
+	line-height: 1.2rem;
+	color:hsl(0, 0%, 60%);
+}*/
+
+
+/*#race-detail{
+
+}*/
+
+/*.detail-number{
+	background-color: hsl(0, 0%, 12%);
+	padding:1rem;
+	width:50%;
+	float:left;
+	margin-right:2rem;
+}*/
+/*
+.detail-data{
+	width:45%;
+	float:left;
+}*/
+
+/*.detail-number img{
+	width:100%;
+	height:auto;
+}*/
+
+/*.racecount .darker{
 	color:hsl(0,0%,45%);
-}
+}*/
 
-.race-item{
+/*.race-item{
 	background-color: hsl(0, 0%, 12%);
 	padding:1rem;
 	max-width:10rem;
 	display:inline-block;
 	margin:0.25rem 0.1rem 0.25rem 0.25rem;
-}
+}*/
 
 
 
-.race-item:hover{
+/*.race-item:hover{
 	background-color: hsl(0, 0%, 14%);
 	cursor:pointer;
-}
+}*/
 
-#race-numbers{
+/*#race-numbers{
 	clear:both;
-}
+}*/
 
 
-.race-item img{
+/*.race-item img{
 	width:100%;
 	height:auto;
 }
-
-.races-wrapper p.author{
-	font-family:'HelveticaMonospacedW01- 883254';
-	font-size:1.5rem;
-	line-height: 2rem;
-	margin-bottom:0.7rem;
-	text-transform: uppercase;
-	-webkit-font-smoothing: antialiased;
-}
+*/
 
 
 
@@ -289,66 +310,90 @@ font-size: 1rem;
 		letter-spacing: 0.05em;
 	}
 
-	/*Races*/
+	/* Masthead, Project Title */
+	
+	.races-wrapper p.tagline{
+	font-size:0.9rem;
+	line-height: 1.4rem;
+	border-bottom: 1px solid hsl(0, 0%, 23%);
+	padding-bottom: 0.7rem;
+	}
 
 	.races-wrapper p.author{
-		font-family:'HelveticaMonospacedW01- 883254';
-		font-size:1.5rem;
-		line-height: 2rem;
-		margin-bottom:0.7rem;
-		text-transform: uppercase;
-		-webkit-font-smoothing: antialiased;
+	font-family:'HelveticaMonospacedW01- 883254';
+	font-size:1.5rem;
+	line-height: 2rem;
+	margin-bottom:0.7rem;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
 	}
+
 
 	.races-wrapper h1{
 	font-family:'CentennialLTW01-75Bold';
 	font-size:2.8rem;
+	max-width: none;
 	line-height: 3rem;
 	margin-bottom:0.7rem;
 	-webkit-font-smoothing: antialiased;
 	}
 
-	.races-wrapper p.tagline{
-	font-size:0.9rem;
-	line-height: 1.4rem;
-	border-bottom: 1px solid hsl(0, 0%, 23%);
-	padding-bottom: 0.5rem;
+	/*Races*/
+
+	.race-detail{
+		/*Main container for a single race number.*/
+		width:100%;
+		background-color: hsl(0, 0%, 12%);
+		padding:1rem;
 	}
 
-	.detail-data .headline{
+	.headline{
 		background-color: hsl(0,0%,12%);
-		padding: 1rem;
+		border-bottom: 1px solid hsl(0, 0%, 18%);
+		padding-bottom:0.5rem;
+		margin-bottom:0.5rem;
 	}
 
-	.detail-data .headline li{
+	.headline h2{
+		font-size:1.4rem;
+		line-height: 1.8rem;
+		margin-bottom:0.25rem;
+		color:hsl(0,0%,90%);
+	}
+
+	.headline p.desc{
+		line-height:1.5rem;
+		margin:0;
+	}
+
+	/* Race Data */
+	.race-data li{
 	font-size:1.2rem;
 	line-height: 1.4rem;
 	display:inline-block;
 	margin:0 0.8rem 0.5rem 0;
 	}
 
-	.headline .race-title{
-		border-bottom:1px solid hsl(0,0%,15%);
-		margin-bottom:1rem;
-		padding-bottom:0.25rem;
-	}
-
-	.detail-data .headline li span.unit{
+	.race-data li span.unit{
 	font-size: 1rem;
 	}
 
-	.headline h2{
-		font-size:1.4rem;
-		line-height: 1.8rem;
-		color:hsl(0,0%,90%);
-	}
 
-	.detail-number{
+
+
+
+
+	.race-detail{
 	background-color: hsl(0, 0%, 12%);
-	padding:1rem 1rem 0 1rem;
+	padding:1rem;
 	width:100%;
 	float:left;
 	margin:0;
+	}
+
+	.race-detail img{
+	width:100%;
+	height:auto;
 	}
 
 	.detail-data{
@@ -387,10 +432,6 @@ font-size: 1rem;
 
 	p.datetime{
 		font-size: 100%;
-	}
-
-	.tweetdate{
-	font-size: 100%;
 	}
 
 	.right{
