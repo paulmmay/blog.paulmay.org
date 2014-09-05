@@ -3,9 +3,32 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2014-08-18T00:00:00Z</updated>
+  <updated>2014-09-05T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
+  
+    <entry>
+      <title>Graduation</title>
+      <published>2014-09-05T00:00:00Z</published>
+      <updated>2014-09-05T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;It’s been a very busy, and very important few weeks. Last week I had the great honour to watch &lt;a href=&quot;http://chicago.academia.edu/SimonMay&quot;&gt;my brother&lt;/a&gt; graduate from University of Chicago with a PhD in Anthropology. I am so proud of him. It takes a lot of hard work to tackle a complex project spanning many years, but he did it.&lt;/p&gt;
+
+&lt;p&gt;After the graduation I spent some time in New York, catching up with the team at Sloan Kettering. Our projects have been challenging, and not without some major bumps in the road, but this week things became simpler, and better. The feedback from the eventual users of our work is very positive. We’re definitely on a fruitful path, and we’ve been given permission to make our work as good as it needs to be. It feels like this week marked the crossing of some important threshold.&lt;/p&gt;
+
+&lt;p&gt;I also got to spend some time with my New York friends, who I miss quite a bit. It’s so cool to be able to come back, spend time with them, and hear about all their lives and their work. They’re building new devices, designing interfaces, writing software, building automata, writing about technology, and making all sorts of things work a little better. They are all so eager to learn, make, and understand more. I feel really refreshed and inspired, because of them.&lt;/p&gt;
+
+&lt;p&gt;Also this week; &lt;a href=&quot;http://news.nationalgeographic.com/news/2014/09/140903-galaxy-supercluster-map-laniakea-astronomy-science-ngspace/&quot;&gt;some perspective&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Throughout the universe, galaxies tend to clump together in massive structures that astronomers call superclusters. According to the new map, Earth&#39;s galaxy lives near the edge of the Laniakea supercluster, which measures 500 million light-years in diameter and includes roughly 100,000 galaxies.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;In a few weeks, me and Cliona will introduce a new little person into this sea of infinity. I am excited to meet whomever arrives.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/simon-grad-nyc-progress"/>
+      <id>http://www.paulmay.org/blog/simon-grad-nyc-progress</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Oxford to Brighton, Weeknotes</title>
@@ -297,27 +320,6 @@
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/nyc-weeknotes-10"/>
       <id>http://www.paulmay.org/blog/nyc-weeknotes-10</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Goodbye Hackney</title>
-      <published>2013-08-31T00:00:00Z</published>
-      <updated>2013-08-31T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;An addendum to &lt;a href=&quot;/blog/everywhere-i-have-ever-lived&quot;&gt;Everywhere I Have Ever Lived&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;Having &lt;a href=&quot;/blog/goodbye-for-now-new-york&quot;&gt;left New York&lt;/a&gt; in the Summer of 2013, we moved to London. Cliona looked for a new job while I continued to work on projects with Sloan-Kettering from a co-working space in Hackney Wick.&lt;/p&gt;
-
-&lt;p&gt;We sublet a cute little apartment fom &lt;a href=&quot;http://www.arcadefinearts.com/artists&#39;%20pages/mariazahle.html&quot;&gt;Maria Zahle&lt;/a&gt;. It&#39;s our happy Hackney home for two months before Cliona finds a job in Oxford, and we opt to move up there.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5494/9629486937_b97d0ccfe7_c_d.jpg&quot; alt=&quot;Satellite photo of Sandgate House, Hackney, London&quot; class=&quot;photo&quot;/&gt;&lt;/p&gt;
-
-&lt;p&gt;I will miss Hackney quite a bit, but new adventures await.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/goodbye-hackney"/>
-      <id>http://www.paulmay.org/blog/goodbye-hackney</id>
       <author>
         <name>Paul May</name>
       </author>
