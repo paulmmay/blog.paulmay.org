@@ -672,6 +672,17 @@ footer.home{
 /*Tiny Little Screens*/
 @media screen and (max-width: 480px) {
 
+	blockquote{
+	/*font-family:'NewCenturySchoolW01-It';*/
+	margin-right: 1rem;
+	margin-left:1rem;
+	padding: 1rem;
+	background: hsl(0, 0%, 97%);
+	margin-bottom:1rem;
+	/*border-left:0.5rem solid hsl(43, 100%, 54%);*/
+}
+
+
 	/*General*/
 	html{
 	font-size:12px;
