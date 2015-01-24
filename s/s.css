@@ -14,6 +14,7 @@ body {
 	 font-family:'HelveticaMonospacedW01';
 	 background-color: hsl(0, 0%, 100%);
 	 color:hsl(0, 0%, 22%);
+	 /*background-image: url('/i/iceland.jpg');*/
 }
 
 
@@ -27,7 +28,6 @@ footer{
 	background-color: hsl(240,4.2%,81.2%);
 	display:block;
 	text-align:center;
-	vertical-align: baseline;
 	padding: 2rem 0 2rem 0;
 }
 
@@ -146,6 +146,37 @@ header li, footer li{
 
 }
 
+.home .left{
+	float:left;
+}
+
+.home img.headshot{
+	width:60%;
+	height:auto;
+	margin-right:2%;
+}
+
+.bio{
+	float:right;
+	max-width:40%;
+}
+
+ul#work-list{
+margin:0;
+padding:0;
+}
+
+ul#work-list li:nth-child(odd){
+	margin-right:2%;
+}
+
+li.work-project{
+	float:left;
+	width:49%;
+	margin-bottom:2rem;
+	list-style: none;
+}
+
 /* Article Styles */
 
 /* Article > Masthead */
@@ -236,7 +267,7 @@ ul.bookmarks li{
 	margin-bottom:0;
 }
 
-.content a{
+.home a, .content a{
 	text-decoration:none;
 	/*color:hsl(0, 0%, 10%);*/
 	color:hsl(190, 45%, 40%);
@@ -248,13 +279,20 @@ ul.bookmarks li{
 	border-bottom:1px solid hsl(43, 100%, 54%);
 }
 
-.content ul{
+.home ul, .content ul{
  list-style-type: disc;
  list-style-position: outside;
 margin-bottom:1.8rem	;
 margin-left:3.5rem;
 }
 
+.home ul{
+margin-left:1.2rem;
+}
+
+.home p{
+	margin-bottom:0;
+}
 
 
 /*Right Blog Col*/
