@@ -21,7 +21,7 @@ r301 '/thesis/paulmay-thesis.zip', 'https:/dl.dropbox.com/u/1299449/paulmay-thes
 r301 %r{.*}, 'http://www.paulmay.org$&', :if => Proc.new {|rack_env|rack_env['SERVER_NAME'] == 'paulmay.org'}
 r301 %r{.*}, 'http://www.paulmay.org$&', :if => Proc.new {|rack_env|rack_env['SERVER_NAME'] == 'new.paulmay.org'}
 r301 '/blog/The_Hell_of_the_West/', '/blog/the-hell-of-the-west'
-r302 '/', '/about'
+r302 '/', '/blog'
 end
 
 use Rack::TryStatic,
