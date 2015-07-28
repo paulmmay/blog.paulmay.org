@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 gem 'jekyll'
-gem 'maruku'
 gem 'rack-contrib'
 gem 'rack-rewrite'
 gem 'thin'
-gem 'rdiscount'
