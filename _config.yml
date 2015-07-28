@@ -1,5 +1,5 @@
-markdown: rdiscount
-pygments: true
+markdown: Kramdown
+pygments: false
 permalink: /:categories/:title
 exclude: ["readme.md", "Gemfile", "Gemfile.lock", "config.ru"]
 name: Paul May
