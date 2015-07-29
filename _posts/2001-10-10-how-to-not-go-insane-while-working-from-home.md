@@ -38,6 +38,6 @@ I'm finding it increasingly important to **focus quietly on one thing at a time,
 This is one I've been particularly bad at in the last few months; I'm not getting nearly enough exercise, which is making me restless and sluggish. **Not exercising has just highlighted how much I enjoy it and need it; time spent thinking of nothing, breathing, running, cycling, swimming. ** This maybe isn't true with you, but for me doing light training through the week brings a bit of order and focus to the other parts of my life. So, very keen to get back to a training routine.
 
 ### Conclusion
-These are some of the things I'm starting to see are important to working from home. I'm far from perfect - but I want to get better at this over time. I'd love to hear your own advice/thoughts on working from home. 
+These are just a few things that help me work effectively from home. I'm far from perfect - but I want to get better at working like this over time. I'd love to hear your own advice/thoughts on working from home. 
 
 
