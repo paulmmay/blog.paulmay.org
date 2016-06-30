@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>Irish Data - Hello World | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">	
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
+
+	</head>
+
+	<body>
+
+	<header role="banner">
+		<ul class="nav main">
+<li><a href="/about/">About</a></li>
+
+
+<li><a href="/blog/" class="visited">Blog</a></li>
+
+</ul>
+	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<p class="author">Paul May</p>
+			<h1><a href="/blog/irish-data-hello-world">Irish Data - Hello World</a></h1>
+			<p class="datetime">14 November 2010</p>
+		</div>
+	</div>
+
+	<!--The content slice of the article. On the left we have the article text,
+		then on the right we have the little monogram and any other cruft we 
+		care to include. And when I say we, I do of course mean I.-->
+	<div class="wrapper main">
+		<div class="left content">
+		<p class="intro">The Irish Data project has been going well; here is a first look at some of my homemade API of useful Irish data. </p>
+<p>### Hello World
+I’ve put in place a few basic calls to the API of Irish Data; all of which can be accessed via <em>http://api.irishdata.org/v1/statisticname.xml</em>. (See below for more details). Feel free to test the calls out - but be warned - this is totally in flux. The data will probably go a bit stale, the API will be intermittently available and I’ll be fussing around with the output  - basically don’t rely on this for anything. I’m just putting this out to get feedback from anybody who’s interested.</p>
+
+<table class="fancy">
+<tr><th>Statistic</th><th>Description</th><th>Source</th><th>Parameters</th><th>URL/Example</th></tr>
+<tr><td>Annual Population Estimate</td><td class="wider">The annual April population estimate for the Irish state.</td><td>CSO.ie</td><td>Year as YYYY</td><td><a href="http://api.irishdata.org/v1/populationestimate.xml?year=2010">Example</a></td></tr>
+<tr><td>Quarterly Average House Price</td><td class="wider">The average price for new and second hand homes in Ireland per quarter.</td><td>CSO.ie</td><td>None</td><td><a href="http://api.irishdata.org/v1/averagehousepricequarter.xml">Example</a></td></tr>
+<tr><td>Quarterly House Loans Approved</td><td class="wider">The number and value of house loans approved per quarter.</td><td>CSO.ie</td><td>None</td><td><a href="http://api.irishdata.org/v1/houseloansapprovedquarter.xml">Example</a></td></tr>
+<tr><td>Quarterly Births, Deaths</td><td class="wider">The birthrate, number of births and number of deaths per quarter</td><td>CSO.ie</td><td>None</td><td><a href="http://api.irishdata.org/v1/birthsdeathsquarter.xml">Example</a></td></tr>
+</table>
+
+<p><br />
+You can also use these calls to return JSON or PRINTR formatted data; just swap out .xml with .json or .printr respectively.</p>
+
+<h3 id="next-steps">Next Steps</h3>
+<p>Here are the things I need to tackle next, in no particular order</p>
+
+<ul>
+  <li>Sourcing - I need to document and cite the source of all the data in much more detail.</li>
+  <li>Documentation - I need to document the (very basic) functionality of the different API calls.</li>
+  <li>Parameters - I’d like for the user to be able to specify sensible parameters; county, date, date range; these are in the works.</li>
+  <li>Process - There’s not much point doing this if it can’t be kept up to date; I’m going to try to apply the principles of the  <a href="http://en.wikipedia.org/wiki/Open_Archival_Information_System">Open Archival Information System</a> to map out the people, processes, systems and tools involved in keeping that data current; I will need your help on this!</li>
+  <li>Data - I want to add more of it! All the data in v1 will be for the State, but in the New Year I’d like to break data down by county where available.</li>
+</ul>
+
+<p>I also want to get a simple website up and running to explain the project, point people towards documentation, showcase any apps/widgets that use the data.</p>
+
+<h3 id="what-i-need">What I Need</h3>
+<p>I would love to get <strong>as much feedback on this as possible</strong>; guidance on <strong>what data you’d like to see,</strong> any <strong>technical requirements</strong> you have (parameters you’d like to be able to pass into the API), and anything else that takes your fancy. </p>
+
+<p>Please comment with any suggestions or feedback, or find me on <a href="http://www.twitter.com/paulmmay">Twitter</a> (<a href="http://www.twitter.com/paulmmay">@paulmmay</a>).</p>
+
+
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
+
+	<div class="pagination">
+	
+	 
+	<a href="/blog/extending-physical-photos" class="previous-link" title="Physical Computing - Extending Physical Photos">&laquo; Newer Article</a>
+	 
+	
+	<a href="/blog/designers-block" class="next-link" title="Physical Computing - Extending Physical Photos">Older Article &raquo;</a>
+	
+	</div>
+
+
+		</div>
+		<!--The afforementioned monogram and cruft-->
+		<div class="right minibio">
+		Paul May is a researcher and interaction designer from Dublin, Ireland. Keywords include: triathlon, photography, cooking, technology, health, data, society, media.	
+<div class="elsewhere">
+<ul>
+<li><a href="https://twitter.com/paulmmay">@paulmmay</a></li>
+<li><a href="mailto:hello@paulmay.org">hello@paulmay.org</a></li>
+</ul>
+</div>
+
+	
+
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Paul May.</p>
+		<ul class="footernav">
+		</ul>
+	</footer>
+
+
+
+</body>
+</html>

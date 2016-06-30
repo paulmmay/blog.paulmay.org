@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>Nature of Code - Creatures | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">	
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
+
+	</head>
+
+	<body>
+
+	<header role="banner">
+		<ul class="nav main">
+<li><a href="/about/">About</a></li>
+
+
+<li><a href="/blog/" class="visited">Blog</a></li>
+
+</ul>
+	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<p class="author">Paul May</p>
+			<h1><a href="/blog/nature-of-code-creatures">Nature of Code - Creatures</a></h1>
+			<p class="datetime">02 May 2012</p>
+		</div>
+	</div>
+
+	<!--The content slice of the article. On the left we have the article text,
+		then on the right we have the little monogram and any other cruft we 
+		care to include. And when I say we, I do of course mean I.-->
+	<div class="wrapper main">
+		<div class="left content">
+		<p class="intro">My final project for Nature of Code; a landscape of food and danger inhabited by different species of artificial creatures. </p>
+<p><a href="http://www.flickr.com/photos/paulmmay/6967228282/" title="Starting Point by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7111/6967228282_5743d1a1a8_c.jpg" class="photo" alt="Starting Point" /></a></p>
+
+<h3 id="goals-concept">Goals, Concept</h3>
+<p>I was really fascinated by the examples of artificial agents we worked through in the Nature of Code class; there is just something incredibly fun about being able to create pseudo-lifelike behaviour in software.</p>
+
+<p>My goal for this project was to improve my understanding of <a href="http://www.red3d.com/cwr/steer/" title="Reynolds' steering behaviours">Reynolds’ steering behaviours</a> and <a href="http://www.shiffman.net/teaching/nature/ga/" title="genetic algorithms">genetic algorithms</a> by designing a “landscape” inhabited by different species of creatures. In this landscape the creatures seek food, feed, flee from danger, reproduce, age and die.  (The full proposal for the project <a href="http://paulmay.org/blog/nature-of-code-final-project-proposal/" title="is over here">is over here</a>).</p>
+
+<h3 id="the-landscape">The Landscape</h3>
+<p><a href="http://www.flickr.com/photos/paulmmay/7113306833/" title="Food Resources Regrown, Tiny Population by paulmmay, on Flickr"><img src="http://farm8.staticflickr.com/7228/7113306833_c63757d3d1_c.jpg" class="photo" alt="Food Resources Regrown, Tiny Population" /></a><br />
+The landscape inhabited by the creatures contains a number of food-sources and threats.</p>
+
+<p><strong>Food-sources</strong> are indicated by green circles, and as the creatures deplete these food sources they shrink, disappear and then regrow slowly.</p>
+
+<p><strong>Threats</strong> are indicated by smaller red circles. Unlike food sources, these threats never deplete. If a creature comes too close, they are injured - proximity to the threat reduces the amount of energy that a creature has.</p>
+
+<p>The creatures** retain a memory of food sources and threats**; these are indicated by the green and red icons that are displayed next to each creature. (This visual indication of creatures’ memory was one of the most useful things I made for the project - much more useful and immediate than print-line statements.)</p>
+
+<h3 id="the-creatures">The Creatures</h3>
+<p><a href="http://www.flickr.com/photos/paulmmay/6987651766/" title="Creatures - Reproduction by paulmmay, on Flickr"><img src="http://farm9.staticflickr.com/8156/6987651766_9d08fd7449_c.jpg" class="photo" alt="Creatures - Reproduction" /></a><br />
+The creatures have attributes and exhibit behaviours that help them survive:</p>
+
+<ul>
+  <li><strong>Energy/Life</strong>: The creatures are created with a finite amount of energy that is depleted when they move and over time. To replenish their energy supplies they must consume food.</li>
+  <li><strong>Seeking</strong>: The creatures will wander around the landscape at random until they find an object that interests them; at which point they will move towards that object.</li>
+  <li><strong>Vision</strong>: When the creatures are within a short distance of an object they can tell if it is food or a threat.</li>
+  <li><strong>Fleeing</strong>: The creature can move quickly away from threats.</li>
+  <li><strong>Feeding</strong>: The creature can arrive at a food source and consume it; the food source is depleted and the creature’s energy level increases.</li>
+  <li><strong>Reproduction</strong>: If the creature has sufficient energy and is close to another creature of its species, it has a chance of reproducing.</li>
+  <li><strong>Memory</strong>: Each creature can remember the food sources and threats it encounters in the landscape.</li>
+</ul>
+
+<p>All of these behaviours are triggered depending on scenario the creature finds itself in; if it’s near an object, it will move towards it to examine it more closely and then feed/flee depending on what that object is. If the creature is near a potential mate, then a fitness algorithm will decide whether or not a new creature should be created etc.</p>
+
+<h3 id="video">Video</h3>
+<p>This video shows the version of the project I presented in class, with a couple of small tweaks. In the video you’ll see three species searching for food and encountering threats. From time to time two creatures of the same species will encounter one another and a new creature will be produced. To make the new creatures easier to see a grey circle is drawn around them for the first 10 seconds of their life. A higher resolution version of the video can be <a href="https://vimeo.com/41397044" title="downloaded from Vimeo">downloaded from Vimeo</a>.</p>
+
+<iframe src="http://player.vimeo.com/video/41397044?color=f0d000" width="700" height="420" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""> </iframe>
+
+<h3 id="further-improvements">Further Improvements</h3>
+<p>There are lots of ways in which this project could be improved upon. I will definitely improve the genetic algorithm that is used when new creatures are created. At the moment there is no mutation, so the results are predictable and the fitness of the creatures doesn’t improve across generations.</p>
+
+<p>As I said in my original <a href="http://paulmay.org/blog/nature-of-code-final-project-proposal/" title="proposal">proposal</a>, I think it would also be great to tie some aspects of the landscape to information from the real world. Creatures could behave differently depending on the time of day, or they could respond to weather conditions. Food sources could regrow more quickly depending on weather etc.</p>
+
+<h3 id="documentation">Documentation</h3>
+<p>All of the code from the project is <a href="https://github.com/paulmmay/Nature-of-Code" title="available on github">available on github</a>; just clone it to your computer and then open the sketch in Processing. The code is reasonably well commented. <a href="http://www.flickr.com/photos/paulmmay/sets/72157629123328271/" title="Screenshots are available on Flickr">Screenshots are available on Flickr</a> and there are several <a href="https://vimeo.com/album/1923090" title="work-in-progress videos on Vimeo">work-in-progress videos on Vimeo</a>.</p>
+
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
+
+	<div class="pagination">
+	
+	 
+	<a href="/blog/thesis-presentation-video" class="previous-link" title="Thesis Presentation Video">&laquo; Newer Article</a>
+	 
+	
+	<a href="/blog/snippet" class="next-link" title="Thesis Presentation Video">Older Article &raquo;</a>
+	
+	</div>
+
+
+		</div>
+		<!--The afforementioned monogram and cruft-->
+		<div class="right minibio">
+		Paul May is a researcher and interaction designer from Dublin, Ireland. Keywords include: triathlon, photography, cooking, technology, health, data, society, media.	
+<div class="elsewhere">
+<ul>
+<li><a href="https://twitter.com/paulmmay">@paulmmay</a></li>
+<li><a href="mailto:hello@paulmay.org">hello@paulmay.org</a></li>
+</ul>
+</div>
+
+	
+
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Paul May.</p>
+		<ul class="footernav">
+		</ul>
+	</footer>
+
+
+
+</body>
+</html>

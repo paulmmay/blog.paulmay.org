@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>Getting the Most from MetroCard | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">	
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
+
+	</head>
+
+	<body>
+
+	<header role="banner">
+		<ul class="nav main">
+<li><a href="/about/">About</a></li>
+
+
+<li><a href="/blog/" class="visited">Blog</a></li>
+
+</ul>
+	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<p class="author">Paul May</p>
+			<h1><a href="/blog/getting-the-most-from-metrocard">Getting the Most from MetroCard</a></h1>
+			<p class="datetime">01 November 2011</p>
+		</div>
+	</div>
+
+	<!--The content slice of the article. On the left we have the article text,
+		then on the right we have the little monogram and any other cruft we 
+		care to include. And when I say we, I do of course mean I.-->
+	<div class="wrapper main">
+		<div class="left content">
+		<p class="intro">If you've ever visited or lived in New York City you'll be familiar with the MetroCard. These little cards are used by millions of people each day to access the subway and bus system. In this project, Stepan Boltalin, Genevieve Hoffman and I have broken apart the MetroCard pricing structure with some interesting results. Short version - don't buy the $10 MetroCard.</p>
+<p><a href="http://www.flickr.com/photos/paulmmay/6224396540/" title="Union Square - Metro Card Reader 2 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6160/6224396540_39f2575585_z.jpg" class="photo" alt="Union Square - Metro Card Reader 2" /></a></p>
+
+<h3 id="the-missing-millions-in-the-metrocard-system">The Missing Millions in the MetroCard System</h3>
+<p>The MetroCard system has evolved over nearly two decades - it uses some pretty old technology (a magnetic stripe on the card is read at a turnstile, which updates the value on your card) and a slightly odd fare structure ($2.25 per ride plus a 7% bonus when you spend $10 or more on a MetroCard) which combine to create some unfortunate results; small amounts of value left on cards when they’re discarded.</p>
+
+<p><strong>According to the MTA the small amounts of value on cards when they’re thrown away or lost adds up to $52m (yes, million) per year.</strong> So much money goes missing that the MTA are set to introduce a $1 green fee to encourage riders to hang on to their cards. Our project’s goal is to examine the causes of this “missing” money in the MetroCard system from a number of different angles. After all, $52 million could be put to better use and $1 per card seems like an awful lot of money at scale.</p>
+
+<h3 id="the-ever-changing-metrocard-pricing-structure">The Ever-Changing MetroCard Pricing Structure</h3>
+<p><strong>(This section is a little dense, but bear with us.)</strong> The MTA Metrocard was first introduced in 1993 with a trial run of 3000 cards. In 1998 they introduced the MetroCard Bonus giving you a 10% bonus on cards of $15 or more. At this time a single ride using a MetroCard cost $1.50. In May 2003, subway fares increased from $1.50 to $2.00. The bonus increased to 20% for any ticket amount $10 and over.</p>
+
+<p>In March 2008, the MetroCard Bonus decreased to 15% for purchases of $7 or more. In 2009, subway fares increased from $2.00 to $2.25 per ride. In December 2010, the bonus decreased to 7% for tickets of $10 or more. This is the pricing structure that applies to the pay per ride MetroCards today.</p>
+
+<p>The MetroCard system has changed almost constantly since its introduction - and like most transit systems has gotten <i>significantly</i> more expensive over time.</p>
+
+<h3 id="the-10-metrocard-is-not-your-friend">The $10 MetroCard is Not Your Friend</h3>
+<p>Even a quick scan of <a href="http://bit.ly/metrocardpricing">the MetroCard pricing spreadsheet we’ve put together</a> shows some significant amounts of remaining value on cards. Let’s look at the popular $10 MetroCard as an example; a card that’s popular among visitors to New York.</p>
+
+<p>A customer purchases a MetroCard for $10 and gets $0.70 of a bonus making the card worth $10.70. At a price of $2.25 per ride, the customer gets 4 rides leaving $1.70 remaining on the card. To get another ride the customer needs to add at least $0.55.</p>
+
+<p><a href="http://www.flickr.com/photos/paulmmay/6232627514/" title="MTA Interface Round 2 - 09 by paulmmay, on Flickr"><img src="http://farm7.static.flickr.com/6096/6232627514_4269714096_z.jpg" class="photo" alt="MTA Interface Round 2 - 09" /></a></p>
+
+<p>Adding value using the MetroCard vending machine is a significantly longer process than buying another $10 card - and adding whole dollar values like $10 and $20 still gets priority. </p>
+
+<h3 id="getting-the-most-from-metrocard">Getting the Most from MetroCard</h3>
+<p>Our goal is to find ways of getting the maximum number of rides on the New York Subway while reducing the small amounts of remaining value left on our MetroCards - avoiding problems like the ones the $10 card introduces.</p>
+
+<p>Working in increments of $1 and $0.25 we identified the MetroCard values that result in the maximum number of rides for consumers with as little remaining value as possible. We also identified the MetroCards where the value of the remaining value is covered by the MTA’s own bonus.</p>
+
+<p>We think the results are interesting. <a href="http://bit.ly/metrocardpricing" title="Check out the breakdown of the MetroCard pricing structure in this spreadsheet">Check out the breakdown of the MetroCard pricing structure in this spreadsheet</a>.</p>
+
+<p>As you’ll see, the $10 MetroCard offers the same number of rides as a $9 MetroCard. There’s no “bonus” but 4 rides is still 4 rides. A $20 MetroCard gives the consumer a bonus of $1.40, 9 rides with $1.15 remaining on the card. They could spend $19, get 9 rides with only 8c remaining on the card.</p>
+
+<p><strong>There are several price points where the user gets the same number of rides as they would at a higher price point, with minimal remainder</strong> - a consumer could spend $14.75, get $1.03 as a bonus - 7 rides with 3 cents remaining; any remainder is essentially covered by the “bonus” given by MTA. You pay less, you get the same and if you happen to lose or throw away your card the MTA are paying for the remaining value on the card.</p>
+
+<h3 id="implications">Implications</h3>
+<p>We start to see that some of the problems of missing money in the system are a product of decisions by MTA themselves. The pricing structure leads to uneven values and remaining value on cards. The design of the vending machines works contrary to adding small values, or getting a specific number of rides. It’s not wrong, in our opinion, to start questioning whether adding another $1 on to the purchase of each MetroCard is valid.</p>
+
+<h3 id="next-time-youre-in-new-york">Next Time You’re In New York</h3>
+<p>Use our <a href="http://bit.ly/metrocardpricing" title="MetroCard pricing structure spreadsheet">MetroCard pricing spreadsheet</a> to find a card that offers you enough rides for the time you’re in town, and reduces the chances of you being left with money remaining on your card.</p>
+
+<h3 id="next-steps">Next Steps</h3>
+<p>We’re continuing this project - we hope to find more ways of eating into these odd problems with the MetroCard system upstream. After that we’ll devise ways of using any remaining value that is left on cards in a more productive way.</p>
+
+
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
+
+	<div class="pagination">
+	
+	 
+	<a href="/blog/alignment-of-private-personal-and-public-data" class="previous-link" title="Alignment of Private, Personal and Public Data">&laquo; Newer Article</a>
+	 
+	
+	<a href="/blog/manfred-mohr" class="next-link" title="Alignment of Private, Personal and Public Data">Older Article &raquo;</a>
+	
+	</div>
+
+
+		</div>
+		<!--The afforementioned monogram and cruft-->
+		<div class="right minibio">
+		Paul May is a researcher and interaction designer from Dublin, Ireland. Keywords include: triathlon, photography, cooking, technology, health, data, society, media.	
+<div class="elsewhere">
+<ul>
+<li><a href="https://twitter.com/paulmmay">@paulmmay</a></li>
+<li><a href="mailto:hello@paulmay.org">hello@paulmay.org</a></li>
+</ul>
+</div>
+
+	
+
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Paul May.</p>
+		<ul class="footernav">
+		</ul>
+	</footer>
+
+
+
+</body>
+</html>

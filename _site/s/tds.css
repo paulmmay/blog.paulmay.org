@@ -1,0 +1,30 @@
+
+
+
+/* 3D Starter */
+
+
+.nav.tds a{
+	text-decoration: none;
+	color:hsl(0,0%,50%)
+}
+
+.nav.tds a:hover{
+	/*text-decoration: none;*/
+	color:hsl(0,0%,40%)
+}
+
+.nav.tds a.visited{
+	/*text-decoration: none;*/
+	color:hsl(0, 0%, 55%);
+	border-bottom:2px solid hsl(0, 0%, 50%);
+}
+
+header.tds{
+	background-color: hsl(0, 0%, 15%);
+}
+
+body.tds{
+	color: hsl(0, 0%, 90%);
+	background-color: hsl(0, 0%, 20%);
+}

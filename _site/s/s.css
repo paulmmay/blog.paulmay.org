@@ -1,0 +1,785 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html{
+	font-size: 18px;
+	line-height: 24px;
+}
+
+body {
+	 text-rendering: optimizeLegibility;
+	 padding: 0;
+	 font-family: 'Alegreya', serif;
+	 background-color: hsl(0, 0%, 100%);
+	 color:hsl(0, 0%, 22%);
+}
+
+p {
+	 margin-bottom: 1.8rem;
+	 font-size: 1.2rem;
+	 line-height:1.6rem;
+}
+
+footer{
+	background-color: hsl(240,4.2%,81.2%);
+	display:block;
+	text-align:center;
+	padding: 2rem 0 2rem 0;
+}
+
+.bottom{
+	/*background-color: hsl(240,4.2%,81.2%);*/
+	display:block;
+	text-align:center;
+	vertical-align: baseline;
+}
+
+
+
+.max50{
+max-width:50%;
+}
+
+.wrapper{
+padding-left:3rem;
+margin: 0 auto;
+max-width:1000px;
+align-items:flex-start;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+}
+
+.left{
+  width:80%;
+  padding-right: 5%;
+}
+
+.wrapper.main{
+	padding:1rem 0 3rem 3rem;
+}
+
+.wrapper.top{
+	padding-top:2rem;
+	padding-left:3rem;
+}
+
+.blurb{
+	width:70%;
+	padding-right: 5%;
+}
+
+.featured{
+	width:25%;
+}
+
+.smaller{
+	font-size: 0.85rem;
+	margin-bottom:1rem;
+	line-height: 1.1rem;
+}
+
+
+/* Header, Nav  */
+
+header{
+	display:block;
+	background-color: #000;
+	padding:1rem;
+}
+
+header li, footer li{
+	display:inline;
+}
+
+
+
+.nav{
+	max-width:300px;
+	display:inline;
+	margin-left:2em;
+}
+
+.nav.main{
+	/*font-family:'HelveticaNeueW01-67MdCn 692710';*/
+	/*font-family:'NeueHaasGroteskDisp W01';*/
+	font-size:1rem;
+	line-height: 1.4rem
+	letter-spacing: 0.05em;
+}
+
+.nav.main li{
+	margin-left:0.5em;
+}
+
+.nav.main li:first-child{
+	margin-left:0;
+}
+
+.nav.main a{
+	text-decoration: none;
+	color:hsl(0, 0%, 70%);
+	padding-bottom: 0.25rem;
+}
+
+.nav.main a:hover{
+	/*text-decoration: none;*/
+	color:hsl(0, 0%, 50%);
+}
+
+.nav.main a.visited{
+	/*text-decoration: none;*/
+	color:hsl(0, 0%, 55%);
+	border-bottom:2px solid hsl(0, 0%, 50%);
+}
+
+
+/* Home */
+
+.home .author{
+
+}
+
+.home .left{
+	float:left;
+}
+
+.home img.headshot{
+	width:60%;
+	height:auto;
+	margin-right:2%;
+}
+
+.bio{
+	float:right;
+	max-width:40%;
+}
+
+ul#work-list{
+margin:0;
+padding:0;
+}
+
+ul#work-list li:nth-child(odd){
+	margin-right:2%;
+}
+
+li.work-project{
+	float:left;
+	width:49%;
+	margin-bottom:2rem;
+	list-style: none;
+}
+	
+/* Article Styles */
+
+/* Article > Masthead */
+/* Is it even accurate to call it a masthead? Who cares.*/
+
+.masthead h1{
+	max-width: 75%;
+	font-size:4rem;
+	line-height: 4.5rem;
+	margin-bottom:0.7rem;
+	color:hsl(0, 0%, 5%);
+	font-weight: 700;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.home .author, .masthead p.author{
+	line-height:1.6rem;
+	font-weight:700;
+	margin-bottom:0.7rem;
+	color:rgba(51, 51, 51, 1);
+	/*text-transform: uppercase;*/
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.masthead h1 a{
+color:rgba(51, 51, 51, 1);
+border-bottom:none;
+text-decoration:none;
+}
+
+.masthead h1 a:hover{
+	border-bottom:none;
+	color:hsl(0, 0%, 20%);
+}
+
+.masthead h2{
+	font-size:2rem;
+	line-height: 2.5rem;
+	margin-bottom:0.7rem;
+	color:hsl(0, 0%, 10%);
+	-webkit-font-smoothing: antialiased;
+}
+
+.promo.articles{
+	max-width:50%;
+}
+
+/* Article > Content */
+
+ul.bookmarks{
+	margin-left:0;
+	list-style-type: none;
+}
+
+ul.bookmarks li p{
+font-size:1rem;
+line-height: 1.4rem;
+margin-top:0.5rem;
+}
+
+ul.bookmarks li a{
+font-size:1.4rem;
+line-height: 1.85rem;
+/*margin-top:0.5rem;*/
+}
+
+ul.bookmarks li{
+	margin-bottom:1.5rem;
+}
+
+
+
+/*.content  p.datetime{
+	font-size:0.8em;
+	line-height:1.4em;
+	margin-bottom:1.4em;
+	color:#878787;
+}*/
+
+.content  p:last-child{
+	margin-bottom:0;
+}
+
+.home a, .content a{
+	text-decoration:none;
+	/*color:hsl(0, 0%, 10%);*/
+	color:hsl(190, 45%, 40%);
+	border-bottom:1px solid hsl(0,0%,80%);
+}
+
+.right a:hover, .content a:hover{
+	color:hsl(190, 45%, 30%);
+	border-bottom:1px solid hsl(43, 100%, 54%);
+}
+
+.home ul, .content ul{
+ list-style-type: disc;
+ list-style-position: outside;
+margin-bottom:1.8rem	;
+margin-left:3.5rem;
+}
+
+.home ul{
+margin-left:1.2rem;
+}
+
+.home p{
+	/*margin-bottom:0;*/
+}
+
+
+/*Right Blog Col*/
+
+.right{
+	width:15%;
+	/*padding: 3rem 0 2rem 0;*/
+	letter-spacing: 0.015rem;
+	font-size: 0.7rem;
+	line-height: 1rem;
+	color:#838383;
+}
+
+.minibio{
+	text-align:center;
+}
+
+.minibio a{
+text-decoration:none;
+color:hsl(0,2.9%,27.1%);
+}
+
+/*.minibio a{
+text-decoration:underline;
+color:hsl(0,100%,0%);
+}
+*/
+.elsewhere{
+	margin-top:0.5rem;
+}
+
+/* Previously */
+
+.previously{
+	border-top:4px double hsl(0, 0%, 75%);
+	width:50%;
+}
+
+/* I FEEL BAD ABOUT THIS BUT HEY */
+
+h2{
+	/*font-family: 'HelveticaMonospacedW01- 883251';*/
+	/*font-size:1.2rem;*/
+	line-height: 2.51.4rem;
+	margin:0.7rem 0 0.7rem 0;
+	color:hsl(0, 0%, 30%);
+	-webkit-font-smoothing: antialiased;
+}
+
+
+h4, h3{
+	font-weight:700;
+	margin:0.7rem 0 0.7rem 0;
+	color:hsl(0, 0%, 30%);
+	-webkit-font-smoothing: antialiased;
+}
+
+.previously li{
+	/*font-family: 'Neuton', serif;*/
+	/*font-size: 1.5rem;*/
+	/*line-height:2rem;*/
+}
+
+.previously li a{
+	/*text-decoration: none;*/
+	/*color: hsl(0, 0%, 20%);*/
+}
+
+.pagination{
+	margin:0.7rem 0 0.7rem 0;
+	padding:1em 0 0 0;
+	border-top:4px double hsl(0, 0%, 75%);
+}
+
+.double-top{
+	border-top:4px double hsl(0, 0%, 75%);
+}
+
+a.previous-link{
+	float:left;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+a.next-link{
+	clear:right;
+	float: right;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/* Footer */
+
+footer,.copyright p{
+	/*font-family:'NeueHaasGroteskDisp W01';*/
+	font-size:0.8rem;
+	letter-spacing: 0.05rem;
+	color:hsl(0,0%,50%);
+}
+
+footer p{
+	font-size:0.8rem;
+	letter-spacing: 0.05rem;
+	margin-bottom:0.25em;
+}
+
+footer ul{
+	/*max-width:300px;*/
+	display:inline;
+	/*margin-left:2em;*/
+}
+footer li{
+	margin-right:0.8em;
+}
+
+footer li:last-child{
+	margin-right:0em;
+}
+
+footer.home{
+	background-color: hsl(0, 0%, 100%);
+}
+
+footer li a{
+	text-decoration: none;
+	color:hsl(0,0%,50%);
+}
+
+footer li a:hover{
+	/*text-decoration: none;*/
+	color:#000;
+}
+
+footer li a.visited{
+	/*text-decoration: none;*/
+	color:hsl(0, 0%, 55%);
+	border-bottom:2px solid hsl(0, 0%, 50%);
+}
+
+blockquote{
+	/*font-family:'NewCenturySchoolW01-It';*/
+	margin-right: 2rem;
+	margin-left:2rem;
+	padding: 1rem;
+	background: hsl(0, 0%, 97%);
+	margin-bottom:1rem;
+	/*border-left:0.5rem solid hsl(43, 100%, 54%);*/
+}
+
+blockquote p:last-child{
+margin-bottom:0;
+}
+
+
+
+
+/*Misc Showoffery*/
+::selection {
+	background: hsl(43, 100%, 54%);
+	}
+::-moz-selection {
+	background: hsl(43, 100%, 54%);
+}
+
+.scenario{
+	text-transform:uppercase;
+	font-family:'NewCenturySchoolW01-BdI';
+	color: #d9403f
+}
+
+article strong{
+/*font-family:'NewCenturySchoolW01-Bd';*/
+}
+
+/* Images */
+
+.photo, img.fullwidth{
+width:100%;
+height:auto;
+margin:1.8rem auto;
+display:block;
+box-sizing: border-box;
+}
+
+.avatar{
+width:100%;
+height:auto;
+/*margin:1.8rem auto;*/
+display:block;
+box-sizing: border-box;
+}
+
+
+img.smallsquare{
+display:block;
+width:600px;
+margin:1.8rem auto;
+}
+
+.silverframe{
+	border:20px solid hsl(0, 0%, 95%);
+}
+
+
+/* Tweets */
+#templates{
+	display:none;
+}
+
+#tweet_template{
+	/*display:none;*/
+}
+
+#tweets .separator{
+	padding-top:1rem;
+	border-top:1px solid hsl(0, 0%, 75%);
+}
+
+#recent_tw{
+	margin-left:0;
+}
+
+.tweet{
+list-style: none;
+margin:0;
+padding: 1.4rem 1rem 1rem 0;
+border-bottom:1px solid hsl(0,0%,93%);
+}
+
+#recent_tw li.tweet:first-child{
+	border-bottom: none;
+	padding: 0.5rem 1rem 0 0;
+}
+
+#recent_tw li.tweet:last-child{
+	border-bottom: none;
+	padding: 1.4rem 1rem 0 0;
+}
+
+
+
+.tweetdate{
+	font-size: 0.7rem;
+	color: hsl(0, 0%, 62%);
+}
+
+
+/*Places*/
+
+/*
+
+a.chunkylink{
+	margin-right:10px;
+	padding:15px;
+	background-color: #dedede;
+	font-family:"Helvetica",sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#333;
+}
+
+a.chunkylink:hover{
+	background-color: #bbb;
+}
+
+#next{
+	margin:25px 0 45px 0;
+}
+
+.dark{
+	/*padding:1em;*/
+	width:750px;
+	margin:1em;
+	background:#333;
+	font:22px helvetica;
+	color:#eee;
+}
+
+.light{
+	/*padding:1em;*/
+	width:750px;
+	margin-bottom:1em;
+	/*background: hsl(330, 6%, 94%);*/
+	font:22px times;
+	color:hsl(0, 0%, 29%);
+	/*border-left:8px solid hsl(116, 38%, 44%);*/
+}
+
+.datetime{
+	font-size:80%;
+	color:hsl(0, 0%, 60%);
+	margin-bottom:0.25em;
+}
+
+#map-overlay-left{
+	z-index: 10000;
+	height:10px;
+	width:60%;
+	float:left;
+}
+
+
+#map-overlay-right{
+	z-index:10000;
+	height:10px;
+	width:60%;
+	float:right;
+}
+
+#map {
+	padding:1em;
+	cursor:default;
+	min-height: 300px; 
+	padding:1em;
+	width:750px;
+	border-left:8px solid #d9403f;
+}
+
+#places{
+	width:60%;
+	z-index:1000;
+	position:absolute;
+}
+
+.place{
+	font-size: 1.85em;
+	display:inline-block;
+	padding:0.2em;
+	margin-right:0.25em;
+	margin-bottom:0.25em;
+	background-color:#333;
+	color:hsl(0, 0%, 98%);
+}
+
+#venues{
+	width:60%;
+	z-index:1000;
+	position:absolute;
+	bottom:10px;
+}
+
+.venue{
+	font-size: 1.1em;
+	display:inline-block;
+	padding:0.25em;
+	margin-right:0.25em;
+	margin-bottom:0.3em;
+	background-color:#333;
+	color:hsl(0, 0%, 98%);
+}
+
+
+/* Features */
+
+header.transparent{
+	background-color: none;
+}
+
+.nav{
+	max-width:300px;
+	display:inline;
+	margin-left:2em;
+}
+
+/* Experimental Home */
+.site-title{
+	text-align:center;
+}
+.site-title h1.author{
+	font-size:3rem;
+	line-height: 5rem;
+	margin-bottom:0.7rem;
+	color:rgba(51, 51, 51, 1);
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.foot1{
+background-color: hsl(0,0%,60%);
+padding: 0.1rem;
+}
+
+.foot2{
+background-color: hsl(0,0%,50%);
+padding: 0.2rem;
+}
+
+.foot3{
+background-color: hsl(0,0%,40%);
+padding: 0.3rem;
+}
+
+.foot4{
+background-color: hsl(0,0%,30%);
+padding: 0.4rem;
+}
+
+.foot5{
+background-color: hsl(0,0%,20%);
+padding: 0.5rem;
+}
+
+footer.home{
+	padding:0;
+}
+
+
+/*Responsive Test*/
+
+/*Tiny Little Screens*/
+@media screen and (max-width: 480px) {
+
+	blockquote{
+	/*font-family:'NewCenturySchoolW01-It';*/
+	margin-right: 1rem;
+	margin-left:1rem;
+	padding: 1rem;
+	background: hsl(0, 0%, 97%);
+	margin-bottom:1rem;
+	/*border-left:0.5rem solid hsl(43, 100%, 54%);*/
+}
+
+
+	/*General*/
+	html{
+	font-size:12px;
+	}
+	body{
+	/*background-color: red;*/
+	}
+
+	/* Nav */
+
+	.nav.main{
+		font-size:1.1rem;
+		line-height: 1.5rem
+		letter-spacing: 0.05em;
+	}
+
+	/*Article*/
+
+	a.previous-link{
+	font-size:1rem;
+	float:left;
+	overflow: hidden;
+	white-space: nowrap;
+	}
+
+	a.next-link{
+	font-size:1rem;
+	clear:right;
+	float: right;
+	overflow: hidden;
+	white-space: nowrap;
+	}
+
+	.content blockquote,.content p,.content ul,.content figcaption{
+		font-size:1.25rem;
+		line-height: 1.7rem;
+	}
+
+	.content ul{
+		margin-left:1.2rem;
+	}
+
+	.left{
+		width:90%;
+		margin-right:10%;
+		padding-right:0;
+	}
+
+	.blurb{
+		width:90%;
+		margin-right:10%;
+		padding-right:0;
+	}
+
+	p.datetime{
+		font-size: 100%;
+	}
+
+	.tweetdate{
+	font-size: 100%;
+	}
+
+	.right{
+		display:none;
+	}
+	.masthead h1{
+		max-width: 100%;
+		font-size:2rem;
+		line-height: 2.4rem;
+	}
+
+}

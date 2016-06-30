@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>Shaking off the Rust - Data Representation | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">	
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
+
+	</head>
+
+	<body>
+
+	<header role="banner">
+		<ul class="nav main">
+<li><a href="/about/">About</a></li>
+
+
+<li><a href="/blog/" class="visited">Blog</a></li>
+
+</ul>
+	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<p class="author">Paul May</p>
+			<h1><a href="/blog/shaking-off-the-rust-data-representation">Shaking off the Rust - Data Representation</a></h1>
+			<p class="datetime">07 February 2011</p>
+		</div>
+	</div>
+
+	<!--The content slice of the article. On the left we have the article text,
+		then on the right we have the little monogram and any other cruft we 
+		care to include. And when I say we, I do of course mean I.-->
+	<div class="wrapper main">
+		<div class="left content">
+		<p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5424012722/" title="Zoomed Section by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5292/5424012722_8680bf5d5f_z.jpg" class="photo" alt="Zoomed Section" /></a>
+This week I've been working on a few experiments to represent the names and, in some cases, family relationships between the current and past members of Ireland's parliament the Dáil.</p>
+<p>### Rusty
+<strong>Update:</strong> Code for this little project is here: <a href="https://github.com/paulmmay/DailPeople">https://github.com/paulmmay/DailPeople</a></p>
+
+<p>I am a little rusty with programming; I haven’t done much since coming back to ITP. I wanted to shake of the rust, explore some more Irish public data and play with aesthetics.</p>
+
+<p>I discovered that every word that has ever been said in the Irish parliament, the Dáil, is available in XML formatted files at <a href="http://debates.oireachtas.ie/XML/">http://debates.oireachtas.ie/XML/</a>, and there’s also a handy file that lists all the members of the Dáil over the years; ripe for a little experiment.</p>
+
+<h3 id="play">Play</h3>
+<p><a href="http://www.flickr.com/photos/paulmmay/5424001346/" title="Visualisation of Irish TDs' Surnames by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5131/5424001346_22c0035ec5_z.jpg" class="photo" alt="Visualisation of Irish TDs' Surnames" /></a><br />
+This exercise was really just <strong>a bit of fun</strong>. I just wanted to answer a simple question - <strong>what family names are the most represented in the Dáil</strong> over the years; this is a simpler task than actually plotting family connections which would be a bit of a chore.  Anyway, **I wrote a little Processing app to consume the list of TDs and then represent the surnames visually on the screen. ** It is interesting, but not surprising, how often family names seem to show up again and again - it would be interesting to know if Ireland has a higher proportion of elected officials who have had family (parents, older siblings etc.) in office before them, compared with other European countries. My feeling is that Irish politics is quite dynastic.</p>
+
+<h3 id="feel">Feel</h3>
+
+<p>When I was thinking about the aesthetics of the graphics I started with my usual black background, but it wasn’t very satisfying. <strong>I wanted to give the graphics a little bit of a natural, organic quality</strong> - so decided to use a paper-like, off-white background and light, almost inky colours. I’m happy with the results. With a few tweaks to improve the legibility of the graphics I think they’d look quite nice printed. I haven’t tried printing any of my dataviz stuff yet, but it’s something I’d like to do.</p>
+
+<p>Anyway, a productive few hours of play and exploration.</p>
+
+
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
+
+	<div class="pagination">
+	
+	 
+	<a href="/blog/failing-completely-at-the-hourly-comic" class="previous-link" title="Failing Completely at the Hourly Comic">&laquo; Newer Article</a>
+	 
+	
+	<a href="/blog/big-games-headrush" class="next-link" title="Failing Completely at the Hourly Comic">Older Article &raquo;</a>
+	
+	</div>
+
+
+		</div>
+		<!--The afforementioned monogram and cruft-->
+		<div class="right minibio">
+		Paul May is a researcher and interaction designer from Dublin, Ireland. Keywords include: triathlon, photography, cooking, technology, health, data, society, media.	
+<div class="elsewhere">
+<ul>
+<li><a href="https://twitter.com/paulmmay">@paulmmay</a></li>
+<li><a href="mailto:hello@paulmay.org">hello@paulmay.org</a></li>
+</ul>
+</div>
+
+	
+
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Paul May.</p>
+		<ul class="footernav">
+		</ul>
+	</footer>
+
+
+
+</body>
+</html>
