@@ -22,6 +22,7 @@ r301 %r{.*}, 'http://www.paulmay.org$&', :if => Proc.new {|rack_env|rack_env['SE
 r301 %r{.*}, 'http://www.paulmay.org$&', :if => Proc.new {|rack_env|rack_env['SERVER_NAME'] == 'new.paulmay.org'}
 r301 '/blog/The_Hell_of_the_West/', '/blog/the-hell-of-the-west'
 r302 '/', '/blog'
+r301 'blog/heaney-underground', 'https://www.youtube.com/watch?v=30LR0tIDb3g'
 end
 
 use Rack::TryStatic,
