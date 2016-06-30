@@ -4,24 +4,22 @@
  }
 
 html{
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 body {
 	 text-rendering: optimizeLegibility;
 	 padding: 0;
-	 font-family:'HelveticaMonospacedW01';
+	 font-family: 'Alegreya', serif;
 	 background-color: hsl(0, 0%, 100%);
 	 color:hsl(0, 0%, 22%);
-	 /*background-image: url('/i/iceland.jpg');*/
 }
-
 
 p {
 	 margin-bottom: 1.8rem;
-	 font-size: 1rem;
-	 line-height:1.35rem;
+	 font-size: 1.2rem;
+	 line-height:1.6rem;
 }
 
 footer{
@@ -176,30 +174,29 @@ li.work-project{
 	margin-bottom:2rem;
 	list-style: none;
 }
-
+	
 /* Article Styles */
 
 /* Article > Masthead */
 /* Is it even accurate to call it a masthead? Who cares.*/
 
 .masthead h1{
-	font-family:'CentennialLTW01-75Bold';
 	max-width: 75%;
 	font-size:4rem;
 	line-height: 4.5rem;
 	margin-bottom:0.7rem;
 	color:hsl(0, 0%, 5%);
+	font-weight: 700;
 	-webkit-font-smoothing: antialiased;
 }
 
 
 .home .author, .masthead p.author{
-	font-family:'HelveticaMonospacedW01- 883254';
-	font-size:1.5rem;
-	line-height: 2rem;
+	line-height:1.6rem;
+	font-weight:700;
 	margin-bottom:0.7rem;
 	color:rgba(51, 51, 51, 1);
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -216,10 +213,6 @@ text-decoration:none;
 }
 
 .masthead h2{
-	/*font-family:'NHaasGroteskTXW01-75Bd';*/
-	font-family: 'CentennialLTW01-75Bold';
-	/*font-size:1.8rem;*/
-	/*line-height:2.2rem;*/
 	font-size:2rem;
 	line-height: 2.5rem;
 	margin-bottom:0.7rem;
@@ -291,7 +284,7 @@ margin-left:1.2rem;
 }
 
 .home p{
-	margin-bottom:0;
+	/*margin-bottom:0;*/
 }
 
 
@@ -334,8 +327,8 @@ color:hsl(0,100%,0%);
 /* I FEEL BAD ABOUT THIS BUT HEY */
 
 h2{
-	font-family: 'HelveticaMonospacedW01- 883251';
-	font-size:1.2rem;
+	/*font-family: 'HelveticaMonospacedW01- 883251';*/
+	/*font-size:1.2rem;*/
 	line-height: 2.51.4rem;
 	margin:0.7rem 0 0.7rem 0;
 	color:hsl(0, 0%, 30%);
@@ -353,7 +346,7 @@ h4, h3{
 }
 
 .previously li{
-	/*font-family: 'CentennialLTW01-75Bold';*/
+	/*font-family: 'Neuton', serif;*/
 	/*font-size: 1.5rem;*/
 	/*line-height:2rem;*/
 }
@@ -585,7 +578,7 @@ a.chunkylink:hover{
 }
 
 .datetime{
-	font-size:70%;
+	font-size:80%;
 	color:hsl(0, 0%, 60%);
 	margin-bottom:0.25em;
 }
@@ -665,7 +658,6 @@ header.transparent{
 	text-align:center;
 }
 .site-title h1.author{
-	font-family:'HelveticaMonospacedW01- 883254';
 	font-size:3rem;
 	line-height: 5rem;
 	margin-bottom:0.7rem;
@@ -755,8 +747,8 @@ footer.home{
 	}
 
 	.content blockquote,.content p,.content ul,.content figcaption{
-		font-size:1.1rem;
-		line-height: 1.5rem;
+		font-size:1.25rem;
+		line-height: 1.7rem;
 	}
 
 	.content ul{
