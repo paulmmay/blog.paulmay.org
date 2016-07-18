@@ -3,7 +3,9 @@ title: 30 Days of Earthquakes as Sound
 url: 30-days-of-earthquakes-as-sound
 comments: true
 layout: post
-categories: [blog]
+type: Software, Audio
+year: 2011
+categories: [work-inactive]
 tags: [earthquakes, dataviz, data sonification, data representation]
 date: 13-03-2011
 ---

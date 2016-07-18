@@ -5,7 +5,10 @@ comments: false
 layout: project
 largeimage: http://farm8.staticflickr.com/7002/6549641145_1072356ce0_b_d.jpg
 smallimage: /g/work-metrochange.jpg
+indeximage: /g/metrochange.jpg
 writeup: 
+type: device, service
+year: 2011
 categories: [work]
 tags: [metrochange, philanthropy]
 date: 30-12-2011

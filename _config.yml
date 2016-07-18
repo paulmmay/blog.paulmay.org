@@ -16,3 +16,7 @@ navigation:
   url: /blog/index.html
   cleanurl: /blog/
   layout: post
+- text: Work
+  url: /work/index.html
+  cleanurl: /work/
+  layout: project

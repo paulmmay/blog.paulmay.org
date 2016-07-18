@@ -4,7 +4,7 @@ url: irish-media-two-decades-wasted
 comments: false
 layout: post
 categories: [blog]
-tags: []
+tags: [politics]
 date: 04-01-2013
 ---
 What I find most disappointing about the recent statements from <a href="http://www.nni.ie/v2/broad/portal.php?content=../_includes/prportal.php&date=4th%20Jan%202013&year=2013">National Newspapers of Ireland</a> isn't that they assert that linking to a website could require licensing - that old chestnut is as old as the web itself. What is most disappointing is that it's a clear sign that the Irish news media have done very little to prepare for the opportunities that the web now offers them.

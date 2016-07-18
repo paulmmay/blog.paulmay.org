@@ -1,11 +1,19 @@
 ---
-title: Building a Database of Useful Irish Data
-url: building-irish-data
-comments: true
-layout: post
+title: IrishData.org
+url: irish-data
+comments: false
+layout: project
+largeimage: http://farm6.staticflickr.com/5029/5670967252_d93abbb970_b_d.jpg
+smallimage: ../g/work-tedx.jpg
+indeximage: /g/irishdata.jpg
+type: Experiment, Service
+year: 2010
+writeup: 
 categories: [blog]
 tags: [visualisation, pdf, open government, itp, irishdata, ireland, datasets, data]
+strapline: An API to Irish civic data.
 date: 26-10-2010
+description: In 2010, frustrated at the lack of accessible data sets related to Ireland and the Irish economy, I created my own programmatic interface (a RESTful API) to Irish government data. The service scraped data from the Irish Central Statistics Office and other government websites, and made the data available as cleanly formatted JSON. I used the API to create a series of graphics representing Ireland and the health of the Irish economy.
 ---
 <p class="intro">In the spirit of "let's just build this and see what happens" I've started to build a repository of useful data about Ireland - I can't really hang on for the election.</p>
 <a href="http://www.flickr.com/photos/paulmmay/5119772748/" title="what-happened-4 by paulmmay, on Flickr"><img src="http://farm5.static.flickr.com/4050/5119772748_718f30a26a_z.jpg" class="photo" alt="what-happened-4" /></a>

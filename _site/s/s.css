@@ -14,12 +14,19 @@ body {
 	 font-family: 'Alegreya', serif;
 	 background-color: hsl(0, 0%, 100%);
 	 color:hsl(0, 0%, 22%);
+	 font-size: 1.2rem;
+		line-height: 1.6rem;
 }
 
 p {
 	 margin-bottom: 1.8rem;
 	 font-size: 1.2rem;
 	 line-height:1.6rem;
+}
+
+p strong{
+	font-weight:700;
+	color:hsl(0, 0%, 28%);
 }
 
 footer{
@@ -59,8 +66,16 @@ display: flex;
   padding-right: 5%;
 }
 
+.bleed{
+  width:100%;
+}
+
 .wrapper.main{
 	padding:1rem 0 3rem 3rem;
+}
+
+.wrapper.work{
+	padding:1rem 0 0 3rem;
 }
 
 .wrapper.top{
@@ -113,7 +128,7 @@ header li, footer li{
 }
 
 .nav.main li{
-	margin-left:0.5em;
+	margin-left:1em;
 }
 
 .nav.main li:first-child{
@@ -159,21 +174,7 @@ header li, footer li{
 	max-width:40%;
 }
 
-ul#work-list{
-margin:0;
-padding:0;
-}
 
-ul#work-list li:nth-child(odd){
-	margin-right:2%;
-}
-
-li.work-project{
-	float:left;
-	width:49%;
-	margin-bottom:2rem;
-	list-style: none;
-}
 	
 /* Article Styles */
 
@@ -181,7 +182,6 @@ li.work-project{
 /* Is it even accurate to call it a masthead? Who cares.*/
 
 .masthead h1{
-	max-width: 75%;
 	font-size:4rem;
 	line-height: 4.5rem;
 	margin-bottom:0.7rem;
@@ -326,22 +326,20 @@ color:hsl(0,100%,0%);
 
 /* I FEEL BAD ABOUT THIS BUT HEY */
 
-h2{
-	/*font-family: 'HelveticaMonospacedW01- 883251';*/
-	/*font-size:1.2rem;*/
+/*h2{
 	line-height: 2.51.4rem;
 	margin:0.7rem 0 0.7rem 0;
 	color:hsl(0, 0%, 30%);
 	-webkit-font-smoothing: antialiased;
-}
+}*/
 
 
-h4, h3{
+/*h4, h3{
 	font-weight:700;
 	margin:0.7rem 0 0.7rem 0;
 	color:hsl(0, 0%, 30%);
 	-webkit-font-smoothing: antialiased;
-}
+}*/
 
 .previously li{
 	/*font-family: 'Neuton', serif;*/
@@ -470,6 +468,23 @@ display:block;
 box-sizing: border-box;
 }
 
+figure img.photo{
+width:100%;
+height:auto;
+margin:1.8rem 0 0.5rem 0;
+display:block;
+box-sizing: border-box;	
+}
+
+figure{
+	margin-bottom:1.8rem;
+}
+
+figcaption{
+	font-size:70%;
+	line-height: 1.2em;
+}
+
 .avatar{
 width:100%;
 height:auto;
@@ -530,6 +545,151 @@ border-bottom:1px solid hsl(0,0%,93%);
 .tweetdate{
 	font-size: 0.7rem;
 	color: hsl(0, 0%, 62%);
+}
+
+/*Work*/
+
+ul#work-list{
+margin:0;
+padding:0;
+}
+
+.client-logos img, img.project-big{
+width:100%;	
+}
+
+.client-logos img{
+	
+}
+
+ul#work-list li:nth-child(odd){
+	margin-right:2%;
+}
+
+li.work-project{
+	float:left;
+	width:49%;
+	margin-bottom:2rem;
+	list-style: none;
+}
+
+.section-meta h2, .project-meta h2{
+	font-size:1.4rem;
+	line-height: 1.7rem;
+	color:hsl(0, 0%, 5%);
+	font-weight: 700;
+	-webkit-font-smoothing: antialiased;
+	margin-bottom:0.4rem;
+}
+
+.section-meta p.description, .project-meta p.description{
+	font-size:80%;
+	line-height: 120%;
+	color:hsl(0, 0%, 5%);
+	margin-bottom:0.25rem;
+}
+
+.project-meta h2 a{
+color:rgba(51, 51, 51, 1);
+border-bottom:none;
+text-decoration:none;
+}
+
+.project-meta h2 a:hover{
+	border-bottom:none;
+	color:hsl(0, 0%, 20%);
+}
+
+.masthead h2{
+	font-size:2rem;
+	line-height: 2.5rem;
+	margin-bottom:0.7rem;
+	color:hsl(0, 0%, 10%);
+	-webkit-font-smoothing: antialiased;
+}
+
+span.project-type{
+	text-transform: capitalize;
+}
+
+span.divider{
+	color: #ddd;
+}
+.project-meta{
+	width:25%;
+	float:left;
+}
+
+.project-image{
+	width:70%;
+	float:right;
+	height:300px;
+	overflow:hidden;
+}
+
+.client-logos{
+	width:70%;
+	float:right;
+}
+
+.work-section{
+	margin:0.7rem 0 0.7rem 0;
+	padding:2em 0 0 0;
+	border-top:1px solid hsl(0, 0%, 75%);
+}
+
+.slimmer{
+	padding:0;
+}
+
+.projects-other{
+    width: 70%;
+    float: right;
+}
+
+.project-other{
+	float:left;
+    width: 49%;
+}
+
+.project-other:nth-child(2n){
+	margin-left:2%;
+}
+.project-other-img img{
+    width: 100%;
+    height:150px;
+}
+
+.project-other a{
+	text-decoration:none;
+	color:rgba(51, 51, 51, 1);
+	border-bottom:none;
+}
+
+.project-other a:hover{
+	border:none;
+	color:inherit;
+	border-bottom:none;
+}
+
+.project-other h3{
+	font-size:1rem;
+	line-height: 1.2rem;
+	color:hsl(0, 0%, 5%);
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+}
+
+.project-other-meta p.datetime{
+	margin-bottom:0.4rem;
+}
+
+.project-section h3{
+	padding-bottom:0.25rem;
+	color:hsl(0, 0%, 5%);
+	font-weight: 600;
+	margin-bottom:1em;
+	border-bottom: 1px solid hsl(0,0%,80%);
 }
 
 

@@ -17,4 +17,3 @@ In the last year there has been some progress; some academic bodies in Ireland h
 Outside of these modest steps, none of the problems <a href="http://paulmay.org/blog/ireland-as-pdf/" title="I wrote a year ago has really changed">I wrote a year ago have been solved</a>. Ireland is just not anywhere on the map when it comes to offering its citizens current, accessible, coherent insight into the workings of government or the financial system. 
 
 My own little attempt to make progress is coming to an end because the effort involved in maintaining the data is pretty enormous, and other projects need to take priority for now. I learned a huge amount creating this project and I hope that truly open government in Ireland becomes a reality sooner rather than later.
-

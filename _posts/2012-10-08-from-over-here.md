@@ -6,6 +6,9 @@ layout: project
 largeimage: http://farm6.staticflickr.com/5138/5504555642_c59d818987_b_d.jpg
 smallimage: /g/work-foh.jpg
 writeup: 
+indeximage: /g/fromoverhere.jpg
+type: object
+year: 2011
 categories: [work]
 tags: []
 strapline: A tactile sculpture made from big data.
