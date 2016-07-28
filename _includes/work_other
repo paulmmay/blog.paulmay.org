@@ -1,0 +1,26 @@
+<div class="wrapper work">
+<div class="bleed content work-section">
+
+<div class="project-meta">
+<h2>Other Projects</h2>
+<p class="description">Older work and personal projects</p>
+</div>
+
+<div class="projects-other">
+
+{%for post in site.categories.work | sort: 'year' %}
+{%if post.is_primary == false%}
+	<div class="project-other">
+		<div class="project-other-img">
+			<a href="{{post.url}}"><img src="{%if post.indeximage%}{{post.indeximage}}{%else%}/g/placeholder.png{%endif%}" class="project-big"/></a>
+		</div>
+		<div class="project-other-meta">
+			<h3><a href="{{post.url}}">{{post.title}}</a></h3>
+			<p class="datetime"><span class="project-type">{{post.type}}</span><span class="divider"> | </span>{{post.year}}</p>
+		</div>
+	</div>
+{%endif%}
+{%endfor%}
+</div>
+</div>
+</div>

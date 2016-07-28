@@ -1,0 +1,12 @@
+{%if page.sourcecode or page.references%}
+<div class="project-section">
+<h3>Source Code &amp; References</h3>
+<ul>
+{%if page.sourcecode%}<li><a href="{{page.sourcecode}}">Project source code</a></li>{%endif%}
+{%if page.references%}{%for reference in page.references%}
+{%assign ref_index=forloop.index |minus:1%}
+<li><a href="{{reference}}">{{page.referencetitles[ref_index]}}</a></li>
+{%endfor%}
+{%endif%}
+</div>
+{%endif%}

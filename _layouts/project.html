@@ -34,10 +34,14 @@
 	<!--The content slice of the article. On the left we have the article text,
 		then on the right we have the little monogram and any other cruft we 
 		care to include. And when I say we, I do of course mean I.-->
-	<div class="wrapper main">
+	<div class="wrapper main project">
 		<div class="left content">
 		<p><strong>{{page.description}}</strong></p>
-		{%if page.video%}{{page.video}}{%endif%}
+		{%if page.video%}
+		<div class="videowrapper">
+    	{{page.video}}
+		</div>
+		{%endif%}
 		{{content}}
 		{%include project_largeimages%}
 		{%include project_sourcecode%}

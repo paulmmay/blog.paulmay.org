@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>Creatures | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">			
+
+	</head>
+
+	<body>
+
+	<header role="banner">
+		<ul class="nav main">
+<li><a href="/about/">About</a></li>
+
+<li><a href="/blog/">Blog</a></li>
+
+<li><a href="/work/" class="visited">Work</a></li>
+
+</ul>
+	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<p class="author">Paul May</p>
+			<h1><a href="/work/creatures">Creatures</a></h1>
+			<p class="datetime">02 May 2012</p>
+		</div>
+	</div>
+
+	<!--The content slice of the article. On the left we have the article text,
+		then on the right we have the little monogram and any other cruft we 
+		care to include. And when I say we, I do of course mean I.-->
+	<div class="wrapper main project">
+		<div class="left content">
+		<p><strong>Creatures is a predator/prey simulation built in the Processing framework. The simualation features a landscape rich with slow-growing food sources (in green), and dotted with threats (in red). The landscape is populated with herds of roaming creatures. The creatures forage for food, avoid danger, remember, reproduce, age, and die.</strong></p>
+		
+		<div class="videowrapper">
+    	<iframe src="http://player.vimeo.com/video/59276561?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="700" height="394" class="video" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		</div>
+		
+		<p>Each creature makes decisions depending on its location in the landscape. If the creature is near an unknown object, it will move towards it to examine it more closely. It will then feed or flee depending on what that object is - food, or a threat. When the creature encounters threats and food sources, it retains a memory of them, and is less cautious on subsequent encounters.</p>
+
+<p>If the creature is near a potential mate a fitness algorithm will decide whether or not the two creatures can reproduce. When the creatures do reproduce, a new creature is born, and the baby creature inherits some characteristics from both of its parents.</p>
+
+<p>Each creature has a finite life span, and as food sources in the landscape are depleted, creatures die off - which allows food sources to replenish. Over time the simulation has the potential to reach equilibrium.</p>
+
+<p>The project uses <a href="http://www.red3d.com/cwr/steer/" title="Reynolds' steering behaviours">Reynolds’ steering behaviours</a> and <a href="https://en.wikipedia.org/wiki/Genetic_algorithm" title="genetic algorithms">genetic algorithms</a> to give the creatures pseudo-life-like behaviour.</p>
+
+		
+<div class="project-section">
+<h3>Project Images</h3>
+
+
+<figure>
+<a href="http://farm8.staticflickr.com/7111/6967228282_5743d1a1a8_b_d.jpg"><img src="http://farm8.staticflickr.com/7111/6967228282_5743d1a1a8_b_d.jpg" class="photo"/></a>
+<figcaption>Creatures start to forage for food</figcaption>
+</figure>
+
+
+<figure>
+<a href="https://c1.staticflickr.com/9/8142/7113305143_37d9074cc1_o.png"><img src="https://c1.staticflickr.com/9/8142/7113305143_37d9074cc1_o.png" class="photo"/></a>
+<figcaption>Food resources are becoming scarce. Debug mode shows each creature's current task; W denotes wandering, F denotes feeding, and ! denotes fleeing from a threat. The red and green dots next to each creature represent their memory of threats and food sources.</figcaption>
+</figure>
+
+</div>
+
+		
+<div class="project-section">
+<h3>Source Code &amp; References</h3>
+<ul>
+<li><a href="https://github.com/paulmmay/Nature-of-Code/tree/master/noc_creatures">Project source code</a></li>
+
+
+<li><a href="http://www.red3d.com/cwr/steer/">Reynolds steering behaviors</a></li>
+
+
+</div>
+
+
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
+
+	<div class="pagination">
+	
+	 
+	<a href="/work/mskcc-activity-app" class="previous-link" title="Persuasive Tech for Cancer Rehabilitation">&laquo; Newer Article</a>
+	 
+	
+	<a href="/work/metrochange" class="next-link" title="Persuasive Tech for Cancer Rehabilitation">Older Article &raquo;</a>
+	
+	</div>
+
+
+		</div>
+		<!--The afforementioned monogram and cruft-->
+		<div class="right minibio">
+		Paul May is a researcher and interaction designer from Dublin, Ireland. Keywords include: triathlon, photography, cooking, technology, health, data, society, media.	
+<div class="elsewhere">
+<ul>
+<li><a href="https://twitter.com/paulmmay">@paulmmay</a></li>
+<li><a href="mailto:hello@paulmay.org">hello@paulmay.org</a></li>
+</ul>
+</div>
+
+	
+
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Paul May.</p>
+		<ul class="footernav">
+		</ul>
+	</footer>
+
+
+
+</body>
+</html>
+

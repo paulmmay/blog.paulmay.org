@@ -1,0 +1,12 @@
+{%if page.largeimages%}
+<div class="project-section">
+<h3>Project Images</h3>
+{% for image in page.largeimages %}
+{%assign caption_index=forloop.index |minus:1%}
+<figure>
+<a href="{{image}}"><img src="{{image}}" class="photo"/></a>
+<figcaption>{{page.largeimagecaptions[caption_index]}}</figcaption>
+</figure>
+{%endfor%}
+</div>
+{%endif%}

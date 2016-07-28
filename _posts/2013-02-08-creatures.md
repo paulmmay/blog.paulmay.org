@@ -10,7 +10,8 @@ largeimagecaptions: ["Creatures start to forage for food","Food resources are be
 smallimage: /g/work-creatures.jpg
 writeup:
 indeximage: /g/creatures_reproduction0473.png
-categories: [work-other]
+categories: [work]
+is_primary: false
 video: <iframe src="http://player.vimeo.com/video/59276561?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="700" height="394" class="video" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 tags: [nature of code, simulation]
 date: 02-05-2012

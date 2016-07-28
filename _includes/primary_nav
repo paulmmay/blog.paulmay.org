@@ -1,4 +1,4 @@
-<ul class="nav main">{% for link in site.navigation %}{% assign current = nil %}{% if page.url == link.url or page.layout == link.layout %}
+<ul class="nav main">{% for link in site.navigation %}{% assign current = nil %}{% if page.url == link.url or page.url == link.cleanurl or page.layout == link.layout %}
 {% assign current = ' class="visited"' %}{%else%}{% assign current = ''%}{% endif %}
 <li><a href="{{link.cleanurl}}"{{current}}>{{ link.text }}</a></li>
 {% endfor %}

@@ -1,0 +1,41 @@
+{%assign blogposts = site.categories.blog%}
+{% for post in blogposts.tags.politics|limit:3%}
+{%if forloop.index == 1%}
+<div class="wrapper top">	
+<div class="left masthead">
+<p class="author">Paul May</p>
+<h1><a href="{{post.url}}">{{post.title}}</a></h1>
+<p class="datetime">{{post.date | date: "%d %B %Y"}}</p>
+</div></div>
+{%else%}
+<div class="wrapper top">	
+<div class="left masthead">
+<h1><a href="{{post.url}}">{{post.title}}</a></h1>
+<p class="datetime">{{post.date | date: "%d %B %Y"}}</p>
+</div></div>
+{%endif%}
+
+<div class="wrapper main">
+<div class="left content">
+{{post.content}}
+</div>
+{%if forloop.index == 1%}
+<div class="right minibio">
+{%include monogram%} 
+</div>
+{%endif%}
+</div>
+
+
+
+{%if forloop.index == 3%}
+<div class="wrapper main">
+<div class="left content pagination">
+{% if post.next_in_category != nil %}
+<a href="{{post.next_in_category.url}}" class="next-link" title="{{post.previous_in_category.title}}">Older Article &raquo;</a>
+</div>
+</div>
+{% endif %}
+
+{%endif%}
+{%endfor%}

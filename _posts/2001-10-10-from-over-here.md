@@ -8,7 +8,7 @@ tags: [interaction design, from over here, dataviz, data visualization, data vis
 date: 07-03-2011
 ---
 <p class="intro"><a href="http://www.flickr.com/photos/paulmmay/5504555642/" title="From Over Here - Detail by paulmmay, on Flickr"><img src="http://farm6.static.flickr.com/5138/5504555642_c59d818987_b.jpg" class="photo" alt="From Over Here - Detail" /></a>
-From Over Here is a physical representation of articles from the New York Times from 1992-2010. Each card represents a month of articles about, or related to Ireland. The size of the card represents the numbers of articles from that month. The people and topics mentioned in the articles are etched on each card. </p>
+</p>
 ### Update - 15th March 2011
 <p class="update">I'm very proud that From Over Here <a href="http://www.core77.com/blog/object_culture/from_over_here_a_physical_representation_of_news_mentions_18793.asp" title="got a great writeup">got a great writeup</a> on the design site Core77. Pleased as pie. 
 

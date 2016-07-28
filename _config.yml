@@ -1,5 +1,5 @@
 markdown: Kramdown
-pygments: false
+highligher: false
 permalink: /:categories/:title
 exclude: ["readme.md", "Gemfile", "Gemfile.lock", "config.ru"]
 name: Paul May

@@ -9,7 +9,8 @@ indeximage: /g/abbey.jpg
 writeup: 
 year: 2009
 type: Website
-categories: [work-other]
+categories: [work]
+is_primary: false
 tags: [web]
 date: 09-07-2009
 description: In 2009, while working with the web agency Front (which became part of Monotype in 2012), I had the privilege of working on a new online presence for Abbey Theatre. As Ireland's national theatre, Abbey Theatre has shaped Ireland and the idea of Ireland since it was founded by W.B. Yeats in 1904. Abbey Theatre came to Front asked us to re-develop their site from the ground up. I was responsible for the research, requirements gathering and experience strategy for the new site, working closely with the Theatre's marketing, design and technical teams. 
