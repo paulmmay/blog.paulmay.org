@@ -20,7 +20,7 @@ video: <iframe src="https://player.vimeo.com/video/33804080" width="700" height=
 references: ["http://www.fastcocreate.com/1679328/how-they-did-it-the-high-and-low-tech-behind-metrochange","http://www.good.is/post/spare-change-for-social-change-can-wasted-subway-fees-be-used-for-public-good/","https://www.flickr.com/photos/paulmmay/albums/72157627902422144"]
 referencetitles: ["How They Did It: The High And Low Tech Behind MetroChange - Fast Company Co-Create","MetroChange Could Turn Wasted Subway Fees Into Public Good - GOOD Magazine","More photos of MetroChange, the process, and prototypes"] 
 ---
-Acecdotally, we knew that it was common for Metrocards to be discarded with small amounts of remaining value. We wondered what this waste meant at scale, and what factors in the design of the Metrocard system lead to waste.
+When the project started, we knew (anecdotally) that it was common for Metrocards to be discarded with small amounts of remaining value. We wondered what this waste meant at scale, and what factors in the design of the Metrocard system lead to waste.
 
 We tackled this project from a number of different angles.  
 
