@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>Extracting Information from Sound | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">	
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
+
+	</head>
+
+	<body>
+
+	<header role="banner">
+		<ul class="nav main">
+<li><a href="/about/">About</a></li>
+
+<li><a href="/blog/" class="visited">Blog</a></li>
+
+<li><a href="/work/">Work</a></li>
+
+</ul>
+	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<p class="author">Paul May</p>
+			<h1><a href="/blog/audio-information-extraction">Extracting Information from Sound</a></h1>
+			<p class="datetime">31 July 2016</p>
+		</div>
+	</div>
+
+	<!--The content slice of the article. On the left we have the article text,
+		then on the right we have the little monogram and any other cruft we 
+		care to include. And when I say we, I do of course mean I.-->
+	<div class="wrapper main">
+		<div class="left content">
+		<p>I’m working on a new information retrieval and machine learning project - but unlike previous projects that involved large amounts of text, this project involves sound.</p>
+
+<p>My goal is to create a small, self-contained robot that can listen to, and learn from its surroundings - building up sonic fingerprints of a number of locations. Later, it should be possible for the robot to tell what location it’s at, simply by listening, and comparing it what it hears to previous experiences.</p>
+
+<p>I’m just getting started with the project, and my focus is on writing simple software that can record sound, extract features, fit machine learning models, then classify previously unheard sound.</p>
+
+<p>The field of audio/music information retrieval is very well-developed, so I have a lot to read and learn from.</p>
+
+<p>As a simple hello-world, I took two existing sound files; a Mozart piano sonata, and a recent track by Rihanna, and visualized them as <a href="&quot;https://en.wikipedia.org/wiki/Chroma_feature&quot;">chromagrams</a>. Visually, the difference between the two tracks is clear, and this might be a clue that the notes used in a piece of music represent useful features for a machine learning model. I’ve yet to discover if this is the case, or if chromatic features are useful for more ambient sound.</p>
+
+<p>It’s worth noting that, for now, I’m foregoing any thought of using deep learning techniques to create vector representations of sound, for use in classification tasks. I might try to tackle this down the road. Crawl, walk, run etc.</p>
+
+<p>I’ll write up what I find as the project continues.</p>
+
+		
+<div class="project-section">
+<h3>Related Images</h3>
+
+
+<figure>
+<a href="https://c1.staticflickr.com/9/8774/28674862815_81d294729c_o.png"><img src="https://c1.staticflickr.com/9/8774/28674862815_81d294729c_o.png" class="photo"/></a>
+<figcaption>The chromagram of a Mozart piano sonata. The chromagram is a time series (time runs left to right on the x-axis) that breaks sound down into the 12 notes in the well-tempered, western, scale - the 12 notes you find in an octave on a piano. Visually, it's possible to pick out the more common notes in the sonata.</figcaption>
+</figure>
+
+
+<figure>
+<a href="https://c1.staticflickr.com/9/8793/28390725160_573436e935_o.png"><img src="https://c1.staticflickr.com/9/8793/28390725160_573436e935_o.png" class="photo"/></a>
+<figcaption>The chromagram of a recent Rihanna track. The track is longer, and hence more dense, but it's possible to tell that the sound is much denser; there are more notes being played at any given time. Thc more common notes look very different from the Mozart sonata</figcaption>
+</figure>
+
+</div>
+
+		
+<div class="project-section">
+<h3>Source Code &amp; References</h3>
+<ul>
+
+
+
+<li><a href="http://www.amclassical.com/piano/">Creative Commons classical music MP3s</a></li>
+
+
+<li><a href="https://en.wikipedia.org/wiki/Chroma_feature">Chroma features</a></li>
+
+
+<li><a href="https://github.com/librosa/librosa">LibRosa for Python</a></li>
+
+
+<li><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144610">pyAudioAnalysis - An Open-Source Python Library for Audio Signal Analysis</a></li>
+
+
+<li><a href="https://acmmm13musicandaudio.files.wordpress.com/2013/10/acmmm13musicandaudio.pdf">ACM tutorial on Audio and Music Information Retrieval</a></li>
+
+
+<li><a href="https://docs.google.com/presentation/d/1S5Cizi9LFQ7l0bMYtY7gASvOPqxNsQk0-NuP5KWAl-4/pub?slide=id.g14e0b1c9b4_4_17">iHeartRadio - Mapping the world of music into vector spaces</a></li>
+
+
+</div>
+
+	
+	
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
+
+	<div class="pagination">
+	
+	 
+	
+	<a href="/blog/simon-grad-nyc-progress" class="next-link" title="">Older Article &raquo;</a>
+	
+	</div>
+
+
+		</div>
+		<!--The afforementioned monogram and cruft-->
+		<div class="right minibio">
+		Paul May is a researcher and interaction designer from Dublin, Ireland. Keywords include: triathlon, photography, cooking, technology, health, data, society, media.	
+<div class="elsewhere">
+<ul>
+<li><a href="https://twitter.com/paulmmay">@paulmmay</a></li>
+<li><a href="mailto:hello@paulmay.org">hello@paulmay.org</a></li>
+</ul>
+</div>
+
+	
+
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Paul May.</p>
+		<ul class="footernav">
+		</ul>
+	</footer>
+
+
+
+</body>
+</html>

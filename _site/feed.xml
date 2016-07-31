@@ -3,9 +3,34 @@
   <title>Paul May</title>
   <subtitle></subtitle>
   <icon></icon>
-  <updated>2014-09-05T00:00:00Z</updated>
+  <updated>2016-07-31T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
   <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
+  
+    <entry>
+      <title>Extracting Information from Sound</title>
+      <published>2016-07-31T00:00:00Z</published>
+      <updated>2016-07-31T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;I’m working on a new information retrieval and machine learning project - but unlike previous projects that involved large amounts of text, this project involves sound.&lt;/p&gt;
+
+&lt;p&gt;My goal is to create a small, self-contained robot that can listen to, and learn from its surroundings - building up sonic fingerprints of a number of locations. Later, it should be possible for the robot to tell what location it’s at, simply by listening, and comparing it what it hears to previous experiences.&lt;/p&gt;
+
+&lt;p&gt;I’m just getting started with the project, and my focus is on writing simple software that can record sound, extract features, fit machine learning models, then classify previously unheard sound.&lt;/p&gt;
+
+&lt;p&gt;The field of audio/music information retrieval is very well-developed, so I have a lot to read and learn from.&lt;/p&gt;
+
+&lt;p&gt;As a simple hello-world, I took two existing sound files; a Mozart piano sonata, and a recent track by Rihanna, and visualized them as &lt;a href=&quot;&amp;quot;https://en.wikipedia.org/wiki/Chroma_feature&amp;quot;&quot;&gt;chromagrams&lt;/a&gt;. Visually, the difference between the two tracks is clear, and this might be a clue that the notes used in a piece of music represent useful features for a machine learning model. I’ve yet to discover if this is the case, or if chromatic features are useful for more ambient sound.&lt;/p&gt;
+
+&lt;p&gt;It’s worth noting that, for now, I’m foregoing any thought of using deep learning techniques to create vector representations of sound, for use in classification tasks. I might try to tackle this down the road. Crawl, walk, run etc.&lt;/p&gt;
+
+&lt;p&gt;I’ll write up what I find as the project continues.&lt;/p&gt;
+</content>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/audio-information-extraction"/>
+      <id>http://www.paulmay.org/blog/audio-information-extraction</id>
+      <author>
+        <name>Paul May</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Graduation</title>
@@ -279,26 +304,6 @@ In August 2010 I arrived in New York to start at NYU. I spent a couple of weeks 
 </content>
       <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/tom-sorell-on-surveillance"/>
       <id>http://www.paulmay.org/blog/tom-sorell-on-surveillance</id>
-      <author>
-        <name>Paul May</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>The Nature of Code Book and Videos</title>
-      <published>2013-02-01T00:00:00Z</published>
-      <updated>2013-02-01T00:00:00Z</updated>
-      <content type="html">&lt;p&gt;&lt;a href=&quot;http://natureofcode.com/&quot;&gt;The Nature of Code&lt;/a&gt; is a wonderful creative programming class taught at ITP by &lt;a href=&quot;http://www.shiffman.net/&quot;&gt;Dan Shiffman&lt;/a&gt;. In The Nature of Code, students learn how to programme software applications that mimic nature in some way, covering topics like gravity, wind, flocking, learning and evolution. For my own final project I made &lt;a href=&quot;https://vimeo.com/41397044&quot;&gt;a little simulation&lt;/a&gt; where creatures are born, flock, find food, react to danger, age and die.&lt;/p&gt;
-
-&lt;p&gt;The class was a real revelation for me. I wasn’t good at maths or physics in school, and only really started to grasp concepts like trigonometry, vectors and forces in Dan’s class. I really wish that a class like this (and more creative methods of teaching) had been available when I was much younger.&lt;/p&gt;
-&lt;iframe src=&quot;http://player.vimeo.com/video/58734251?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffffff&quot; width=&quot;700&quot; height=&quot;394&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Dan has just &lt;a href=&quot;http://www.amazon.com/gp/product/0985930802/ref=as_li_tf_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0985930802&amp;amp;linkCode=as2&amp;amp;tag=natureofcode-20&quot;&gt;released a book&lt;/a&gt; that covers, and expands upon, the content of the class. There’s a freely available &lt;a href=&quot;https://github.com/shiffman/The-Nature-of-Code-Examples&quot;&gt;library of code&lt;/a&gt; and Dan is &lt;a href=&quot;https://vimeo.com/channels/464686&quot;&gt;recording a series of (highly entertaining) videos&lt;/a&gt; to help students along.&lt;/p&gt;
-
-&lt;p&gt;I can’t recommend The Nature of Code highly enough. Enjoy the content from the class, and help it finds its way to people teaching maths, physics, biology, or computing to young people.&lt;/p&gt;
-</content>
-      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/nature-of-code-book-videos"/>
-      <id>http://www.paulmay.org/blog/nature-of-code-book-videos</id>
       <author>
         <name>Paul May</name>
       </author>
