@@ -32,6 +32,38 @@
 <div class="wrapper top">	
 <div class="left masthead">
 <p class="author">Paul May</p>
+<h1><a href="/blog/further-feature-extraction">More Audio Feature Extraction</a></h1>
+<p class="datetime">07 August 2016</p>
+</div></div>
+
+<div class="wrapper main">
+<div class="left content">
+<p>I’m making incremental progress on <a href="/blog/audio-information-extraction">my listening robot project</a>. The ultimate goal is to build a little machine capable of listening to its surroundings, learning from the sound it hears, and then - later - being able to determine its location based upon what it hears. A reasonable prototype robot might be able to remember 5-10 locations, and then tell those locations apart when asked to do so.</p>
+
+<p>There are a number of ways of approaching the software part of the project. I’ve chosen to go down a classical, supervised machine learning route - extracting features from sound, then using them to fit a machine learning model. In essence, this means taking raw sound, and <em>noticing</em> particular qualities of the sound. These qualities are associated with a label - say the name of the location - and used to train a machine learning model.</p>
+
+<p>My work in the last week has been to implement simple feature extraction techniques demonstrated in off-the-shelf audio information extraction libraries Librosa and pyAudioAnalysis. I have been passing in short snippets of music into their feature extraction functions, to output specific features of that sound - <a href="&quot;https://en.wikipedia.org/wiki/Spectral_centroid&quot;">spectral centroid</a>; the “brightness of a sound”, <a href="&quot;http://www.ese.wustl.edu/~nehorai/paper/specom03.pdf&quot;">spectral contrast</a>; the difference between peaks and valleys in a sound.</p>
+
+<p>In software, I’m implementing litte feature extractor classes that can be passed some sound, returning feature representations of the sound. I’m trying to get the structure of this right, up front, so I don’t have a lot of refactoring and noodling to do later. I’m also trying to be somewhat agnostic of the underlying library, so that they can be mixed/swapped as needs be.</p>
+
+<p>I’m getting close to just piping feature data into some dumb classifier; getting to a crude proof of concept. I’m not sure whether information extraction techniques more geared towards understanding <em>music</em> are useful for understanding ambient sound - if they’re not, then I may need to adopt another approach.</p>
+
+</div>
+
+<div class="right minibio">
+Paul May is a researcher, interaction designer, and technologist from Dublin, Ireland. He is currently <a href="/work/">working with Memorial Sloan Kettering Cancer Center</a> on smart health applications.	
+<div class="elsewhere">
+<ul>
+<li><a href="https://twitter.com/paulmmay">@paulmmay</a></li>
+<li><a href="mailto:hello@paulmay.org">hello@paulmay.org</a></li>
+</ul>
+</div> 
+</div>
+
+</div>
+
+<div class="wrapper top">	
+<div class="left masthead">
 <h1><a href="/blog/audio-information-extraction">Extracting Information from Sound</a></h1>
 <p class="datetime">31 July 2016</p>
 </div></div>
@@ -52,16 +84,6 @@
 
 <p>I’ll write up what I find as the project continues.</p>
 
-</div>
-
-<div class="right minibio">
-Paul May is a researcher, interaction designer, and technologist from Dublin, Ireland. He is currently <a href="/work/">working with Memorial Sloan Kettering Cancer Center</a> on smart health applications.	
-<div class="elsewhere">
-<ul>
-<li><a href="https://twitter.com/paulmmay">@paulmmay</a></li>
-<li><a href="mailto:hello@paulmay.org">hello@paulmay.org</a></li>
-</ul>
-</div> 
 </div>
 
 </div>
@@ -92,54 +114,10 @@ Paul May is a researcher, interaction designer, and technologist from Dublin, Ir
 
 </div>
 
-<div class="wrapper top">	
-<div class="left masthead">
-<h1><a href="/blog/ciid-show">Final Year Projects at CIID</a></h1>
-<p class="datetime">16 December 2013</p>
-</div></div>
-
-<div class="wrapper main">
-<div class="left content">
-<p>Last week I had the pleasure of attending some of the final student presentations and <a href="http://ciid.dk/education/portfolio/idp13/courses/final-projects-2013/">end-of-year show</a> at the <a href="http://www.ciid.dk">Copenhagen Institute for Interaction Design</a>. Here are some of my favourite projects:</p>
-
-<figure>
-<img src="http://farm6.staticflickr.com/5498/11371288085_dc17139d97_b.jpg" class="photo" alt="Indie Controls" />
-<figcaption>[Indie Controls](http://ciid.dk/education/portfolio/idp13/courses/final-projects-2013/indie-controls/): A novel, open-source, modular games controller by Daniel Lahar.</figcaption>
-</figure>
-
-<figure>
-<img src="http://farm6.staticflickr.com/5474/11371288685_808c778bf9_b_d.jpg" class="photo" alt="Pretotype" />
-<figcaption>[Preotype](http://ciid.dk/education/portfolio/idp13/courses/final-projects-2013/pretotype/): A toolkit that supports the design and documentation of physical computing and electronics projects.</figcaption>
-</figure>
-
-<figure>
-<img src="http://farm4.staticflickr.com/3832/11371423703_5fb9cc86b8_b_d.jpg" class="photo" alt="Griphint" />
-<figcaption>[Griphint](http://ciid.dk/education/portfolio/idp13/courses/final-projects-2013/griphint/): A pen that offers autistic children visual feedback on their pen grip as they learn to write.</figcaption>
-</figure>
-
-<figure>
-<img src="http://farm4.staticflickr.com/3710/11371424183_748030805e_b.jpg" class="photo" alt="Kwerkies" /><figcaption>[Kwerkies](http://ciid.dk/education/portfolio/idp13/courses/final-projects-2013/kwerkies/): Really beautifully designed wooden toys that operate as a network, and react to one another.</figcaption>
-</figure>
-
-<p>I also really liked:</p>
-
-<ul>
-  <li><a href="http://ciid.dk/education/portfolio/idp13/courses/final-projects-2013/hej_verden/">hej_verden</a> - A toolkit to help children learn computer programming.</li>
-  <li><a href="http://ciid.dk/education/portfolio/idp13/courses/final-projects-2013/little-treasures/">Little Treasures</a> - A thoroughly-designed service designed to teach children about the concept of value and the use of money.</li>
-  <li><a href="http://ciid.dk/education/portfolio/idp13/courses/final-projects-2013/hand-made/">Hand Made</a> - An exploration of human hand gestures, and a platform to collect novel hand gestures.</li>
-</ul>
-
-<p>The work from CIID students was, as ever, thorough and thoughtful. It’s a great programme.</p>
-
-
-</div>
-
-</div>
-
 <div class="wrapper main">
 <div class="left content pagination">
 
-<a href="/blog/paying-for-the-web-we-need" class="next-link" title="Graduation">Older Article &raquo;</a>
+<a href="/blog/ciid-show" class="next-link" title="Extracting Information from Sound">Older Article &raquo;</a>
 </div>
 </div>
 
