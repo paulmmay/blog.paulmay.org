@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="alternate" type="application/rss+xml" title="Paul May - Research and Interaction Design" href="/feed.xml" />
+<title>{{page.title}} | Paul May</title>
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">	
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>	
+</head>
+<body>
+<div id="wrapper"> 
+{%include header%}
+<article>
+<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+{% if page.largeimage %}
+<img src="{{page.largeimage}}" class="project-detail-image photo" alt="A thumbnail image related to {{page.title}}"/>
+{%else%}
+<!--no main image-->
+{% endif %}
+<div class="postmeta projectmeta">
+<p class="date"><a href="http://new.paulmay.org{{page.url}}" class="permalink" title="Permalink to this article">{{ page.date | date: "%B %Y" }}</a></p>
+</div>
+<div class="content">
+<p class="project-summary">{{page.description}}</p>
+<div class="project-description">{{content}}</div>
+{% if page.destination-url %}
+<form id="launchform" method="get" action="{{page.destination-url}}" onsubmit="window.location=this.action; return false;"> 
+<input type="submit" class="launchbutton" title="{{page.launch-button-text}}" value="{{page.launch-button-text}}" onmouseover="window.status='{{page.launch-button-text}}'; return true;" onmouseout="window.status='';return true;" /></form>
+{% endif %}
+{%include minibio%}
+</div><!--content-->  
+</article>
+{%include footer%}
+
+</div><!--wrapper-->
+</body>
+{%include js%}
+</html>

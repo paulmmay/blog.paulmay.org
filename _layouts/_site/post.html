@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>{{page.title}} | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">		
+
+	</head>
+
+	<body>
+
+	<header role="banner">
+		{% include primary_nav %}
+	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<p class="author">Paul May</p>
+			<h1><a href="{{page.url}}">{{page.title}}</a></h1>
+			<p class="datetime">{{page.date | date: "%d %B %Y"}}</p>
+		</div>
+	</div>
+
+	<!--The content slice of the article. On the left we have the article text,
+		then on the right we have the little monogram and any other cruft we 
+		care to include. And when I say we, I do of course mean I.-->
+	<div class="wrapper main">
+		<div class="left content">
+		{{content}}
+		{%include post_largeimages%}
+		{%include project_sourcecode%}
+	
+	{%if page.tweets == true%}
+	<div id="tweets">
+	<ul id="recent_tw">
+		<!-- placeholder for me shiting on about shite. -->
+	</ul>
+	</div>
+	{%endif%}
+
+	{%raw%}
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	{%endraw%}
+
+	<div class="pagination">
+	
+	{% if page.previous_in_category != nil %} 
+	<a href="{{page.previous_in_category.url}}" class="previous-link" title="{{page.previous_in_category.title}}">&laquo; Newer Article</a>
+	{% endif %} 
+	{% if page.next_in_category != nil %}
+	<a href="{{page.next_in_category.url}}" class="next-link" title="{{page.previous_in_category.title}}">Older Article &raquo;</a>
+	{% endif %}
+	</div>
+
+
+		</div>
+		<!--The afforementioned monogram and cruft-->
+		<div class="right minibio">
+		{%include monogram%}
+
+	
+
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Paul May.</p>
+		<ul class="footernav">
+		</ul>
+	</footer>
+
+{%if page.tweets == true%}
+<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.js"></script>
+<script src="/j/tweets.js"></script>
+<script>
+TWEETS.retrievers.getTweets("{{page.tweets-start}}","{{page.tweets-end}}",true);
+</script>
+{%endif%}
+
+</body>
+</html>
