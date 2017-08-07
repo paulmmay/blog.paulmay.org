@@ -20,3 +20,7 @@ navigation:
   url: /work/index.html
   cleanurl: /work/
   layout: project
+- text: Teaching
+  url: /teaching/index.html
+  cleanurl: /teaching/
+  layout: post
