@@ -1,4 +1,5 @@
 require 'rack/contrib/try_static'
+require 'rack-rewrite'
 
 use Rack::TryStatic,
     :root => "_site",
