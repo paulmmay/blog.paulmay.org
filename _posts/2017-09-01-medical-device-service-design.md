@@ -46,7 +46,7 @@ Ongoing UX research and concept development work.
 
 #### Background
 
-A year-long project with a leading designer/manufacturer of interventional urology products. Tasked with re-imagining a core product category to protect reimbursement, achieve differentiation in the market, offer improved service to end-users.
+A year-long project with a leading designer/manufacturer of interventional urology products. Tasked with re-imagining a core product category to offer improved service to end-users, protect reimbursement, and achieve differentiation in the market.
 
 #### UX Research Activities & Outputs
 
