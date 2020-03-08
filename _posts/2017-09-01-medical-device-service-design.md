@@ -22,7 +22,7 @@ description: Since 2017, working in an agency setting, my focus has been on UX r
 
 #### Background
 
-An ongoing project with a leading designer/manufacturer of hearing aids. Taked with addressing new competitive pressures in the market, identifying new opportunity spaces, and solving a number of key user experience issues.
+An ongoing project with a leading designer/manufacturer of hearing aids. Tasked with addressing new competitive pressures in the market, identifying new opportunity spaces, and solving a number of key user experience issues.
 
 #### UX Research Activities & Outputs
 
