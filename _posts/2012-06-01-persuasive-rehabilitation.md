@@ -38,18 +38,6 @@ The process of undergoing a stem cell transplant is incredibly onerous. In the p
 
 I was asked to support MSKCC's Design and Innovation Group by conducting user experience research into stem cell transplantation. In particular, I would uncover insights that could inform the design of new technologies to support patients rehabilitating after stem cell transplantation. 
 
-### UX Research Planning
-
-I developed a detailed research plan describing primary and secondary research questions, described all key methods - and crucially - described how I would protect patient and stakeholder confidentiality throughout the process. This research plan was approved via internal MSKCC processes, which allowed me to begin my research. 
-
-Research questions included: 
-
-* <strong>Patient Need:</strong> What is a stem cell transplant and why would one be required? 
-* Why is a period of rehabilitation required?
-* What is the patient's experience of rehabilitation?
-* How does MSKCC support patients throughout rehabilitation?
-* What aspects of the rehabilitation process could be improved upon and what would the impact of these improvements be? 
-
 ### UX Research Process
 
 UX Research Phases:
@@ -64,7 +52,19 @@ UX Research Phases:
 * Rapid prototyping of a web application demonstrating key design principles
 * Presentation & handoff of work to internal design teams
 
-Data Gathering Methods:
+#### UX Research Planning
+
+I developed a detailed research plan describing primary and secondary research questions, described all key methods - and crucially - described how I would protect patient and stakeholder confidentiality throughout the process. This research plan was approved via internal MSKCC processes, which allowed me to begin my research. 
+
+Research questions included: 
+
+* <strong>Patient Need:</strong> What is a stem cell transplant and why would one be required? 
+* Why is a period of rehabilitation required?
+* What is the patient's experience of rehabilitation?
+* How does MSKCC support patients throughout rehabilitation?
+* What aspects of the rehabilitation process could be improved upon and what would the impact of these improvements be? 
+
+#### Data Gathering Methods:
 
 * Literature review using journal databases. 
 * Participant observation at hospital facilities. Shadowing of patients and clinicians. Documented using audio recordings, stills photography.
@@ -72,7 +72,7 @@ Data Gathering Methods:
 * Proxemics/Description of key spaces and environments. Documented via stills photography and accompanying notes.
 * Semi-structured interviews in patients at various stages of transplant process; before, directly after, in rehabilitation. Documented using audio recordings, then transcribed
 
-Data Analysis & Synthesis Methods:
+#### Data Analysis & Synthesis Methods:
 
 * Analysis of literature review, interview transcripts, observations for common topics/themes. 
 * Affinity mapping/spatial grouping of common themes.

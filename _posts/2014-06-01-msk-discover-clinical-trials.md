@@ -32,7 +32,7 @@ Founded in 1884, Memorial Sloan-Kettering Cancer Center (MSKCC) is a private, no
 
 ### Project Background
 
-Building on my work on IBM Watson for Oncology, I co-founded and then managed a user experience and applied data science team within MSKCC. MSK Data products grew from a team of three to a team of 12 over four years. As a world-leading centre of cancer research, a key objective for the team was to improve workflows around clinical research. 
+On the back of some work I did on the IBM Watson for Oncology project, I co-founded and then managed a user experience and applied data science team within MSKCC. MSK Data products grew from a team of three to a team of 12 over four years. As a world-leading centre of cancer research, a key objective for the team was to improve workflows around clinical research. 
 
 ### The Challenge and Project Mandate
 
@@ -51,7 +51,16 @@ Our mandate was to deliver a product that could make the process of finding appr
 
 To build the product effectively, we needed to understand the current experience for physicians trying to find trials for their patients, then we needed to work with them to describe an improved/ideal situation
 
-### UX Research Planning
+#### UX Research Phases:
+
+* Research planning, data security, patient safety and approvals process
+* Literature review into clinical trial design processes
+* User research sessions with physicians
+* Workshops centred on the optimal user experience for a future product 
+* Ongoing UX research to inform iterations on the product
+
+
+#### UX Research Planning
 
 I developed a UX research plan to support our first steps in defining the product:
 
@@ -61,17 +70,7 @@ Research questions included:
 * When does the process of searching for an appropriate trial begin, what is the trigger?
 * How do physicians match patients to trials? What are some of the criteria they use?
 
-### UX Research Process
-
-UX Research Phases:
-
-* Research planning, data security, patient safety and approvals process
-* Literature review into clinical trial design processes
-* User research sessions with physicians
-* Workshops centred on the optimal user experience for a future product 
-* Ongoing UX research to inform iterations on the product
-
-Data Gathering Methods:
+#### Data Gathering Methods:
 
 * Literature review using journal databases. 
 * Participant observation with clinicians, office visits.

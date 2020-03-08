@@ -2,6 +2,7 @@
 <div class="left masthead uxrportfolio">
 <p class="author">Paul May</p>
 <h1>UX Research Portfolio</h1>
+<p>Biography: Paul May is a UX researcher and design strategist who specialises in healthcare applications and medical device design projects. He is currently working with London-based design agency Monokoto.</p>
 <p>I'm proud to present a selection of relevant work for your consideration, and would be happy to expand upon this work at any point in the future.</p>
 <div id="fyeo">This portfolio has been prepared for Google Health. Please do not distribute this work outside your team without prior permission. Many thanks.</div>
 <h3>Selected Projects</h3>
@@ -10,6 +11,27 @@
 <li class="uxr-p-slug"><div class="uxr-slug-date">Project {{forloop.index}}</div><a href="{{post.url}}">{{post.title}}</a>
 <p class="uxr-slug datetime">{{post.datehack"}}</p></li>
 {%endfor%}
+</ul>
+<h3>Publications</h3>
+<ul class="publications">
+<li>
+<div class="datetime">Journal of Clinical Oncology Informatics</div>
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/31225984/">Creating a Synthetic Clinical Trial</a>: Comparative Effectiveness Analyses Using an Electronic Medical Record
+<div class="datetime">2019</div>
+</li>
+
+<li>
+<div class="datetime">Journal of Clinical Oncology</div>
+<a href="https://meetinglibrary.asco.org/record/113058/abstract">Electronic medical record as a research tool</a>: virtual clinical trial comparing pemetrexed and gemcitabine, both given with cisplatin, in patients with lung adenocarcinomas
+<div class="datetime">2015</div>
+</li>
+
+<li>
+<div class="datetime">Gestalten</div>
+<a href="https://www.amazon.co.uk/dp/3899553756/">Visual Storytelling</a>: Inspiring a New Visual Language
+<div class="datetime">2011</div>
+</li>
+
 </ul>
 </div>
 </div>

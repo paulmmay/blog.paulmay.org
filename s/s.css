@@ -979,7 +979,6 @@ li.uxr-p-slug{
 	padding: 1rem;
 	margin-bottom: 1rem;
 	background: #000;
-	bottom: 1rem;
 	color: #eee;
 }
 
@@ -1011,6 +1010,21 @@ p.uxr-slug.datetime{
 div.uxrportfolio{
 	padding-bottom:3rem;
 }
+
+ul.publications a{ 
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+	border-bottom: 1px solid rgb(255, 189, 20);
+}
+
+ul.publications li{ 
+	padding: 1rem;
+	margin-bottom: 1rem;
+	color: #333;
+	background-color:#eee;
+}
+
 
 
 
