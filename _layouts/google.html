@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>{{page.title}} | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">			
+
+	</head>
+
+	<body>
+
+	<header role="banner">
+		{% include uxr_primary_nav %}
+	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<p class="author">Paul May</p>
+			<h1><a href="{{page.url}}">{{page.title}}</a></h1>
+			<!-- <p class="datetime">{{page.date | date: "%d %B %Y"}}</p> -->
+			<p class="datetime">{{page.datehack}}</p>
+		</div>
+	</div>
+
+	<!--The content slice of the article. On the left we have the article text,
+		then on the right we have the little monogram and any other cruft we 
+		care to include. And when I say we, I do of course mean I.-->
+	<div class="wrapper main project">
+		<div class="left content">
+		<p><strong>{{page.description}}</strong></p>
+
+		{%if page.video%}
+		<div class="videowrapper">
+    	{{page.video}}
+		</div>
+		{%endif%}
+		{{content}}
+				{%if page.testimonial%}
+		<div id="testimonial">
+			<h3>Testimonial</h3>
+			<p>{{page.testimonial}}</p>
+			<div class="testimonial-author"><span class="testimonial-author"><a href="{{page.testimonial-author-link}}">{{page.testimonial-author}}</a></span><br/><span class="testimonial-author-title">{{page.testimonial-author-title}}</span>
+		</div>
+	</div>
+		{%endif%}
+		{%include project_largeimages%}
+		{%include project_sourcecode%}
+
+	
+
+
+	{%raw%}
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	{%endraw%}
+
+	<div class="pagination">
+	
+	{% if page.next_in_category != nil %} 
+	<a href="{{page.next_in_category.url}}" class="previous-link" title="{{page.next_in_category.title}}">&laquo; Previous Project</a>
+	{% endif %} 
+	{% if page.previous_in_category != nil %}
+	<a href="{{page.previous_in_category.url}}" class="next-link" title="{{page.previous_in_category.title}}">Next Project &raquo;</a>
+	{% endif %}
+	</div>
+
+
+		</div>
+		<!--The afforementioned monogram and cruft-->
+		<div class="right minibio">
+		{%include monogram_google%}
+
+	
+
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Paul May.</p>
+		<ul class="footernav">
+		</ul>
+	</footer>
+
+
+
+</body>
+</html>
+

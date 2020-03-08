@@ -36,6 +36,8 @@ footer{
 	padding: 2rem 0 2rem 0;
 }
 
+
+
 .bottom{
 	/*background-color: hsl(240,4.2%,81.2%);*/
 	display:block;
@@ -43,6 +45,11 @@ footer{
 	vertical-align: baseline;
 }
 
+#fyeo{
+	padding:1rem;
+	background-color: hsla(43, 100%, 54%, 0.22);
+	margin-bottom:2rem;
+}
 
 
 .max50{
@@ -226,6 +233,23 @@ text-decoration:none;
 
 /* Article > Content */
 
+ol{
+	list-style-type: decimal-leading-zero;
+	margin-bottom:1.8rem;
+}
+figure img{
+	margin-bottom: 1rem;
+	width:100%;
+
+}
+
+figure{
+
+}
+
+strong{
+	font-weight: bold;
+}
 ul.bookmarks{
 	margin-left:0;
 	list-style-type: none;
@@ -736,6 +760,15 @@ span.divider{
 
 }
 
+.wrapper.main.project h4{
+	padding-bottom:0.25rem;
+	color:hsl(0, 0%, 5%);
+	font-weight: 600;
+	margin-bottom:1em;
+}
+
+
+
 
 /*Places*/
 
@@ -898,11 +931,83 @@ footer.home{
 	padding:0;
 }
 
+/*Testimonial*/
+
+#testimonial{
+	background-color: #000;
+	padding: 1rem;
+
+}
+
+#testimonial p{
+	color: #eee;
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+#testimonial h3{
+	color: #eee;
+	font-weight:bold;
+	border-bottom:none;
+}
+
+div.testimonial-author a{
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #eee;
+	border-bottom: 1px solid hsl(43, 100%, 54%);
+}
+
+div.testimonial-author a:hover{
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #eee;
+	border-bottom: 1px solid hsl(43, 100%, 54%);
+}
+
+span.testimonial-author-title{
+	font-size: 0.8em;
+	color: #ccc;
+}
+
+/*UXR Index*/
+
+li.uxr-p-slug{
+	padding: 1rem;
+	margin-bottom: 1rem;
+	background: #000;
+	bottom: 1rem;
+	color: #eee;
+}
+
+ul li.uxr-p-slug a{ 
+	font-weight: bold;
+	color: #eee;
+	border-bottom: 1px solid hsl(43, 100%, 54%);
+}
+
+.uxrportfolio h3{
+	padding-bottom:0.25rem;
+	color:hsl(0, 0%, 5%);
+	font-weight: 600;
+	margin-bottom:1em;
+	border-bottom: 1px solid hsl(0,0%,80%);
+	
+}
+
+
 
 /*Responsive Test*/
 
 /*Tiny Little Screens*/
-@media screen and (max-width: 480px) {
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    
+  }
+
+
+
 
 	blockquote{
 	/*font-family:'NewCenturySchoolW01-It';*/
@@ -917,17 +1022,17 @@ footer.home{
 
 	/*General*/
 	html{
-	font-size:12px;
+	font-size:13px;
 	}
 	body{
-	/*background-color: red;*/
+
 	}
 
 	/* Nav */
 
 	.nav.main{
 		font-size:1.1rem;
-		line-height: 1.5rem
+		line-height: 1.5rem;
 		letter-spacing: 0.05em;
 	}
 
@@ -977,7 +1082,7 @@ footer.home{
 	font-size: 100%;
 	}
 
-	.right{
+	.minibio{
 		display:none;
 	}
 	.masthead h1{
@@ -1019,6 +1124,36 @@ footer.home{
 .project-other:nth-child(2n){
 	margin-left:0;
 }
+
+/*Testimonial*/
+
+#testimonial{
+	background-color: #000;
+	padding: 1rem;
+
+}
+
+#testimonial p{
+	color: #eee;
+	font-size: inherit;
+	/*line-height: 1.4em;*/
+}
+
+#testimonial h3{
+	color: #eee;
+	font-weight:bold;
+	border-bottom:none;
+}
+
+.wrapper.main.project h3{
+	font-size: 1.4rem;
+	padding-bottom:0.25rem;
+	color:hsl(0, 0%, 5%);
+	font-weight: 600;
+	margin-bottom:1em;
+	border-bottom: 1px solid hsl(0,0%,80%);
+}
+
 
 
 }
