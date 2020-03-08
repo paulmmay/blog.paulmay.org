@@ -58,7 +58,7 @@ I developed a detailed research plan describing primary and secondary research q
 
 Research questions included: 
 
-* <strong>Patient Need:</strong> What is a stem cell transplant and why would one be required? 
+* What is a stem cell transplant and why would one be required? 
 * Why is a period of rehabilitation required?
 * What is the patient's experience of rehabilitation?
 * How does MSKCC support patients throughout rehabilitation?
