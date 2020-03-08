@@ -32,7 +32,7 @@ Founded in 1884, Memorial Sloan-Kettering Cancer Center (MSKCC) is a private, no
 
 ### Project Background
 
-On the back of some work I did on the IBM Watson for Oncology project, I co-founded and then managed a user experience and applied data science team within MSKCC. MSK Data products grew from a team of three to a team of 12 over four years. As a world-leading centre of cancer research, a key objective for the team was to improve workflows around clinical research. 
+On the back of R&D work I did to support the IBM Watson for Oncology project, I co-founded and then managed a user experience and applied data science team within MSKCC. MSK Data products grew from a team of three to a team of 12 over four years. As a world-leading centre of cancer research, a key objective for the team was to improve workflows around clinical research. 
 
 ### The Challenge and Project Mandate
 
