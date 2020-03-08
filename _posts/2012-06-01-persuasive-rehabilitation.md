@@ -90,7 +90,7 @@ From the synthesis activities, I developed a small set of insights and design ma
 2.	**More is not necessarily better.** It's crucial that the patient proceeds with their rehabilitation at a safe pace. Over-reaching can result in setbacks for the patient. A small number of specific lab values, such as white blood cell count, act as markers of the patients physical recovery, and rehabilitation should really mirror the progression in these positive lab values.
 	* **Mandate:** The rehabilitation programme needs to be specific to the patient, and ideally should be mapped to critical lab values. The app should expect the patient's progress to be non-linear. 
 
-3.	**Most patients undergoing rehabilitation were highly motivated to please to their primary physician**. The patient's transplant is overseen by one senior oncologist, and for the patient, this doctor is the "face" of their treatment experience. Patients felt pride when they made progress, and were highly motivated by praise/encouragement from the primary physician.
+3.	**Most patients undergoing rehabilitation were highly motivated to please their primary physician**. The patient's transplant is overseen by one senior oncologist, and for the patient, this doctor is the "face" of their treatment experience. Patients felt pride when they made progress, and were highly motivated by praise/encouragement from the primary physician.
 	* **Mandate:** Positive/motivating feedback from the physician should form part of the app's design. 
 
 
