@@ -16,7 +16,7 @@ tags: [ux research, prototyping, web applications, msk]
 date: 01-06-2012
 datehack: 2017 to Present
 strapline: A disruptive new team combining design-led innovation and machine learning expertise
-description: Since 2017, working in an agency setting, my focus has been on UX research and design strategy for medical device manufacturers and healthcare organisations. To date, I have worked on projects related to Class 1, Class 2 and (briefly) Class 3  medical devices. The work has also involved research and design of patient-facing apps/services that accompany/augment medical devices. This work is highly sensitive. I have summarised below but can expand on the work in person.
+description: Since 2017, working in an agency setting, my focus has been on UX research and design strategy for medical device manufacturers and healthcare organisations. To date, I have worked on projects related to Class 2 and (briefly) Class 3  medical devices. The work has also involved research and design of patient-facing apps/services that accompany/augment medical devices. This work is highly sensitive. I have summarised below but can expand on the work in person.
 ---
 ### Class 2 Medical Device: Hearing Aid Project
 
