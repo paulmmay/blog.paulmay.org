@@ -118,4 +118,4 @@ We successfully built a tool that could parse the intent behind a physicians sea
 </figure>
 
 ### Project Challenges
-Too many to mention; an odyssey of a project. I remain intensely proud of this project. It has continued since I left MSKCC, and our approach - combining UX and data-science is now mainstream institutional thinking.
+Too many to mention; an odyssey of a project. I remain intensely proud of this work. Development has continued since I left MSKCC, and our team's approach - combining UX and data-science is now mainstream institutional thinking.
