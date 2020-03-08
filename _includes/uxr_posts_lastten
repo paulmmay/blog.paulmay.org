@@ -7,8 +7,8 @@
 <h3>Selected Projects</h3>
 <ul>
 {% for post in site.categories.uxresearch reversed|limit:10%}
-<li class="uxr-p-slug">Project {{forloop.index}}<br /><a href="{{post.url}}">{{post.title}}</a>
-<p class="datetime">{{post.datehack"}}</p></li>
+<li class="uxr-p-slug"><div class="uxr-slug-date">Project {{forloop.index}}</div><a href="{{post.url}}">{{post.title}}</a>
+<p class="uxr-slug datetime">{{post.datehack"}}</p></li>
 {%endfor%}
 </ul>
 </div>

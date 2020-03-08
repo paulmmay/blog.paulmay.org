@@ -1,5 +1,5 @@
 ---
-title: Persuasive Tech for Cancer Rehabilitation
+title: Persuasive Services for Cancer Rehabilitation
 url: uxresearch
 comments: false
 type: service
