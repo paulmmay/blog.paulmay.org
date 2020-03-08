@@ -28,7 +28,7 @@ Founded in 1884, Memorial Sloan-Kettering Cancer Center (MSKCC) is a private, no
 
 ### Project Background
 
-One of the most aggressive forms of cancer treatment is a stem cell transplant, also known as a bone marrow transplant. Stem cell transplants are used to treat leukemias and cancers that affect the body's ability to make new blood and immune cells. 
+One of the most aggressive forms of cancer treatment is a stem cell transplant, also known as a bone marrow transplant. Stem cell transplants are used to treat leukemia and cancers that affect the body's ability to make new blood and immune cells. 
 
 In a stem cell transplant, the patient is first given ultra high-dose chemotherapy which has the effect of killing the patient's own bone marrow and their ability to make healthy stem cells. The patient then receives donor stem cells. Over time, these cells migrate to the long bones of the body, and start to make new blood and immune cells. 
 

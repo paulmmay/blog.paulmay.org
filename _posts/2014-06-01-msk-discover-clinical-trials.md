@@ -117,7 +117,7 @@ We successfully built a tool that could parse the intent behind a physicians sea
 
 <figure>
  <img src="/i/uxresearch/cts-9.png" />
- <figcaption>A later iteration of the product inclduing suggested search terms and a boundary between high confidence and lower confidence results</figcaption>
+ <figcaption>A later iteration of the product offered suggested search terms and showed a boundary between high confidence and lower confidence results</figcaption>
 </figure>
 
 ### Project Challenges
