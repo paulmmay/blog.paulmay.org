@@ -38,9 +38,7 @@ On the back of R&D work I did to support the IBM Watson for Oncology project, I 
 
 Randomised control clinical trials represent the gold standard in medical research. Most trials are designed to compare established therapies with new or improved therapies. Patients admitted to clinical trials will be assigned to one "arm" of the trial, and will receive either a standard or novel therapy. Carefully designed inclusion and exclusion criteria describe what patients are eligible for a clinical trial. 
 
-Identifying trials that are appropriate for patients can be highly time consuming; each eligibilty criteria need to be considered against the patient's biology on a given day. 
-
-Building a product to make this process easier is very difficult for two key reasons
+Identifying the right trial for a patient is a highly manual process. Physicians need to check that a patient matches all of a trial's key criteria. Building a product to make this process easier is very difficult for two key reasons
 
 1. Clinical trial eligibility criteria are not backed by a controlled vocabulary or well-structured data. Take any 50 trials, and they may describe similar eligibility criteria in very different ways.
 2.	Patient data is hard to access, difficult to align with trial eligibility criteria, and constantly in flux. 
