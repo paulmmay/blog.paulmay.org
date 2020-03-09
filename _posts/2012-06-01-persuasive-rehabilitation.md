@@ -70,7 +70,7 @@ Research questions included:
 * Participant observation at hospital facilities. Shadowing of patients and clinicians. Documented using audio recordings, stills photography.
 * Semi-structured interviews with clinicians. Documented using audio recordings, then transcribed 
 * Proxemics/Description of key spaces and environments. Documented via stills photography and accompanying notes.
-* Semi-structured interviews in patients at various stages of transplant process; before, directly after, in rehabilitation. Documented using audio recordings, then transcribed
+* Semi-structured interviews with patients at various stages of transplant process; before, directly after, in rehabilitation. Documented using audio recordings, then transcribed
 
 #### Data Analysis & Synthesis Methods:
 
