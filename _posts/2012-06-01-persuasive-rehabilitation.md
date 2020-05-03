@@ -10,7 +10,7 @@ indeximage: /g/msk.jpg
 writeup: 
 type: R&D
 year: 2012
-categories: [uxresearch]
+categories: []
 is_primary: false
 tags: [ux research, prototyping, web applications, msk]
 date: 01-06-2012
