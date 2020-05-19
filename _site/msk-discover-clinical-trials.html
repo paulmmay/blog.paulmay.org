@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>MSK Data Products & MSK Discover | Paul May</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+		<meta name="generator" content="">
+
+		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">			
+
+	</head>
+
+	<body>
+
+	<header role="banner">
+		<ul class="nav main">
+<li><a href="/uxresearch">Portfolio</a></li>
+</ul>
+	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<p class="author">Paul May</p>
+			<h1><a href="/msk-discover-clinical-trials">MSK Data Products & MSK Discover</a></h1>
+			<!-- <p class="datetime">01 June 2012</p> -->
+			<p class="datetime">2013 to 2016</p>
+		</div>
+	</div>
+
+	<!--The content slice of the article. On the left we have the article text,
+		then on the right we have the little monogram and any other cruft we 
+		care to include. And when I say we, I do of course mean I.-->
+	<div class="wrapper main project">
+		<div class="left content">
+		<p><strong>I co-founded a team to bring UX design and machine learning together at Memorial Sloan Kettering Cancer Center for the first time. Our keystone product, MSK Discover, allowed physicians to find clinical trials that closely matched the unique needs and attributes of individual patients. I was responsible for UX research and product management, and worked closely with some of the world's leading oncologists to define the product.</strong></p>
+
+		
+		<h3 id="context">Context</h3>
+
+<p>Founded in 1884, Memorial Sloan-Kettering Cancer Center (MSKCC) is a private, not-for-profit cancer treatment and research hospital based in New York. In 2011, the year preceding this project, MSKCC admitted over 23,000 patients, carried out 11,052 inpatient surgeries, carried out 8,181 outpatient surgeries, and conducted 1.18 million outpatient visits. MSKCC is currently ranked #2 for cancer care in the United States, and is at the absolute forefront of cancer research globally.</p>
+
+<h3 id="project-background">Project Background</h3>
+
+<p>On the back of R&amp;D work I did to support the IBM Watson for Oncology project, I co-founded and then managed a user experience and applied data science team within MSKCC. MSK Data products grew from a team of three to a team of 12 over four years. As a world-leading centre of cancer research, a key objective for the team was to improve workflows around clinical research.</p>
+
+<h3 id="the-challenge-and-project-mandate">The Challenge and Project Mandate</h3>
+
+<p>Randomised control clinical trials represent the gold standard in medical research. Most trials are designed to compare established therapies with new or improved therapies. Patients admitted to clinical trials will be assigned to one “arm” of the trial, and will receive either a standard or novel therapy. Carefully designed inclusion and exclusion criteria describe what patients are eligible for a clinical trial.</p>
+
+<p>Identifying the right trial for a patient is a highly manual process. Physicians need to check that a patient matches all of a trial’s key criteria. Building a product to make this process easier is very difficult for two key reasons</p>
+
+<ol>
+  <li>Clinical trial eligibility criteria are not backed by a controlled vocabulary or well-structured data. Take any 50 trials, and they may describe similar eligibility criteria in very different ways.</li>
+  <li>Patient data is hard to access, difficult to align with trial eligibility criteria, and constantly in flux.</li>
+</ol>
+
+<p>Our mandate was to deliver a product that could make the process of finding appropriate clinical trials as easy as conducting a Google search, and build towards a scenario where patients could be automatically flagged as being eligible for a trial - effectively part-automating trial enrolment.</p>
+
+<h3 id="ux-research-process">UX Research Process</h3>
+
+<p>To build the product effectively, we needed to understand the current experience for physicians trying to find trials for their patients, then we needed to work with them to describe an improved/ideal situation</p>
+
+<h4 id="ux-research-phases">UX Research Phases:</h4>
+
+<ul>
+  <li>Research planning, data security, patient safety and approvals process</li>
+  <li>Literature review into clinical trial design processes</li>
+  <li>User research sessions with physicians</li>
+  <li>Workshops centred on the optimal user experience for a future product</li>
+  <li>Ongoing UX research to inform iterations on the product</li>
+</ul>
+
+<h4 id="ux-research-planning">UX Research Planning</h4>
+
+<p>I developed a UX research plan to support our first steps in defining the product:</p>
+
+<p>Research questions included:</p>
+
+<ul>
+  <li>How do physicians know what trials are available for patients, what sources of information do they use?</li>
+  <li>When does the process of searching for an appropriate trial begin, what is the trigger?</li>
+  <li>How do physicians match patients to trials? What are some of the criteria they use?</li>
+</ul>
+
+<h4 id="data-gathering-methods">Data Gathering Methods:</h4>
+
+<ul>
+  <li>Literature review using journal databases.</li>
+  <li>Participant observation with clinicians, office visits.</li>
+  <li>Semi-structured interviews with clinicians. Documented using audio recordings, then transcribed</li>
+  <li>Stakeholder research; engagement with technical leadership, clinical research leadership</li>
+  <li>Technical research into various data sources and data flows around the organisation</li>
+  <li>UX Research on the live product; including product testing, user observations, feedback/log analysis/analytics</li>
+</ul>
+
+<figure>
+ <img src="/i/uxresearch/cts-1.jpg" />
+ <figcaption>Over a number of workshops we asked physicians to describe the first patient they saw that day, then describe how they'd search for the perfect trial.</figcaption>
+</figure>
+
+<h3 id="sample-insights--ux-mandates">Sample Insights / UX Mandates</h3>
+
+<ol>
+  <li><strong>Physicians generally had a poor level of awareness</strong> when it came to trials being run outside their immediate department.
+    <ul>
+      <li><strong>Mandate:</strong> Our product would need to integrate trial data from multiple departments, and “level the playing field” for physicians who were less professionally/socially connected.</li>
+    </ul>
+  </li>
+  <li><strong>The process of finding a perfect trial took 15-30 minutes, per physician, per patient, per trial</strong> - and this work could only be done by an experienced oncologist. Compressing this work into the beginning of their day was stressful, and the process was deeply sub-optimal.
+    <ul>
+      <li><strong>Mandate:</strong> Our product would need to be highly accurate if it was to save time, but - if it worked - could result in significant benefit for physicians.</li>
+    </ul>
+  </li>
+  <li><strong>Trial data was effectively low-quality, free-text data</strong>, spread over disparate internal and external systems. To achieve anything like seamless search we would have a massive task on our hands.
+    <ul>
+      <li><strong>Mandate:</strong> We would need to break the problem down into multiple stages and sub-tools if we were to be successful. Careful planning at the beginning could lead to side-benefits and new product opportunities.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="product-development">Product Development</h3>
+
+<p>I was hands-on with product development in early iterations, but as we added experienced developers to the team, I focused squarely on UX Research and Product Management.</p>
+
+<p>We iterated on the product over an extended period of time, and I  conducted additional UX research to informed product development.</p>
+
+<ul>
+  <li>I engaged with a small number of key physicians who could offer feedback and guidance on product development</li>
+  <li>I used an in-app feedback tool to gather feedback from physician users as they were using the tool, and fed insights back to the team</li>
+  <li>We designed and built tools for physicians to flag any issues they saw in the product; specifically data errors</li>
+</ul>
+
+<h3 id="results">Results</h3>
+<p>We successfully built a tool that could parse the intent behind a physicians search, and return highly relevant trials. A first at MSKCC. We built a huge amount of underlying NLP and machine learning infrastructure to transform previously disparate trials into more structured objects - and over time added an API for other developers to leverage our work. The product continue to evolve under the stewardship of the team when I left in 2016.</p>
+
+<figure>
+ <img src="/i/uxresearch/cts-6.gif" />
+ <figcaption>A physician searching for Phase 1 lung cancer trials for EGFR positive patients, getting relevant results.</figcaption>
+</figure>
+
+<figure>
+ <img src="/i/uxresearch/cts-9.png" />
+ <figcaption>A later iteration of the product offered suggested search terms and showed a boundary between high confidence and lower confidence results</figcaption>
+</figure>
+
+<h3 id="project-challenges">Project Challenges</h3>
+<p>Too many to mention; an odyssey of a project. I remain intensely proud of this work. Development has continued since I left MSKCC, and our team’s approach - combining UX and data-science is now mainstream institutional thinking.</p>
+
+				
+		<div id="testimonial">
+			<h3>Testimonial</h3>
+			<p>I had the pleasure to work with Paul at Memorial Sloan Kettering Cancer Center (MSK) in New York City between May 2014 until September 2016. During that time, Paul was instrumental in first identifying an unmet need at MSK. Our patients were having a really hard time finding clinical trials. Paul worked with Clinical and Executive Senior Leadership at MSK to understand their needs, get alignment and support, and finally shape the clinical trials search product. Paul brought his research to life via documentation and prototypes. Paul's work had a significant positive impact on the institution as whole and clearly shaped the way MSK started thinking about clinical trials.</p>
+			<div class="testimonial-author"><span class="testimonial-author"><a href="https://www.linkedin.com/in/ikerhuerga/">Iker Huerga</a></span><br/><span class="testimonial-author-title">Formerly Director, Engineering & Applied Machine Learning, MSKCC</span>
+		</div>
+	</div>
+		
+		
+		
+
+	
+
+
+	
+	<div id="templates">
+	<div id="tweet_template">
+		<li class="tweet"><span class="text">{{text}}</span><div class="tweetdate">{{date}}</div></li>
+	</div>
+	</div>
+	
+
+	<div class="pagination">
+	
+	 
+	
+	</div>
+
+
+		</div>
+		<!--The afforementioned monogram and cruft-->
+		<div class="right minibio">
+		<div id="fyeo">Prepared for Google Health. Please do not distribute without prior permission. Many thanks.</div>
+
+Paul May is a UX researcher and design strategist who specialises in healthcare applications and medical device design projects. He is currently working with London-based design agency Monokoto.
+
+	
+
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; Paul May.</p>
+		<ul class="footernav">
+		</ul>
+	</footer>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+	<footer class="fixed">
+		<!-- <p>&copy; Paul May.</p> -->
+		<ul class="footernav">
+			<li><a href="mailto:hello@paulmay.org">Contact</a></li>
+			<li><a href="https://www.linkedin.com/in/paulmay/">LinkedIn</a></li>
+		</ul>
+	</footer>

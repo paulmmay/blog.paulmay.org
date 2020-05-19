@@ -2,80 +2,46 @@
 <html lang="en"> 
 	<head>
 		<meta charset="utf-8">
-		<title>{{page.title}} | Paul May</title>
-		<meta name="description" content="">
-		<meta name="keywords" content="">
+		<title>UX Research, Strategic Design | Paul May</title>
+		<meta name="description" content="{{page.metadescription}}">
+		<meta name="keywords" content="{{page.metakeywords}}">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
 		<meta name="generator" content="">
 
 		<link rel="stylesheet" type="text/css" href="/s/r.css" media="all">
 		<link rel="stylesheet" type="text/css" href="/s/s.css" media="all"/>
-		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">	
-
-
 	</head>
 
 	<body>
 
-	<header role="banner">
+	<header>
 		{% include primary_nav %}
 	</header>
+
+	<!--The top slice of the article; author, title, date and other cruft
+	I still want it to break left right like the main content div.
+	Two containers? Yes. Two bloody containers. Deal with it. -->
+	<div class="wrapper top">
+		<div class="left masthead">
+			<h1><a href="{{page.url}}">{{page.title}}</a></h1>
+		</div>
+	</div>
 
 	<!--The content slice of the article. On the left we have the article text,
 		then on the right we have the little monogram and any other cruft we 
 		care to include. And when I say we, I do of course mean I.-->
-
-	<div class="wrapper top">
-		<div class="left masthead">
-			<p class="author">Paul May</p>
-		</div>
-	</div>
-
-
-	<div class="wrapper home">
-		
-		<div class="blurb content">
-		<p>Paul May is a researcher and interaction designer from Dublin, Ireland. He is currently working with <a href="http://www.mskcc.org">Memorial Sloan Kettering</a>; helping them build data-driven products and services around the needs of doctors, researchers, and patients.</p>
-		<p>Paul has previously worked with <a href="http://www.accenture.com">Accenture</a>, Front (now part of <a href="http://www.monotype.com">Monotype</a>), and <a href="http://www.frogdesign.com">Frog</a> for clients including Microsoft, BBC, O2, Abbey Theatre, Comhaltas, GE, Comcast, and TouchTunes.</p>
-		<p>Paul is a graduate of NYU's Interactive Telecommunications Program, which he attended as a <a href="/blog/moving-to-new-york/">Fulbright</a> winner.</p>
-		<p>When he's not working, Paul enjoys swimming, cycling, running, triathlon, photography, cooking, and coding.</p>
-		
-		<div class="promo double-top">
-
-		<div class="articles">	
-		<h3>Selected Articles</h3>
-		{%include posts_home%}
-		</div>
-<!-- 
-		<div class="features">
-		<h3>Featured</h3>
-		
-		</div> -->
-
-		</div>
-
-
-
-		<div class = "copyright">
-		<p>&copy; Paul May.</p>
-		</div>
-		</div>
-		<!--The afforementioned monogram and cruft-->
-
-		<div class="minibio right">
-			<img src="/i/me.jpg" class="avatar" />
-		<ul class="elsewhere">
-		<li><a href="https://twitter.com/paulmmay">@paulmmay</a></li>
-		<li><a href="mailto:hello@paulmay.org">hello@paulmay.org</a></li>
-		</ul>
-		</div>
-
-
-
+	<div class="wrapper main">
+		<div class="left">
+<div id="profile">
+	{% include bio %}
+	<a href ="/about" class="button">Find out more</a>
+</div>
 
 	</div>
 
+		</div>
 
+{% include fixedfooter %}
 
 </body>
 </html>

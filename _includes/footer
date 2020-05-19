@@ -1,4 +1,7 @@
-<footer>
-<div id="copyright">&copy; 2012 Paul May.</div>
-{%include secondary_nav%}
-</footer>
+	<footer>
+		<!-- <p>&copy; Paul May.</p> -->
+		<ul class="footernav">
+			<li><a href="mailto:hello@paulmay.org">Contact</a></li>
+			<li><a href="https://www.linkedin.com/in/paulmay/">LinkedIn</a></li>
+		</ul>
+	</footer>
