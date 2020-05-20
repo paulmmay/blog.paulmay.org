@@ -5,7 +5,7 @@
   <icon></icon>
   <updated>2016-08-07T00:00:00Z</updated>
   <id>http://www.paulmay.org/feed.xml</id>
-  <link type="text/html" rel="alternate" href="http://192.168.1.65:4000"/>
+  <link type="text/html" rel="alternate" href="http://www.paulmay.org"/>
   
     <entry>
       <title>More Audio Feature Extraction</title>
@@ -21,8 +21,8 @@
 
 &lt;p&gt;I’m getting close to just piping feature data into some dumb classifier; getting to a crude proof of concept. I’m not sure whether information extraction techniques more geared towards understanding &lt;em&gt;music&lt;/em&gt; are useful for understanding ambient sound - if they’re not, then I may need to adopt another approach.&lt;/p&gt;
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/further-feature-extraction"/>
-      <id>http://192.168.1.65:4000/blog/further-feature-extraction</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/further-feature-extraction"/>
+      <id>http://www.paulmay.org/blog/further-feature-extraction</id>
       <author>
         <name>Paul May</name>
       </author>
@@ -46,8 +46,8 @@
 
 &lt;p&gt;I’ll write up what I find as the project continues.&lt;/p&gt;
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/audio-information-extraction"/>
-      <id>http://192.168.1.65:4000/blog/audio-information-extraction</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/audio-information-extraction"/>
+      <id>http://www.paulmay.org/blog/audio-information-extraction</id>
       <author>
         <name>Paul May</name>
       </author>
@@ -71,8 +71,8 @@
 
 &lt;p&gt;In a few weeks, me and Cliona will introduce a new little person into this sea of infinity. I am excited to meet whomever arrives.&lt;/p&gt;
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/simon-grad-nyc-progress"/>
-      <id>http://192.168.1.65:4000/blog/simon-grad-nyc-progress</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/simon-grad-nyc-progress"/>
+      <id>http://www.paulmay.org/blog/simon-grad-nyc-progress</id>
       <author>
         <name>Paul May</name>
       </author>
@@ -114,8 +114,8 @@
 &lt;p&gt;The work from CIID students was, as ever, thorough and thoughtful. It’s a great programme.&lt;/p&gt;
 
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/ciid-show"/>
-      <id>http://192.168.1.65:4000/blog/ciid-show</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/ciid-show"/>
+      <id>http://www.paulmay.org/blog/ciid-show</id>
       <author>
         <name>Paul May</name>
       </author>
@@ -142,8 +142,8 @@
 &lt;p&gt;I can also try to evaluate things that might be technologically similar, but ethically different, with a much more critical eye.&lt;/p&gt;
 
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/paying-for-the-web-we-need"/>
-      <id>http://192.168.1.65:4000/blog/paying-for-the-web-we-need</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/paying-for-the-web-we-need"/>
+      <id>http://www.paulmay.org/blog/paying-for-the-web-we-need</id>
       <author>
         <name>Paul May</name>
       </author>
@@ -170,8 +170,8 @@ For your step following and damned if I look back.&lt;/p&gt;
 
 &lt;p&gt;Quite something.&lt;/p&gt;
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/heaney-underground"/>
-      <id>http://192.168.1.65:4000/blog/heaney-underground</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/heaney-underground"/>
+      <id>http://www.paulmay.org/blog/heaney-underground</id>
       <author>
         <name>Paul May</name>
       </author>
@@ -206,8 +206,8 @@ For your step following and damned if I look back.&lt;/p&gt;
 &lt;p&gt;Red Burns changed my life. Thank you Red.&lt;/p&gt;
 
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/red-burns"/>
-      <id>http://192.168.1.65:4000/blog/red-burns</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/red-burns"/>
+      <id>http://www.paulmay.org/blog/red-burns</id>
       <author>
         <name>Paul May</name>
       </author>
@@ -235,8 +235,8 @@ For your step following and damned if I look back.&lt;/p&gt;
 
 &lt;p&gt;It’s a real privilege to be involved with the project, and to work with such audaciously intelligent people. I can’t wait to get started in the morning, and my thoughts stay with the project long after I leave in the evening (in a good way). I have been spending a lot of my downtime thinking about the intersection of user experience design and different forms of machine learning. I hope to crystallize a few thoughts into blog articles soon.&lt;/p&gt;
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/watson-project-sloan-kettering"/>
-      <id>http://192.168.1.65:4000/blog/watson-project-sloan-kettering</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/watson-project-sloan-kettering"/>
+      <id>http://www.paulmay.org/blog/watson-project-sloan-kettering</id>
       <author>
         <name>Paul May</name>
       </author>
@@ -253,8 +253,8 @@ For your step following and damned if I look back.&lt;/p&gt;
 
 &lt;p&gt;It’s a cool assignment, and I am looking forward to seeing the students’ progress. I’ll also be giving a brief talk about doing research to inform a design project. Thanks to Pratt instructor &lt;a href=&quot;http://www.genalodesigns.com/&quot;&gt;Bobby Genalo&lt;/a&gt; for inviting me along.&lt;/p&gt;
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/talk-pratt-institute"/>
-      <id>http://192.168.1.65:4000/blog/talk-pratt-institute</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/talk-pratt-institute"/>
+      <id>http://www.paulmay.org/blog/talk-pratt-institute</id>
       <author>
         <name>Paul May</name>
       </author>
@@ -302,8 +302,8 @@ In 2009/2010 I was spending 3 nights a week in Belfast, and 4 nights a week in D
 &lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8093/8435873717_e92f8a68e3_b_d.jpg&quot; alt=&quot;Satellite photo of Ocean Avenue, Brooklyn&quot; class=&quot;fullwidth&quot; /&gt;
 In August 2010 I arrived in New York to start at NYU. I spent a couple of weeks staying with Courtney Kelly, but soon found a great apartment on Ocean Avenue in Prospect Leffert Gardens. Cliona arrived in New York a couple of months later, and we are still living on Ocean Avenue 2.5 years later. This really feels like home. I hope, probably in vain, that the next place we live is as good to us as this place has been.&lt;/p&gt;
 </content>
-      <link type="text/html" rel="alternate" href="http://192.168.1.65:4000/blog/everywhere-i-have-ever-lived"/>
-      <id>http://192.168.1.65:4000/blog/everywhere-i-have-ever-lived</id>
+      <link type="text/html" rel="alternate" href="http://www.paulmay.org/blog/everywhere-i-have-ever-lived"/>
+      <id>http://www.paulmay.org/blog/everywhere-i-have-ever-lived</id>
       <author>
         <name>Paul May</name>
       </author>
