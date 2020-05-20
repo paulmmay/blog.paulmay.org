@@ -485,7 +485,12 @@ input[type=checkbox]:checked ~ .hide4 {
 	border-bottom:1px solid black;
 	position:absolute;
 	right:1rem;
-	top:1.5rem;
+	top:1.6rem;
+}
+
+.expander:hover{
+	color:hsl(0, 0%, 30%);
+		border-bottom:1px solid hsl(0,0%,20%);
 }
 
 
