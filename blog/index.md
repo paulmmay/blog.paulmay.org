@@ -2,4 +2,4 @@
 layout: blogindex
 title: Blog
 ---
-{%include posts_lastten %}
+Blog is offline for maintenance
