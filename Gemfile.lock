@@ -6,7 +6,7 @@ GEM
     colorator (1.1.0)
     daemons (1.2.4)
     eventmachine (1.2.5)
-    ffi (1.9.18)
+    ffi (1.12.2)
     forwardable-extended (2.6.0)
     jekyll (3.5.1)
       addressable (~> 2.4)
